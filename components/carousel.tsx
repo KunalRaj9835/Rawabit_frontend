@@ -118,16 +118,7 @@ export default function Carousel() {
         />
       )}
 
-      {/* Matte / overlay */}
-      <div
-        className="absolute inset-0 pointer-events-none z-[1]"
-        style={{
-          backgroundImage: "url(/matte.png)",
-          backgroundSize: "cover",
-          opacity: 0.22,
-          mixBlendMode: "overlay",
-        }}
-      />
+     
 
       {/* Dark gradient for readability */}
       <div className="absolute inset-0 bg-black/55 z-[2]" />

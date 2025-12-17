@@ -85,13 +85,13 @@ export default function Header() {
                     }
                   `}
                 >
-                  <a href="#managed-services" className="block py-2 hover:text-[#e63946] transition-colors">
+                  <a href="/services/managed-services" className="block py-2 hover:text-[#e63946] transition-colors">
                     Managed Services
                   </a>
-                  <a href="#installation" className="block py-2 hover:text-[#e63946] transition-colors">
+                  <a href="/services/installation" className="block py-2 hover:text-[#e63946] transition-colors">
                     Installation and Integration
                   </a>
-                  <a href="#design-consultation" className="block py-2 hover:text-[#e63946] transition-colors">
+                  <a href="/services/design-consultation" className="block py-2 hover:text-[#e63946] transition-colors">
                     Design & Consultation
                   </a>
                 </div>
@@ -216,21 +216,21 @@ export default function Header() {
                 `}
               >
                 <a
-                  href="#managed-services"
+                  href="/services/managed-services"
                   className="block py-2 hover:text-[#e63946] transition-colors"
                   onClick={handleMobileNavigate}
                 >
                   Managed Services
                 </a>
                 <a
-                  href="#installation"
+                  href="/services/installation"
                   className="block py-2 hover:text-[#e63946] transition-colors"
                   onClick={handleMobileNavigate}
                 >
                   Installation and Integration
                 </a>
                 <a
-                  href="#design-consultation"
+                  href="/services/design-consultation"
                   className="block py-2 hover:text-[#e63946] transition-colors"
                   onClick={handleMobileNavigate}
                 >
