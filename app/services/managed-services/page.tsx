@@ -14,7 +14,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function ManagedServicesPage() {
   return (
-    <main className="w-full py-[60px]  text-gray-900">
+    <main className="w-full pt-[60px]  text-gray-900">
 
       {/* ================= HERO ================= */}
      <section className="w-full bg-[#111827] text-white py-14 md:py-24">
@@ -577,42 +577,9 @@ function StatBar({ label, value, color }: { label: string; value: number; color:
   );
 }
 
-function ServiceTierComparison() {
-  return (
-    <div className="overflow-x-auto">
-      <table className="w-full text-sm">
-        <thead>
-          <tr className="border-b border-slate-700">
-            <th className="text-left py-4 pr-4 font-light text-gray-400">Feature</th>
-            <th className="text-center py-4 px-4 font-light text-blue-400">Essential</th>
-            <th className="text-center py-4 px-4 font-light text-green-400">Professional</th>
-            <th className="text-center py-4 px-4 font-light text-red-400">Enterprise</th>
-          </tr>
-        </thead>
-        <tbody className="font-light">
-          <TierRow feature="24/7 Monitoring" essential="✓" professional="✓" enterprise="✓" />
-          <TierRow feature="Response Time" essential="<30 min" professional="<15 min" enterprise="<5 min" />
-          <TierRow feature="Automated Remediation" essential="Basic" professional="Advanced" enterprise="AI-Powered" />
-          <TierRow feature="Dedicated Engineer" essential="—" professional="✓" enterprise="✓" />
-          <TierRow feature="Preventive Maintenance" essential="Monthly" professional="Weekly" enterprise="Daily" />
-          <TierRow feature="Custom Reporting" essential="—" professional="✓" enterprise="✓" />
-          <TierRow feature="SLA Guarantee" essential="99.5%" professional="99.9%" enterprise="99.99%" />
-        </tbody>
-      </table>
-    </div>
-  );
-}
 
-function TierRow({ feature, essential, professional, enterprise }: { feature: string; essential: string; professional: string; enterprise: string }) {
-  return (
-    <tr className="border-b border-slate-800">
-      <td className="py-3 pr-4 text-gray-300">{feature}</td>
-      <td className="py-3 px-4 text-center text-gray-400">{essential}</td>
-      <td className="py-3 px-4 text-center text-gray-400">{professional}</td>
-      <td className="py-3 px-4 text-center text-gray-400">{enterprise}</td>
-    </tr>
-  );
-}
+
+
 
 function ProcessCard({
   image,

@@ -38,18 +38,22 @@ export default function DigitalDisplayPage() {
               From interactive touchscreens to large-format video walls, each solution is designed to capture attention and convey messages with clarity and precision.
             </p>
           </div>
+          <SlideIn direction="right">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=900" className="w-full h-[420px] object-cover" alt="Digital Displays" />
           </div>
+          </SlideIn>
         </div>
       </section>
 
       {/* INTELLIGENT CONTENT */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <SlideIn direction="left">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=900" className="w-full h-[420px] object-cover" alt="Content Management" />
           </div>
+          </SlideIn>
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">Smart Technology</span>
             <h2 className="text-3xl lg:text-4xl font-bold">

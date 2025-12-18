@@ -38,18 +38,22 @@ export default function DetectPage() {
               By combining machine learning algorithms with expert analysis, we identify threats before they impact your operations, enabling rapid response and minimizing business disruption.
             </p>
           </div>
+          <SlideIn direction="right">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=900" className="w-full h-[420px] object-cover" alt="Threat Detection" />
           </div>
+          </SlideIn>
         </div>
       </section>
 
       {/* BEHAVIOR ANALYSIS */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <SlideIn direction="left">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900" className="w-full h-[420px] object-cover" alt="Behavior Analysis" />
           </div>
+          </SlideIn>
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">Intelligent Analysis</span>
             <h2 className="text-3xl lg:text-4xl font-bold">

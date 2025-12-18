@@ -66,7 +66,7 @@ export default function ComputingSolutionsPage() {
               complex the mission requirements.
             </p>
           </div>
-
+        <SlideIn direction="right">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=900"
@@ -74,12 +74,14 @@ export default function ComputingSolutionsPage() {
               alt="Data Storage Infrastructure"
             />
           </div>
+          </SlideIn>
         </div>
       </section>
 
       {/* ================= STRATEGIC APPROACH ================= */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <SlideIn direction="left">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=900"
@@ -87,6 +89,7 @@ export default function ComputingSolutionsPage() {
               alt="Strategic Solutions"
             />
           </div>
+          </SlideIn>
 
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">

@@ -63,7 +63,7 @@ export default function CyberSecurityPage() {
               protection and compliance across all layers of the IT environment.
             </p>
           </div>
-
+          <SlideIn direction="right">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=900"
@@ -71,12 +71,14 @@ export default function CyberSecurityPage() {
               alt="Cyber Security"
             />
           </div>
+          </SlideIn>
         </div>
       </section>
 
       {/* ================= EXPERTISE ================= */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <SlideIn direction="left">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=900"
@@ -84,7 +86,7 @@ export default function CyberSecurityPage() {
               alt="Security Architecture"
             />
           </div>
-
+        </SlideIn>
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">
               Deep Expertise

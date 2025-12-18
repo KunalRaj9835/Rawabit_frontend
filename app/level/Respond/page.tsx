@@ -38,18 +38,22 @@ export default function RespondPage() {
               From initial triage to complete resolution, we minimize downtime and business impact through proven incident management methodologies and deep technical expertise.
             </p>
           </div>
+          <SlideIn direction="right">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900" className="w-full h-[420px] object-cover" alt="Incident Response" />
           </div>
+          </SlideIn>
         </div>
       </section>
 
       {/* EXPERT INTERVENTION */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <SlideIn direction="left">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900" className="w-full h-[420px] object-cover" alt="Expert Team" />
           </div>
+          </SlideIn>
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">Expert Remediation</span>
             <h2 className="text-3xl lg:text-4xl font-bold">

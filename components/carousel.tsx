@@ -26,7 +26,7 @@ export default function Carousel() {
     title: "Managed Services",
     text: "Monitor, manage, and maintain your IT infrastructure with our 24/7 managed services. We ensure maximum uptime, faster issue resolution, and continuous network optimization so your business runs without disruption.",
     bg: "carousel/1.mp4",
-    href: "#",
+    href: "/services/managed-services",
     gifPosition: "right",
   },
   {
@@ -34,14 +34,14 @@ export default function Carousel() {
     title: "Installation and Integration",
     text: "Seamless setup and reliable support — from hardware installation to software integration. Our experts ensure smooth deployment, system compatibility, and long-term performance through proactive maintenance.",
     bg: "carousel/2.webp",
-    href: "#",
+    href: "/services/installation",
   },
   {
     id: 3,
     title: "Design & Consultation",
     text: "Crafting customized IT and networking strategies aligned with your business goals. We analyze, plan, and design scalable, secure solutions that improve performance and support future growth.",
     bg: "carousel/3.jpg",
-    href: "#",
+    href: "/services/design-consultation",
   },
 ];
 

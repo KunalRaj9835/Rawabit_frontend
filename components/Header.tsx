@@ -77,68 +77,154 @@ export default function Header() {
                 </button>
 
                 <div
-                  className={`absolute left-0 top-full mt-2 bg-white shadow-lg rounded-lg p-4 w-64 transition-all duration-300 origin-top
-                    ${
-                      openMenu === "services"
-                        ? "opacity-100 translate-y-0 visible"
-                        : "opacity-0 -translate-y-2 invisible"
-                    }
-                  `}
-                >
-                  <a href="/services/managed-services" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Managed Services
-                  </a>
-                  <a href="/services/installation" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Installation and Integration
-                  </a>
-                  <a href="/services/design-consultation" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Design & Consultation
-                  </a>
-                </div>
+  className={`fixed left-0 right-0 top-[72px] bg-white shadow-lg transition-all duration-300 z-50
+    ${
+      openMenu === "services"
+        ? "opacity-100 translate-y-0 visible"
+        : "opacity-0 -translate-y-2 invisible"
+    }
+  `}
+>
+  <div className="relative w-full px-6 py-6">
+
+    {/* SERVICES GRID */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+      {[
+        {
+          href: "/services/managed-services",
+          title: "Managed Services",
+          desc: "24/7 monitoring, support, and proactive infrastructure management.",
+        },
+        {
+          href: "/services/installation",
+          title: "Installation & Integration",
+          desc: "Seamless deployment and integration of enterprise IT systems.",
+        },
+        {
+          href: "/services/design-consultation",
+          title: "Design & Consultation",
+          desc: "Expert planning, architecture, and technology consulting services.",
+        },
+      ].map((item, i) => (
+        <a
+          key={i}
+          href={item.href}
+          className="group block rounded-md p-4 transition-all duration-200 hover:bg-gray-100"
+        >
+          <h4 className="text-[15px] text-[#0e355d] font-semibold mb-1">
+            {item.title}
+          </h4>
+          <p className="text-[13px] text-gray-500 mb-2 leading-relaxed">
+            {item.desc}
+          </p>
+          <span className="text-[13px] font-medium text-[#0d355d] group-hover:text-[#e63946]">
+            Learn more →
+          </span>
+        </a>
+      ))}
+
+    </div>
+
+  </div>
+</div>
+
               </div>
 
               {/* SOLUTIONS */}
-              <div
-                className="relative"
-                onMouseEnter={() => handleEnter("solutions")}
-                onMouseLeave={handleLeave}
-              >
-                <button className="hover:text-[#e63946] transition-colors flex items-center gap-1">
-                  Solutions <Arrow isOpen={openMenu === "solutions"} />
-                </button>
+              {/* SOLUTIONS – FULL WIDTH MEGA MENU */}
+<div
+  className="relative"
+  onMouseEnter={() => handleEnter("solutions")}
+  onMouseLeave={handleLeave}
+>
+  <button className="hover:text-[#e63946] transition-colors flex items-center gap-1">
+    Solutions <Arrow isOpen={openMenu === "solutions"} />
+  </button>
 
-                <div
-                  className={`absolute left-0 top-full mt-2 bg-white shadow-lg rounded-lg p-4 w-72 transition-all duration-300 origin-top
-                    ${
-                      openMenu === "solutions"
-                        ? "opacity-100 translate-y-0 visible"
-                        : "opacity-0 -translate-y-2 invisible"
-                    }
-                  `}
-                >
-                  <a href="/solutions/network-infrastructure" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Network Infrastructure & Security
-                  </a>
-                  <a href="/solutions/computing" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Computing Solutions
-                  </a>
-                  <a href="/solutions/cyber-security" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Cyber Security Solutions
-                  </a>
-                  <a href="/solutions/unified-communications" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Unified Communications
-                  </a>
-                  <a href="/solutions/av-meeting" className="block py-2 hover:text-[#e63946] transition-colors">
-                    AV & Meeting Room Solutions
-                  </a>
-                  <a href="/solutions/digital-display" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Digital Display Solutions
-                  </a>
-                  <a href="/solutions/security-surveillance" className="block py-2 hover:text-[#e63946] transition-colors">
-                    Security & Surveillance
-                  </a>
-                </div>
-              </div>
+  {/* FULL WIDTH DROPDOWN */}
+  <div
+    className={`fixed left-0 right-0 top-[72px] bg-white shadow-lg transition-all duration-300
+      ${
+        openMenu === "solutions"
+          ? "opacity-100 translate-y-0 visible"
+          : "opacity-0 -translate-y-2 invisible"
+      }
+    `}
+  >
+    <div className="relative w-full mx-auto px-6 py-6">
+
+      {/* SOLUTIONS GRID */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        {/* ITEM */}
+        {[
+          {
+            href: "/solutions/network-infrastructure",
+            title: "Network Infrastructure & Security",
+            desc: "Robust, fast, and secure network systems for business growth.",
+          },
+          {
+            href: "/solutions/computing",
+            title: "Computing Solutions",
+            desc: "End-to-end computing from servers to cloud integration.",
+          },
+          {
+            href: "/solutions/cyber-security",
+            title: "Cyber Security Solutions",
+            desc: "Advanced protection against modern digital threats.",
+          },
+          {
+            href: "/solutions/unified-communications",
+            title: "Unified Communications",
+            desc: "Voice, video, and messaging for seamless collaboration.",
+          },
+          {
+            href: "/solutions/av-meeting",
+            title: "AV & Meeting Room Solutions",
+            desc: "Smart connected spaces for modern meetings.",
+          },
+          {
+            href: "/solutions/digital-display",
+            title: "Digital Display Solutions",
+            desc: "High-quality digital signage and visual systems.",
+          },
+          {
+            href: "/solutions/security-surveillance",
+            title: "Security & Surveillance",
+            desc: "CCTV, access control, and intelligent monitoring.",
+          },
+        ].map((item, i) => (
+          <a
+            key={i}
+            href={item.href}
+            className="group block rounded-md p-4 transition-all duration-200 hover:bg-gray-100"
+          >
+            <h4 className="text-[15px] text-[#0e355d] font-semibold mb-1 leading-snug">
+              {item.title}
+            </h4>
+            <p className="text-[13px] text-gray-500 mb-2 leading-relaxed">
+              {item.desc}
+            </p>
+            <span className="text-[13px] font-medium text-[#0d355d] group-hover:text-[#e63946]">
+              Learn more →
+            </span>
+          </a>
+        ))}
+
+      </div>
+
+      {/* RIGHT ACCENT */}
+      <div className="absolute top-0 right-0 h-full w-[25px] bg-[#0d355d]" />
+
+      {/* BOTTOM STRIP */}
+      <div className="absolute bottom-0 right-0 h-[25px] w-[950px] bg-[#0d355d]" />
+
+    </div>
+  </div>
+</div>
+
+
 
               <a href="/about" className="hover:text-[#e63946] transition-colors">
                 About

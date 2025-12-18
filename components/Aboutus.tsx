@@ -1,14 +1,14 @@
+"use client"
 import React from 'react';
 import { Shield } from 'lucide-react';
+import Link from "next/link";
+
 
 export default function AboutUsSection() {
   return (
     <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Heading */}
-       
 
-        {/* Content Box */}
         <div className="bg-white rounded-lg shadow-lg p-8 lg:p-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content Section */}
@@ -57,10 +57,14 @@ export default function AboutUsSection() {
             </div>
 
             <div className="pt-4">
-              <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3 rounded-md transition-colors duration-300 shadow-lg hover:shadow-xl">
-                Read More
-              </button>
-            </div>
+  <Link
+    href="/about"
+    className="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3 rounded-md transition-colors duration-300 shadow-lg hover:shadow-xl"
+  >
+    Read More
+  </Link>
+</div>
+
           </div>
 
           {/* Image Section */}

@@ -62,7 +62,7 @@ export default function UnifiedCommunicationsPage() {
               directly addressing the evolving demands of hybrid work and remote productivity.
             </p>
           </div>
-
+          <SlideIn direction="right">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900"
@@ -70,12 +70,14 @@ export default function UnifiedCommunicationsPage() {
               alt="Unified Communications"
             />
           </div>
+          </SlideIn>
         </div>
       </section>
 
       {/* ================= SEAMLESS EXPERIENCE ================= */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <SlideIn direction="left">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img
               src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=900"
@@ -83,7 +85,7 @@ export default function UnifiedCommunicationsPage() {
               alt="Team Collaboration"
             />
           </div>
-
+        </SlideIn>
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">
               Enterprise Excellence

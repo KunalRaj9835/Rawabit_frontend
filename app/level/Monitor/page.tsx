@@ -38,18 +38,22 @@ export default function MonitorPage() {
               With real-time dashboards and intelligent alerting, you gain complete visibility into your infrastructure's status, enabling proactive management and rapid response to potential issues before they impact your business.
             </p>
           </div>
+          <SlideIn direction="right">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900" className="w-full h-[420px] object-cover" alt="Infrastructure Monitoring" />
           </div>
+          </SlideIn>
         </div>
       </section>
 
       {/* HEALTH CHECKS */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <SlideIn direction="left">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900" className="w-full h-[420px] object-cover" alt="Health Monitoring" />
           </div>
+          </SlideIn>
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">Proactive Health Checks</span>
             <h2 className="text-3xl lg:text-4xl font-bold">

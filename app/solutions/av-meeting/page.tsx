@@ -38,18 +38,22 @@ export default function AVMeetingRoomPage() {
               We transform ordinary meeting rooms into intelligent, high-performance collaboration environments that foster innovation and accelerate decision-making.
             </p>
           </div>
+          <SlideIn direction="right">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=900" className="w-full h-[420px] object-cover" alt="Meeting Room" />
           </div>
+          </SlideIn>
         </div>
       </section>
 
       {/* INTELLIGENT CONTROL */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <SlideIn direction="left">
           <div className="rounded-xl overflow-hidden shadow-xl">
             <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=900" className="w-full h-[420px] object-cover" alt="Control Systems" />
           </div>
+          </SlideIn>
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">Intelligent Control</span>
             <h2 className="text-3xl lg:text-4xl font-bold">
