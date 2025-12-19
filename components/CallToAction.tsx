@@ -1,4 +1,11 @@
+"use client";
+
+import { useLang } from "@/context/LanguageContext";
+
 export default function ClientShowcase() {
+  const { t, lang } = useLang();
+  const isRTL = lang === "sa";
+
   const logos = [
     "/role/1r.png",
     "/role/2r.png",
@@ -55,40 +62,49 @@ export default function ClientShowcase() {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light text-gray-800 tracking-wide">
-            TRUSTED BY INDUSTRY LEADERS
+            {t("clientShowcaseTitle")}
           </h2>
           <div className="h-1 w-24 bg-red-500 mx-auto mt-4 rounded-full" />
         </div>
 
-        {/* Infinite Logo Carousel */}
-        <div className="w-full overflow-hidden">
+        {/* Carousel */}
+        <div className="w-full overflow-hidden py-10">
           <style>{`
-            @keyframes scroll {
-              0% {
-                transform: translateX(0);
-              }
-              100% {
-                transform: translateX(-50%);
-              }
+            @keyframes scroll-ltr {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-50%); }
             }
-            .animate-scroll {
-              animation: scroll 120s linear infinite;
+
+            @keyframes scroll-rtl {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(50%); }
             }
-            .animate-scroll:hover {
+
+            .animate-scroll-ltr {
+              animation: scroll-ltr 120s linear infinite;
+            }
+
+            .animate-scroll-rtl {
+              animation: scroll-rtl 120s linear infinite;
+            }
+
+            .animate-scroll-ltr:hover,
+            .animate-scroll-rtl:hover {
               animation-play-state: paused;
             }
           `}</style>
-          
-          <div 
-            className="flex gap-16 animate-scroll"
-            style={{ width: 'fit-content' }}
+
+          <div
+            className={`flex gap-16 ${
+              isRTL ? "animate-scroll-rtl" : "animate-scroll-ltr"
+            }`}
+            style={{ width: "fit-content" }}
           >
-            {/* Duplicate logos for seamless loop */}
             {[...logos, ...logos].map((logo, i) => (
               <div
                 key={i}
                 className="flex-shrink-0 flex items-center justify-center"
-                style={{ width: '140px', height: '140px' }}
+                style={{ width: "140px", height: "140px" }}
               >
                 <img
                   src={logo}
@@ -100,9 +116,9 @@ export default function ClientShowcase() {
           </div>
         </div>
 
-        {/* Optional subtitle */}
+        {/* Subtitle */}
         <p className="text-center text-gray-500 mt-12 text-sm">
-          Powering innovation for organizations worldwide
+          {t("clientShowcaseSubtitle")}
         </p>
       </div>
     </section>

@@ -16,10 +16,14 @@ import {
   Target,
 } from "lucide-react";
 import Link from "next/link";
+import { useLang } from "@/context/LanguageContext";
 
 export default function InstallationIntegrationPage() {
+  const { t, lang } = useLang();
+  const isRTL = lang === "sa";
+
   return (
-    <main className="w-full text-gray-900">
+    <main className="w-full text-gray-900" dir={isRTL ? "rtl" : "ltr"}>
 
       {/* ================= HERO / BANNER ================= */}
       <section className="relative w-full bg-[#000000] text-white py-25 md:py-35 overflow-hidden">
@@ -35,28 +39,28 @@ export default function InstallationIntegrationPage() {
             {/* LEFT – TEXT */}
             <div className="order-2 md:order-1">
               <p className="uppercase tracking-[0.25em] text-[11px] text-red-400 mb-3">
-                Installation & Integration
+                {t("installationLabel")}
               </p>
 
               <h1 className="text-3xl md:text-5xl font-extralight leading-tight mb-5">
-                Precision Deployment & Seamless System Integration
+                {t("installationHeroTitle")}
               </h1>
 
               <p className="text-base md:text-lg text-gray-200 font-light mb-6">
-                Expert installation and integration services that transform complex infrastructure into unified, secure, and scalable environments. From digital displays to complete IT systems, we ensure flawless deployment and seamless operation.
+                {t("installationHeroDesc")}
               </p>
 
               <div className="flex flex-wrap gap-4">
-                <IntegrationBadge icon={<Layers className="w-4 h-4" />} text="Multi-System Integration" />
-                <IntegrationBadge icon={<Network className="w-4 h-4" />} text="Zero Downtime" />
-                <IntegrationBadge icon={<Settings className="w-4 h-4" />} text="Custom Configuration" />
+                <IntegrationBadge icon={<Layers className="w-4 h-4" />} text={t("badgeMultiSystem")} />
+                <IntegrationBadge icon={<Network className="w-4 h-4" />} text={t("badgeZeroDowntime")} />
+                <IntegrationBadge icon={<Settings className="w-4 h-4" />} text={t("badgeCustomConfig")} />
               </div>
             </div>
 
             {/* RIGHT – VIDEO */}
             <div className="order-1 md:order-2 flex justify-center md:justify-end">
               <div className="relative w-full max-w-lg">
-                <div className="relative w-full h-[280px] md:h-[340px] rounded-2xl overflow-hidden  bg-black shadow-2xl">
+                <div className="relative w-full h-[280px] md:h-[340px] rounded-2xl overflow-hidden bg-black shadow-2xl">
                   <video
                     src="/installation/n.mp4"
                     autoPlay
@@ -66,8 +70,6 @@ export default function InstallationIntegrationPage() {
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
-                  
-                  
                 </div>
               </div>
             </div>
@@ -81,31 +83,31 @@ export default function InstallationIntegrationPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-12">
             <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-              Digital Display Solutions
+              {t("digitalDisplayLabel")}
             </p>
             <h2 className="text-3xl font-extralight mb-4">
-              Transform your visual communication strategy
+              {t("digitalDisplayTitle")}
             </h2>
             <p className="text-sm md:text-base text-gray-600 font-light max-w-3xl">
-              From interactive touchscreens to large-format video walls, we design and deploy visual solutions engineered to capture attention and convey messages with absolute clarity across corporate, retail, education, and public environments.
+              {t("digitalDisplayDesc1")}
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
             <SolutionBox
               icon={<Monitor className="w-8 h-8 text-red-600" />}
-              title="Interactive Displays"
-              description="Advanced touchscreen systems that enable dynamic engagement, real-time collaboration, and immersive user experiences across any environment."
+              title={t("solutionInteractiveTitle")}
+              description={t("solutionInteractiveDesc")}
             />
             <SolutionBox
               icon={<Layers className="w-8 h-8 text-red-600" />}
-              title="Video Wall Systems"
-              description="Large-format display arrays delivering stunning visual impact with seamless integration, intelligent content management, and remote control capabilities."
+              title={t("solutionVideoWallTitle")}
+              description={t("solutionVideoWallDesc")}
             />
             <SolutionBox
               icon={<Network className="w-8 h-8 text-red-600" />}
-              title="Content Management"
-              description="Sophisticated CMS platforms enabling real-time updates, scheduling, and centralized control of all display content across multiple locations."
+              title={t("solutionContentTitle")}
+              description={t("solutionContentDesc")}
             />
           </div>
         </div>
@@ -118,69 +120,69 @@ export default function InstallationIntegrationPage() {
 
             <div>
               <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-                Our Approach
+                {t("approachLabel")}
               </p>
               <h2 className="text-3xl font-extralight mb-6">
-                Systematic integration methodology
+                {t("approachTitle")}
               </h2>
 
               <p className="text-sm text-gray-600 font-light mb-6">
-                Every installation follows our proven four-phase methodology, ensuring seamless integration with existing IT infrastructure while maintaining operational continuity and minimizing disruption.
+                {t("approachDesc")}
               </p>
 
               <div className="space-y-4">
                 <PhaseItem 
                   number="01"
-                  title="Assessment & Planning"
-                  description="Comprehensive site analysis, requirements gathering, and custom solution design"
+                  title={t("phase1Title")}
+                  description={t("phase1Desc")}
                 />
                 <PhaseItem 
                   number="02"
-                  title="Pre-Installation Preparation"
-                  description="Infrastructure readiness verification, equipment testing, and logistics coordination"
+                  title={t("phase2Title")}
+                  description={t("phase2Desc")}
                 />
                 <PhaseItem 
                   number="03"
-                  title="Deployment & Configuration"
-                  description="Professional installation, system configuration, and integration with existing infrastructure"
+                  title={t("phase3Title")}
+                  description={t("phase3Desc")}
                 />
                 <PhaseItem 
                   number="04"
-                  title="Testing & Handover"
-                  description="Rigorous quality assurance, staff training, and comprehensive documentation delivery"
+                  title={t("phase4Title")}
+                  description={t("phase4Desc")}
                 />
               </div>
             </div>
 
             <div>
               <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-                Key Benefits
+                {t("benefitsLabel")}
               </p>
               <h2 className="text-3xl font-extralight mb-6">
-                Why choose Rawabit Networks
+                {t("benefitsTitle")}
               </h2>
 
               <div className="bg-[#F5F7FB] rounded-xl p-6">
                 <div className="space-y-5">
                   <BenefitItem 
                     icon={<Shield className="w-5 h-5 text-green-600" />}
-                    title="Zero Downtime Deployment"
-                    description="Strategic installation scheduling ensures business operations continue uninterrupted"
+                    title={t("benefit1Title")}
+                    description={t("benefit1Desc")}
                   />
                   <BenefitItem 
                     icon={<Target className="w-5 h-5 text-blue-600" />}
-                    title="Custom Configuration"
-                    description="Every system tailored to your specific operational requirements and workflow"
+                    title={t("benefit2Title")}
+                    description={t("benefit2Desc")}
                   />
                   <BenefitItem 
                     icon={<Zap className="w-5 h-5 text-purple-600" />}
-                    title="Rapid Deployment"
-                    description="Efficient project execution with typical installations completed within 48-72 hours"
+                    title={t("benefit3Title")}
+                    description={t("benefit3Desc")}
                   />
                   <BenefitItem 
                     icon={<Award className="w-5 h-5 text-orange-600" />}
-                    title="Certified Technicians"
-                    description="Industry-certified experts with extensive experience across all major platforms"
+                    title={t("benefit4Title")}
+                    description={t("benefit4Desc")}
                   />
                 </div>
               </div>
@@ -195,32 +197,52 @@ export default function InstallationIntegrationPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-12 text-center">
             <p className="uppercase text-xs tracking-[0.25em] text-red-400 mb-3">
-              Integration Capabilities
+              {t("capabilitiesLabel")}
             </p>
             <h2 className="text-3xl font-extralight mb-4">
-              Seamless connectivity across platforms
+              {t("capabilitiesTitle")}
             </h2>
             <p className="text-sm text-gray-300 font-light max-w-3xl mx-auto">
-              Our integration expertise spans the complete technology stack, enabling unified operation across diverse systems, platforms, and vendor ecosystems.
+              {t("capabilitiesDesc")}
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <CapabilityCard 
-              title="Network Infrastructure"
-              items={["Enterprise Networks", "VLANs & Subnets", "Load Balancers", "Network Security"]}
+              title={t("capabilityNetworkTitle")}
+              items={[
+                t("capabilityNetwork1"),
+                t("capabilityNetwork2"),
+                t("capabilityNetwork3"),
+                t("capabilityNetwork4")
+              ]}
             />
             <CapabilityCard 
-              title="Cloud Platforms"
-              items={["AWS Integration", "Azure Services", "Google Cloud", "Hybrid Cloud"]}
+              title={t("capabilityCloudTitle")}
+              items={[
+                t("capabilityCloud1"),
+                t("capabilityCloud2"),
+                t("capabilityCloud3"),
+                t("capabilityCloud4")
+              ]}
             />
             <CapabilityCard 
-              title="Business Systems"
-              items={["CRM Integration", "ERP Systems", "Database Connectivity", "API Development"]}
+              title={t("capabilityBusinessTitle")}
+              items={[
+                t("capabilityBusiness1"),
+                t("capabilityBusiness2"),
+                t("capabilityBusiness3"),
+                t("capabilityBusiness4")
+              ]}
             />
             <CapabilityCard 
-              title="Security Systems"
-              items={["Access Control", "Video Surveillance", "Identity Management", "SIEM Integration"]}
+              title={t("capabilitySecurityTitle")}
+              items={[
+                t("capabilitySecurity1"),
+                t("capabilitySecurity2"),
+                t("capabilitySecurity3"),
+                t("capabilitySecurity4")
+              ]}
             />
           </div>
         </div>
@@ -231,46 +253,52 @@ export default function InstallationIntegrationPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-12">
             <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-              Installation Timeline
+              {t("timelineLabel")}
             </p>
             <h2 className="text-3xl font-extralight mb-4">
-              From concept to completion
+              {t("timelineTitle")}
             </h2>
           </div>
 
           <div className="relative">
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-red-200"></div>
+            <div className={`absolute ${isRTL ? 'right-8' : 'left-8'} top-0 bottom-0 w-0.5 bg-red-200`}></div>
             
             <div className="space-y-8">
               <TimelineStep 
-                day="Day 1-3"
-                title="Site Survey & Planning"
-                description="Detailed assessment of installation site, infrastructure evaluation, and project planning"
+                day={t("timeline1Day")}
+                title={t("timeline1Title")}
+                description={t("timeline1Desc")}
+                isRTL={isRTL}
               />
               <TimelineStep 
-                day="Day 4-5"
-                title="Equipment Preparation"
-                description="Hardware configuration, software setup, and pre-installation testing in controlled environment"
+                day={t("timeline2Day")}
+                title={t("timeline2Title")}
+                description={t("timeline2Desc")}
+                isRTL={isRTL}
               />
               <TimelineStep 
-                day="Day 6-7"
-                title="On-Site Installation"
-                description="Professional deployment, physical installation, cabling, and initial system configuration"
+                day={t("timeline3Day")}
+                title={t("timeline3Title")}
+                description={t("timeline3Desc")}
+                isRTL={isRTL}
               />
               <TimelineStep 
-                day="Day 8"
-                title="Integration & Testing"
-                description="System integration with existing infrastructure, comprehensive testing, and quality assurance"
+                day={t("timeline4Day")}
+                title={t("timeline4Title")}
+                description={t("timeline4Desc")}
+                isRTL={isRTL}
               />
               <TimelineStep 
-                day="Day 9"
-                title="Training & Documentation"
-                description="Staff training sessions, documentation delivery, and knowledge transfer"
+                day={t("timeline5Day")}
+                title={t("timeline5Title")}
+                description={t("timeline5Desc")}
+                isRTL={isRTL}
               />
               <TimelineStep 
-                day="Day 10"
-                title="Go-Live & Support"
-                description="System activation, final verification, and ongoing support engagement"
+                day={t("timeline6Day")}
+                title={t("timeline6Title")}
+                description={t("timeline6Desc")}
+                isRTL={isRTL}
               />
             </div>
           </div>
@@ -282,10 +310,10 @@ export default function InstallationIntegrationPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Why Choose Rawabit Networks
+              {t("whyRawabitInstallTitle")}
             </h2>
             <p className="mt-4 max-w-3xl mx-auto text-gray-600">
-              Industry-leading expertise in installation and system integration
+              {t("whyRawabitInstallSubtitle")}
             </p>
           </div>
 
@@ -293,30 +321,30 @@ export default function InstallationIntegrationPage() {
             <div className="bg-[#F5F7FB] border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
               <div className="flex items-center gap-3 mb-4">
                 <Award className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">Certified Excellence</h3>
+                <h3 className="text-xl font-semibold">{t("whyInstall1Title")}</h3>
               </div>
               <p className="text-gray-600">
-                Factory-certified technicians with proven expertise across all major vendor platforms and industry standards.
+                {t("whyInstall1Desc")}
               </p>
             </div>
 
             <div className="bg-[#F5F7FB] border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
               <div className="flex items-center gap-3 mb-4">
                 <Clock className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">Rapid Deployment</h3>
+                <h3 className="text-xl font-semibold">{t("whyInstall2Title")}</h3>
               </div>
               <p className="text-gray-600">
-                Streamlined processes and expert project management ensure quick turnaround without compromising quality.
+                {t("whyInstall2Desc")}
               </p>
             </div>
 
             <div className="bg-[#F5F7FB] border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
               <div className="flex items-center gap-3 mb-4">
                 <Shield className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">Comprehensive Support</h3>
+                <h3 className="text-xl font-semibold">{t("whyInstall3Title")}</h3>
               </div>
               <p className="text-gray-600">
-                Ongoing maintenance, 24/7 technical support, and proactive monitoring to ensure optimal system performance.
+                {t("whyInstall3Desc")}
               </p>
             </div>
           </div>
@@ -348,21 +376,11 @@ function SolutionBox({
   description: string;
 }) {
   return (
-    <div className="
-      bg-white
-      border border-gray-900/20
-      rounded-xl
-      p-8
-      transition-all duration-300
-      hover:shadow-xl
-      hover:scale-105
-      hover:border-red-600
-    ">
+    <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
       <div className="flex items-center gap-3 mb-4">
         {icon}
         <h3 className="text-xl font-semibold">{title}</h3>
       </div>
-
       <p className="text-[13px] text-gray-600 leading-relaxed">
         {description}
       </p>
@@ -414,9 +432,9 @@ function CapabilityCard({ title, items }: { title: string; items: string[] }) {
   );
 }
 
-function TimelineStep({ day, title, description }: { day: string; title: string; description: string }) {
+function TimelineStep({ day, title, description, isRTL }: { day: string; title: string; description: string; isRTL: boolean }) {
   return (
-    <div className="relative flex gap-6 items-start">
+    <div className={`relative flex gap-6 items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
       <div className="flex-shrink-0 w-16 h-16 bg-red-600 rounded-full border-4 border-[#F5F7FB] flex items-center justify-center z-10">
         <span className="text-xs font-light text-white">{day}</span>
       </div>

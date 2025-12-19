@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import {
   Database,
@@ -9,10 +11,14 @@ import {
   Server,
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
+import { useLang } from "@/context/LanguageContext";
 
 export default function ComputingSolutionsPage() {
+  const { t, lang } = useLang();
+  const isRTL = lang === "sa";
+
   return (
-    <main className="w-full text-gray-900">
+    <main className="text-gray-900" dir={isRTL ? "rtl" : "ltr"}>
 
       {/* ================= HERO ================= */}
       <section
@@ -26,17 +32,15 @@ export default function ComputingSolutionsPage() {
 
         <div className="relative z-10 max-w-7xl mx-auto text-white">
           <span className="inline-block mb-5 px-4 py-1 text-sm font-medium bg-white/20 rounded">
-            Computing Solutions
+            {t("csHeroBadge")}
           </span>
 
           <h1 className="text-4xl lg:text-5xl font-bold max-w-4xl leading-tight">
-            Data Storage That Takes You From Insights to Innovation
+            {t("csHeroTitle")}
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg text-gray-200">
-            Transform and enhance business performance with comprehensive storage
-            solutions designed for scalability, intelligence, and seamless cloud
-            integration.
+            {t("csHeroDesc")}
           </p>
         </div>
       </section>
@@ -44,72 +48,70 @@ export default function ComputingSolutionsPage() {
       {/* ================= OVERVIEW ================= */}
       <section className="bg-white py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">
-              Overview
+              {t("csOverviewLabel")}
             </span>
+
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Enterprise-Class Data Storage Infrastructure
+              {t("csOverviewTitle")}
             </h2>
+
             <p className="mt-6 text-gray-600 leading-relaxed">
-              Unlock the full value of data from edge to cloud while meeting
-              evolving business and technical requirements. Accelerate critical
-              workloads from core to edge, minimize application outages, and
-              optimize storage efficiency through advanced deduplication
-              technologies.
+              {t("csOverviewDesc1")}
             </p>
+
             <p className="mt-4 text-gray-600 leading-relaxed">
-              With real-world experience and proven expertise,{" "}
-              <strong>Rawabit Networks</strong> designs and builds
-              enterprise-class data storage infrastructures that deliver
-              exceptional performance, reliability, and resilience—no matter how
-              complex the mission requirements.
+              {t("csOverviewDesc2")}
             </p>
           </div>
-        <SlideIn direction="right">
-          <div className="rounded-xl overflow-hidden shadow-xl">
-            <img
-              src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=900"
-              className="w-full h-[420px] object-cover"
-              alt="Data Storage Infrastructure"
-            />
-          </div>
+
+          <SlideIn direction={isRTL ? "left" : "right"}>
+            <div className="rounded-xl overflow-hidden shadow-xl">
+              <img
+                src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=900"
+                className="w-full h-[420px] object-cover"
+                alt="Computing Infrastructure"
+              />
+            </div>
           </SlideIn>
+
         </div>
       </section>
 
-      {/* ================= STRATEGIC APPROACH ================= */}
+      {/* ================= STRATEGY ================= */}
       <section className="bg-gray-50 py-24 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <SlideIn direction="left">
-          <div className="rounded-xl overflow-hidden shadow-xl">
-            <img
-              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=900"
-              className="w-full h-[420px] object-cover"
-              alt="Strategic Solutions"
-            />
-          </div>
+
+          <SlideIn direction={isRTL ? "right" : "left"}>
+            <div className="rounded-xl overflow-hidden shadow-xl">
+              <img
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=900"
+                className="w-full h-[420px] object-cover"
+                alt="Strategic Computing"
+              />
+            </div>
           </SlideIn>
 
           <div>
             <span className="inline-block mb-4 text-sm font-semibold text-red-600">
-              Strategic Partnerships
+              {t("csStrategyLabel")}
             </span>
+
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Elite Technology Partnerships
+              {t("csStrategyTitle")}
             </h2>
+
             <p className="mt-6 text-gray-600 leading-relaxed">
-              At Rawabit Networks, we don't just offer technology—we deliver
-              strategic, resilient solutions. By maintaining elite partnerships
-              with the world's leading and most respected technology vendors, we
-              bring cutting-edge innovation directly to your organization.
+              {t("csStrategyDesc1")}
             </p>
+
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Our expert team specializes in helping you design, build, and
-              proactively manage comprehensive data environments with guaranteed
-              data availability to eliminate downtime and rapid disaster recovery.
+              {t("csStrategyDesc2")}
             </p>
           </div>
+
         </div>
       </section>
 
@@ -117,134 +119,67 @@ export default function ComputingSolutionsPage() {
       <section className="bg-white py-24 px-4">
         <div className="max-w-7xl mx-auto text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold">
-            Comprehensive Computing Solutions
+            {t("csServicesTitle")}
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-gray-600">
-            End-to-end data storage and management solutions for enterprise
-            performance.
+            {t("csServicesSubtitle")}
           </p>
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-
-          <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:bg-white hover:border-red-600">
-            <div className="flex items-center gap-3 mb-3">
-              <Database className="w-6 h-6 text-red-600" />
-              <h3 className="text-xl font-semibold">Data Storage</h3>
-            </div>
-            <p className="text-gray-600">
-              Sophisticated systems for robust data storage, ensuring high-speed
-              access and integrity across all environments.
-            </p>
-          </div>
-
-          <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:bg-white hover:border-red-600">
-            <div className="flex items-center gap-3 mb-3">
-              <Shield className="w-6 h-6 text-red-600" />
-              <h3 className="text-xl font-semibold">Data Backup</h3>
-            </div>
-            <p className="text-gray-600">
-              Seamless data backup protocols for absolute security and peace of
-              mind.
-            </p>
-          </div>
-
-          <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:bg-white hover:border-red-600">
-            <div className="flex items-center gap-3 mb-3">
-              <Activity className="w-6 h-6 text-red-600" />
-              <h3 className="text-xl font-semibold">Data Availability</h3>
-            </div>
-            <p className="text-gray-600">
-              Guaranteed data availability to eliminate downtime and maintain
-              business continuity.
-            </p>
-          </div>
-
-          <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:bg-white hover:border-red-600">
-            <div className="flex items-center gap-3 mb-3">
-              <Zap className="w-6 h-6 text-red-600" />
-              <h3 className="text-xl font-semibold">Disaster Recovery</h3>
-            </div>
-            <p className="text-gray-600">
-              Rapid disaster recovery environments to protect critical business
-              operations.
-            </p>
-          </div>
-
-          <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:bg-white hover:border-red-600">
-            <div className="flex items-center gap-3 mb-3">
-              <Cloud className="w-6 h-6 text-red-600" />
-              <h3 className="text-xl font-semibold">Cloud Integration</h3>
-            </div>
-            <p className="text-gray-600">
-              Seamless integration from edge to cloud, optimizing data flow and
-              accessibility.
-            </p>
-          </div>
-
-          <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:bg-white hover:border-red-600">
-            <div className="flex items-center gap-3 mb-3">
-              <HardDrive className="w-6 h-6 text-red-600" />
-              <h3 className="text-xl font-semibold">Storage Optimization</h3>
-            </div>
-            <p className="text-gray-600">
-              Advanced deduplication technologies to maximize storage efficiency
-              and reduce costs.
-            </p>
-          </div>
-
+          <ServiceCard icon={<Database />} title={t("csServiceStorageTitle")} desc={t("csServiceStorageDesc")} />
+          <ServiceCard icon={<Shield />} title={t("csServiceBackupTitle")} desc={t("csServiceBackupDesc")} />
+          <ServiceCard icon={<Activity />} title={t("csServiceAvailabilityTitle")} desc={t("csServiceAvailabilityDesc")} />
+          <ServiceCard icon={<Zap />} title={t("csServiceRecoveryTitle")} desc={t("csServiceRecoveryDesc")} />
+          <ServiceCard icon={<Cloud />} title={t("csServiceCloudTitle")} desc={t("csServiceCloudDesc")} />
+          <ServiceCard icon={<HardDrive />} title={t("csServiceOptimizeTitle")} desc={t("csServiceOptimizeDesc")} />
         </div>
       </section>
 
       {/* ================= WHY RAWABIT ================= */}
-      <section className="bg-[#eef3f7] py-24 px-4 text-gray-900">
+      <section className="bg-[#eef3f7] py-24 px-4">
         <div className="max-w-7xl mx-auto text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold">
-            Why Choose Rawabit Networks
+            {t("csWhyTitle")}
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-gray-600">
-            Proven expertise, strategic partnerships, and resilient solutions.
+            {t("csWhySubtitle")}
           </p>
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-            <div className="flex items-center gap-3 mb-4">
-              <Server className="w-8 h-8 text-red-600" />
-              <h3 className="text-xl font-semibold">
-                Enterprise-Class Infrastructure
-              </h3>
-            </div>
-            <p className="text-gray-600">
-              Exceptional performance, reliability, and resilience for complex
-              mission requirements.
-            </p>
-          </div>
-
-          <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-            <div className="flex items-center gap-3 mb-4">
-              <Shield className="w-8 h-8 text-red-600" />
-              <h3 className="text-xl font-semibold">Proven Expertise</h3>
-            </div>
-            <p className="text-gray-600">
-              Real-world experience in designing and managing comprehensive data
-              environments.
-            </p>
-          </div>
-
-          <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-            <div className="flex items-center gap-3 mb-4">
-              <Zap className="w-8 h-8 text-red-600" />
-              <h3 className="text-xl font-semibold">Cutting-Edge Innovation</h3>
-            </div>
-            <p className="text-gray-600">
-              Elite partnerships with world-leading technology vendors bring the
-              latest innovations.
-            </p>
-          </div>
+          <WhyCard icon={<Server />} title={t("csWhyInfraTitle")} desc={t("csWhyInfraDesc")} />
+          <WhyCard icon={<Shield />} title={t("csWhyExpertiseTitle")} desc={t("csWhyExpertiseDesc")} />
+          <WhyCard icon={<Zap />} title={t("csWhyInnovationTitle")} desc={t("csWhyInnovationDesc")} />
         </div>
       </section>
 
     </main>
+  );
+}
+
+/* ================= CARDS ================= */
+
+function ServiceCard({ icon, title, desc }: any) {
+  return (
+    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
+      <div className="flex items-center gap-3 mb-3 text-red-600">
+        {icon}
+        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
+      </div>
+      <p className="text-gray-600">{desc}</p>
+    </div>
+  );
+}
+
+function WhyCard({ icon, title, desc }: any) {
+  return (
+    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
+      <div className="flex items-center gap-3 mb-4 text-red-600">
+        {icon}
+        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
+      </div>
+      <p className="text-gray-600">{desc}</p>
+    </div>
   );
 }

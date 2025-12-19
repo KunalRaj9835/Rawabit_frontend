@@ -24,6 +24,18 @@
     --foreground: #ededed;
   }
 }
+.rtl {
+  direction: rtl;
+}
+.ltr {
+  direction: ltr;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+
 
 body {
   background: var(--background);

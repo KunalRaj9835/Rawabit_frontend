@@ -1,3 +1,6 @@
+
+"use client";
+
 import React from "react";
 import {
   Activity,
@@ -12,74 +15,76 @@ import {
 import { ServiceFlowDiagram } from "@/components/ServiceFlowDiagram";
 import Image from "next/image";
 import Link from "next/link";
+import { useLang } from "@/context/LanguageContext";
+
 export default function ManagedServicesPage() {
+  const { t, lang } = useLang();
+  const isRTL = lang === "sa";
+
   return (
-    <main className="w-full pt-[60px]  text-gray-900">
+    <main className="w-full pt-[60px] text-gray-900" dir={isRTL ? "rtl" : "ltr"}>
 
       {/* ================= HERO ================= */}
-     <section className="w-full bg-[#111827] text-white py-14 md:py-24">
-  <div className="max-w-6xl mx-auto px-4 md:px-6">
+      <section className="w-full bg-[#111827] text-white py-14 md:py-24">
+        <div className="max-w-6xl mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
+            
+            {/* TEXT */}
+            <div className="order-1">
+              <p className="uppercase tracking-[0.25em] text-[11px] text-red-400 mb-3">
+                {t("managedServicesLabel")}
+              </p>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
+              <h1 className="text-3xl md:text-5xl font-extralight leading-tight mb-5">
+                {t("managedServicesHeroTitle")}
+              </h1>
 
-      {/* TEXT */}
-      <div className="order-1">
-        <p className="uppercase tracking-[0.25em] text-[11px] text-red-400 mb-3">
-          Managed Services
-        </p>
+              <p className="text-base md:text-lg text-gray-200 font-light">
+                {t("managedServicesHeroDesc")}
+              </p>
+            </div>
 
-        <h1 className="text-3xl md:text-5xl font-extralight leading-tight mb-5">
-          24/7 Infrastructure Management & Technical Support
-        </h1>
+            {/* DIAGRAM */}
+            <div className="order-2 flex justify-center md:justify-end">
+              <div className="w-full max-w-sm md:max-w-none">
+                <ServiceFlowDiagram />
+              </div>
+            </div>
 
-        <p className="text-base md:text-lg text-gray-200 font-light">
-          Continuous monitoring, proactive maintenance, and rapid response to
-          ensure maximum uptime, optimal performance, and seamless IT operations.
-        </p>
-      </div>
-
-      {/* DIAGRAM */}
-      <div className="order-2 flex justify-center md:justify-end">
-        {/* MOBILE WIDTH CLAMP */}
-        <div className="w-full max-w-sm md:max-w-none">
-          <ServiceFlowDiagram />
+          </div>
         </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+      </section>
 
       {/* ================= SERVICE PILLARS ================= */}
       <section className="w-full bg-[#F5F7FB] py-16 md:py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-12">
             <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-              Core Service Pillars
+              {t("servicePillarsLabel")}
             </p>
             <h2 className="text-3xl font-extralight mb-4">
-              Comprehensive infrastructure oversight
+              {t("servicePillarsTitle")}
             </h2>
             <p className="text-sm md:text-base text-gray-600 font-light max-w-3xl">
-              Our managed services combine advanced automation, intelligent monitoring, and expert technical support to maintain peak system performance around the clock.
+              {t("servicePillarsDesc")}
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
             <PillarBox
               icon={<Activity className="w-8 h-8 text-red-600" />}
-              title="Remote Monitoring"
-              description="Real-time infrastructure monitoring with automated alerts, performance tracking, and predictive analytics to detect issues before they impact operations."
+              title={t("pillarMonitoringTitle")}
+              description={t("pillarMonitoringDesc")}
             />
             <PillarBox
               icon={<Server className="w-8 h-8 text-red-600" />}
-              title="System Maintenance"
-              description="Scheduled updates, patch management, optimization routines, and preventive maintenance to ensure reliability and security across all systems."
+              title={t("pillarMaintenanceTitle")}
+              description={t("pillarMaintenanceDesc")}
             />
             <PillarBox
               icon={<Shield className="w-8 h-8 text-red-600" />}
-              title="Technical Support"
-              description="24/7 expert support with rapid incident response, troubleshooting, and resolution to minimize downtime and maintain business continuity."
+              title={t("pillarSupportTitle")}
+              description={t("pillarSupportDesc")}
             />
           </div>
         </div>
@@ -92,35 +97,39 @@ export default function ManagedServicesPage() {
 
             <div>
               <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-                Performance Metrics
+                {t("performanceMetricsLabel")}
               </p>
               <h2 className="text-3xl font-extralight mb-6">
-                Infrastructure health at a glance
+                {t("performanceMetricsTitle")}
               </h2>
 
               <div className="space-y-6">
                 <MetricDisplay
-                  label="System Uptime"
+                  label={t("metricUptimeLabel")}
                   value="99.9%"
                   target="99.5%"
+                  targetLabel={t("metricTargetLabel")}
                   status="excellent"
                 />
                 <MetricDisplay
-                  label="Average Response Time"
+                  label={t("metricResponseLabel")}
                   value="<15min"
                   target="<30min"
+                  targetLabel={t("metricTargetLabel")}
                   status="excellent"
                 />
                 <MetricDisplay
-                  label="Issue Resolution Rate"
+                  label={t("metricResolutionLabel")}
                   value="94%"
                   target="90%"
+                  targetLabel={t("metricTargetLabel")}
                   status="excellent"
                 />
                 <MetricDisplay
-                  label="Preventive Actions/Month"
+                  label={t("metricPreventiveLabel")}
                   value="120+"
                   target="80+"
+                  targetLabel={t("metricTargetLabel")}
                   status="excellent"
                 />
               </div>
@@ -128,20 +137,20 @@ export default function ManagedServicesPage() {
 
             <div>
               <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-                Service Coverage
+                {t("serviceCoverageLabel")}
               </p>
               <h2 className="text-3xl font-extralight mb-6">
-                Comprehensive monitoring scope
+                {t("serviceCoverageTitle")}
               </h2>
 
               <div className="bg-[#F5F7FB] rounded-xl p-6">
                 <div className="space-y-4">
-                  <CoverageBar label="Network Infrastructure" percentage={100} />
-                  <CoverageBar label="Server Systems" percentage={100} />
-                  <CoverageBar label="Storage & Backup" percentage={95} />
-                  <CoverageBar label="Security Systems" percentage={100} />
-                  <CoverageBar label="Application Performance" percentage={90} />
-                  <CoverageBar label="Cloud Services" percentage={85} />
+                  <CoverageBar label={t("coverageNetworkLabel")} percentage={100} />
+                  <CoverageBar label={t("coverageServerLabel")} percentage={100} />
+                  <CoverageBar label={t("coverageStorageLabel")} percentage={95} />
+                  <CoverageBar label={t("coverageSecurityLabel")} percentage={100} />
+                  <CoverageBar label={t("coverageApplicationLabel")} percentage={90} />
+                  <CoverageBar label={t("coverageCloudLabel")} percentage={85} />
                 </div>
               </div>
             </div>
@@ -155,17 +164,17 @@ export default function ManagedServicesPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-12 text-center">
             <p className="uppercase text-xs tracking-[0.25em] text-red-400 mb-3">
-              Incident Response
+              {t("incidentResponseLabel")}
             </p>
             <h2 className="text-3xl font-extralight mb-4">
-              Rapid issue detection and resolution
+              {t("incidentResponseTitle")}
             </h2>
             <p className="text-sm text-gray-300 font-light max-w-3xl mx-auto">
-              Our automated monitoring and expert response teams work together to identify, diagnose, and resolve issues quickly, minimizing impact on your business operations.
+              {t("incidentResponseDesc")}
             </p>
           </div>
 
-          <ResponseTimeline />
+          <ResponseTimeline t={t} />
         </div>
       </section>
 
@@ -174,10 +183,10 @@ export default function ManagedServicesPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-12">
             <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-              Service Impact
+              {t("serviceImpactLabel")}
             </p>
             <h2 className="text-3xl font-extralight mb-4">
-              Before vs. After managed services
+              {t("serviceImpactTitle")}
             </h2>
           </div>
 
@@ -186,33 +195,33 @@ export default function ManagedServicesPage() {
             <div className="bg-white rounded-xl p-6 shadow">
               <h3 className="text-xl font-light mb-6 flex items-center gap-2">
                 <AlertCircle className="w-5 h-5 text-orange-500" />
-                Without Managed Services
+                {t("comparisonWithoutTitle")}
               </h3>
               
               <div className="space-y-4">
                 <ComparisonMetric 
-                  label="Average Downtime/Month"
-                  value="8-12 hours"
+                  label={t("comparisonDowntimeLabel")}
+                  value={t("comparisonDowntimeWithout")}
                   color="bg-red-500"
                 />
                 <ComparisonMetric 
-                  label="Issue Detection Time"
-                  value="45-120 min"
+                  label={t("comparisonDetectionLabel")}
+                  value={t("comparisonDetectionWithout")}
                   color="bg-orange-500"
                 />
                 <ComparisonMetric 
-                  label="Mean Time to Resolve"
-                  value="4-8 hours"
+                  label={t("comparisonResolveLabel")}
+                  value={t("comparisonResolveWithout")}
                   color="bg-amber-500"
                 />
                 <ComparisonMetric 
-                  label="System Optimization"
-                  value="Quarterly"
+                  label={t("comparisonOptimizationLabel")}
+                  value={t("comparisonOptimizationWithout")}
                   color="bg-yellow-500"
                 />
                 <ComparisonMetric 
-                  label="Security Patching"
-                  value="Reactive"
+                  label={t("comparisonPatchingLabel")}
+                  value={t("comparisonPatchingWithout")}
                   color="bg-red-500"
                 />
               </div>
@@ -221,33 +230,33 @@ export default function ManagedServicesPage() {
             <div className="bg-white rounded-xl p-6 shadow">
               <h3 className="text-xl font-light mb-6 flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-green-500" />
-                With Managed Services
+                {t("comparisonWithTitle")}
               </h3>
               
               <div className="space-y-4">
                 <ComparisonMetric 
-                  label="Average Downtime/Month"
-                  value="<1 hour"
+                  label={t("comparisonDowntimeLabel")}
+                  value={t("comparisonDowntimeWith")}
                   color="bg-green-500"
                 />
                 <ComparisonMetric 
-                  label="Issue Detection Time"
-                  value="<5 min"
+                  label={t("comparisonDetectionLabel")}
+                  value={t("comparisonDetectionWith")}
                   color="bg-green-500"
                 />
                 <ComparisonMetric 
-                  label="Mean Time to Resolve"
-                  value="15-45 min"
+                  label={t("comparisonResolveLabel")}
+                  value={t("comparisonResolveWith")}
                   color="bg-green-500"
                 />
                 <ComparisonMetric 
-                  label="System Optimization"
-                  value="Continuous"
+                  label={t("comparisonOptimizationLabel")}
+                  value={t("comparisonOptimizationWith")}
                   color="bg-green-500"
                 />
                 <ComparisonMetric 
-                  label="Security Patching"
-                  value="Proactive"
+                  label={t("comparisonPatchingLabel")}
+                  value={t("comparisonPatchingWith")}
                   color="bg-green-500"
                 />
               </div>
@@ -264,38 +273,38 @@ export default function ManagedServicesPage() {
             
             <div>
               <p className="uppercase text-xs tracking-[0.25em] text-red-500 mb-3">
-                Intelligent Automation
+                {t("automationLabel")}
               </p>
               <h2 className="text-3xl font-extralight mb-6">
-                Advanced tools reduce manual intervention
+                {t("automationTitle")}
               </h2>
 
               <p className="text-sm text-gray-600 font-light mb-6">
-                By leveraging AI-powered monitoring, automated remediation, and intelligent alerting, our managed services handle routine tasks automatically while escalating complex issues to expert technicians.
+                {t("automationDesc")}
               </p>
 
               <div className="space-y-3">
                 <AutomationFeature 
-                  title="Automated Health Checks"
-                  description="Continuous system validation across 200+ parameters"
+                  title={t("automationHealthTitle")}
+                  description={t("automationHealthDesc")}
                 />
                 <AutomationFeature 
-                  title="Self-Healing Systems"
-                  description="Automatic recovery for common failure scenarios"
+                  title={t("automationSelfHealTitle")}
+                  description={t("automationSelfHealDesc")}
                 />
                 <AutomationFeature 
-                  title="Predictive Maintenance"
-                  description="ML-based forecasting prevents 85% of potential failures"
+                  title={t("automationPredictiveTitle")}
+                  description={t("automationPredictiveDesc")}
                 />
                 <AutomationFeature 
-                  title="Intelligent Routing"
-                  description="Smart ticket assignment to specialized teams"
+                  title={t("automationRoutingTitle")}
+                  description={t("automationRoutingDesc")}
                 />
               </div>
             </div>
 
             <div>
-              <AutomationStats />
+              <AutomationStats t={t} />
             </div>
 
           </div>
@@ -303,65 +312,64 @@ export default function ManagedServicesPage() {
       </section>
 
       {/* ================= SERVICE TIERS ================= */}
+      <section className="w-full bg-[#edf3f7] py-16 md:py-20">
+        <div className="max-w-[1400px] mx-auto px-4">
 
+          <div className="mb-14 text-center">
+            <p className="uppercase text-xs tracking-[0.25em] text-red-400 mb-3">
+              {t("processLabel")}
+            </p>
+            <h2 className="text-3xl md:text-4xl font-extralight text-black">
+              {t("processTitle")}
+            </h2>
+          </div>
 
-<section className="w-full bg-[#edf3f7] py-16 md:py-20">
-  <div className="max-w-[1400px] mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+            <ProcessCard
+              image="/steps/s1.png"
+              title={t("processMonitorTitle")}
+              description={t("processMonitorDesc")}
+              href="/level/Monitor"
+              readMore={t("readMore")}
+            />
 
-    {/* Heading */}
-    <div className="mb-14 text-center">
-      <p className="uppercase text-xs tracking-[0.25em] text-red-400 mb-3">
-        Our Process
-      </p>
-      <h2 className="text-3xl md:text-4xl font-extralight text-black">
-        Complete infrastructure lifecycle management
-      </h2>
-    </div>
+            <ProcessCard
+              image="/steps/s2.png"
+              title={t("processDetectTitle")}
+              description={t("processDetectDesc")}
+              href="/level/Detect"
+              readMore={t("readMore")}
+            />
 
-    {/* Cards */}
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-      <ProcessCard
-        image="/steps/s1.png"
-        title="Monitor"
-        description="24/7 real-time infrastructure monitoring with continuous health checks and performance visibility."
-        href="/level/Monitor"
-      />
+            <ProcessCard
+              image="/steps/s3.png"
+              title={t("processOptimizeTitle")}
+              description={t("processOptimizeDesc")}
+              href="/level/Optimize"
+              readMore={t("readMore")}
+            />
 
-      <ProcessCard
-        image="/steps/s2.png"
-        title="Detect"
-        description="Automated anomaly, risk, and threat detection using intelligent alerts and behavior analysis."
-        href="/level/Detect"
-      />
+            <ProcessCard
+              image="/steps/s4.png"
+              title={t("processRespondTitle")}
+              description={t("processRespondDesc")}
+              href="/level/Respond"
+              readMore={t("readMore")}
+            />
+          </div>
 
-      <ProcessCard
-        image="/steps/s3.png"
-        title="Optimize"
-        description="Continuous tuning, capacity optimization, and performance improvements driven by analytics."
-        href="/level/Optimize"
-      />
-
-      <ProcessCard
-        image="/steps/s4.png"
-        title="Respond"
-        description="Rapid incident response and remediation with expert intervention to minimize downtime."
-        href="/level/Respond"
-      />
-    </div>
-
-  </div>
-</section>
-
+        </div>
+      </section>
 
       {/* ================= WHY RAWABIT ================= */}
       <section className="bg-[#F5F7FB] py-20 px-4 text-gray-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Why Choose Rawabit Networks
+              {t("whyRawabitTitle")}
             </h2>
             <p className="mt-4 max-w-3xl mx-auto text-gray-600">
-              Expert teams, proven processes, and cutting-edge tools.
+              {t("whyRawabitSubtitle")}
             </p>
           </div>
 
@@ -369,31 +377,25 @@ export default function ManagedServicesPage() {
             <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
               <div className="flex items-center gap-3 mb-4">
                 <Clock className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">24/7 Availability</h3>
+                <h3 className="text-xl font-semibold">{t("why24x7Title")}</h3>
               </div>
-              <p className="text-gray-600">
-                Round-the-clock monitoring and support with guaranteed response times for critical incidents.
-              </p>
+              <p className="text-gray-600">{t("why24x7Desc")}</p>
             </div>
 
             <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
               <div className="flex items-center gap-3 mb-4">
                 <TrendingUp className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">Proactive Approach</h3>
+                <h3 className="text-xl font-semibold">{t("whyProactiveTitle")}</h3>
               </div>
-              <p className="text-gray-600">
-                Predictive analytics and preventive maintenance that address issues before they impact operations.
-              </p>
+              <p className="text-gray-600">{t("whyProactiveDesc")}</p>
             </div>
 
             <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
               <div className="flex items-center gap-3 mb-4">
                 <Zap className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">Rapid Response</h3>
+                <h3 className="text-xl font-semibold">{t("whyRapidTitle")}</h3>
               </div>
-              <p className="text-gray-600">
-                Expert technicians resolve issues quickly with average response times under 15 minutes.
-              </p>
+              <p className="text-gray-600">{t("whyRapidDesc")}</p>
             </div>
           </div>
         </div>
@@ -405,8 +407,6 @@ export default function ManagedServicesPage() {
 
 /* ================== HELPER COMPONENTS ================== */
 
-
-
 function PillarBox({
   icon,
   title,
@@ -417,35 +417,34 @@ function PillarBox({
   description: string;
 }) {
   return (
-    <div className="
-      bg-white
-      border border-gray-900/20
-      rounded-xl
-      p-8
-      transition-all duration-300
-      hover:shadow-xl
-      hover:scale-105
-      hover:border-red-600
-    ">
+    <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
       <div className="flex items-center gap-3 mb-4">
         {icon}
         <h3 className="text-xl font-semibold">{title}</h3>
       </div>
-
-      <p className="text-[13px] text-gray-600 leading-relaxed">
-        {description}
-      </p>
+      <p className="text-[13px] text-gray-600 leading-relaxed">{description}</p>
     </div>
   );
 }
 
-
-function MetricDisplay({ label, value, target, status }: { label: string; value: string; target: string; status: string }) {
+function MetricDisplay({ 
+  label, 
+  value, 
+  target, 
+  targetLabel,
+  status 
+}: { 
+  label: string; 
+  value: string; 
+  target: string; 
+  targetLabel: string;
+  status: string;
+}) {
   return (
     <div className="flex items-center justify-between border-b border-gray-200 pb-4">
       <div className="flex-1">
         <p className="text-sm font-light text-gray-700">{label}</p>
-        <p className="text-xs text-gray-500 mt-1">Target: {target}</p>
+        <p className="text-xs text-gray-500 mt-1">{targetLabel}: {target}</p>
       </div>
       <div className="text-right">
         <p className="text-2xl font-light text-green-600">{value}</p>
@@ -472,7 +471,7 @@ function CoverageBar({ label, percentage }: { label: string; percentage: number 
   );
 }
 
-function ResponseTimeline() {
+function ResponseTimeline({ t }: { t: any }) {
   return (
     <div className="relative">
       <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-red-600/30 -translate-x-1/2"></div>
@@ -480,26 +479,26 @@ function ResponseTimeline() {
       <div className="space-y-8">
         <TimelineItem 
           time="0-5 min"
-          title="Detection"
-          description="Automated monitoring detects anomaly and triggers alert"
+          title={t("timelineDetectionTitle")}
+          description={t("timelineDetectionDesc")}
           position="left"
         />
         <TimelineItem 
           time="5-10 min"
-          title="Analysis"
-          description="AI system analyzes impact and determines severity level"
+          title={t("timelineAnalysisTitle")}
+          description={t("timelineAnalysisDesc")}
           position="right"
         />
         <TimelineItem 
           time="10-15 min"
-          title="Response"
-          description="Expert team begins investigation and implements fix"
+          title={t("timelineResponseTitle")}
+          description={t("timelineResponseDesc")}
           position="left"
         />
         <TimelineItem 
           time="15-45 min"
-          title="Resolution"
-          description="Issue resolved, systems restored, documentation updated"
+          title={t("timelineResolutionTitle")}
+          description={t("timelineResolutionDesc")}
           position="right"
         />
       </div>
@@ -507,7 +506,17 @@ function ResponseTimeline() {
   );
 }
 
-function TimelineItem({ time, title, description, position }: { time: string; title: string; description: string; position: string }) {
+function TimelineItem({ 
+  time, 
+  title, 
+  description, 
+  position 
+}: { 
+  time: string; 
+  title: string; 
+  description: string; 
+  position: string;
+}) {
   return (
     <div className={`flex items-center gap-4 ${position === 'right' ? 'flex-row-reverse' : ''}`}>
       <div className={`flex-1 ${position === 'right' ? 'text-left' : 'text-right'}`}>
@@ -521,7 +530,15 @@ function TimelineItem({ time, title, description, position }: { time: string; ti
   );
 }
 
-function ComparisonMetric({ label, value, color }: { label: string; value: string; color: string }) {
+function ComparisonMetric({ 
+  label, 
+  value, 
+  color 
+}: { 
+  label: string; 
+  value: string; 
+  color: string;
+}) {
   return (
     <div className="flex items-center gap-3">
       <div className={`w-2 h-2 ${color} rounded-full`}></div>
@@ -533,7 +550,13 @@ function ComparisonMetric({ label, value, color }: { label: string; value: strin
   );
 }
 
-function AutomationFeature({ title, description }: { title: string; description: string }) {
+function AutomationFeature({ 
+  title, 
+  description 
+}: { 
+  title: string; 
+  description: string;
+}) {
   return (
     <div className="flex items-start gap-3 bg-[#F5F7FB] rounded-lg p-3">
       <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
@@ -545,22 +568,32 @@ function AutomationFeature({ title, description }: { title: string; description:
   );
 }
 
-function AutomationStats() {
+function AutomationStats({ t }: { t: any }) {
   return (
     <div className="bg-[#F5F7FB] rounded-xl p-6">
-      <p className="text-xs uppercase tracking-wider text-red-600 mb-4">Automation Impact</p>
+      <p className="text-xs uppercase tracking-wider text-red-600 mb-4">
+        {t("automationImpactLabel")}
+      </p>
       
       <div className="space-y-6">
-        <StatBar label="Tasks Automated" value={78} color="bg-blue-600" />
-        <StatBar label="Response Speed" value={92} color="bg-green-600" />
-        <StatBar label="Error Reduction" value={85} color="bg-purple-600" />
-        <StatBar label="Cost Efficiency" value={65} color="bg-orange-600" />
+        <StatBar label={t("statTasksLabel")} value={78} color="bg-blue-600" />
+        <StatBar label={t("statSpeedLabel")} value={92} color="bg-green-600" />
+        <StatBar label={t("statErrorLabel")} value={85} color="bg-purple-600" />
+        <StatBar label={t("statCostLabel")} value={65} color="bg-orange-600" />
       </div>
     </div>
   );
 }
 
-function StatBar({ label, value, color }: { label: string; value: number; color: string }) {
+function StatBar({ 
+  label, 
+  value, 
+  color 
+}: { 
+  label: string; 
+  value: number; 
+  color: string;
+}) {
   return (
     <div>
       <div className="flex justify-between text-sm mb-2 font-light">
@@ -577,38 +610,22 @@ function StatBar({ label, value, color }: { label: string; value: number; color:
   );
 }
 
-
-
-
-
 function ProcessCard({
   image,
   title,
   description,
   href,
+  readMore,
 }: {
   image: string;
   title: string;
   description: string;
   href: string;
+  readMore: string;
 }) {
   return (
-    <div
-      className="
-        bg-[#111827]
-        border border-white/20
-        rounded-xl
-        overflow-hidden
-        transition-all duration-300
-        hover:-translate-y-2
-        hover:shadow-2xl
-        hover:border-red-600
-        group
-        h-full
-      "
-    >
-      {/* Image */}
-      <div className="relative w-full h-56"> {/* increased height */}
+    <div className="bg-[#111827] border border-white/20 rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-red-600 group h-full">
+      <div className="relative w-full h-56">
         <Image
           src={image}
           alt={title}
@@ -617,26 +634,14 @@ function ProcessCard({
         />
       </div>
 
-      {/* Content */}
-      <div className="p-8"> {/* more padding */}
-        <h3 className="text-2xl font-light text-white mb-4">
-          {title}
-        </h3>
-
-        <p className="text-sm text-white/90 font-light mb-6 leading-relaxed">
-          {description}
-        </p>
-
+      <div className="p-8">
+        <h3 className="text-2xl font-light text-white mb-4">{title}</h3>
+        <p className="text-sm text-white/90 font-light mb-6 leading-relaxed">{description}</p>
         <Link
           href={href}
-          className="
-            inline-flex items-center gap-2
-            text-red-400 text-sm font-light
-            transition-all
-            group-hover:gap-3
-          "
+          className="inline-flex items-center gap-2 text-red-400 text-sm font-light transition-all group-hover:gap-3"
         >
-          Read More →
+          {readMore} →
         </Link>
       </div>
     </div>
