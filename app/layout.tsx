@@ -3,10 +3,10 @@ import { Poppins } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { LanguageProvider } from "@/context/LanguageContext";
+import { getServerLang } from "@/lib/lang";
+
 const poppins = Poppins({
-  weight: [
-    "100", "200", "300", "400", "500", "600", "700", "800", "900"
-  ],
+  weight: ["100","200","300","400","500","600","700","800","900"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
@@ -70,18 +70,26 @@ export const metadata = {
 
 
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en" className={poppins.className}>
-      <body>
-        <LanguageProvider>
-      <Header />
-<main className="pt-0">
-  {children}
-</main>
 
-      <Footer/>
-      </LanguageProvider>
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const lang = await getServerLang(); // ✅ SERVER COOKIE
+
+  return (
+    <html
+      lang={lang === "sa" ? "ar" : "en"}
+      dir={lang === "sa" ? "rtl" : "ltr"}
+      className={poppins.className}
+    >
+      <body>
+        <LanguageProvider initialLang={lang}>
+          <Header />
+          <main className="pt-0">{children}</main>
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );
