@@ -1194,7 +1194,1753 @@ contactMessage: "Message",
 contactSubmit: "Get A Free Quote",
 contactSuccess: "Thank you for contacting us! We will get back to you soon.",
 
+// Video Systems
+avVideoHeroBadge: "Video Systems",
+avVideoHeroTitle: "Enterprise Video Conferencing Solutions",
+avVideoHeroDesc:
+  "High-performance video systems designed to deliver clear, reliable, and immersive collaboration experiences across all meeting environments.",
+
+avVideoOverviewLabel: "Overview",
+avVideoOverviewTitle: "Clarity That Brings Teams Together",
+avVideoOverviewDesc1:
+  "Rawabit Networks delivers enterprise-grade video conferencing systems that enable seamless communication for hybrid and in-room meetings.",
+avVideoOverviewDesc2:
+  "Our solutions are designed to provide high-definition video, intelligent framing, and reliable performance across all room sizes.",
+
+avVideoUseCasesTitle: "Where Video Systems Are Used",
+avVideoUseCasesSubtitle:
+  "Designed for a wide range of enterprise collaboration environments.",
+
+avVideoUseCase1Title: "Boardrooms & Conference Rooms",
+avVideoUseCase1Desc:
+  "Professional video systems for executive meetings and decision-making spaces.",
+
+avVideoUseCase2Title: "Training & Collaboration Rooms",
+avVideoUseCase2Desc:
+  "Clear video communication for interactive training and team collaboration.",
+
+avVideoUseCase3Title: "Hybrid & Remote Meetings",
+avVideoUseCase3Desc:
+  "Seamless video experiences connecting on-site and remote participants.",
+
+// Video Systems – What We Provide
+avVideoProvideTitle: "What We Provide",
+avVideoProvideSubtitle:
+  "End-to-end video conferencing solutions designed for enterprise collaboration environments.",
+
+avVideoProvide1Title: "Enterprise Video Conferencing Systems",
+avVideoProvide1Desc:
+  "Professional cameras, codecs, and conferencing systems delivering high-definition video for all room sizes.",
+
+avVideoProvide2Title: "System Configuration & Integration",
+avVideoProvide2Desc:
+  "Complete configuration and integration with platforms such as Microsoft Teams and Zoom.",
+
+avVideoProvide3Title: "Deployment, Training & Support",
+avVideoProvide3Desc:
+  "On-site deployment, user training, and ongoing support to ensure reliable long-term performance.",
+
+// Audio Solutions
+avAudioHeroBadge: "Audio Solutions",
+avAudioHeroTitle: "Professional Audio Solutions for Clear Communication",
+avAudioHeroDesc:
+  "Enterprise-grade audio systems designed to deliver exceptional speech clarity and immersive sound across all meeting environments.",
+
+avAudioOverviewLabel: "Overview",
+avAudioOverviewTitle: "Every Word Matters",
+avAudioOverviewDesc1:
+  "Rawabit Networks delivers professional audio solutions that ensure clear, natural communication in meeting rooms of all sizes.",
+avAudioOverviewDesc2:
+  "Our audio systems are engineered to eliminate echo, reduce noise, and provide consistent sound coverage.",
+
+avAudioUseCasesTitle: "Where Audio Solutions Are Used",
+avAudioUseCasesSubtitle:
+  "Designed for enterprise collaboration and communication spaces.",
+
+avAudioUseCase1Title: "Conference & Boardrooms",
+avAudioUseCase1Desc:
+  "Crystal-clear audio for executive meetings and discussions.",
+
+avAudioUseCase2Title: "Training & Collaboration Spaces",
+avAudioUseCase2Desc:
+  "Reliable audio performance for interactive learning and teamwork.",
+
+avAudioUseCase3Title: "Hybrid & Video Meetings",
+avAudioUseCase3Desc:
+  "Consistent audio quality for both in-room and remote participants.",
+
+avAudioProvideTitle: "What We Provide",
+avAudioProvideSubtitle:
+  "End-to-end professional audio solutions for enterprise meeting spaces.",
+
+avAudioProvide1Title: "Microphones & Speaker Systems",
+avAudioProvide1Desc:
+  "Professional microphones, speakers, and DSP solutions optimized for speech clarity.",
+
+avAudioProvide2Title: "Audio System Design & Tuning",
+avAudioProvide2Desc:
+  "Complete audio design, configuration, and tuning for optimal room performance.",
+
+avAudioProvide3Title: "Installation, Training & Support",
+avAudioProvide3Desc:
+  "On-site installation, user training, and ongoing support for long-term reliability.",
+
+// Smart Integration
+avSmartHeroBadge: "Smart Integration",
+avSmartHeroTitle: "Intelligent Integration for Modern Collaboration Spaces",
+avSmartHeroDesc:
+  "Seamlessly integrating audio, video, control, and IT systems to create intelligent, easy-to-use collaboration environments.",
+
+avSmartOverviewLabel: "Overview",
+avSmartOverviewTitle: "One Experience. One Touch.",
+avSmartOverviewDesc1:
+  "Rawabit Networks delivers smart integration solutions that unify AV systems, collaboration platforms, and IT infrastructure into a single seamless experience.",
+avSmartOverviewDesc2:
+  "Our integrated environments simplify operations, reduce complexity, and enhance productivity across all meeting spaces.",
+
+avSmartUseCasesTitle: "Where Smart Integration Is Used",
+avSmartUseCasesSubtitle:
+  "Designed for enterprise environments that demand simplicity and reliability.",
+
+avSmartUseCase1Title: "Integrated Meeting Rooms",
+avSmartUseCase1Desc:
+  "Unified control of video, audio, displays, and room settings from a single interface.",
+
+avSmartUseCase2Title: "Hybrid Work Environments",
+avSmartUseCase2Desc:
+  "Seamless integration between in-room systems and cloud collaboration platforms.",
+
+avSmartUseCase3Title: "Enterprise Collaboration Spaces",
+avSmartUseCase3Desc:
+  "Standardized user experience across multiple rooms and locations.",
+
+avSmartProvideTitle: "What We Provide",
+avSmartProvideSubtitle:
+  "End-to-end smart integration services for enterprise AV environments.",
+
+avSmartProvide1Title: "System Integration & Programming",
+avSmartProvide1Desc:
+  "Custom integration and programming of AV, control, and collaboration systems.",
+
+avSmartProvide2Title: "Platform & Device Integration",
+avSmartProvide2Desc:
+  "Seamless interoperability between AV devices, UC platforms, and IT systems.",
+
+avSmartProvide3Title: "Deployment, Training & Support",
+avSmartProvide3Desc:
+  "Complete deployment, user training, and ongoing support for reliable performance.",
+
+  avAcousticHeroBadge: "Acoustic Design",
+avAcousticHeroTitle: "Acoustic Design for Clear & Natural Sound",
+avAcousticHeroDesc: "Professional acoustic design ensuring speech clarity and optimal sound quality.",
+
+avAcousticOverviewLabel: "Overview",
+avAcousticOverviewTitle: "Sound Quality Starts with Acoustics",
+avAcousticOverviewDesc1: "Poor acoustics reduce communication effectiveness.",
+avAcousticOverviewDesc2: "We design environments optimized for speech intelligibility.",
+
+avAcousticUse1Title: "Boardrooms",
+avAcousticUse1Desc: "Reduce echo and enhance speech clarity.",
+avAcousticUse2Title: "Training Rooms",
+avAcousticUse2Desc: "Consistent sound coverage across spaces.",
+avAcousticUse3Title: "Hybrid Rooms",
+avAcousticUse3Desc: "Balanced acoustics for in-room and remote users.",
+
+avAcousticProvide1Title: "Acoustic Treatment",
+avAcousticProvide1Desc: "Panels, absorption, and diffusion solutions.",
+avAcousticProvide2Title: "Measurement & Tuning",
+avAcousticProvide2Desc: "Professional sound analysis and tuning.",
+avAcousticProvide3Title: "Implementation & Support",
+avAcousticProvide3Desc: "Complete installation and ongoing optimization.",
+
+avControlHeroBadge: "Control Systems",
+avControlHeroTitle: "Intelligent Control Systems",
+avControlHeroDesc: "Centralized control for effortless meeting room operation.",
+
+avControlOverviewLabel: "Overview",
+avControlOverviewTitle: "One Touch Control",
+avControlOverviewDesc1: "Control systems simplify AV room operations.",
+avControlOverviewDesc2: "Start meetings instantly with minimal user effort.",
+
+avControlUse1Title: "Meeting Rooms",
+avControlUse1Desc: "Unified control of displays, audio, and video.",
+avControlUse2Title: "Training Spaces",
+avControlUse2Desc: "Consistent experience across rooms.",
+avControlUse3Title: "Enterprise Rooms",
+avControlUse3Desc: "Standardized room automation.",
+
+avControlProvide1Title: "Control System Programming",
+avControlProvide1Desc: "Custom interfaces for intuitive control.",
+avControlProvide2Title: "System Integration",
+avControlProvide2Desc: "AV, lighting, and environment integration.",
+avControlProvide3Title: "Support & Optimization",
+avControlProvide3Desc: "Ongoing tuning and performance optimization.",
+
+// Display Technology
+avDisplayHeroBadge: "Display Technology",
+avDisplayHeroTitle: "Professional Display & Visual Solutions",
+avDisplayHeroDesc:
+  "Advanced display technologies designed to enhance collaboration, communication, and visual impact in enterprise environments.",
+
+avDisplayOverviewLabel: "Overview",
+avDisplayOverviewTitle: "Visuals That Drive Engagement",
+avDisplayOverviewDesc1:
+  "Rawabit Networks delivers professional display solutions that enhance how information is presented and shared.",
+avDisplayOverviewDesc2:
+  "From interactive collaboration screens to large-format video walls, our display technologies are designed for clarity and reliability.",
+
+avDisplayUseCasesTitle: "Where Display Technology Is Used",
+avDisplayUseCasesSubtitle:
+  "Designed for a wide range of enterprise and collaboration environments.",
+
+avDisplayUseCase1Title: "Meeting & Boardrooms",
+avDisplayUseCase1Desc:
+  "High-resolution displays for presentations and collaborative discussions.",
+
+avDisplayUseCase2Title: "Training & Collaboration Spaces",
+avDisplayUseCase2Desc:
+  "Interactive displays that support learning and teamwork.",
+
+avDisplayUseCase3Title: "Control Rooms & Public Areas",
+avDisplayUseCase3Desc:
+  "Large-format displays and video walls for monitoring and information sharing.",
+
+avDisplayProvideTitle: "What We Provide",
+avDisplayProvideSubtitle:
+  "End-to-end professional display solutions for enterprise environments.",
+
+avDisplayProvide1Title: "Commercial & Interactive Displays",
+avDisplayProvide1Desc:
+  "Professional-grade displays, touch screens, and video wall solutions.",
+
+avDisplayProvide2Title: "Design, Mounting & Calibration",
+avDisplayProvide2Desc:
+  "Complete display design, installation, alignment, and color calibration.",
+
+avDisplayProvide3Title: "Integration, Training & Support",
+avDisplayProvide3Desc:
+  "System integration with AV platforms, user training, and ongoing support.",
+/* ================= END-USER COMPUTING ================= */
+
+eucHeroBadge: "End-User Computing",
+eucHeroTitle: "Empowering Employees with Reliable Computing Devices",
+eucHeroDesc:
+  "Enterprise-grade desktops, laptops, and workstations designed to support productivity, security, and modern workstyles.",
+
+eucOverviewLabel: "Overview",
+eucOverviewTitle: "Productivity Starts with the Right Devices",
+eucOverviewDesc1:
+  "Rawabit Networks delivers end-user computing solutions that provide employees with reliable, secure, and standardized devices.",
+eucOverviewDesc2:
+  "From procurement to deployment, we ensure every user has the right tools to work efficiently.",
+eucUseCasesTitle: "Where End-User Computing Is Used",
+eucUseCasesSubtitle:
+  "Supporting productivity across office, remote, and high-performance environments.",
+
+eucProvideTitle: "What We Provide",
+eucProvideSubtitle:
+  "End-to-end end-user computing solutions for modern enterprises.",
+
+eucUse1Title: "Office & Corporate Environments",
+eucUse1Desc:
+  "Standardized computing devices for daily business operations.",
+
+eucUse2Title: "Remote & Hybrid Workforces",
+eucUse2Desc:
+  "Secure laptops and peripherals for flexible working models.",
+
+eucUse3Title: "High-Performance Users",
+eucUse3Desc:
+  "Workstations and multi-display setups for power users and specialists.",
+
+eucProvide1Title: "Enterprise Devices & Peripherals",
+eucProvide1Desc:
+  "Laptops, desktops, workstations, monitors, and accessories.",
+
+eucProvide2Title: "Configuration & Deployment",
+eucProvide2Desc:
+  "OS imaging, device configuration, and user-ready deployment.",
+
+eucProvide3Title: "Lifecycle Support & Maintenance",
+eucProvide3Desc:
+  "Ongoing support, upgrades, and device refresh management.",
+
+
+/* ================= SERVER & DATA CENTER ================= */
+
+dcHeroBadge: "Server & Data Center Infrastructure",
+dcHeroTitle: "Reliable Server & Data Center Solutions",
+dcHeroDesc:
+  "Scalable server and data center infrastructure designed to support critical enterprise workloads.",
+
+dcOverviewLabel: "Overview",
+dcOverviewTitle: "The Backbone of Enterprise IT",
+dcOverviewDesc1:
+  "Rawabit Networks designs and deploys robust server and data center infrastructure for modern enterprises.",
+dcOverviewDesc2:
+  "Our solutions ensure high availability, performance, and scalability for mission-critical systems.",
+
+  dcUseCasesTitle: "Where Server & Data Center Infrastructure Is Used",
+dcUseCasesSubtitle:
+  "Built to support critical enterprise applications and workloads.",
+
+dcProvideTitle: "What We Provide",
+dcProvideSubtitle:
+  "Scalable and resilient server and data center infrastructure solutions.",
+
+
+dcUse1Title: "Enterprise Applications",
+dcUse1Desc:
+  "Servers supporting business-critical applications and services.",
+
+dcUse2Title: "Virtualized Environments",
+dcUse2Desc:
+  "Compute platforms optimized for virtualization and private cloud.",
+
+dcUse3Title: "Data-Driven Workloads",
+dcUse3Desc:
+  "Infrastructure supporting databases and storage-intensive operations.",
+
+dcProvide1Title: "Server & Compute Platforms",
+dcProvide1Desc:
+  "Rack and blade servers built for performance and reliability.",
+
+dcProvide2Title: "Design, Deployment & Configuration",
+dcProvide2Desc:
+  "End-to-end data center design, installation, and system configuration.",
+
+dcProvide3Title: "Support & Optimization",
+dcProvide3Desc:
+  "Monitoring, maintenance, and continuous performance optimization.",
+
+storageHeroBadge: "Storage Solutions",
+storageHeroTitle: "Secure & Scalable Enterprise Storage",
+storageHeroDesc:
+  "Reliable storage platforms designed to protect, manage, and scale enterprise data.",
+
+storageOverviewLabel: "Overview",
+storageOverviewTitle: "Data Availability & Protection",
+storageOverviewDesc1:
+  "Rawabit Networks delivers enterprise storage solutions that ensure data availability, performance, and protection.",
+storageOverviewDesc2:
+  "Our solutions support critical workloads with scalable and resilient storage platforms.",
+
+storageUseCasesTitle: "Where Storage Solutions Are Used",
+storageUseCasesSubtitle:
+  "Designed to support performance, protection, and data availability.",
+
+storageProvideTitle: "What We Provide",
+storageProvideSubtitle:
+  "Enterprise storage solutions built for reliability and scalability.",
+
+
+storageUse1Title: "Business Applications",
+storageUse1Desc:
+  "Storage systems supporting databases and enterprise applications.",
+
+storageUse2Title: "Virtualized Environments",
+storageUse2Desc:
+  "High-performance storage optimized for virtual machines.",
+
+storageUse3Title: "Backup & Disaster Recovery",
+storageUse3Desc:
+  "Secure backup storage and rapid recovery solutions.",
+
+storageProvide1Title: "SAN & NAS Platforms",
+storageProvide1Desc:
+  "Enterprise SAN and NAS storage architectures.",
+
+storageProvide2Title: "Backup & Data Protection",
+storageProvide2Desc:
+  "Backup, replication, and disaster recovery solutions.",
+
+storageProvide3Title: "Implementation & Support",
+storageProvide3Desc:
+  "Design, deployment, monitoring, and optimization.",
+virtHeroBadge: "Virtualization & Cloud Enablement",
+virtHeroTitle: "Flexible Virtualization & Cloud-Ready Infrastructure",
+virtHeroDesc:
+  "Modern virtualization platforms designed to optimize resources and enable cloud readiness.",
+
+virtOverviewLabel: "Overview",
+virtOverviewTitle: "Optimized & Agile IT Environments",
+virtOverviewDesc1:
+  "Rawabit Networks enables organizations to modernize infrastructure using virtualization technologies.",
+virtOverviewDesc2:
+  "Our solutions improve efficiency, scalability, and operational flexibility.",
+virtUseCasesTitle: "Where Virtualization Is Applied",
+virtUseCasesSubtitle:
+  "Optimizing infrastructure for private and hybrid cloud environments.",
+
+virtProvideTitle: "What We Provide",
+virtProvideSubtitle:
+  "Virtualization platforms and cloud-readiness services.",
+
+virtUse1Title: "Private Cloud",
+virtUse1Desc:
+  "Virtualized infrastructure for private cloud environments.",
+
+virtUse2Title: "Hybrid Cloud",
+virtUse2Desc:
+  "Hybrid-ready platforms supporting cloud integration.",
+
+virtUse3Title: "Enterprise Workloads",
+virtUse3Desc:
+  "Optimized compute for business-critical applications.",
+
+virtProvide1Title: "Virtualization Platforms",
+virtProvide1Desc:
+  "VMware, Hyper-V, and enterprise virtualization solutions.",
+
+virtProvide2Title: "Cloud Readiness & Migration",
+virtProvide2Desc:
+  "Assessment, planning, and migration support.",
+
+virtProvide3Title: "Management & Optimization",
+virtProvide3Desc:
+  "Monitoring, tuning, and performance optimization.",
+powerHeroBadge: "Power & Data Center Continuity",
+powerHeroTitle: "Uninterrupted Power for Critical Infrastructure",
+powerHeroDesc:
+  "Power protection and continuity solutions designed to keep enterprise systems running without interruption.",
+
+powerOverviewLabel: "Overview",
+powerOverviewTitle: "Ensuring Business Uptime",
+powerOverviewDesc1:
+  "Rawabit Networks delivers power continuity solutions that protect critical IT infrastructure from power disruptions.",
+powerOverviewDesc2:
+  "Our designs ensure operational stability and business continuity.",
+
+  powerUseCasesTitle: "Where Power Continuity Is Critical",
+powerUseCasesSubtitle:
+  "Ensuring uninterrupted operations for enterprise infrastructure.",
+
+powerProvideTitle: "What We Provide",
+powerProvideSubtitle:
+  "Comprehensive power protection and continuity solutions.",
+
+
+powerUse1Title: "Data Centers",
+powerUse1Desc:
+  "Power protection for servers and critical systems.",
+
+powerUse2Title: "Mission-Critical Environments",
+powerUse2Desc:
+  "Uninterrupted operations for sensitive workloads.",
+
+powerUse3Title: "Enterprise Facilities",
+powerUse3Desc:
+  "Power redundancy for business-critical locations.",
+
+powerProvide1Title: "UPS & Power Systems",
+powerProvide1Desc:
+  "Enterprise UPS systems and power protection solutions.",
+
+powerProvide2Title: "Redundancy & Power Design",
+powerProvide2Desc:
+  "Redundant power architecture and system design.",
+
+powerProvide3Title: "Monitoring & Maintenance",
+powerProvide3Desc:
+  "Power monitoring, testing, and preventive maintenance.",
+lmsHeroBadge: "Lifecycle & Managed Services",
+lmsHeroTitle: "End-to-End IT Lifecycle Management",
+lmsHeroDesc:
+  "Comprehensive managed services covering the full lifecycle of enterprise IT infrastructure.",
+
+lmsOverviewLabel: "Overview",
+lmsOverviewTitle: "Simplifying IT Operations",
+lmsOverviewDesc1:
+  "Rawabit Networks provides lifecycle and managed services to reduce operational complexity.",
+lmsOverviewDesc2:
+  "We ensure systems remain secure, up to date, and optimized.",
+
+  lmsUseCasesTitle: "Where Managed Services Add Value",
+lmsUseCasesSubtitle:
+  "Supporting IT operations throughout the entire lifecycle.",
+
+lmsProvideTitle: "What We Provide",
+lmsProvideSubtitle:
+  "End-to-end lifecycle management and managed IT services.",
+
+
+lmsUse1Title: "Proactive Monitoring",
+lmsUse1Desc:
+  "Continuous monitoring of infrastructure health.",
+
+lmsUse2Title: "Upgrade & Refresh Cycles",
+lmsUse2Desc:
+  "Planned hardware and software refresh programs.",
+
+lmsUse3Title: "Risk Reduction",
+lmsUse3Desc:
+  "Minimized downtime and improved system reliability.",
+
+lmsProvide1Title: "Procurement & Deployment",
+lmsProvide1Desc:
+  "Device sourcing, installation, and commissioning.",
+
+lmsProvide2Title: "Managed IT Services",
+lmsProvide2Desc:
+  "Monitoring, patching, and operational support.",
+
+lmsProvide3Title: "Optimization & Reporting",
+lmsProvide3Desc:
+  "Performance optimization and lifecycle reporting.",
+netsecHeroBadge: "Network Security",
+netsecHeroTitle: "Protecting Enterprise Networks",
+netsecHeroDesc:
+  "Advanced network security solutions designed to protect enterprise infrastructure from cyber threats.",
+
+netsecOverviewLabel: "Overview",
+netsecOverviewTitle: "Securing the Network Perimeter",
+netsecOverviewDesc1:
+  "Rawabit Networks provides robust network security solutions to safeguard enterprise connectivity.",
+netsecOverviewDesc2:
+  "Our solutions protect against unauthorized access, malware, and advanced threats.",
+
+netsecUse1Title: "Perimeter Protection",
+netsecUse1Desc:
+  "Securing enterprise networks from external threats.",
+
+netsecUse2Title: "Internal Network Security",
+netsecUse2Desc:
+  "Preventing lateral movement and internal attacks.",
+
+netsecUse3Title: "Threat Detection",
+netsecUse3Desc:
+  "Real-time monitoring and threat identification.",
+
+  netsecUseCasesTitle: "Where Network Security Is Applied",
+netsecUseCasesSubtitle:
+  "Protecting enterprise networks across all access points.",
+
+netsecProvideTitle: "What We Provide",
+netsecProvideSubtitle:
+  "End-to-end network security solutions for enterprises.",
+
+
+netsecProvide1Title: "Firewalls & Gateways",
+netsecProvide1Desc:
+  "Next-generation firewalls and secure gateways.",
+
+netsecProvide2Title: "Security Configuration",
+netsecProvide2Desc:
+  "Policy design, tuning, and security hardening.",
+
+netsecProvide3Title: "Monitoring & Response",
+netsecProvide3Desc:
+  "Continuous monitoring and rapid incident response.",
+  epsecHeroBadge: "Endpoint Security",
+epsecHeroTitle: "Securing Every Device",
+epsecHeroDesc:
+  "Comprehensive endpoint protection for desktops, laptops, and mobile devices.",
+
+epsecOverviewLabel: "Overview",
+epsecOverviewTitle: "Protecting Endpoints Against Threats",
+epsecOverviewDesc1:
+  "Rawabit Networks delivers endpoint security solutions that protect devices from malware and cyber attacks.",
+epsecOverviewDesc2:
+  "Our solutions ensure continuous protection and visibility across all endpoints.",
+
+  epsecUseCasesTitle: "Where Endpoint Security Is Used",
+epsecUseCasesSubtitle:
+  "Protecting devices across office, remote, and hybrid environments.",
+
+epsecProvideTitle: "What We Provide",
+epsecProvideSubtitle:
+  "Advanced endpoint protection for modern enterprises.",
+
+
+epsecUse1Title: "User Devices",
+epsecUse1Desc:
+  "Protecting employee desktops and laptops.",
+
+epsecUse2Title: "Remote Workforce",
+epsecUse2Desc:
+  "Securing devices used outside corporate networks.",
+
+epsecUse3Title: "Threat Prevention",
+epsecUse3Desc:
+  "Preventing malware, ransomware, and advanced attacks.",
+
+epsecProvide1Title: "Antivirus & EDR",
+epsecProvide1Desc:
+  "Advanced endpoint detection and response solutions.",
+
+epsecProvide2Title: "Policy Enforcement",
+epsecProvide2Desc:
+  "Security policies and device control enforcement.",
+
+epsecProvide3Title: "Monitoring & Reporting",
+epsecProvide3Desc:
+  "Endpoint visibility, alerts, and security reporting.",
+
+  /* ================= EMAIL & WEB SECURITY ================= */
+
+emailsecHeroBadge: "Email & Web Security",
+emailsecHeroTitle: "Protecting Communication & Internet Access",
+emailsecHeroDesc:
+  "Advanced email and web security solutions that defend organizations against phishing, malware, and web-based threats.",
+
+emailsecOverviewLabel: "Overview",
+emailsecOverviewTitle: "The First Line of Cyber Defense",
+emailsecOverviewDesc1:
+  "Email and web channels remain the most common attack vectors for cyber threats.",
+emailsecOverviewDesc2:
+  "Rawabit Networks secures these channels with layered protection and intelligent threat detection.",
+
+emailsecUseCasesTitle: "Where Email & Web Security Is Used",
+emailsecUseCasesSubtitle:
+  "Protecting users and data across all communication channels.",
+
+emailsecUse1Title: "Email Communication",
+emailsecUse1Desc:
+  "Protection against phishing, spam, and malicious attachments.",
+
+emailsecUse2Title: "Web Browsing",
+emailsecUse2Desc:
+  "Blocking malicious websites, downloads, and unsafe content.",
+
+emailsecUse3Title: "Threat Visibility",
+emailsecUse3Desc:
+  "Monitoring and identifying suspicious user activity.",
+
+emailsecProvideTitle: "What We Provide",
+emailsecProvideSubtitle:
+  "Comprehensive security for email and web access.",
+
+emailsecProvide1Title: "Email Security Gateways",
+emailsecProvide1Desc:
+  "Advanced filtering, malware detection, and phishing protection.",
+
+emailsecProvide2Title: "Web Filtering & Control",
+emailsecProvide2Desc:
+  "URL filtering, content control, and policy enforcement.",
+
+emailsecProvide3Title: "Monitoring & Incident Response",
+emailsecProvide3Desc:
+  "Threat visibility, alerts, and rapid response mechanisms.",
+
+
+/* ================= COMPLIANCE & RISK MANAGEMENT ================= */
+
+complianceHeroBadge: "Compliance & Risk Management",
+complianceHeroTitle: "Reducing Risk & Ensuring Regulatory Compliance",
+complianceHeroDesc:
+  "Structured compliance and risk management solutions that protect organizations and meet regulatory requirements.",
+
+complianceOverviewLabel: "Overview",
+complianceOverviewTitle: "Managing Risk in a Complex Digital World",
+complianceOverviewDesc1:
+  "Organizations face increasing regulatory pressure and cyber risk exposure.",
+complianceOverviewDesc2:
+  "Rawabit Networks helps organizations identify, manage, and reduce risk while ensuring compliance.",
+
+complianceUseCasesTitle: "Where Compliance & Risk Management Is Applied",
+complianceUseCasesSubtitle:
+  "Supporting governance, security, and regulatory alignment.",
+
+complianceUse1Title: "Regulatory Compliance",
+complianceUse1Desc:
+  "Meeting industry and government security requirements.",
+
+complianceUse2Title: "Risk Assessment",
+complianceUse2Desc:
+  "Identifying vulnerabilities and potential business risks.",
+
+complianceUse3Title: "Audit & Reporting",
+complianceUse3Desc:
+  "Security reporting, audits, and documentation support.",
+
+complianceProvideTitle: "What We Provide",
+complianceProvideSubtitle:
+  "End-to-end compliance and risk management services.",
+
+complianceProvide1Title: "Security Policies & Frameworks",
+complianceProvide1Desc:
+  "Policy development aligned with standards and regulations.",
+
+complianceProvide2Title: "Risk Assessment & Audits",
+complianceProvide2Desc:
+  "Technical and procedural risk assessments.",
+
+complianceProvide3Title: "Continuous Improvement & Reporting",
+complianceProvide3Desc:
+  "Ongoing compliance tracking and improvement programs.",
+iamHeroBadge: "Identity & Access Management",
+iamHeroTitle: "Secure Access to Enterprise Systems",
+iamHeroDesc:
+  "Identity-driven security solutions that ensure the right users have the right access at the right time.",
+
+iamOverviewLabel: "Overview",
+iamOverviewTitle: "Controlling Access Across the Organization",
+iamOverviewDesc1:
+  "Identity and Access Management is a critical foundation of enterprise security.",
+iamOverviewDesc2:
+  "Rawabit Networks helps organizations enforce secure authentication and access policies.",
+
+iamUseCasesTitle: "Where Identity & Access Is Used",
+iamUseCasesSubtitle:
+  "Protecting users, systems, and sensitive information.",
+
+iamUse1Title: "User Authentication",
+iamUse1Desc:
+  "Secure login and identity verification for employees.",
+
+iamUse2Title: "Privileged Access",
+iamUse2Desc:
+  "Controlled access to critical systems and resources.",
+
+iamUse3Title: "Zero Trust Security",
+iamUse3Desc:
+  "Identity-driven access policies based on risk and context.",
+
+iamProvideTitle: "What We Provide",
+iamProvideSubtitle:
+  "Comprehensive identity and access security solutions.",
+
+iamProvide1Title: "IAM Platforms & MFA",
+iamProvide1Desc:
+  "Multi-factor authentication and identity platforms.",
+
+iamProvide2Title: "Policy & Role Management",
+iamProvide2Desc:
+  "Role-based access control and policy enforcement.",
+
+iamProvide3Title: "Monitoring & Optimization",
+iamProvide3Desc:
+  "Access monitoring, reporting, and continuous improvement.",
+
+socHeroBadge: "Monitoring & SOC",
+socHeroTitle: "24/7 Threat Monitoring & Incident Response",
+socHeroDesc:
+  "Continuous security monitoring and rapid incident response through a centralized Security Operations Center.",
+
+socOverviewLabel: "Overview",
+socOverviewTitle: "Proactive Security Monitoring",
+socOverviewDesc1:
+  "Modern cyber threats require constant visibility and rapid response.",
+socOverviewDesc2:
+  "Rawabit Networks delivers SOC services that detect, analyze, and respond to threats in real time.",
+
+socUseCasesTitle: "Where Monitoring & SOC Is Used",
+socUseCasesSubtitle:
+  "Providing visibility and protection across enterprise environments.",
+
+socUse1Title: "Continuous Monitoring",
+socUse1Desc:
+  "24/7 monitoring of security events and logs.",
+
+socUse2Title: "Incident Detection",
+socUse2Desc:
+  "Identifying and investigating suspicious activities.",
+
+socUse3Title: "Threat Response",
+socUse3Desc:
+  "Rapid containment and remediation of security incidents.",
+
+socProvideTitle: "What We Provide",
+socProvideSubtitle:
+  "End-to-end security monitoring and response services.",
+
+socProvide1Title: "SOC & SIEM Platforms",
+socProvide1Desc:
+  "Centralized log management and threat analytics.",
+
+socProvide2Title: "Threat Detection & Analysis",
+socProvide2Desc:
+  "Advanced correlation, alerting, and investigation.",
+
+socProvide3Title: "Incident Response & Reporting",
+socProvide3Desc:
+  "Response coordination, forensics, and reporting.",
+
+  ddCmsHeroBadge: "Content Management Systems",
+ddCmsHeroTitle: "Centralized Control of Digital Content",
+ddCmsHeroDesc:
+  "Manage, schedule, and distribute digital content across displays with ease and flexibility.",
+
+ddCmsOverviewLabel: "Overview",
+ddCmsOverviewTitle: "Smarter Content, Better Engagement",
+ddCmsOverviewDesc1:
+  "Content management systems enable centralized control of digital displays.",
+ddCmsOverviewDesc2:
+  "Rawabit Networks delivers CMS solutions designed for reliability, scalability, and ease of use.",
+
+ddCmsUseCasesTitle: "Where Content Management Is Used",
+ddCmsUseCasesSubtitle:
+  "Driving communication and engagement through dynamic content.",
+
+ddCmsUse1Title: "Digital Signage Content",
+ddCmsUse1Desc:
+  "Managing promotional, informational, and branding content.",
+
+ddCmsUse2Title: "Scheduled Messaging",
+ddCmsUse2Desc:
+  "Time-based content scheduling and automation.",
+
+ddCmsUse3Title: "Multi-Site Display Control",
+ddCmsUse3Desc:
+  "Centralized control across multiple locations.",
+
+ddCmsProvideTitle: "What We Provide",
+ddCmsProvideSubtitle:
+  "End-to-end content management solutions.",
+
+ddCmsProvide1Title: "CMS Platforms",
+ddCmsProvide1Desc:
+  "Enterprise-grade digital signage CMS platforms.",
+
+ddCmsProvide2Title: "System Configuration & Training",
+ddCmsProvide2Desc:
+  "CMS setup, customization, and user training.",
+
+ddCmsProvide3Title: "Support & Optimization",
+ddCmsProvide3Desc:
+  "Ongoing support and performance optimization.",
+ddCtrlHeroBadge: "Control & Integration",
+ddCtrlHeroTitle: "Unified Control for Display Systems",
+ddCtrlHeroDesc:
+  "Seamless integration and centralized control of digital display environments.",
+
+ddCtrlOverviewLabel: "Overview",
+ddCtrlOverviewTitle: "Simplified Display Control",
+ddCtrlOverviewDesc1:
+  "Modern display environments require centralized control and system integration.",
+ddCtrlOverviewDesc2:
+  "Rawabit Networks delivers intelligent control systems that unify displays with AV and IT platforms.",
+
+ddCtrlUseCasesTitle: "Where Control & Integration Is Used",
+ddCtrlUseCasesSubtitle:
+  "Ensuring reliability, consistency, and ease of operation.",
+
+ddCtrlUse1Title: "Centralized Display Control",
+ddCtrlUse1Desc:
+  "Unified control of power, input sources, and display behavior.",
+
+ddCtrlUse2Title: "AV & IT Integration",
+ddCtrlUse2Desc:
+  "Integration with AV systems, networks, and automation platforms.",
+
+ddCtrlUse3Title: "Secure Operations",
+ddCtrlUse3Desc:
+  "Controlled access and secure system operation.",
+
+ddCtrlProvideTitle: "What We Provide",
+ddCtrlProvideSubtitle:
+  "End-to-end display control and integration services.",
+
+ddCtrlProvide1Title: "Control Systems",
+ddCtrlProvide1Desc:
+  "Professional control processors and interfaces.",
+
+ddCtrlProvide2Title: "Integration & Programming",
+ddCtrlProvide2Desc:
+  "Custom system integration and control logic.",
+
+ddCtrlProvide3Title: "Testing, Training & Support",
+ddCtrlProvide3Desc:
+  "System testing, user training, and ongoing support.",
+
+ddSignHeroBadge: "Digital Signage",
+ddSignHeroTitle: "Dynamic Visual Communication at Scale",
+ddSignHeroDesc:
+  "Professional digital signage solutions designed to inform, engage, and influence audiences.",
+
+ddSignOverviewLabel: "Overview",
+ddSignOverviewTitle: "Powerful Messaging Through Displays",
+ddSignOverviewDesc1:
+  "Digital signage transforms how organizations communicate information.",
+ddSignOverviewDesc2:
+  "Rawabit Networks delivers reliable and scalable digital signage platforms.",
+
+  ddSignProvideTitle: "What We Provide",
+ddSignProvideSubtitle:
+  "End-to-end digital signage solutions for enterprise environments.",
+
+ddSignUse1Title: "Corporate Communication",
+ddSignUse1Desc:
+  "Internal announcements, dashboards, and messaging.",
+
+ddSignUse2Title: "Branding & Marketing",
+ddSignUse2Desc:
+  "Promotional content and brand storytelling.",
+
+ddSignUse3Title: "Public Information Displays",
+ddSignUse3Desc:
+  "Wayfinding, schedules, and real-time information.",
+
+ddSignProvide1Title: "Commercial Displays",
+ddSignProvide1Desc:
+  "Professional-grade screens for continuous operation.",
+
+ddSignProvide2Title: "CMS Integration",
+ddSignProvide2Desc:
+  "Centralized content management and scheduling.",
+
+ddSignProvide3Title: "Deployment & Support",
+ddSignProvide3Desc:
+  "Installation, configuration, and ongoing support.",
+ddInstHeroBadge: "Installation & Calibration",
+ddInstHeroTitle: "Precision Installation for Perfect Performance",
+ddInstHeroDesc:
+  "Professional installation and calibration services ensuring optimal display performance.",
+
+ddInstOverviewLabel: "Overview",
+ddInstOverviewTitle: "Accuracy Matters",
+ddInstOverviewDesc1:
+  "Proper installation and calibration are critical for display quality and longevity.",
+ddInstOverviewDesc2:
+  "Rawabit Networks ensures every display is installed and tuned to perfection.",
+
+ddInstUse1Title: "Display Installation",
+ddInstUse1Desc:
+  "Secure mounting and physical installation.",
+
+ddInstUse2Title: "Alignment & Positioning",
+ddInstUse2Desc:
+  "Precise screen alignment and positioning.",
+
+ddInstUse3Title: "Color & Brightness Tuning",
+ddInstUse3Desc:
+  "Calibration for accurate color and brightness levels.",
+
+ddInstProvideTitle: "What We Provide",
+ddInstProvideSubtitle:
+  "Professional installation and calibration services for flawless performance.",
+
+ddInstProvide1Title: "Professional Installation",
+ddInstProvide1Desc:
+  "Certified technicians and best practices.",
+
+ddInstProvide2Title: "Testing & Validation",
+ddInstProvide2Desc:
+  "Comprehensive testing and quality checks.",
+
+ddInstProvide3Title: "Handover & Support",
+ddInstProvide3Desc:
+  "System handover, documentation, and support.",
+ddTouchHeroBadge: "Interactive Touch Displays",
+ddTouchHeroTitle: "Engaging Collaboration Through Touch",
+ddTouchHeroDesc:
+  "Interactive display solutions designed to enhance collaboration, learning, and decision-making.",
+
+ddTouchOverviewLabel: "Overview",
+ddTouchOverviewTitle: "Interaction That Transforms Engagement",
+ddTouchOverviewDesc1:
+  "Interactive touch displays redefine how teams collaborate and share ideas.",
+ddTouchOverviewDesc2:
+  "Rawabit Networks delivers enterprise-grade touch displays designed for reliability and ease of use.",
+
+ddTouchUseCasesTitle: "Where Interactive Displays Are Used",
+ddTouchUseCasesSubtitle:
+  "Designed for collaboration, education, and presentation environments.",
+
+ddTouchUse1Title: "Meeting & Boardrooms",
+ddTouchUse1Desc:
+  "Interactive collaboration for discussions and brainstorming.",
+
+ddTouchUse2Title: "Training & Education",
+ddTouchUse2Desc:
+  "Engaging learning environments with touch-enabled content.",
+
+ddTouchUse3Title: "Workshops & Innovation Spaces",
+ddTouchUse3Desc:
+  "Hands-on interaction for design and planning sessions.",
+
+ddTouchProvideTitle: "What We Provide",
+ddTouchProvideSubtitle:
+  "End-to-end interactive display solutions.",
+
+ddTouchProvide1Title: "Interactive Display Hardware",
+ddTouchProvide1Desc:
+  "Professional touch-enabled displays and accessories.",
+
+ddTouchProvide2Title: "Integration & Configuration",
+ddTouchProvide2Desc:
+  "System integration with AV, UC, and IT platforms.",
+
+ddTouchProvide3Title: "Training & Support",
+ddTouchProvide3Desc:
+  "User training, maintenance, and ongoing support.",
+
+  ddWallHeroBadge: "Video Walls",
+ddWallHeroTitle: "Large-Scale Visual Impact",
+ddWallHeroDesc:
+  "High-resolution video wall solutions designed for monitoring, collaboration, and immersive visual experiences.",
+
+ddWallOverviewLabel: "Overview",
+ddWallOverviewTitle: "Visual Intelligence at Scale",
+ddWallOverviewDesc1:
+  "Video walls provide a powerful platform for displaying large-scale, high-impact visual content.",
+ddWallOverviewDesc2:
+  "Rawabit Networks designs and deploys video wall solutions that deliver clarity, reliability, and scalability.",
+
+ddWallUseCasesTitle: "Where Video Walls Are Used",
+ddWallUseCasesSubtitle:
+  "Supporting critical operations and impactful visual communication.",
+
+ddWallUse1Title: "Control & Command Centers",
+ddWallUse1Desc:
+  "Real-time monitoring and decision-making environments.",
+
+ddWallUse2Title: "Corporate & Public Spaces",
+ddWallUse2Desc:
+  "Large-format visual displays for lobbies and auditoriums.",
+
+ddWallUse3Title: "Operations & Analytics",
+ddWallUse3Desc:
+  "Data visualization and operational dashboards.",
+
+ddWallProvideTitle: "What We Provide",
+ddWallProvideSubtitle:
+  "End-to-end professional video wall solutions.",
+
+ddWallProvide1Title: "LCD & LED Video Walls",
+ddWallProvide1Desc:
+  "High-resolution LCD and LED video wall technologies.",
+
+ddWallProvide2Title: "Design & System Integration",
+ddWallProvide2Desc:
+  "Video wall design, controllers, and AV integration.",
+
+ddWallProvide3Title: "Installation & Support",
+ddWallProvide3Desc:
+  "Professional installation, calibration, and ongoing support.",
+
+netWifiHeroBadge: "Wireless Networking",
+netWifiHeroTitle: "Secure, High-Performance Wireless Connectivity",
+netWifiHeroDesc:
+  "Enterprise-grade Wi-Fi solutions designed to deliver reliable, fast, and secure wireless connectivity across your organization.",
+
+netWifiOverviewLabel: "Overview",
+netWifiOverviewTitle: "Wireless Infrastructure That Performs",
+netWifiOverviewDesc1:
+  "Modern enterprises depend on wireless connectivity for mobility, collaboration, and productivity. Our wireless networking solutions are designed to provide seamless coverage, optimal performance, and robust security.",
+netWifiOverviewDesc2:
+  "Rawabit Networks deploys scalable, high-density Wi-Fi infrastructure that supports growing user demands, IoT devices, and mission-critical applications with enterprise-level reliability.",
+
+netWifiUseCasesTitle: "Where Wireless Networking Is Essential",
+netWifiUseCasesSubtitle:
+  "Supporting mobility, collaboration, and seamless connectivity across environments.",
+
+netWifiUse1Title: "Corporate Offices & Campuses",
+netWifiUse1Desc:
+  "Reliable wireless access for employees, guests, and mobile devices across multi-floor facilities.",
+
+netWifiUse2Title: "Healthcare & Education",
+netWifiUse2Desc:
+  "High-density Wi-Fi for hospitals, clinics, universities, and schools with strict security and performance requirements.",
+
+netWifiUse3Title: "Retail & Hospitality",
+netWifiUse3Desc:
+  "Guest Wi-Fi and location-based services for enhanced customer experience and operational efficiency.",
+
+netWifiProvideTitle: "What We Provide",
+netWifiProvideSubtitle:
+  "Comprehensive wireless networking solutions from design to ongoing support.",
+
+netWifiProvide1Title: "Coverage Design & Planning",
+netWifiProvide1Desc:
+  "Site surveys, heat mapping, and RF design to ensure optimal wireless coverage and capacity.",
+
+netWifiProvide2Title: "Deployment & Configuration",
+netWifiProvide2Desc:
+  "Professional installation, SSID configuration, VLAN integration, and security policy enforcement.",
+
+netWifiProvide3Title: "Performance Monitoring & Optimization",
+netWifiProvide3Desc:
+  "Continuous monitoring, troubleshooting, firmware updates, and capacity optimization for peak performance.",
+
+netCableHeroBadge: "Structured Cabling",
+netCableHeroTitle: "The Physical Foundation of Network Connectivity",
+netCableHeroDesc:
+  "Professional structured cabling systems designed to deliver reliable, high-performance connectivity for enterprise networks.",
+
+netCableOverviewLabel: "Overview",
+netCableOverviewTitle: "Built for Performance and Reliability",
+netCableOverviewDesc1:
+  "Structured cabling is the backbone of any enterprise network infrastructure. A well-designed cabling system ensures consistent performance, scalability, and ease of maintenance across your entire organization.",
+netCableOverviewDesc2:
+  "Rawabit Networks designs and deploys copper and fiber cabling infrastructure with organized racks, clear labeling, and adherence to industry standards, providing a solid physical foundation for all network connectivity.",
+
+netCableUseCasesTitle: "Where Structured Cabling Is Essential",
+netCableUseCasesSubtitle:
+  "Supporting reliable connectivity across diverse enterprise environments.",
+
+netCableUse1Title: "Data Centers & Server Rooms",
+netCableUse1Desc:
+  "High-density copper and fiber installations for servers, storage, and network equipment with organized rack systems.",
+
+netCableUse2Title: "Corporate Offices & Campuses",
+netCableUse2Desc:
+  "Horizontal and vertical cabling to connect workstations, conference rooms, and collaboration spaces across multi-floor facilities.",
+
+netCableUse3Title: "Industrial & Healthcare Facilities",
+netCableUse3Desc:
+  "Ruggedized and compliant cabling solutions for demanding environments with specific regulatory requirements.",
+
+netCableProvideTitle: "What We Provide",
+netCableProvideSubtitle:
+  "Comprehensive structured cabling solutions from design to certification.",
+
+netCableProvide1Title: "Copper & Fiber Infrastructure",
+netCableProvide1Desc:
+  "Cat6, Cat6A copper cabling and single-mode, multi-mode fiber optic installations for diverse bandwidth requirements.",
+
+netCableProvide2Title: "Rack Systems & Cable Management",
+netCableProvide2Desc:
+  "Professional rack installation, cable trays, organized pathways, color-coded labeling, and comprehensive documentation.",
+
+netCableProvide3Title: "Testing & Certification",
+netCableProvide3Desc:
+  "End-to-end testing, performance certification, compliance verification, and detailed reporting for every installation.",
+
+  netSwitchHeroBadge: "Switching & Routing",
+netSwitchHeroTitle: "Efficient Data Flow Across Your Enterprise Network",
+netSwitchHeroDesc:
+  "Enterprise-grade switching and routing infrastructure designed to ensure reliable, high-performance data transmission across all network layers.",
+
+netSwitchOverviewLabel: "Overview",
+netSwitchOverviewTitle: "The Intelligence Behind Network Connectivity",
+netSwitchOverviewDesc1:
+  "Switching and routing form the core intelligence of enterprise networks, directing data traffic efficiently from source to destination. A well-architected switching and routing infrastructure ensures optimal performance, redundancy, and scalability.",
+netSwitchOverviewDesc2:
+  "Rawabit Networks designs and deploys multi-layered network architectures spanning core, distribution, and access layers, with advanced routing protocols and intelligent traffic management to support mission-critical applications.",
+
+netSwitchUseCasesTitle: "Where Switching & Routing Are Critical",
+netSwitchUseCasesSubtitle:
+  "Enabling efficient data flow across complex enterprise environments.",
+
+netSwitchUse1Title: "Enterprise Campus Networks",
+netSwitchUse1Desc:
+  "Multi-building campus networks with core switches, distribution switches, and access layer connectivity for thousands of users.",
+
+netSwitchUse2Title: "Data Centers & Cloud Infrastructure",
+netSwitchUse2Desc:
+  "High-performance spine-leaf architectures and redundant routing for data center environments with demanding throughput requirements.",
+
+netSwitchUse3Title: "Multi-Site Enterprise Networks",
+netSwitchUse3Desc:
+  "Inter-site routing and WAN connectivity enabling seamless communication across geographically distributed locations.",
+
+netSwitchProvideTitle: "What We Provide",
+netSwitchProvideSubtitle:
+  "Comprehensive switching and routing solutions from design to ongoing management.",
+
+netSwitchProvide1Title: "Network Architecture Design",
+netSwitchProvide1Desc:
+  "Core, distribution, and access layer design with redundancy planning, VLAN segmentation, and routing protocol selection.",
+
+netSwitchProvide2Title: "Deployment & Configuration",
+netSwitchProvide2Desc:
+  "Professional installation, device configuration, routing protocol implementation, and quality of service policies.",
+
+netSwitchProvide3Title: "Performance Monitoring & Optimization",
+netSwitchProvide3Desc:
+  "Continuous traffic monitoring, performance analysis, firmware updates, and proactive optimization for peak network efficiency.",
+
+  netMonHeroBadge: "Monitoring & Optimization",
+netMonHeroTitle: "Proactive Network Health and Performance Management",
+netMonHeroDesc:
+  "Comprehensive monitoring and optimization solutions designed to maintain peak network performance and resolve issues before they impact users.",
+
+netMonOverviewLabel: "Overview",
+netMonOverviewTitle: "Visibility and Control Across Your Network",
+netMonOverviewDesc1:
+  "Effective network monitoring and optimization are essential for maintaining reliable performance, identifying issues early, and ensuring that your network infrastructure meets business requirements. Real-time visibility enables proactive management.",
+netMonOverviewDesc2:
+  "Rawabit Networks implements advanced monitoring platforms that provide comprehensive visibility into network performance, health metrics, traffic patterns, and potential issues, enabling proactive optimization and rapid troubleshooting.",
+
+netMonUseCasesTitle: "Where Monitoring & Optimization Are Essential",
+netMonUseCasesSubtitle:
+  "Maintaining optimal performance across mission-critical network infrastructure.",
+
+netMonUse1Title: "Enterprise Network Operations",
+netMonUse1Desc:
+  "Real-time monitoring of network devices, links, and services with automated alerting and performance tracking.",
+
+netMonUse2Title: "Performance Troubleshooting",
+netMonUse2Desc:
+  "Rapid identification and resolution of network bottlenecks, latency issues, and connectivity problems.",
+
+netMonUse3Title: "Capacity Planning & Forecasting",
+netMonUse3Desc:
+  "Historical data analysis and trend monitoring to support infrastructure growth and capacity planning decisions.",
+
+netMonProvideTitle: "What We Provide",
+netMonProvideSubtitle:
+  "Complete monitoring and optimization solutions from deployment to ongoing management.",
+
+netMonProvide1Title: "Monitoring Platform Deployment",
+netMonProvide1Desc:
+  "Implementation of network monitoring tools with device discovery, metrics collection, and customized dashboards.",
+
+netMonProvide2Title: "Performance Analysis & Troubleshooting",
+netMonProvide2Desc:
+  "Traffic analysis, bottleneck identification, root cause analysis, and resolution recommendations.",
+
+netMonProvide3Title: "Proactive Optimization & Maintenance",
+netMonProvide3Desc:
+  "Continuous performance tuning, firmware updates, capacity optimization, and preventive maintenance.",
+  netSecHeroBadge: "Network Security Integration",
+netSecHeroTitle: "Comprehensive Security Across Network Infrastructure",
+netSecHeroDesc:
+  "Integrated network security solutions designed to protect your infrastructure with segmentation, access control, and firewall protection.",
+
+netSecOverviewLabel: "Overview",
+netSecOverviewTitle: "Security Built Into Every Network Layer",
+netSecOverviewDesc1:
+  "Network security integration ensures that security controls are embedded throughout your network infrastructure, not just at the perimeter. This layered approach protects against internal and external threats while maintaining network performance.",
+netSecOverviewDesc2:
+  "Rawabit Networks implements comprehensive network security strategies including network segmentation, network access control, firewall integration, and zero-trust principles to create a resilient security posture.",
+
+netSecUseCasesTitle: "Where Network Security Integration Is Critical",
+netSecUseCasesSubtitle:
+  "Protecting enterprise networks from evolving threats at every layer.",
+
+netSecUse1Title: "Enterprise Network Protection",
+netSecUse1Desc:
+  "Multi-layered security for corporate networks with segmentation, access control, and threat prevention.",
+
+netSecUse2Title: "Data Center Security",
+netSecUse2Desc:
+  "Micro-segmentation and zero-trust security for data center environments protecting critical applications and data.",
+
+netSecUse3Title: "Compliance & Regulatory Requirements",
+netSecUse3Desc:
+  "Network security controls to meet industry regulations such as PCI-DSS, HIPAA, and ISO 27001.",
+
+netSecProvideTitle: "What We Provide",
+netSecProvideSubtitle:
+  "End-to-end network security integration from design to management.",
+
+netSecProvide1Title: "Network Segmentation & NAC",
+netSecProvide1Desc:
+  "VLAN segmentation, network access control, device profiling, and policy-based access enforcement.",
+
+netSecProvide2Title: "Firewall & Threat Prevention",
+netSecProvide2Desc:
+  "Next-generation firewall integration, intrusion prevention, and threat intelligence across network layers.",
+
+netSecProvide3Title: "Security Monitoring & Response",
+netSecProvide3Desc:
+  "Continuous security monitoring, anomaly detection, incident response, and security policy optimization.",
+  netWanHeroBadge: "WAN & Connectivity",
+netWanHeroTitle: "Reliable Connectivity Between Sites and Cloud",
+netWanHeroDesc:
+  "Enterprise WAN and connectivity solutions designed to connect distributed locations with optimized traffic flow and consistent performance.",
+
+netWanOverviewLabel: "Overview",
+netWanOverviewTitle: "Connecting Your Distributed Enterprise",
+netWanOverviewDesc1:
+  "Wide Area Networks enable enterprises to connect offices, data centers, and cloud resources across cities, countries, and continents. Modern WAN solutions provide the reliability and performance needed for mission-critical applications.",
+netWanOverviewDesc2:
+  "Rawabit Networks designs and implements WAN connectivity using Internet, MPLS, and SD-WAN technologies to deliver secure, high-performance connectivity with intelligent traffic routing and failover capabilities.",
+
+netWanUseCasesTitle: "Where WAN & Connectivity Are Essential",
+netWanUseCasesSubtitle:
+  "Enabling seamless communication across distributed enterprise locations.",
+
+netWanUse1Title: "Multi-Site Enterprise Connectivity",
+netWanUse1Desc:
+  "Connect headquarters, branch offices, and remote sites with reliable, high-bandwidth WAN connectivity.",
+
+netWanUse2Title: "Cloud & Data Center Access",
+netWanUse2Desc:
+  "Optimized connectivity to public cloud platforms, private data centers, and hybrid infrastructure.",
+
+netWanUse3Title: "Remote Workforce Enablement",
+netWanUse3Desc:
+  "Secure, high-performance connectivity for remote and mobile workers accessing corporate resources.",
+
+netWanProvideTitle: "What We Provide",
+netWanProvideSubtitle:
+  "Comprehensive WAN solutions from design to ongoing optimization.",
+
+netWanProvide1Title: "WAN Architecture & Design",
+netWanProvide1Desc:
+  "Internet, MPLS, and SD-WAN design with redundancy, failover, and traffic optimization strategies.",
+
+netWanProvide2Title: "Deployment & Integration",
+netWanProvide2Desc:
+  "Professional installation, WAN device configuration, routing setup, and integration with existing infrastructure.",
+
+netWanProvide3Title: "Performance Management & Optimization",
+netWanProvide3Desc:
+  "Continuous monitoring, traffic analysis, bandwidth optimization, and proactive issue resolution.",
+
+  secCctvHeroBadge: "Video Surveillance",
+secCctvHeroTitle: "Comprehensive Visual Security and Monitoring",
+secCctvHeroDesc:
+  "Advanced IP camera and video surveillance systems designed to provide real-time monitoring, incident evidence, and intelligent analytics.",
+
+secCctvOverviewLabel: "Overview",
+secCctvOverviewTitle: "Eyes on Your Assets 24/7",
+secCctvOverviewDesc1:
+  "Video surveillance systems are essential for protecting people, property, and assets. Modern IP-based CCTV solutions provide high-definition video, intelligent analytics, and seamless integration with security and business systems.",
+secCctvOverviewDesc2:
+  "Rawabit Networks designs and deploys comprehensive video surveillance solutions using enterprise-grade IP cameras, network video recorders, video management software, and advanced analytics to deliver actionable security intelligence.",
+
+secCctvUseCasesTitle: "Where Video Surveillance Is Essential",
+secCctvUseCasesSubtitle:
+  "Protecting facilities, monitoring operations, and ensuring safety across diverse environments.",
+
+secCctvUse1Title: "Corporate Facilities & Campuses",
+secCctvUse1Desc:
+  "Perimeter security, building entrances, parking areas, and interior monitoring for office buildings and corporate campuses.",
+
+secCctvUse2Title: "Retail & Commercial Spaces",
+secCctvUse2Desc:
+  "Loss prevention, customer behavior analysis, and employee safety monitoring in retail stores and commercial facilities.",
+
+secCctvUse3Title: "Critical Infrastructure & Industrial",
+secCctvUse3Desc:
+  "Operational monitoring, safety compliance, and security surveillance for manufacturing plants, utilities, and critical infrastructure.",
+
+secCctvProvideTitle: "What We Provide",
+secCctvProvideSubtitle:
+  "Complete video surveillance solutions from design to ongoing management.",
+
+secCctvProvide1Title: "IP Camera Systems & Infrastructure",
+secCctvProvide1Desc:
+  "High-definition IP cameras, network video recorders, storage systems, and video management platforms.",
+
+secCctvProvide2Title: "System Design & Installation",
+secCctvProvide2Desc:
+  "Site surveys, camera placement planning, network infrastructure design, and professional installation services.",
+
+secCctvProvide3Title: "Video Analytics & Integration",
+secCctvProvide3Desc:
+  "Intelligent video analytics, facial recognition, motion detection, and integration with access control and alarm systems.",
+
+  secAccessHeroBadge: "Access Control Systems",
+secAccessHeroTitle: "Intelligent Control Over Who Enters Your Facilities",
+secAccessHeroDesc:
+  "Advanced access control solutions using card readers, biometric authentication, and mobile credentials to secure and track facility access.",
+
+secAccessOverviewLabel: "Overview",
+secAccessOverviewTitle: "Secure Access, Complete Visibility",
+secAccessOverviewDesc1:
+  "Access control systems are the foundation of physical security, determining who can enter facilities, when they can enter, and tracking all access events. Modern solutions provide flexible authentication methods and seamless integration with other security systems.",
+secAccessOverviewDesc2:
+  "Rawabit Networks designs and deploys comprehensive access control solutions using card-based systems, biometric readers, mobile credentials, and centralized management platforms to provide secure, auditable access control.",
+
+secAccessUseCasesTitle: "Where Access Control Is Critical",
+secAccessUseCasesSubtitle:
+  "Protecting facilities, assets, and sensitive areas with intelligent access management.",
+
+secAccessUse1Title: "Corporate Buildings & Offices",
+secAccessUse1Desc:
+  "Building entry, floor access, and room-level security with employee badge systems and visitor management.",
+
+secAccessUse2Title: "Data Centers & Server Rooms",
+secAccessUse2Desc:
+  "High-security biometric authentication and multi-factor access control for critical IT infrastructure.",
+
+secAccessUse3Title: "Healthcare & Education Facilities",
+secAccessUse3Desc:
+  "Role-based access control for hospitals, clinics, universities, and schools with compliance tracking.",
+
+secAccessProvideTitle: "What We Provide",
+secAccessProvideSubtitle:
+  "Complete access control solutions from design to ongoing administration.",
+
+secAccessProvide1Title: "Multi-Modal Authentication Systems",
+secAccessProvide1Desc:
+  "Card readers, biometric fingerprint and facial recognition, mobile credentials, and PIN-based access.",
+
+secAccessProvide2Title: "System Design & Integration",
+secAccessProvide2Desc:
+  "Access control architecture, door hardware integration, network connectivity, and video surveillance integration.",
+
+secAccessProvide3Title: "Management & Administration",
+secAccessProvide3Desc:
+  "Centralized management platforms, user provisioning, access rights management, and comprehensive audit logging.",
+
+  secIntrusionHeroBadge: "Intrusion Detection",
+secIntrusionHeroTitle: "Early Detection of Unauthorized Access and Threats",
+secIntrusionHeroDesc:
+  "Advanced intrusion detection systems using sensors, alarms, and perimeter security to detect and alert on unauthorized access attempts.",
+
+secIntrusionOverviewLabel: "Overview",
+secIntrusionOverviewTitle: "Detect Threats Before They Become Incidents",
+secIntrusionOverviewDesc1:
+  "Intrusion detection systems provide the first line of defense against unauthorized physical access. Modern systems use a combination of motion sensors, door and window contacts, glass break detectors, and perimeter security to identify threats in real-time.",
+secIntrusionOverviewDesc2:
+  "Rawabit Networks designs and deploys comprehensive intrusion detection solutions with intelligent sensors, reliable alarm systems, and integration with monitoring platforms to ensure rapid response to security events.",
+
+secIntrusionUseCasesTitle: "Where Intrusion Detection Is Essential",
+secIntrusionUseCasesSubtitle:
+  "Protecting facilities from unauthorized access and security breaches.",
+
+secIntrusionUse1Title: "Commercial & Corporate Facilities",
+secIntrusionUse1Desc:
+  "After-hours protection, unauthorized entry detection, and alarm monitoring for office buildings and commercial properties.",
+
+secIntrusionUse2Title: "Perimeter & Outdoor Security",
+secIntrusionUse2Desc:
+  "Fence line detection, outdoor motion sensors, and beam detectors for property boundaries and outdoor assets.",
+
+secIntrusionUse3Title: "High-Security & Critical Areas",
+secIntrusionUse3Desc:
+  "Multi-layered detection for server rooms, data centers, research facilities, and other high-value or sensitive areas.",
+
+secIntrusionProvideTitle: "What We Provide",
+secIntrusionProvideSubtitle:
+  "Complete intrusion detection solutions from design to monitoring integration.",
+
+secIntrusionProvide1Title: "Sensors & Detection Devices",
+secIntrusionProvide1Desc:
+  "Motion detectors, door/window contacts, glass break sensors, vibration detectors, and perimeter beam systems.",
+
+secIntrusionProvide2Title: "System Design & Installation",
+secIntrusionProvide2Desc:
+  "Security zone planning, sensor placement, wiring and wireless integration, and alarm panel configuration.",
+
+secIntrusionProvide3Title: "Monitoring & Response Integration",
+secIntrusionProvide3Desc:
+  "Central station monitoring, mobile alerts, integration with video surveillance, and automated response protocols.",
+
+  secMonitorHeroBadge: "Central Monitoring Platforms",
+secMonitorHeroTitle: "Unified Security Operations and Response",
+secMonitorHeroDesc:
+  "Centralized monitoring platforms with unified dashboards and control room solutions to manage all security systems from a single interface.",
+
+secMonitorOverviewLabel: "Overview",
+secMonitorOverviewTitle: "Complete Security Visibility in One Place",
+secMonitorOverviewDesc1:
+  "Central monitoring platforms integrate video surveillance, access control, intrusion detection, and other security systems into a unified interface. This centralized approach enables security teams to monitor all systems, correlate events, and respond to incidents efficiently.",
+secMonitorOverviewDesc2:
+  "Rawabit Networks designs and deploys comprehensive security operations centers with unified dashboards, video wall displays, and integrated management platforms that provide complete situational awareness and streamlined incident response.",
+
+secMonitorUseCasesTitle: "Where Central Monitoring Is Critical",
+secMonitorUseCasesSubtitle:
+  "Enabling efficient security operations across complex, multi-system environments.",
+
+secMonitorUse1Title: "Corporate Security Operations Centers",
+secMonitorUse1Desc:
+  "Centralized monitoring for multi-building campuses with integrated video, access control, and alarm management.",
+
+secMonitorUse2Title: "Critical Infrastructure Facilities",
+secMonitorUse2Desc:
+  "24/7 monitoring of utilities, transportation hubs, and critical facilities with real-time threat detection and response.",
+
+secMonitorUse3Title: "Multi-Site Enterprise Security",
+secMonitorUse3Desc:
+  "Unified monitoring across geographically distributed locations with centralized oversight and incident coordination.",
+
+secMonitorProvideTitle: "What We Provide",
+secMonitorProvideSubtitle:
+  "Complete security operations center solutions from design to implementation.",
+
+secMonitorProvide1Title: "Unified Monitoring Platforms",
+secMonitorProvide1Desc:
+  "Integration of video management, access control, intrusion detection, and analytics into single-pane-of-glass dashboards.",
+
+secMonitorProvide2Title: "Control Room Design & AV Integration",
+secMonitorProvide2Desc:
+  "Video wall systems, operator workstations, lighting design, and ergonomic control room layouts.",
+
+secMonitorProvide3Title: "Workflow & Response Automation",
+secMonitorProvide3Desc:
+  "Automated incident response workflows, event correlation, reporting tools, and integration with enterprise systems.",
+
+  secAiHeroBadge: "Analytics & AI Detection",
+secAiHeroTitle: "Intelligent Security Through Advanced Analytics",
+secAiHeroDesc:
+  "AI-powered security analytics including facial recognition, behavior analysis, and automated threat detection to enhance security intelligence.",
+
+secAiOverviewLabel: "Overview",
+secAiOverviewTitle: "From Reactive to Proactive Security",
+secAiOverviewDesc1:
+  "Security analytics and AI detection transform traditional security systems from passive recording devices into intelligent threat detection platforms. Advanced algorithms analyze video streams, access patterns, and behavior to identify anomalies and potential threats in real-time.",
+secAiOverviewDesc2:
+  "Rawabit Networks implements cutting-edge AI and analytics solutions including facial recognition, object detection, behavior analysis, and predictive analytics to provide proactive security intelligence and automated threat response.",
+
+secAiUseCasesTitle: "Where AI & Analytics Transform Security",
+secAiUseCasesSubtitle:
+  "Enhancing security operations with intelligent automation and insights.",
+
+secAiUse1Title: "Identity Verification & Access",
+secAiUse1Desc:
+  "Facial recognition for frictionless access control, watchlist matching, and automated identity verification.",
+
+secAiUse2Title: "Threat & Anomaly Detection",
+secAiUse2Desc:
+  "Behavioral analytics to detect suspicious activities, loitering, perimeter breaches, and unusual patterns.",
+
+secAiUse3Title: "Operational Intelligence",
+secAiUse3Desc:
+  "People counting, crowd management, heat mapping, and business intelligence derived from security systems.",
+
+secAiProvideTitle: "What We Provide",
+secAiProvideSubtitle:
+  "Complete AI-powered security analytics from deployment to optimization.",
+
+secAiProvide1Title: "AI Analytics Engines",
+secAiProvide1Desc:
+  "Facial recognition, object classification, license plate recognition, and behavior analysis algorithms.",
+
+secAiProvide2Title: "Integration & Configuration",
+secAiProvide2Desc:
+  "Analytics server deployment, camera integration, rule configuration, and alert workflow setup.",
+
+secAiProvide3Title: "Training & Continuous Improvement",
+secAiProvide3Desc:
+  "System training with site-specific data, accuracy optimization, false positive reduction, and ongoing tuning.",
+
+   secMaintHeroBadge: "Maintenance & Compliance",
+secMaintHeroTitle: "Long-Term Reliability and Regulatory Compliance",
+secMaintHeroDesc:
+  "Comprehensive maintenance programs and compliance management to ensure security systems remain reliable, effective, and compliant with regulations.",
+
+secMaintOverviewLabel: "Overview",
+secMaintOverviewTitle: "Protecting Your Investment, Ensuring Compliance",
+secMaintOverviewDesc1:
+  "Security systems require ongoing maintenance and management to remain effective. Regular system health monitoring, firmware updates, and preventive maintenance ensure optimal performance and longevity. Additionally, many industries require security systems to meet specific regulatory standards.",
+secMaintOverviewDesc2:
+  "Rawabit Networks provides comprehensive maintenance and compliance services including system health monitoring, preventive maintenance, firmware management, compliance audits, and documentation to ensure security systems deliver long-term value and meet regulatory requirements.",
+
+secMaintUseCasesTitle: "Where Maintenance & Compliance Are Critical",
+secMaintUseCasesSubtitle:
+  "Ensuring reliability and meeting regulatory requirements across all security deployments.",
+
+secMaintUse1Title: "Enterprise Security Systems",
+secMaintUse1Desc:
+  "Ongoing maintenance of large-scale security deployments with hundreds of cameras, access points, and integrated systems.",
+
+secMaintUse2Title: "Regulated Industries",
+secMaintUse2Desc:
+  "Compliance management for healthcare, financial services, and other industries with strict security and privacy regulations.",
+
+secMaintUse3Title: "Critical Infrastructure",
+secMaintUse3Desc:
+  "High-availability maintenance for security systems protecting critical facilities with zero-tolerance for downtime.",
+
+secMaintProvideTitle: "What We Provide",
+secMaintProvideSubtitle:
+  "Complete maintenance and compliance programs for long-term security system success.",
+
+secMaintProvide1Title: "Preventive Maintenance Programs",
+secMaintProvide1Desc:
+  "Scheduled inspections, cleaning, testing, component replacement, and proactive issue resolution.",
+
+secMaintProvide2Title: "System Health Monitoring",
+secMaintProvide2Desc:
+  "24/7 monitoring of system performance, automated alerts, firmware updates, and patch management.",
+
+secMaintProvide3Title: "Compliance & Documentation",
+secMaintProvide3Desc:
+  "Regulatory compliance audits, documentation management, privacy impact assessments, and certification support.",
+ucIpHeroBadge: "IP Telephony",
+ucIpHeroTitle: "Modern Enterprise Voice Communication",
+ucIpHeroDesc:
+  "IP-based telephony solutions that deliver reliable, scalable, and feature-rich voice communication.",
+
+ucIpOverviewLabel: "Overview",
+ucIpOverviewTitle: "Voice Communication for the Digital Workplace",
+ucIpOverviewDesc1:
+  "IP Telephony replaces traditional phone systems with flexible, software-driven voice solutions.",
+ucIpOverviewDesc2:
+  "Rawabit Networks designs and deploys enterprise IP telephony systems that improve collaboration and reduce costs.",
+
+ucIpUse1Title: "Enterprise Voice Systems",
+ucIpUse1Desc:
+  "Reliable voice communication for offices and campuses.",
+
+ucIpUse2Title: "Unified Collaboration",
+ucIpUse2Desc:
+  "Integrated voice services across teams and departments.",
+
+ucIpUse3Title: "Contact Centers",
+ucIpUse3Desc:
+  "Advanced telephony for customer engagement and support teams.",
+
+ucIpProvideTitle: "What We Provide",
+ucIpProvideSubtitle:
+  "End-to-end IP telephony solutions for enterprise environments.",
+
+ucIpProvide1Title: "IP PBX & Call Control",
+ucIpProvide1Desc:
+  "Enterprise IP PBX systems, SIP platforms, and call management.",
+
+ucIpProvide2Title: "Deployment & Integration",
+ucIpProvide2Desc:
+  "System deployment, configuration, and UC platform integration.",
+
+ucIpProvide3Title: "Security & Support",
+ucIpProvide3Desc:
+  "Voice security, monitoring, and ongoing technical support.",
+
+  ucContactHeroBadge: "Contact Center Solutions",
+ucContactHeroTitle: "Enhanced Customer Engagement and Service Efficiency",
+ucContactHeroDesc: "Advanced contact center platforms with IVR, intelligent call routing, omnichannel support, and comprehensive analytics to deliver exceptional customer experiences.",
+
+ucContactOverviewLabel: "Overview",
+ucContactOverviewTitle: "Transforming Customer Interactions",
+ucContactOverviewDesc1: "Modern contact centers are the frontline of customer engagement, requiring sophisticated technology to manage high call volumes, route inquiries efficiently, and provide agents with the tools they need to deliver outstanding service. Advanced IVR systems, intelligent routing, and real-time analytics enable organizations to optimize operations and improve customer satisfaction.",
+ucContactOverviewDesc2: "Rawabit Networks delivers enterprise-grade contact center solutions that integrate voice, digital channels, workforce management, and analytics into unified platforms designed to enhance agent productivity, reduce wait times, and provide actionable insights into customer interactions.",
+
+ucContactUseCasesTitle: "Where Contact Centers Drive Value",
+ucContactUseCasesSubtitle: "Supporting customer service, sales, and technical support operations.",
+
+ucContactUse1Title: "Customer Service Operations",
+ucContactUse1Desc: "High-volume inbound and outbound contact centers handling customer inquiries, support requests, and service issues.",
+
+ucContactUse2Title: "Sales & Lead Management",
+ucContactUse2Desc: "Outbound contact centers for sales campaigns, lead qualification, appointment setting, and customer outreach.",
+
+ucContactUse3Title: "Technical Support Centers",
+ucContactUse3Desc: "Specialized support environments with skill-based routing, escalation workflows, and knowledge base integration.",
+
+ucContactProvideTitle: "What We Provide",
+ucContactProvideSubtitle: "Complete contact center infrastructure and customer engagement tools.",
+
+ucContactProvide1Title: "IVR & Intelligent Routing",
+ucContactProvide1Desc: "Interactive voice response systems, automated call distribution, skill-based routing, and queue management with priority handling.",
+
+ucContactProvide2Title: "Analytics & Reporting",
+ucContactProvide2Desc: "Real-time dashboards, historical reporting, call analytics, agent performance metrics, and customer journey insights.",
+
+ucContactProvide3Title: "Omnichannel Integration",
+ucContactProvide3Desc: "Unified agent desktop with voice, email, chat, SMS, and social media channels integrated into a single platform.",
+
+ucMobileHeroBadge: "Mobility & Softphones",
+ucMobileHeroTitle: "Work From Anywhere, Stay Connected Everywhere",
+ucMobileHeroDesc: "Mobile clients and softphone applications that extend enterprise communication capabilities to smartphones, tablets, and laptops, enabling seamless connectivity for remote and distributed workforces.",
+
+ucMobileOverviewLabel: "Overview",
+ucMobileOverviewTitle: "Enterprise Communication Beyond the Desk",
+ucMobileOverviewDesc1: "Modern workforces demand the flexibility to communicate from any location and any device. Mobility solutions and softphone applications transform smartphones and computers into fully functional business phones, providing users with access to enterprise telephony features including presence, directory, voicemail, and call management regardless of their physical location.",
+ucMobileOverviewDesc2: "Rawabit Networks delivers comprehensive mobility and softphone solutions that integrate seamlessly with enterprise UC infrastructure, enabling organizations to support remote work, field operations, and flexible work arrangements while maintaining consistent communication quality and security.",
+
+ucMobileUseCasesTitle: "Where Mobility Solutions Empower Teams",
+ucMobileUseCasesSubtitle: "Supporting remote workers, field teams, and flexible work environments.",
+
+ucMobileUse1Title: "Remote & Hybrid Workforces",
+ucMobileUse1Desc: "Enable employees to work from home or anywhere with full access to enterprise phone systems and collaboration tools.",
+
+ucMobileUse2Title: "Field Service & Sales Teams",
+ucMobileUse2Desc: "Keep mobile teams connected with customers and colleagues through enterprise-grade communication on personal devices.",
+
+ucMobileUse3Title: "Business Continuity",
+ucMobileUse3Desc: "Ensure communication resilience during office closures, travel, or emergency situations with always-available mobile access.",
+
+ucMobileProvideTitle: "What We Provide",
+ucMobileProvideSubtitle: "Complete mobile communication and softphone solutions.",
+
+ucMobileProvide1Title: "Mobile UC Clients",
+ucMobileProvide1Desc: "Native iOS and Android applications with voice, video, messaging, presence, and directory features integrated with enterprise PBX.",
+
+ucMobileProvide2Title: "Desktop Softphones",
+ucMobileProvide2Desc: "Windows and Mac softphone applications that turn laptops into business phones with HD voice, call control, and conferencing.",
+
+ucMobileProvide3Title: "Security & Management",
+ucMobileProvide3Desc: "Secure SIP connectivity, encryption, VPN integration, device provisioning, and centralized policy management for mobile endpoints.",
+
+ucIntegHeroBadge: "UC Integration",
+ucIntegHeroTitle: "A Unified Communication Ecosystem",
+ucIntegHeroDesc: "Seamless integration of unified communications with AV systems, CRM platforms, and IT infrastructure to create a cohesive, efficient, and intelligent communication environment.",
+
+ucIntegOverviewLabel: "Overview",
+ucIntegOverviewTitle: "Breaking Down Communication Silos",
+ucIntegOverviewDesc1: "True unified communications extend beyond voice and video to encompass deep integration with the entire business technology stack. When UC platforms connect with audiovisual systems, customer relationship management tools, collaboration platforms, and IT infrastructure, organizations gain enhanced productivity, streamlined workflows, and valuable communication intelligence.",
+ucIntegOverviewDesc2: "Rawabit Networks specializes in comprehensive UC integration services that bridge communication platforms with AV systems, CRM databases, enterprise applications, and network infrastructure. Our integration approach ensures data flows seamlessly between systems, enabling features like click-to-call from CRM, presence-aware applications, and unified directories.",
+
+ucIntegUseCasesTitle: "Where UC Integration Drives Efficiency",
+ucIntegUseCasesSubtitle: "Connecting communication systems with business applications and infrastructure.",
+
+ucIntegUse1Title: "AV & Conference Room Integration",
+ucIntegUse1Desc: "One-touch meeting experiences with UC platforms controlling room displays, cameras, microphones, and recording systems.",
+
+ucIntegUse2Title: "CRM & Business Application Integration",
+ucIntegUse2Desc: "Screen pops, click-to-call, call logging, and customer data integration with Salesforce, Microsoft Dynamics, and custom applications.",
+
+ucIntegUse3Title: "IT Infrastructure Integration",
+ucIntegUse3Desc: "UC platform integration with Active Directory, network management, monitoring systems, and security infrastructure.",
+
+ucIntegProvideTitle: "What We Provide",
+ucIntegProvideSubtitle: "Complete integration services for unified communication ecosystems.",
+
+ucIntegProvide1Title: "AV System Integration",
+ucIntegProvide1Desc: "UC integration with conference room AV equipment, video walls, digital signage, room booking systems, and environmental controls.",
+
+ucIntegProvide2Title: "CRM & Application Integration",
+ucIntegProvide2Desc: "API development, middleware implementation, and connector configuration for CRM, ERP, helpdesk, and custom business applications.",
+
+ucIntegProvide3Title: "Network & IT Integration",
+ucIntegProvide3Desc: "Active Directory synchronization, single sign-on, LDAP integration, QoS configuration, and monitoring tool integration.",
+
+ucMonitorHeroBadge: "Monitoring & Quality Management",
+ucMonitorHeroTitle: "Visibility, Performance, and Reliability",
+ucMonitorHeroDesc: "Comprehensive call quality monitoring, uptime assurance, and performance analytics that ensure your unified communications infrastructure delivers consistent, reliable service.",
+
+ucMonitorOverviewLabel: "Overview",
+ucMonitorOverviewTitle: "Proactive Management for Communication Excellence",
+ucMonitorOverviewDesc1: "Effective unified communications require continuous monitoring and quality management to maintain service levels, identify issues before they impact users, and optimize system performance. Real-time monitoring of call quality metrics, system health, and user experience enables IT teams to ensure reliable communication services and rapidly resolve any problems that arise.",
+ucMonitorOverviewDesc2: "Rawabit Networks provides comprehensive monitoring and quality management solutions that include real-time dashboards, automated alerting, call quality analytics, capacity planning tools, and performance reporting. Our monitoring approach gives organizations complete visibility into their UC infrastructure and the insights needed to maintain optimal performance.",
+
+ucMonitorUseCasesTitle: "Where Monitoring Ensures Reliability",
+ucMonitorUseCasesSubtitle: "Maintaining service quality across enterprise communication platforms.",
+
+ucMonitorUse1Title: "Enterprise UC Platforms",
+ucMonitorUse1Desc: "Continuous monitoring of large-scale unified communications deployments serving hundreds or thousands of users across multiple locations.",
+
+ucMonitorUse2Title: "Contact Center Operations",
+ucMonitorUse2Desc: "Real-time quality monitoring and analytics for customer-facing communication centers where service quality directly impacts business outcomes.",
+
+ucMonitorUse3Title: "Critical Communication Systems",
+ucMonitorUse3Desc: "High-availability monitoring for organizations where communication downtime has significant operational or financial consequences.",
+
+ucMonitorProvideTitle: "What We Provide",
+ucMonitorProvideSubtitle: "Complete monitoring and quality management infrastructure.",
+
+ucMonitorProvide1Title: "Call Quality Monitoring",
+ucMonitorProvide1Desc: "Real-time monitoring of jitter, latency, packet loss, MOS scores, and voice quality metrics with automated alerting and threshold management.",
+
+ucMonitorProvide2Title: "System Health & Uptime Monitoring",
+ucMonitorProvide2Desc: "Infrastructure monitoring including server health, resource utilization, service availability, SIP trunk status, and network connectivity.",
+
+ucMonitorProvide3Title: "Performance Analytics & Reporting",
+ucMonitorProvide3Desc: "Historical reporting, trend analysis, capacity planning, usage patterns, and executive dashboards for data-driven decision making.",
+
+ucCollabHeroBadge: "Collaboration Platforms",
+ucCollabHeroTitle: "Seamless Teamwork Across All Channels",
+ucCollabHeroDesc: "Integrated collaboration platforms that bring together voice, video, messaging, and presence into unified environments designed to enhance productivity and enable effective teamwork.",
+
+ucCollabOverviewLabel: "Overview",
+ucCollabOverviewTitle: "Empowering Modern Teams to Work Together",
+ucCollabOverviewDesc1: "Modern collaboration platforms transcend traditional communication tools by integrating voice calling, video conferencing, instant messaging, file sharing, and presence awareness into single, cohesive applications. These platforms enable teams to communicate in real-time, share ideas efficiently, and maintain context across conversations regardless of location or device.",
+ucCollabOverviewDesc2: "Rawabit Networks delivers enterprise collaboration platform solutions including Microsoft Teams, Cisco Webex, Zoom, and other leading platforms with comprehensive deployment, integration, and optimization services. Our approach ensures organizations can leverage the full capabilities of modern collaboration tools while maintaining security, compliance, and optimal user experience.",
+
+ucCollabUseCasesTitle: "Where Collaboration Platforms Transform Work",
+ucCollabUseCasesSubtitle: "Enabling effective teamwork across organizations and work styles.",
+
+ucCollabUse1Title: "Enterprise Team Collaboration",
+ucCollabUse1Desc: "Department and project-based teams using persistent chat, video meetings, file sharing, and integrated workflows for daily collaboration.",
+
+ucCollabUse2Title: "Remote & Distributed Teams",
+ucCollabUse2Desc: "Geographically dispersed teams maintaining cohesion and productivity through always-on collaboration channels and video presence.",
+
+ucCollabUse3Title: "External Collaboration",
+ucCollabUse3Desc: "Secure collaboration with partners, vendors, customers, and external stakeholders through guest access and federated communications.",
+
+ucCollabProvideTitle: "What We Provide",
+ucCollabProvideSubtitle: "Complete collaboration platform deployment and optimization.",
+
+ucCollabProvide1Title: "Voice & Video Integration",
+ucCollabProvide1Desc: "Enterprise-grade voice calling, HD video conferencing, screen sharing, and meeting recording integrated into collaboration platforms.",
+
+ucCollabProvide2Title: "Messaging & Presence",
+ucCollabProvide2Desc: "Persistent team chat, direct messaging, threaded conversations, presence indicators, and status management for real-time awareness.",
+
+ucCollabProvide3Title: "Platform Integration & Deployment",
+ucCollabProvide3Desc: "Full deployment services including platform selection, infrastructure setup, Active Directory integration, security configuration, and user training.",
+
   },
+
   
   sa: {
     // Navigation
@@ -2371,8 +4117,1747 @@ contactMessage: "الرسالة",
 
 contactSubmit: "إرسال الطلب",
 contactSuccess: "شكرًا لتواصلك معنا! سنعود إليك قريبًا.",
+// Video Systems
+avVideoHeroBadge: "أنظمة الفيديو",
+avVideoHeroTitle: "حلول مؤتمرات الفيديو للمؤسسات",
+avVideoHeroDesc:
+  "أنظمة فيديو عالية الأداء مصممة لتقديم تجارب تعاون واضحة وموثوقة وغامرة في جميع بيئات الاجتماعات.",
+
+avVideoOverviewLabel: "نظرة عامة",
+avVideoOverviewTitle: "وضوح يجمع الفرق معاً",
+avVideoOverviewDesc1:
+  "تقدم شبكات روابط أنظمة مؤتمرات فيديو مخصصة للمؤسسات تتيح تواصلاً سلساً للاجتماعات الحضورية والهجينة.",
+avVideoOverviewDesc2:
+  "تم تصميم حلولنا لتوفير فيديو عالي الدقة وتقنيات تصوير ذكية وأداء موثوق في جميع أحجام القاعات.",
+
+avVideoUseCasesTitle: "أماكن استخدام أنظمة الفيديو",
+avVideoUseCasesSubtitle:
+  "مصممة لمجموعة واسعة من بيئات التعاون المؤسسية.",
+
+avVideoUseCase1Title: "قاعات الاجتماعات وغرف مجلس الإدارة",
+avVideoUseCase1Desc:
+  "أنظمة فيديو احترافية للاجتماعات التنفيذية واتخاذ القرار.",
+
+avVideoUseCase2Title: "غرف التدريب والتعاون",
+avVideoUseCase2Desc:
+  "تواصل مرئي واضح لجلسات التدريب والتعاون بين الفرق.",
+
+avVideoUseCase3Title: "الاجتماعات الهجينة وعن بُعد",
+avVideoUseCase3Desc:
+  "تجارب فيديو سلسة تربط الحضور داخل القاعة وخارجها.",
+// Video Systems – What We Provide
+avVideoProvideTitle: "ما نقدمه",
+avVideoProvideSubtitle:
+  "حلول مؤتمرات فيديو متكاملة مصممة لبيئات التعاون في المؤسسات.",
+
+avVideoProvide1Title: "أنظمة مؤتمرات فيديو للمؤسسات",
+avVideoProvide1Desc:
+  "كاميرات وأنظمة مؤتمرات احترافية توفر فيديو عالي الدقة لجميع أحجام القاعات.",
+
+avVideoProvide2Title: "التهيئة والتكامل التقني",
+avVideoProvide2Desc:
+  "تهيئة كاملة وتكامل مع منصات مثل Microsoft Teams وZoom.",
+
+avVideoProvide3Title: "التنفيذ والتدريب والدعم",
+avVideoProvide3Desc:
+  "تنفيذ ميداني وتدريب المستخدمين ودعم مستمر لضمان أداء موثوق على المدى الطويل.",
+
+// Audio Solutions
+avAudioHeroBadge: "حلول الصوت",
+avAudioHeroTitle: "حلول صوتية احترافية لتواصل واضح",
+avAudioHeroDesc:
+  "أنظمة صوتية مخصصة للمؤسسات توفر وضوحاً عالياً وتجربة صوتية متكاملة في جميع بيئات الاجتماعات.",
+
+avAudioOverviewLabel: "نظرة عامة",
+avAudioOverviewTitle: "كل كلمة لها أهمية",
+avAudioOverviewDesc1:
+  "تقدم شبكات روابط حلولاً صوتية احترافية تضمن تواصلاً واضحاً وطبيعياً في جميع أحجام القاعات.",
+avAudioOverviewDesc2:
+  "تم تصميم أنظمتنا الصوتية لإلغاء الصدى وتقليل الضوضاء وتوفير تغطية صوتية متوازنة.",
+
+avAudioUseCasesTitle: "أماكن استخدام حلول الصوت",
+avAudioUseCasesSubtitle:
+  "مصممة لبيئات التعاون والاتصال في المؤسسات.",
+
+avAudioUseCase1Title: "قاعات الاجتماعات ومجالس الإدارة",
+avAudioUseCase1Desc:
+  "صوت فائق الوضوح للاجتماعات التنفيذية.",
+
+avAudioUseCase2Title: "غرف التدريب والتعاون",
+avAudioUseCase2Desc:
+  "أداء صوتي موثوق لجلسات التدريب والعمل الجماعي.",
+
+avAudioUseCase3Title: "الاجتماعات الهجينة والمرئية",
+avAudioUseCase3Desc:
+  "جودة صوت متناسقة للحضور داخل القاعة وعن بُعد.",
+
+avAudioProvideTitle: "ما نقدمه",
+avAudioProvideSubtitle:
+  "حلول صوتية احترافية متكاملة لقاعات الاجتماعات المؤسسية.",
+
+avAudioProvide1Title: "الميكروفونات وأنظمة السماعات",
+avAudioProvide1Desc:
+  "ميكروفونات وسماعات احترافية وأنظمة معالجة صوتية لوضوح مثالي.",
+
+avAudioProvide2Title: "تصميم وتهيئة الأنظمة الصوتية",
+avAudioProvide2Desc:
+  "تصميم شامل وتهيئة دقيقة لتحقيق أفضل أداء صوتي.",
+
+avAudioProvide3Title: "التنفيذ والتدريب والدعم",
+avAudioProvide3Desc:
+  "تركيب ميداني وتدريب المستخدمين ودعم مستمر لضمان الاعتمادية.",
+
+// Smart Integration
+avSmartHeroBadge: "التكامل الذكي",
+avSmartHeroTitle: "تكامل ذكي لبيئات التعاون الحديثة",
+avSmartHeroDesc:
+  "دمج أنظمة الصوت والمرئيات والتحكم وتقنية المعلومات بسلاسة لإنشاء بيئات تعاون ذكية وسهلة الاستخدام.",
+
+avSmartOverviewLabel: "نظرة عامة",
+avSmartOverviewTitle: "تجربة واحدة. بلمسة واحدة.",
+avSmartOverviewDesc1:
+  "تقدم شبكات روابط حلول تكامل ذكي توحد أنظمة الصوت والمرئيات ومنصات التعاون والبنية التحتية التقنية في تجربة واحدة متكاملة.",
+avSmartOverviewDesc2:
+  "تساعد البيئات المتكاملة على تبسيط العمليات وتقليل التعقيد وتعزيز الإنتاجية في جميع قاعات الاجتماعات.",
+
+avSmartUseCasesTitle: "أماكن استخدام التكامل الذكي",
+avSmartUseCasesSubtitle:
+  "مصممة لبيئات المؤسسات التي تتطلب البساطة والاعتمادية.",
+
+avSmartUseCase1Title: "قاعات اجتماعات متكاملة",
+avSmartUseCase1Desc:
+  "تحكم موحد في أنظمة الفيديو والصوت والشاشات وإعدادات القاعة من واجهة واحدة.",
+
+avSmartUseCase2Title: "بيئات العمل الهجينة",
+avSmartUseCase2Desc:
+  "تكامل سلس بين الأنظمة داخل القاعة ومنصات التعاون السحابية.",
+
+avSmartUseCase3Title: "مساحات التعاون المؤسسية",
+avSmartUseCase3Desc:
+  "تجربة استخدام موحدة عبر القاعات والمواقع المختلفة.",
+
+avSmartProvideTitle: "ما نقدمه",
+avSmartProvideSubtitle:
+  "خدمات تكامل ذكي متكاملة لبيئات الصوت والمرئيات المؤسسية.",
+
+avSmartProvide1Title: "تكامل وبرمجة الأنظمة",
+avSmartProvide1Desc:
+  "تكامل مخصص وبرمجة لأنظمة الصوت والمرئيات والتحكم.",
+
+avSmartProvide2Title: "تكامل المنصات والأجهزة",
+avSmartProvide2Desc:
+  "تشغيل متكامل بين أجهزة الصوت والمرئيات ومنصات الاتصال وأنظمة تقنية المعلومات.",
+
+avSmartProvide3Title: "التنفيذ والتدريب والدعم",
+avSmartProvide3Desc:
+  "تنفيذ شامل وتدريب المستخدمين ودعم مستمر لضمان أداء موثوق.",
+avAcousticHeroBadge: "التصميم الصوتي",
+avAcousticHeroTitle: "تصميم صوتي لوضوح صوتي طبيعي",
+avAcousticHeroDesc: "تصميم صوتي احترافي يضمن وضوح الكلام وجودة الصوت.",
+
+avAcousticOverviewLabel: "نظرة عامة",
+avAcousticOverviewTitle: "جودة الصوت تبدأ بالتصميم الصوتي",
+avAcousticOverviewDesc1: "التصميم الصوتي السيئ يقلل من فعالية التواصل.",
+avAcousticOverviewDesc2: "نصمم بيئات محسنة لوضوح الكلام.",
+
+avAcousticUse1Title: "قاعات الاجتماعات",
+avAcousticUse1Desc: "تقليل الصدى وتحسين وضوح الصوت.",
+avAcousticUse2Title: "غرف التدريب",
+avAcousticUse2Desc: "تغطية صوتية متوازنة.",
+avAcousticUse3Title: "الغرف الهجينة",
+avAcousticUse3Desc: "صوت متوازن للحضور داخل وخارج القاعة.",
+
+avAcousticProvide1Title: "المعالجة الصوتية",
+avAcousticProvide1Desc: "ألواح امتصاص وحلول صوتية.",
+avAcousticProvide2Title: "القياس والضبط",
+avAcousticProvide2Desc: "تحليل وضبط احترافي للصوت.",
+avAcousticProvide3Title: "التنفيذ والدعم",
+avAcousticProvide3Desc: "تنفيذ كامل ودعم مستمر.",
+
+avControlHeroBadge: "أنظمة التحكم",
+avControlHeroTitle: "أنظمة تحكم ذكية",
+avControlHeroDesc: "تحكم مركزي لتشغيل قاعات الاجتماعات بسهولة.",
+
+avControlOverviewLabel: "نظرة عامة",
+avControlOverviewTitle: "تحكم بلمسة واحدة",
+avControlOverviewDesc1: "أنظمة التحكم تبسط تشغيل القاعات.",
+avControlOverviewDesc2: "بدء الاجتماعات فوراً بأقل جهد.",
+
+avControlUse1Title: "قاعات الاجتماعات",
+avControlUse1Desc: "تحكم موحد بالصوت والصورة.",
+avControlUse2Title: "غرف التدريب",
+avControlUse2Desc: "تجربة استخدام موحدة.",
+avControlUse3Title: "القاعات المؤسسية",
+avControlUse3Desc: "أتمتة قياسية للغرف.",
+
+avControlProvide1Title: "برمجة أنظمة التحكم",
+avControlProvide1Desc: "واجهات مخصصة وسهلة الاستخدام.",
+avControlProvide2Title: "تكامل الأنظمة",
+avControlProvide2Desc: "دمج الصوت والإضاءة والبيئة.",
+avControlProvide3Title: "الدعم والتحسين",
+avControlProvide3Desc: "تحسين الأداء ودعم مستمر.",
+
+// Display Technology
+avDisplayHeroBadge: "تقنيات العرض",
+avDisplayHeroTitle: "حلول العرض المرئي الاحترافية",
+avDisplayHeroDesc:
+  "تقنيات عرض متقدمة تعزز التعاون والتواصل والتأثير البصري في بيئات المؤسسات.",
+
+avDisplayOverviewLabel: "نظرة عامة",
+avDisplayOverviewTitle: "مرئيات تعزز التفاعل",
+avDisplayOverviewDesc1:
+  "تقدم شبكات روابط حلول عرض احترافية تحسن طريقة عرض المعلومات ومشاركتها.",
+avDisplayOverviewDesc2:
+  "من الشاشات التفاعلية إلى جدران الفيديو الكبيرة، تم تصميم حلولنا للوضوح والاعتمادية.",
+
+avDisplayUseCasesTitle: "أماكن استخدام تقنيات العرض",
+avDisplayUseCasesSubtitle:
+  "مصممة لمجموعة واسعة من بيئات العمل والتعاون.",
+
+avDisplayUseCase1Title: "قاعات الاجتماعات ومجالس الإدارة",
+avDisplayUseCase1Desc:
+  "شاشات عالية الدقة للعروض التقديمية والتعاون.",
+
+avDisplayUseCase2Title: "غرف التدريب والتعاون",
+avDisplayUseCase2Desc:
+  "شاشات تفاعلية تدعم التعلم والعمل الجماعي.",
+
+avDisplayUseCase3Title: "غرف التحكم والمساحات العامة",
+avDisplayUseCase3Desc:
+  "شاشات كبيرة وجدران فيديو للمراقبة ومشاركة المعلومات.",
+
+avDisplayProvideTitle: "ما نقدمه",
+avDisplayProvideSubtitle:
+  "حلول عرض احترافية متكاملة لبيئات المؤسسات.",
+
+avDisplayProvide1Title: "شاشات تجارية وتفاعلية",
+avDisplayProvide1Desc:
+  "شاشات احترافية وشاشات لمس وحلول جدران فيديو.",
+
+avDisplayProvide2Title: "التصميم والتركيب والمعايرة",
+avDisplayProvide2Desc:
+  "تصميم وتركيب ومعايرة دقيقة للشاشات لتحقيق أفضل جودة عرض.",
+
+avDisplayProvide3Title: "التكامل والتدريب والدعم",
+avDisplayProvide3Desc:
+  "تكامل الأنظمة مع حلول الصوت والمرئيات والتدريب والدعم المستمر.",
+/* ================= END-USER COMPUTING ================= */
+
+eucHeroBadge: "حوسبة المستخدم النهائي",
+eucHeroTitle: "تمكين الموظفين بأجهزة حوسبة موثوقة",
+eucHeroDesc:
+  "أجهزة حوسبة احترافية تشمل الحواسيب المكتبية والمحمولة ومحطات العمل لدعم الإنتاجية والأمان.",
+
+eucOverviewLabel: "نظرة عامة",
+eucOverviewTitle: "الإنتاجية تبدأ بالأجهزة المناسبة",
+eucOverviewDesc1:
+  "تقدم شبكات روابط حلول حوسبة للمستخدم النهائي توفر أجهزة موثوقة وآمنة وموحدة للموظفين.",
+eucOverviewDesc2:
+  "من التوريد إلى النشر، نضمن تزويد كل مستخدم بالأدوات المناسبة للعمل بكفاءة.",
+eucUseCasesTitle: "أين تُستخدم حلول الحوسبة للمستخدم النهائي",
+eucUseCasesSubtitle:
+  "دعم الإنتاجية في بيئات العمل المكتبية وعن بُعد وذات الأداء العالي.",
+
+eucProvideTitle: "ما نقدمه",
+eucProvideSubtitle:
+  "حلول شاملة للحوسبة للمستخدم النهائي في بيئات المؤسسات الحديثة.",
+
+eucUse1Title: "بيئات العمل المكتبية",
+eucUse1Desc:
+  "أجهزة حوسبة موحدة لدعم العمليات اليومية.",
+
+eucUse2Title: "العمل عن بُعد والعمل الهجين",
+eucUse2Desc:
+  "أجهزة محمولة آمنة وملحقات تدعم أنماط العمل المرنة.",
+
+eucUse3Title: "المستخدمون ذوو الأداء العالي",
+eucUse3Desc:
+  "محطات عمل وإعدادات متعددة الشاشات للمهام المتقدمة.",
+
+eucProvide1Title: "الأجهزة والملحقات الاحترافية",
+eucProvide1Desc:
+  "أجهزة لابتوب وحواسيب مكتبية ومحطات عمل وشاشات وملحقات.",
+
+eucProvide2Title: "التهيئة والنشر",
+eucProvide2Desc:
+  "إعداد أنظمة التشغيل وتهيئة الأجهزة وتسليمها جاهزة للاستخدام.",
+
+eucProvide3Title: "الدعم وإدارة دورة الحياة",
+eucProvide3Desc:
+  "دعم مستمر وتحديثات وإدارة استبدال الأجهزة.",
 
 
+/* ================= SERVER & DATA CENTER ================= */
+
+dcHeroBadge: "بنية الخوادم ومراكز البيانات",
+dcHeroTitle: "حلول خوادم ومراكز بيانات موثوقة",
+dcHeroDesc:
+  "بنية خوادم ومراكز بيانات قابلة للتوسع لدعم الأحمال التشغيلية الحرجة.",
+
+dcOverviewLabel: "نظرة عامة",
+dcOverviewTitle: "العمود الفقري لتقنية المعلومات",
+dcOverviewDesc1:
+  "تصمم شبكات روابط وتنفذ بنى خوادم ومراكز بيانات قوية للمؤسسات الحديثة.",
+dcOverviewDesc2:
+  "تضمن حلولنا التوافر العالي والأداء وقابلية التوسع للأنظمة الحيوية.",
+
+  dcUseCasesTitle: "أين تُستخدم البنية التحتية للخوادم ومراكز البيانات",
+dcUseCasesSubtitle:
+  "مصممة لدعم التطبيقات المؤسسية والأحمال الحرجة.",
+
+dcProvideTitle: "ما نقدمه",
+dcProvideSubtitle:
+  "حلول خوادم وبنية تحتية لمراكز البيانات قابلة للتوسع وموثوقة.",
+
+
+dcUse1Title: "تطبيقات الأعمال",
+dcUse1Desc:
+  "خوادم تدعم التطبيقات والخدمات الأساسية.",
+
+dcUse2Title: "البيئات الافتراضية",
+dcUse2Desc:
+  "منصات حوسبة محسنة لبيئات الافتراضية والسحابة الخاصة.",
+
+dcUse3Title: "الأحمال المعتمدة على البيانات",
+dcUse3Desc:
+  "بنية تحتية تدعم قواعد البيانات والعمليات كثيفة التخزين.",
+
+dcProvide1Title: "منصات الخوادم والحوسبة",
+dcProvide1Desc:
+  "خوادم Rack وBlade مصممة للأداء والموثوقية.",
+
+dcProvide2Title: "التصميم والتنفيذ والتهيئة",
+dcProvide2Desc:
+  "تصميم شامل لمراكز البيانات وتركيب الأنظمة وتهيئتها.",
+
+dcProvide3Title: "الدعم والتحسين",
+dcProvide3Desc:
+  "مراقبة وصيانة وتحسين مستمر للأداء.",
+
+  storageHeroBadge: "حلول التخزين",
+storageHeroTitle: "حلول تخزين مؤسسية آمنة وقابلة للتوسع",
+storageHeroDesc:
+  "منصات تخزين موثوقة لحماية البيانات وإدارتها وتوسيعها.",
+
+storageOverviewLabel: "نظرة عامة",
+storageOverviewTitle: "توفر البيانات وحمايتها",
+storageOverviewDesc1:
+  "تقدم شبكات روابط حلول تخزين مؤسسية تضمن توفر البيانات وأداءها وحمايتها.",
+storageOverviewDesc2:
+  "تدعم حلولنا الأحمال التشغيلية الحرجة بأنظمة تخزين مرنة وموثوقة.",
+
+  storageUseCasesTitle: "أين تُستخدم حلول التخزين",
+storageUseCasesSubtitle:
+  "مصممة لدعم الأداء وحماية البيانات وتوفرها.",
+
+storageProvideTitle: "ما نقدمه",
+storageProvideSubtitle:
+  "حلول تخزين مؤسسية موثوقة وقابلة للتوسع.",
+
+
+storageUse1Title: "تطبيقات الأعمال",
+storageUse1Desc:
+  "أنظمة تخزين تدعم قواعد البيانات والتطبيقات المؤسسية.",
+
+storageUse2Title: "البيئات الافتراضية",
+storageUse2Desc:
+  "تخزين عالي الأداء مخصص للآلات الافتراضية.",
+
+storageUse3Title: "النسخ الاحتياطي والتعافي",
+storageUse3Desc:
+  "حلول تخزين آمنة للنسخ الاحتياطي والتعافي السريع.",
+
+storageProvide1Title: "منصات SAN و NAS",
+storageProvide1Desc:
+  "هياكل تخزين SAN و NAS احترافية.",
+
+storageProvide2Title: "حماية البيانات والنسخ الاحتياطي",
+storageProvide2Desc:
+  "حلول النسخ الاحتياطي والتكرار والتعافي من الكوارث.",
+
+storageProvide3Title: "التنفيذ والدعم",
+storageProvide3Desc:
+  "التصميم والتنفيذ والمراقبة والتحسين.",
+virtHeroBadge: "الافتراضية والجاهزية السحابية",
+virtHeroTitle: "بنية افتراضية مرنة وجاهزة للسحابة",
+virtHeroDesc:
+  "منصات افتراضية حديثة لتحسين الموارد ودعم الجاهزية السحابية.",
+
+virtOverviewLabel: "نظرة عامة",
+virtOverviewTitle: "بيئات تقنية مرنة ومحسّنة",
+virtOverviewDesc1:
+  "تمكّن شبكات روابط المؤسسات من تحديث البنية التحتية باستخدام تقنيات الافتراضية.",
+virtOverviewDesc2:
+  "تحسن حلولنا الكفاءة وقابلية التوسع والمرونة التشغيلية.",
+virtUseCasesTitle: "أين تُستخدم تقنيات الافتراضية",
+virtUseCasesSubtitle:
+  "تحسين البنية التحتية لبيئات السحابة الخاصة والهجينة.",
+
+virtProvideTitle: "ما نقدمه",
+virtProvideSubtitle:
+  "منصات افتراضية وخدمات الجاهزية السحابية.",
+
+virtUse1Title: "السحابة الخاصة",
+virtUse1Desc:
+  "بنية افتراضية مخصصة للسحابة الخاصة.",
+
+virtUse2Title: "السحابة الهجينة",
+virtUse2Desc:
+  "منصات جاهزة للتكامل مع السحابة.",
+
+virtUse3Title: "الأحمال المؤسسية",
+virtUse3Desc:
+  "حوسبة محسّنة للتطبيقات الحيوية.",
+
+virtProvide1Title: "منصات الافتراضية",
+virtProvide1Desc:
+  "حلول VMware و Hyper-V ومنصات افتراضية مؤسسية.",
+
+virtProvide2Title: "الجاهزية السحابية والترحيل",
+virtProvide2Desc:
+  "التقييم والتخطيط ودعم الترحيل.",
+
+virtProvide3Title: "الإدارة والتحسين",
+virtProvide3Desc:
+  "المراقبة والضبط وتحسين الأداء.",
+powerHeroBadge: "استمرارية الطاقة ومراكز البيانات",
+powerHeroTitle: "طاقة غير منقطعة للبنية التحتية الحرجة",
+powerHeroDesc:
+  "حلول حماية الطاقة واستمراريتها لضمان تشغيل الأنظمة المؤسسية دون انقطاع.",
+
+powerOverviewLabel: "نظرة عامة",
+powerOverviewTitle: "ضمان استمرارية الأعمال",
+powerOverviewDesc1:
+  "تقدم شبكات روابط حلول استمرارية الطاقة لحماية البنية التحتية لتقنية المعلومات.",
+powerOverviewDesc2:
+  "تضمن تصاميمنا الاستقرار التشغيلي واستمرارية الأعمال.",
+
+  powerUseCasesTitle: "أين تكون استمرارية الطاقة ضرورية",
+powerUseCasesSubtitle:
+  "ضمان التشغيل المستمر للبنية التحتية المؤسسية.",
+
+powerProvideTitle: "ما نقدمه",
+powerProvideSubtitle:
+  "حلول متكاملة لحماية الطاقة واستمراريتها.",
+
+
+powerUse1Title: "مراكز البيانات",
+powerUse1Desc:
+  "حماية الطاقة للخوادم والأنظمة الحيوية.",
+
+powerUse2Title: "البيئات الحرجة",
+powerUse2Desc:
+  "تشغيل مستمر للأحمال الحساسة.",
+
+powerUse3Title: "مرافق المؤسسات",
+powerUse3Desc:
+  "تكرار الطاقة للمواقع الحيوية.",
+
+powerProvide1Title: "أنظمة UPS والطاقة",
+powerProvide1Desc:
+  "أنظمة UPS وحلول حماية الطاقة.",
+
+powerProvide2Title: "تصميم التكرار الكهربائي",
+powerProvide2Desc:
+  "تصميم أنظمة طاقة احتياطية.",
+
+powerProvide3Title: "المراقبة والصيانة",
+powerProvide3Desc:
+  "مراقبة الطاقة والصيانة الوقائية.",
+lmsHeroBadge: "إدارة دورة الحياة والخدمات المُدارة",
+lmsHeroTitle: "إدارة شاملة لدورة حياة تقنية المعلومات",
+lmsHeroDesc:
+  "خدمات مُدارة تغطي دورة حياة البنية التحتية لتقنية المعلومات بالكامل.",
+
+lmsOverviewLabel: "نظرة عامة",
+lmsOverviewTitle: "تبسيط عمليات تقنية المعلومات",
+lmsOverviewDesc1:
+  "توفر شبكات روابط خدمات إدارة دورة الحياة لتقليل التعقيد التشغيلي.",
+lmsOverviewDesc2:
+  "نضمن بقاء الأنظمة آمنة ومحدثة ومحسّنة.",
+
+  lmsUseCasesTitle: "أين تضيف الخدمات المُدارة قيمة",
+lmsUseCasesSubtitle:
+  "دعم عمليات تقنية المعلومات طوال دورة الحياة.",
+
+lmsProvideTitle: "ما نقدمه",
+lmsProvideSubtitle:
+  "إدارة شاملة لدورة الحياة وخدمات تقنية معلومات مُدارة.",
+
+
+lmsUse1Title: "المراقبة الاستباقية",
+lmsUse1Desc:
+  "مراقبة مستمرة لحالة الأنظمة.",
+
+lmsUse2Title: "دورات التحديث والاستبدال",
+lmsUse2Desc:
+  "خطط تحديث واستبدال الأجهزة والبرمجيات.",
+
+lmsUse3Title: "تقليل المخاطر",
+lmsUse3Desc:
+  "تقليل الأعطال وتحسين موثوقية الأنظمة.",
+
+lmsProvide1Title: "التوريد والتنفيذ",
+lmsProvide1Desc:
+  "توريد الأجهزة وتركيبها وتشغيلها.",
+
+lmsProvide2Title: "الخدمات المُدارة",
+lmsProvide2Desc:
+  "مراقبة الأنظمة وتحديثها ودعمها التشغيلي.",
+
+lmsProvide3Title: "التحسين والتقارير",
+lmsProvide3Desc:
+  "تحسين الأداء وتقارير دورة الحياة.",
+epsecHeroBadge: "أمن الأجهزة الطرفية",
+epsecHeroTitle: "تأمين كل جهاز",
+epsecHeroDesc:
+  "حماية شاملة للأجهزة المكتبية والمحمولة والأجهزة المتنقلة.",
+
+epsecOverviewLabel: "نظرة عامة",
+epsecOverviewTitle: "حماية الأجهزة من التهديدات",
+epsecOverviewDesc1:
+  "تقدم شبكات روابط حلول أمن الأجهزة الطرفية لحماية الأجهزة من البرمجيات الخبيثة والهجمات السيبرانية.",
+epsecOverviewDesc2:
+  "توفر حلولنا حماية مستمرة ورؤية شاملة لجميع الأجهزة.",
+  epsecUseCasesTitle: "أين يُستخدم أمن الأجهزة الطرفية",
+epsecUseCasesSubtitle:
+  "حماية الأجهزة في بيئات العمل المكتبية وعن بُعد والهجينة.",
+
+epsecProvideTitle: "ما نقدمه",
+epsecProvideSubtitle:
+  "حماية متقدمة للأجهزة الطرفية في المؤسسات الحديثة.",
+
+
+epsecUse1Title: "أجهزة المستخدمين",
+epsecUse1Desc:
+  "حماية أجهزة الموظفين المكتبية والمحمولة.",
+
+epsecUse2Title: "القوى العاملة عن بُعد",
+epsecUse2Desc:
+  "تأمين الأجهزة المستخدمة خارج الشبكات المؤسسية.",
+
+epsecUse3Title: "منع التهديدات",
+epsecUse3Desc:
+  "منع البرمجيات الخبيثة وهجمات الفدية والتهديدات المتقدمة.",
+
+epsecProvide1Title: "مضاد الفيروسات و EDR",
+epsecProvide1Desc:
+  "حلول متقدمة لاكتشاف الاستجابة للأجهزة.",
+
+epsecProvide2Title: "تطبيق السياسات",
+epsecProvide2Desc:
+  "فرض سياسات الأمان والتحكم في الأجهزة.",
+
+epsecProvide3Title: "المراقبة والتقارير",
+epsecProvide3Desc:
+  "رؤية شاملة وتنبيهات وتقارير أمنية.",
+netsecHeroBadge: "أمن الشبكات",
+netsecHeroTitle: "حماية شبكات المؤسسات",
+netsecHeroDesc:
+  "حلول متقدمة لأمن الشبكات لحماية البنية التحتية من التهديدات السيبرانية.",
+
+netsecOverviewLabel: "نظرة عامة",
+netsecOverviewTitle: "تأمين محيط الشبكة",
+netsecOverviewDesc1:
+  "توفر شبكات روابط حلول أمن شبكات قوية لحماية الاتصال المؤسسي.",
+netsecOverviewDesc2:
+  "تحمي حلولنا من الوصول غير المصرح به والبرمجيات الخبيثة والتهديدات المتقدمة.",
+
+  netsecUseCasesTitle: "أين يُطبق أمن الشبكات",
+netsecUseCasesSubtitle:
+  "حماية شبكات المؤسسات عبر جميع نقاط الوصول.",
+
+netsecProvideTitle: "ما نقدمه",
+netsecProvideSubtitle:
+  "حلول شاملة لأمن الشبكات في بيئات المؤسسات.",
+
+
+netsecUse1Title: "حماية المحيط",
+netsecUse1Desc:
+  "تأمين الشبكات من التهديدات الخارجية.",
+
+netsecUse2Title: "أمن الشبكة الداخلية",
+netsecUse2Desc:
+  "منع الحركة الجانبية والهجمات الداخلية.",
+
+netsecUse3Title: "كشف التهديدات",
+netsecUse3Desc:
+  "مراقبة فورية وكشف التهديدات.",
+
+netsecProvide1Title: "الجدران النارية والبوابات",
+netsecProvide1Desc:
+  "جدران نارية متقدمة وبوابات آمنة.",
+
+netsecProvide2Title: "تهيئة الأمان",
+netsecProvide2Desc:
+  "تصميم السياسات وضبط إعدادات الأمان.",
+
+netsecProvide3Title: "المراقبة والاستجابة",
+netsecProvide3Desc:
+  "مراقبة مستمرة واستجابة سريعة للحوادث.",
+
+  /* ================= EMAIL & WEB SECURITY ================= */
+
+emailsecHeroBadge: "أمن البريد الإلكتروني والويب",
+emailsecHeroTitle: "حماية قنوات الاتصال والوصول إلى الإنترنت",
+emailsecHeroDesc:
+  "حلول متقدمة لأمن البريد الإلكتروني والويب تحمي المؤسسات من التصيد والبرمجيات الخبيثة والتهديدات عبر الإنترنت.",
+
+emailsecOverviewLabel: "نظرة عامة",
+emailsecOverviewTitle: "خط الدفاع الأول للأمن السيبراني",
+emailsecOverviewDesc1:
+  "تعد قنوات البريد الإلكتروني والويب أكثر مصادر الهجمات السيبرانية شيوعاً.",
+emailsecOverviewDesc2:
+  "توفر شبكات روابط حماية متعددة الطبقات مع اكتشاف ذكي للتهديدات.",
+
+emailsecUseCasesTitle: "أين يُستخدم أمن البريد والويب",
+emailsecUseCasesSubtitle:
+  "حماية المستخدمين والبيانات عبر جميع قنوات الاتصال.",
+
+emailsecUse1Title: "الاتصال عبر البريد الإلكتروني",
+emailsecUse1Desc:
+  "الحماية من التصيد والرسائل غير المرغوب فيها والمرفقات الضارة.",
+
+emailsecUse2Title: "تصفح الإنترنت",
+emailsecUse2Desc:
+  "حظر المواقع الضارة والتنزيلات والمحتوى غير الآمن.",
+
+emailsecUse3Title: "رؤية التهديدات",
+emailsecUse3Desc:
+  "مراقبة الأنشطة المشبوهة وتحديد التهديدات المحتملة.",
+
+emailsecProvideTitle: "ما نقدمه",
+emailsecProvideSubtitle:
+  "حماية شاملة للبريد الإلكتروني والوصول إلى الويب.",
+
+emailsecProvide1Title: "بوابات أمن البريد الإلكتروني",
+emailsecProvide1Desc:
+  "تصفية متقدمة واكتشاف البرمجيات الخبيثة ومنع التصيد.",
+
+emailsecProvide2Title: "تصفية وتحكم الويب",
+emailsecProvide2Desc:
+  "تصفية الروابط والتحكم بالمحتوى وتطبيق السياسات.",
+
+emailsecProvide3Title: "المراقبة والاستجابة للحوادث",
+emailsecProvide3Desc:
+  "رؤية كاملة للتهديدات وتنبيهات واستجابة سريعة.",
+
+
+/* ================= COMPLIANCE & RISK MANAGEMENT ================= */
+
+complianceHeroBadge: "الامتثال وإدارة المخاطر",
+complianceHeroTitle: "تقليل المخاطر وضمان الامتثال التنظيمي",
+complianceHeroDesc:
+  "حلول منظمة لإدارة الامتثال والمخاطر تحمي المؤسسات وتلبي المتطلبات التنظيمية.",
+
+complianceOverviewLabel: "نظرة عامة",
+complianceOverviewTitle: "إدارة المخاطر في عالم رقمي معقد",
+complianceOverviewDesc1:
+  "تواجه المؤسسات ضغوطاً تنظيمية متزايدة ومخاطر سيبرانية متنامية.",
+complianceOverviewDesc2:
+  "تساعد شبكات روابط المؤسسات على تحديد المخاطر وإدارتها وتقليلها مع ضمان الامتثال.",
+
+complianceUseCasesTitle: "أين يُطبق الامتثال وإدارة المخاطر",
+complianceUseCasesSubtitle:
+  "دعم الحوكمة والأمن والالتزام التنظيمي.",
+
+complianceUse1Title: "الامتثال التنظيمي",
+complianceUse1Desc:
+  "الالتزام بالمعايير الأمنية والمتطلبات الحكومية.",
+
+complianceUse2Title: "تقييم المخاطر",
+complianceUse2Desc:
+  "تحديد الثغرات والمخاطر المحتملة على الأعمال.",
+
+complianceUse3Title: "التدقيق والتقارير",
+complianceUse3Desc:
+  "تقارير أمنية ودعم عمليات التدقيق والتوثيق.",
+
+complianceProvideTitle: "ما نقدمه",
+complianceProvideSubtitle:
+  "خدمات متكاملة لإدارة الامتثال والمخاطر.",
+
+complianceProvide1Title: "السياسات والأطر الأمنية",
+complianceProvide1Desc:
+  "تطوير السياسات وفق المعايير واللوائح المعتمدة.",
+
+complianceProvide2Title: "تقييم المخاطر والتدقيق",
+complianceProvide2Desc:
+  "تقييمات تقنية وإجرائية للمخاطر.",
+
+complianceProvide3Title: "التحسين المستمر والتقارير",
+complianceProvide3Desc:
+  "متابعة مستمرة للامتثال وبرامج تحسين الأداء.",
+iamHeroBadge: "إدارة الهوية والتحكم في الوصول",
+iamHeroTitle: "وصول آمن إلى أنظمة المؤسسة",
+iamHeroDesc:
+  "حلول أمنية قائمة على الهوية تضمن وصول المستخدم المناسب في الوقت المناسب.",
+
+iamOverviewLabel: "نظرة عامة",
+iamOverviewTitle: "التحكم في الوصول عبر المؤسسة",
+iamOverviewDesc1:
+  "تعد إدارة الهوية والتحكم في الوصول أساساً مهماً للأمن المؤسسي.",
+iamOverviewDesc2:
+  "تساعد شبكات روابط المؤسسات على تطبيق سياسات مصادقة وتحكم آمنة.",
+
+iamUseCasesTitle: "أين تُستخدم إدارة الهوية",
+iamUseCasesSubtitle:
+  "حماية المستخدمين والأنظمة والبيانات الحساسة.",
+
+iamUse1Title: "مصادقة المستخدمين",
+iamUse1Desc:
+  "تسجيل دخول آمن والتحقق من هوية الموظفين.",
+
+iamUse2Title: "الوصول المميز",
+iamUse2Desc:
+  "التحكم في الوصول إلى الأنظمة والموارد الحساسة.",
+
+iamUse3Title: "أمن الثقة الصفرية",
+iamUse3Desc:
+  "سياسات وصول قائمة على المخاطر والسياق.",
+
+iamProvideTitle: "ما نقدمه",
+iamProvideSubtitle:
+  "حلول شاملة لإدارة الهوية والتحكم في الوصول.",
+
+iamProvide1Title: "منصات IAM والمصادقة متعددة العوامل",
+iamProvide1Desc:
+  "حلول مصادقة متعددة العوامل وإدارة الهوية.",
+
+iamProvide2Title: "إدارة السياسات والأدوار",
+iamProvide2Desc:
+  "التحكم في الوصول القائم على الأدوار وتطبيق السياسات.",
+
+iamProvide3Title: "المراقبة والتحسين",
+iamProvide3Desc:
+  "مراقبة الوصول والتقارير والتحسين المستمر.",
+socHeroBadge: "المراقبة ومركز العمليات الأمنية",
+socHeroTitle: "مراقبة التهديدات والاستجابة للحوادث على مدار الساعة",
+socHeroDesc:
+  "مراقبة أمنية مستمرة واستجابة سريعة للحوادث عبر مركز عمليات أمنية مركزي.",
+
+socOverviewLabel: "نظرة عامة",
+socOverviewTitle: "مراقبة أمنية استباقية",
+socOverviewDesc1:
+  "تتطلب التهديدات السيبرانية الحديثة رؤية مستمرة واستجابة سريعة.",
+socOverviewDesc2:
+  "توفر شبكات روابط خدمات SOC لاكتشاف التهديدات وتحليلها والاستجابة لها في الوقت الحقيقي.",
+
+socUseCasesTitle: "أين تُستخدم المراقبة وSOC",
+socUseCasesSubtitle:
+  "توفير الرؤية والحماية عبر بيئات المؤسسة.",
+
+socUse1Title: "المراقبة المستمرة",
+socUse1Desc:
+  "مراقبة أحداث وسجلات الأمن على مدار الساعة.",
+
+socUse2Title: "اكتشاف الحوادث",
+socUse2Desc:
+  "تحديد الأنشطة المشبوهة والتحقيق فيها.",
+
+socUse3Title: "الاستجابة للتهديدات",
+socUse3Desc:
+  "احتواء الحوادث الأمنية ومعالجتها بسرعة.",
+
+socProvideTitle: "ما نقدمه",
+socProvideSubtitle:
+  "خدمات متكاملة للمراقبة الأمنية والاستجابة.",
+
+socProvide1Title: "منصات SOC وSIEM",
+socProvide1Desc:
+  "إدارة مركزية للسجلات وتحليل التهديدات.",
+
+socProvide2Title: "اكتشاف وتحليل التهديدات",
+socProvide2Desc:
+  "الربط المتقدم والتنبيهات والتحقيق.",
+
+socProvide3Title: "الاستجابة للحوادث والتقارير",
+socProvide3Desc:
+  "تنسيق الاستجابة والتحليل الجنائي والتقارير.",
+
+ddCmsHeroBadge: "أنظمة إدارة المحتوى",
+ddCmsHeroTitle: "التحكم المركزي في المحتوى الرقمي",
+ddCmsHeroDesc:
+  "إدارة وجدولة وتوزيع المحتوى الرقمي على الشاشات بسهولة ومرونة.",
+
+ddCmsOverviewLabel: "نظرة عامة",
+ddCmsOverviewTitle: "محتوى أذكى وتفاعل أفضل",
+ddCmsOverviewDesc1:
+  "تتيح أنظمة إدارة المحتوى التحكم المركزي في الشاشات الرقمية.",
+ddCmsOverviewDesc2:
+  "توفر شبكات روابط حلول CMS موثوقة وقابلة للتوسع وسهلة الاستخدام.",
+
+ddCmsUseCasesTitle: "أين تُستخدم إدارة المحتوى",
+ddCmsUseCasesSubtitle:
+  "تعزيز التواصل والتفاعل من خلال محتوى ديناميكي.",
+
+ddCmsUse1Title: "محتوى اللوحات الرقمية",
+ddCmsUse1Desc:
+  "إدارة المحتوى الترويجي والتعريفي والمرئي.",
+
+ddCmsUse2Title: "الجدولة الزمنية",
+ddCmsUse2Desc:
+  "جدولة المحتوى وتشغيله تلقائياً حسب الوقت.",
+
+ddCmsUse3Title: "التحكم متعدد المواقع",
+ddCmsUse3Desc:
+  "إدارة الشاشات عبر مواقع متعددة من منصة واحدة.",
+
+ddCmsProvideTitle: "ما نقدمه",
+ddCmsProvideSubtitle:
+  "حلول متكاملة لإدارة المحتوى.",
+
+ddCmsProvide1Title: "منصات CMS",
+ddCmsProvide1Desc:
+  "منصات احترافية لإدارة اللوحات الرقمية.",
+
+ddCmsProvide2Title: "الإعداد والتدريب",
+ddCmsProvide2Desc:
+  "إعداد النظام وتخصيصه وتدريب المستخدمين.",
+
+ddCmsProvide3Title: "الدعم والتحسين",
+ddCmsProvide3Desc:
+  "دعم مستمر وتحسين الأداء.",
+ddCtrlHeroBadge: "التحكم والتكامل",
+ddCtrlHeroTitle: "تحكم موحد في أنظمة العرض",
+ddCtrlHeroDesc:
+  "تكامل سلس وتحكم مركزي في بيئات العرض الرقمية.",
+
+ddCtrlOverviewLabel: "نظرة عامة",
+ddCtrlOverviewTitle: "تحكم مبسط في الشاشات",
+ddCtrlOverviewDesc1:
+  "تتطلب بيئات العرض الحديثة تحكماً مركزياً وتكاملاً بين الأنظمة.",
+ddCtrlOverviewDesc2:
+  "توفر شبكات روابط أنظمة تحكم ذكية تربط الشاشات بأنظمة AV وتقنية المعلومات.",
+
+ddCtrlUseCasesTitle: "أين يُستخدم التحكم والتكامل",
+ddCtrlUseCasesSubtitle:
+  "ضمان الموثوقية وسهولة التشغيل.",
+
+ddCtrlUse1Title: "التحكم المركزي بالشاشات",
+ddCtrlUse1Desc:
+  "التحكم في الطاقة ومصادر الإدخال وسلوك الشاشات.",
+
+ddCtrlUse2Title: "تكامل AV وتقنية المعلومات",
+ddCtrlUse2Desc:
+  "الربط مع أنظمة الصوت والمرئيات والشبكات والأتمتة.",
+
+ddCtrlUse3Title: "تشغيل آمن",
+ddCtrlUse3Desc:
+  "تشغيل آمن وتحكم في صلاحيات الوصول.",
+
+ddCtrlProvideTitle: "ما نقدمه",
+ddCtrlProvideSubtitle:
+  "خدمات متكاملة للتحكم والتكامل في أنظمة العرض.",
+
+ddCtrlProvide1Title: "أنظمة التحكم",
+ddCtrlProvide1Desc:
+  "وحدات تحكم وواجهات احترافية.",
+
+ddCtrlProvide2Title: "التكامل والبرمجة",
+ddCtrlProvide2Desc:
+  "تكامل الأنظمة وبرمجة منطق التحكم.",
+
+ddCtrlProvide3Title: "الاختبار والتدريب والدعم",
+ddCtrlProvide3Desc:
+  "اختبار الأنظمة وتدريب المستخدمين والدعم المستمر.",
+
+  ddSignHeroBadge: "اللوحات الرقمية",
+ddSignHeroTitle: "تواصل بصري ديناميكي على نطاق واسع",
+ddSignHeroDesc:
+  "حلول لوحات رقمية احترافية لعرض المعلومات وتعزيز التفاعل.",
+
+ddSignOverviewLabel: "نظرة عامة",
+ddSignOverviewTitle: "رسائل قوية عبر الشاشات",
+ddSignOverviewDesc1:
+  "تغيّر اللوحات الرقمية طريقة عرض المعلومات والتواصل.",
+ddSignOverviewDesc2:
+  "توفر شبكات روابط منصات لوحات رقمية موثوقة وقابلة للتوسع.",
+
+
+ddSignProvideTitle: "ما نقدمه",
+ddSignProvideSubtitle:
+  "حلول لوحات رقمية متكاملة لبيئات الأعمال.",
+
+ddSignUse1Title: "التواصل المؤسسي",
+ddSignUse1Desc:
+  "الإعلانات الداخلية ولوحات المعلومات.",
+
+ddSignUse2Title: "العلامة التجارية والتسويق",
+ddSignUse2Desc:
+  "المحتوى الترويجي وسرد العلامة التجارية.",
+
+ddSignUse3Title: "شاشات المعلومات العامة",
+ddSignUse3Desc:
+  "الإرشاد والمواعيد والمعلومات الفورية.",
+
+ddSignProvide1Title: "شاشات تجارية",
+ddSignProvide1Desc:
+  "شاشات احترافية للعمل المستمر.",
+
+ddSignProvide2Title: "تكامل أنظمة CMS",
+ddSignProvide2Desc:
+  "إدارة وجدولة المحتوى مركزياً.",
+
+ddSignProvide3Title: "التنفيذ والدعم",
+ddSignProvide3Desc:
+  "التركيب والإعداد والدعم المستمر.",
+ddInstHeroBadge: "التركيب والمعايرة",
+ddInstHeroTitle: "تركيب دقيق لأداء مثالي",
+ddInstHeroDesc:
+  "خدمات تركيب ومعايرة احترافية لضمان أفضل أداء للشاشات.",
+
+ddInstOverviewLabel: "نظرة عامة",
+ddInstOverviewTitle: "الدقة تصنع الفرق",
+ddInstOverviewDesc1:
+  "التركيب والمعايرة الصحيحة ضروريان لجودة العرض وطول العمر.",
+ddInstOverviewDesc2:
+  "تضمن شبكات روابط تركيب الشاشات وضبطها بدقة عالية.",
+  
+
+ddInstUse1Title: "تركيب الشاشات",
+ddInstUse1Desc:
+  "تثبيت آمن وتركيب احترافي.",
+
+ddInstUse2Title: "المحاذاة والتموضع",
+ddInstUse2Desc:
+  "محاذاة دقيقة ووضع مثالي للشاشات.",
+
+ddInstUse3Title: "معايرة الألوان والسطوع",
+ddInstUse3Desc:
+  "ضبط الألوان والسطوع بدقة.",
+  ddInstProvideTitle: "ما نقدمه",
+ddInstProvideSubtitle:
+  "خدمات تركيب ومعايرة احترافية لضمان أداء مثالي.",
+
+ddInstProvide1Title: "تركيب احترافي",
+ddInstProvide1Desc:
+  "فنيون معتمدون وأفضل الممارسات.",
+
+ddInstProvide2Title: "الاختبار والتحقق",
+ddInstProvide2Desc:
+  "اختبارات شاملة وضمان الجودة.",
+
+ddInstProvide3Title: "التسليم والدعم",
+ddInstProvide3Desc:
+  "تسليم النظام والتوثيق والدعم.",
+ddTouchHeroBadge: "شاشات تفاعلية",
+ddTouchHeroTitle: "تعاون تفاعلي يعزز المشاركة",
+ddTouchHeroDesc:
+  "حلول شاشات تفاعلية مصممة لتعزيز التعاون والتعلم واتخاذ القرار.",
+
+ddTouchOverviewLabel: "نظرة عامة",
+ddTouchOverviewTitle: "تفاعل يغيّر أسلوب العمل",
+ddTouchOverviewDesc1:
+  "تعيد الشاشات التفاعلية تعريف طريقة التعاون ومشاركة الأفكار.",
+ddTouchOverviewDesc2:
+  "توفر شبكات روابط شاشات تفاعلية احترافية سهلة الاستخدام وموثوقة.",
+
+ddTouchUseCasesTitle: "أين تُستخدم الشاشات التفاعلية",
+ddTouchUseCasesSubtitle:
+  "مصممة لبيئات التعاون والتعليم والعروض التقديمية.",
+
+ddTouchUse1Title: "غرف الاجتماعات",
+ddTouchUse1Desc:
+  "تعاون تفاعلي للاجتماعات والعصف الذهني.",
+
+ddTouchUse2Title: "التدريب والتعليم",
+ddTouchUse2Desc:
+  "بيئات تعليمية تفاعلية تعتمد على اللمس.",
+
+ddTouchUse3Title: "ورش العمل ومساحات الابتكار",
+ddTouchUse3Desc:
+  "تفاعل عملي لجلسات التخطيط والتصميم.",
+
+ddTouchProvideTitle: "ما نقدمه",
+ddTouchProvideSubtitle:
+  "حلول متكاملة للشاشات التفاعلية.",
+
+ddTouchProvide1Title: "أجهزة شاشات تفاعلية",
+ddTouchProvide1Desc:
+  "شاشات تعمل باللمس وملحقاتها.",
+
+ddTouchProvide2Title: "التكامل والإعداد",
+ddTouchProvide2Desc:
+  "تكامل الأنظمة مع AV والاتصالات وتقنية المعلومات.",
+
+ddTouchProvide3Title: "التدريب والدعم",
+ddTouchProvide3Desc:
+  "تدريب المستخدمين والصيانة والدعم المستمر.",
+
+  ddWallHeroBadge: "جدران الفيديو",
+ddWallHeroTitle: "تأثير بصري واسع النطاق",
+ddWallHeroDesc:
+  "حلول جدران فيديو عالية الدقة مصممة للمراقبة والتعاون والعرض البصري الغامر.",
+
+ddWallOverviewLabel: "نظرة عامة",
+ddWallOverviewTitle: "ذكاء بصري على نطاق واسع",
+ddWallOverviewDesc1:
+  "توفر جدران الفيديو منصة قوية لعرض محتوى بصري واسع وعالي التأثير.",
+ddWallOverviewDesc2:
+  "تصمم شبكات روابط حلول جدران فيديو توفر الوضوح والموثوقية وقابلية التوسع.",
+
+ddWallUseCasesTitle: "أين تُستخدم جدران الفيديو",
+ddWallUseCasesSubtitle:
+  "دعم العمليات الحرجة والتواصل البصري المؤثر.",
+
+ddWallUse1Title: "مراكز القيادة والتحكم",
+ddWallUse1Desc:
+  "بيئات مراقبة واتخاذ قرار في الوقت الحقيقي.",
+
+ddWallUse2Title: "المساحات المؤسسية والعامة",
+ddWallUse2Desc:
+  "شاشات عرض كبيرة للمداخل والقاعات.",
+
+ddWallUse3Title: "العمليات والتحليلات",
+ddWallUse3Desc:
+  "تصور البيانات ولوحات المعلومات التشغيلية.",
+
+ddWallProvideTitle: "ما نقدمه",
+ddWallProvideSubtitle:
+  "حلول متكاملة واحترافية لجدران الفيديو.",
+
+ddWallProvide1Title: "جدران فيديو LCD و LED",
+ddWallProvide1Desc:
+  "تقنيات جدران فيديو عالية الدقة.",
+
+ddWallProvide2Title: "التصميم والتكامل",
+ddWallProvide2Desc:
+  "تصميم جدران الفيديو ووحدات التحكم والتكامل مع AV.",
+
+ddWallProvide3Title: "التركيب والدعم",
+ddWallProvide3Desc:
+  "تركيب احترافي ومعايرة ودعم مستمر.",
+
+netWifiHeroBadge: "الشبكات اللاسلكية",
+netWifiHeroTitle: "اتصال لاسلكي آمن وعالي الأداء",
+netWifiHeroDesc:
+  "حلول Wi-Fi على مستوى المؤسسات مصممة لتوفير اتصال لاسلكي موثوق وسريع وآمن عبر مؤسستك.",
+
+netWifiOverviewLabel: "نظرة عامة",
+netWifiOverviewTitle: "بنية تحتية لاسلكية عالية الأداء",
+netWifiOverviewDesc1:
+  "تعتمد المؤسسات الحديثة على الاتصال اللاسلكي لتحقيق التنقل والتعاون والإنتاجية. حلولنا للشبكات اللاسلكية مصممة لتوفير تغطية سلسة وأداء مثالي وأمان قوي.",
+netWifiOverviewDesc2:
+  "تقوم شبكات روابط بنشر بنية تحتية لاسلكية قابلة للتوسع وعالية الكثافة تدعم متطلبات المستخدمين المتزايدة وأجهزة إنترنت الأشياء والتطبيقات الحرجة بموثوقية على مستوى المؤسسات.",
+
+netWifiUseCasesTitle: "أين تكون الشبكات اللاسلكية ضرورية",
+netWifiUseCasesSubtitle:
+  "دعم التنقل والتعاون والاتصال السلس عبر البيئات المختلفة.",
+
+netWifiUse1Title: "المكاتب والمجمعات المؤسسية",
+netWifiUse1Desc:
+  "وصول لاسلكي موثوق للموظفين والضيوف والأجهزة المحمولة عبر المنشآت متعددة الطوابق.",
+
+netWifiUse2Title: "الرعاية الصحية والتعليم",
+netWifiUse2Desc:
+  "شبكة Wi-Fi عالية الكثافة للمستشفيات والعيادات والجامعات والمدارس مع متطلبات أمان وأداء صارمة.",
+
+netWifiUse3Title: "التجزئة والضيافة",
+netWifiUse3Desc:
+  "شبكة Wi-Fi للضيوف وخدمات قائمة على الموقع لتحسين تجربة العملاء والكفاءة التشغيلية.",
+
+netWifiProvideTitle: "ما نقدمه",
+netWifiProvideSubtitle:
+  "حلول شاملة للشبكات اللاسلكية من التصميم إلى الدعم المستمر.",
+
+netWifiProvide1Title: "تصميم وتخطيط التغطية",
+netWifiProvide1Desc:
+  "مسوحات الموقع ورسم خرائط الحرارة وتصميم الترددات الراديوية لضمان التغطية والسعة اللاسلكية المثلى.",
+
+netWifiProvide2Title: "النشر والتكوين",
+netWifiProvide2Desc:
+  "تركيب احترافي وإعداد SSID وتكامل VLAN وتطبيق سياسات الأمان.",
+
+netWifiProvide3Title: "مراقبة الأداء والتحسين",
+netWifiProvide3Desc:
+  "مراقبة مستمرة واستكشاف الأخطاء وتحديثات البرامج الثابتة وتحسين السعة لتحقيق أعلى أداء.",
+netCableHeroBadge: "الكابلات المهيكلة",
+netCableHeroTitle: "الأساس المادي لاتصال الشبكة",
+netCableHeroDesc:
+  "أنظمة كابلات مهيكلة احترافية مصممة لتوفير اتصال موثوق وعالي الأداء لشبكات المؤسسات.",
+
+netCableOverviewLabel: "نظرة عامة",
+netCableOverviewTitle: "مصمم للأداء والموثوقية",
+netCableOverviewDesc1:
+  "الكابلات المهيكلة هي العمود الفقري لأي بنية تحتية لشبكة المؤسسات. يضمن نظام الكابلات المصمم جيدًا أداءً متسقًا وقابلية للتوسع وسهولة الصيانة عبر مؤسستك بأكملها.",
+netCableOverviewDesc2:
+  "تصمم شبكات روابط وتنشر بنية تحتية لكابلات النحاس والألياف مع رفوف منظمة وعلامات واضحة والالتزام بمعايير الصناعة، مما يوفر أساسًا ماديًا قويًا لجميع اتصالات الشبكة.",
+
+netCableUseCasesTitle: "أين تكون الكابلات المهيكلة ضرورية",
+netCableUseCasesSubtitle:
+  "دعم الاتصال الموثوق عبر بيئات المؤسسات المتنوعة.",
+
+netCableUse1Title: "مراكز البيانات وغرف الخوادم",
+netCableUse1Desc:
+  "تركيبات نحاسية وألياف عالية الكثافة للخوادم والتخزين ومعدات الشبكة مع أنظمة رفوف منظمة.",
+
+netCableUse2Title: "المكاتب والمجمعات المؤسسية",
+netCableUse2Desc:
+  "كابلات أفقية ورأسية لربط محطات العمل وغرف الاجتماعات ومساحات التعاون عبر المنشآت متعددة الطوابق.",
+
+netCableUse3Title: "المرافق الصناعية والصحية",
+netCableUse3Desc:
+  "حلول كابلات معززة ومتوافقة للبيئات الصعبة مع متطلبات تنظيمية محددة.",
+
+netCableProvideTitle: "ما نقدمه",
+netCableProvideSubtitle:
+  "حلول شاملة للكابلات المهيكلة من التصميم إلى الاعتماد.",
+
+netCableProvide1Title: "بنية تحتية للنحاس والألياف",
+netCableProvide1Desc:
+  "كابلات نحاسية Cat6 و Cat6A وتركيبات ألياف بصرية أحادية ومتعددة الأوضاع لمتطلبات النطاق الترددي المتنوعة.",
+
+netCableProvide2Title: "أنظمة الرفوف وإدارة الكابلات",
+netCableProvide2Desc:
+  "تركيب رفوف احترافي وصواني كابلات ومسارات منظمة وعلامات ملونة وتوثيق شامل.",
+
+netCableProvide3Title: "الاختبار والاعتماد",
+netCableProvide3Desc:
+  "اختبار شامل واعتماد الأداء والتحقق من الامتثال وتقارير مفصلة لكل تركيب.",
+
+  netSwitchHeroBadge: "التبديل والتوجيه",
+netSwitchHeroTitle: "تدفق بيانات فعال عبر شبكة مؤسستك",
+netSwitchHeroDesc:
+  "بنية تحتية للتبديل والتوجيه على مستوى المؤسسات مصممة لضمان نقل بيانات موثوق وعالي الأداء عبر جميع طبقات الشبكة.",
+
+netSwitchOverviewLabel: "نظرة عامة",
+netSwitchOverviewTitle: "الذكاء وراء اتصال الشبكة",
+netSwitchOverviewDesc1:
+  "يشكل التبديل والتوجيه الذكاء الأساسي لشبكات المؤسسات، حيث يوجه حركة البيانات بكفاءة من المصدر إلى الوجهة. تضمن البنية التحتية المصممة جيدًا للتبديل والتوجيه الأداء الأمثل والتكرار وقابلية التوسع.",
+netSwitchOverviewDesc2:
+  "تصمم شبكات روابط وتنشر معماريات شبكة متعددة الطبقات تشمل الطبقات الأساسية والتوزيع والوصول، مع بروتوكولات توجيه متقدمة وإدارة ذكية لحركة المرور لدعم التطبيقات الحرجة.",
+
+netSwitchUseCasesTitle: "أين يكون التبديل والتوجيه حرجين",
+netSwitchUseCasesSubtitle:
+  "تمكين تدفق البيانات الفعال عبر بيئات المؤسسات المعقدة.",
+
+netSwitchUse1Title: "شبكات الحرم الجامعي للمؤسسات",
+netSwitchUse1Desc:
+  "شبكات حرم جامعي متعددة المباني مع مفاتيح أساسية ومفاتيح توزيع واتصال طبقة الوصول لآلاف المستخدمين.",
+
+netSwitchUse2Title: "مراكز البيانات والبنية التحتية السحابية",
+netSwitchUse2Desc:
+  "معماريات عمود-ورقة عالية الأداء وتوجيه متكرر لبيئات مراكز البيانات مع متطلبات إنتاجية صعبة.",
+
+netSwitchUse3Title: "شبكات المؤسسات متعددة المواقع",
+netSwitchUse3Desc:
+  "التوجيه بين المواقع واتصال WAN يتيح التواصل السلس عبر المواقع الموزعة جغرافيًا.",
+
+netSwitchProvideTitle: "ما نقدمه",
+netSwitchProvideSubtitle:
+  "حلول شاملة للتبديل والتوجيه من التصميم إلى الإدارة المستمرة.",
+
+netSwitchProvide1Title: "تصميم معمارية الشبكة",
+netSwitchProvide1Desc:
+  "تصميم الطبقات الأساسية والتوزيع والوصول مع تخطيط التكرار وتقسيم VLAN واختيار بروتوكول التوجيه.",
+
+netSwitchProvide2Title: "النشر والتكوين",
+netSwitchProvide2Desc:
+  "تركيب احترافي وتكوين الأجهزة وتنفيذ بروتوكول التوجيه وسياسات جودة الخدمة.",
+
+netSwitchProvide3Title: "مراقبة الأداء والتحسين",
+netSwitchProvide3Desc:
+  "مراقبة مستمرة لحركة المرور وتحليل الأداء وتحديثات البرامج الثابتة والتحسين الاستباقي لتحقيق أقصى كفاءة للشبكة.",
+
+  netMonHeroBadge: "المراقبة والتحسين",
+netMonHeroTitle: "إدارة استباقية لصحة الشبكة وأدائها",
+netMonHeroDesc:
+  "حلول مراقبة وتحسين شاملة مصممة للحفاظ على أداء الشبكة الأمثل وحل المشكلات قبل أن تؤثر على المستخدمين.",
+
+netMonOverviewLabel: "نظرة عامة",
+netMonOverviewTitle: "الرؤية والتحكم عبر شبكتك",
+netMonOverviewDesc1:
+  "تعد المراقبة والتحسين الفعالان للشبكة ضروريين للحفاظ على أداء موثوق وتحديد المشكلات مبكرًا والتأكد من أن البنية التحتية لشبكتك تلبي متطلبات العمل. تتيح الرؤية في الوقت الفعلي الإدارة الاستباقية.",
+netMonOverviewDesc2:
+  "تنفذ شبكات روابط منصات مراقبة متقدمة توفر رؤية شاملة لأداء الشبكة ومقاييس الصحة وأنماط حركة المرور والمشكلات المحتملة، مما يتيح التحسين الاستباقي واستكشاف الأخطاء السريع.",
+
+netMonUseCasesTitle: "أين تكون المراقبة والتحسين ضروريين",
+netMonUseCasesSubtitle:
+  "الحفاظ على الأداء الأمثل عبر البنية التحتية للشبكة الحرجة.",
+
+netMonUse1Title: "عمليات شبكة المؤسسة",
+netMonUse1Desc:
+  "مراقبة في الوقت الفعلي لأجهزة الشبكة والروابط والخدمات مع التنبيه التلقائي وتتبع الأداء.",
+
+netMonUse2Title: "استكشاف أخطاء الأداء",
+netMonUse2Desc:
+  "تحديد وحل سريع لاختناقات الشبكة ومشكلات التأخير ومشاكل الاتصال.",
+
+netMonUse3Title: "تخطيط السعة والتنبؤ",
+netMonUse3Desc:
+  "تحليل البيانات التاريخية ومراقبة الاتجاهات لدعم نمو البنية التحتية وقرارات تخطيط السعة.",
+
+netMonProvideTitle: "ما نقدمه",
+netMonProvideSubtitle:
+  "حلول مراقبة وتحسين كاملة من النشر إلى الإدارة المستمرة.",
+
+netMonProvide1Title: "نشر منصة المراقبة",
+netMonProvide1Desc:
+  "تنفيذ أدوات مراقبة الشبكة مع اكتشاف الأجهزة وجمع المقاييس ولوحات معلومات مخصصة.",
+
+netMonProvide2Title: "تحليل الأداء واستكشاف الأخطاء",
+netMonProvide2Desc:
+  "تحليل حركة المرور وتحديد الاختناقات وتحليل السبب الجذري وتوصيات الحل.",
+
+netMonProvide3Title: "التحسين والصيانة الاستباقية",
+netMonProvide3Desc:
+  "ضبط مستمر للأداء وتحديثات البرامج الثابتة وتحسين السعة والصيانة الوقائية.",
+
+  netWanHeroBadge: "WAN والاتصال",
+netWanHeroTitle: "اتصال موثوق بين المواقع والسحابة",
+netWanHeroDesc:
+  "حلول WAN واتصال المؤسسات مصممة لربط المواقع الموزعة مع تدفق حركة مرور محسّن وأداء متسق.",
+
+netWanOverviewLabel: "نظرة عامة",
+netWanOverviewTitle: "ربط مؤسستك الموزعة",
+netWanOverviewDesc1:
+  "تتيح الشبكات واسعة النطاق للمؤسسات ربط المكاتب ومراكز البيانات والموارد السحابية عبر المدن والدول والقارات. توفر حلول WAN الحديثة الموثوقية والأداء اللازمين للتطبيقات الحرجة.",
+netWanOverviewDesc2:
+  "تصمم شبكات روابط وتنفذ اتصال WAN باستخدام تقنيات الإنترنت و MPLS و SD-WAN لتوفير اتصال آمن وعالي الأداء مع توجيه ذكي لحركة المرور وقدرات التعافي من الفشل.",
+
+netWanUseCasesTitle: "أين يكون WAN والاتصال ضروريين",
+netWanUseCasesSubtitle:
+  "تمكين التواصل السلس عبر مواقع المؤسسات الموزعة.",
+
+netWanUse1Title: "اتصال المؤسسات متعددة المواقع",
+netWanUse1Desc:
+  "ربط المقر الرئيسي والمكاتب الفرعية والمواقع البعيدة باتصال WAN موثوق وعالي النطاق الترددي.",
+
+netWanUse2Title: "الوصول إلى السحابة ومركز البيانات",
+netWanUse2Desc:
+  "اتصال محسّن بمنصات السحابة العامة ومراكز البيانات الخاصة والبنية التحتية الهجينة.",
+
+netWanUse3Title: "تمكين القوى العاملة عن بُعد",
+netWanUse3Desc:
+  "اتصال آمن وعالي الأداء للعاملين عن بُعد والمتنقلين الذين يصلون إلى موارد الشركة.",
+
+netWanProvideTitle: "ما نقدمه",
+netWanProvideSubtitle:
+  "حلول WAN شاملة من التصميم إلى التحسين المستمر.",
+
+netWanProvide1Title: "معمارية وتصميم WAN",
+netWanProvide1Desc:
+  "تصميم الإنترنت و MPLS و SD-WAN مع استراتيجيات التكرار والتعافي من الفشل وتحسين حركة المرور.",
+
+netWanProvide2Title: "النشر والتكامل",
+netWanProvide2Desc:
+  "تركيب احترافي وتكوين أجهزة WAN وإعداد التوجيه والتكامل مع البنية التحتية الحالية.",
+
+netWanProvide3Title: "إدارة الأداء والتحسين",
+netWanProvide3Desc:
+  "مراقبة مستمرة وتحليل حركة المرور وتحسين النطاق الترددي والحل الاستباقي للمشكلات.",
+
+  netSecHeroBadge: "تكامل أمان الشبكة",
+netSecHeroTitle: "أمان شامل عبر البنية التحتية للشبكة",
+netSecHeroDesc:
+  "حلول أمان شبكة متكاملة مصممة لحماية بنيتك التحتية مع التقسيم والتحكم في الوصول وحماية جدار الحماية.",
+
+netSecOverviewLabel: "نظرة عامة",
+netSecOverviewTitle: "الأمان مدمج في كل طبقة شبكة",
+netSecOverviewDesc1:
+  "يضمن تكامل أمان الشبكة أن ضوابط الأمان مدمجة في جميع أنحاء البنية التحتية لشبكتك، وليس فقط عند المحيط. يحمي هذا النهج متعدد الطبقات من التهديدات الداخلية والخارجية مع الحفاظ على أداء الشبكة.",
+netSecOverviewDesc2:
+  "تنفذ شبكات روابط استراتيجيات أمان شبكة شاملة تشمل تقسيم الشبكة والتحكم في الوصول إلى الشبكة وتكامل جدار الحماية ومبادئ الثقة المعدومة لإنشاء وضع أمني مرن.",
+
+netSecUseCasesTitle: "أين يكون تكامل أمان الشبكة حرجًا",
+netSecUseCasesSubtitle:
+  "حماية شبكات المؤسسات من التهديدات المتطورة في كل طبقة.",
+
+netSecUse1Title: "حماية شبكة المؤسسة",
+netSecUse1Desc:
+  "أمان متعدد الطبقات لشبكات الشركات مع التقسيم والتحكم في الوصول ومنع التهديدات.",
+
+netSecUse2Title: "أمان مركز البيانات",
+netSecUse2Desc:
+  "التقسيم الدقيق وأمان الثقة المعدومة لبيئات مراكز البيانات لحماية التطبيقات والبيانات الحرجة.",
+
+netSecUse3Title: "متطلبات الامتثال والتنظيم",
+netSecUse3Desc:
+  "ضوابط أمان الشبكة لتلبية اللوائح الصناعية مثل PCI-DSS و HIPAA و ISO 27001.",
+
+netSecProvideTitle: "ما نقدمه",
+netSecProvideSubtitle:
+  "تكامل أمان شبكة شامل من التصميم إلى الإدارة.",
+
+netSecProvide1Title: "تقسيم الشبكة و NAC",
+netSecProvide1Desc:
+  "تقسيم VLAN والتحكم في الوصول إلى الشبكة وتصنيف الأجهزة وتطبيق الوصول القائم على السياسات.",
+
+netSecProvide2Title: "جدار الحماية ومنع التهديدات",
+netSecProvide2Desc:
+  "تكامل جدار الحماية من الجيل التالي ومنع التسلل واستخبارات التهديدات عبر طبقات الشبكة.",
+
+netSecProvide3Title: "مراقبة الأمان والاستجابة",
+netSecProvide3Desc:
+  "مراقبة أمنية مستمرة واكتشاف الشذوذ والاستجابة للحوادث وتحسين سياسات الأمان.",
+
+  secCctvHeroBadge: "المراقبة بالفيديو",
+secCctvHeroTitle: "أمان ومراقبة بصرية شاملة",
+secCctvHeroDesc:
+  "أنظمة كاميرات IP ومراقبة فيديو متقدمة مصممة لتوفير مراقبة في الوقت الفعلي وأدلة الحوادث وتحليلات ذكية.",
+
+secCctvOverviewLabel: "نظرة عامة",
+secCctvOverviewTitle: "عيون على أصولك على مدار الساعة",
+secCctvOverviewDesc1:
+  "أنظمة المراقبة بالفيديو ضرورية لحماية الأشخاص والممتلكات والأصول. توفر حلول CCTV الحديثة القائمة على IP فيديو عالي الدقة وتحليلات ذكية وتكامل سلس مع أنظمة الأمان والأعمال.",
+secCctvOverviewDesc2:
+  "تصمم شبكات روابط وتنشر حلول مراقبة فيديو شاملة باستخدام كاميرات IP على مستوى المؤسسات ومسجلات فيديو شبكية وبرامج إدارة فيديو وتحليلات متقدمة لتقديم معلومات أمنية قابلة للتنفيذ.",
+
+secCctvUseCasesTitle: "أين تكون المراقبة بالفيديو ضرورية",
+secCctvUseCasesSubtitle:
+  "حماية المنشآت ومراقبة العمليات وضمان السلامة عبر بيئات متنوعة.",
+
+secCctvUse1Title: "المرافق والمجمعات المؤسسية",
+secCctvUse1Desc:
+  "أمن المحيط ومداخل المباني ومواقف السيارات والمراقبة الداخلية لمباني المكاتب والمجمعات المؤسسية.",
+
+secCctvUse2Title: "مساحات التجزئة والتجارية",
+secCctvUse2Desc:
+  "منع الخسائر وتحليل سلوك العملاء ومراقبة سلامة الموظفين في متاجر التجزئة والمنشآت التجارية.",
+
+secCctvUse3Title: "البنية التحتية الحرجة والصناعية",
+secCctvUse3Desc:
+  "مراقبة العمليات والامتثال للسلامة والمراقبة الأمنية لمصانع التصنيع والمرافق والبنية التحتية الحرجة.",
+
+secCctvProvideTitle: "ما نقدمه",
+secCctvProvideSubtitle:
+  "حلول مراقبة فيديو كاملة من التصميم إلى الإدارة المستمرة.",
+
+secCctvProvide1Title: "أنظمة كاميرات IP والبنية التحتية",
+secCctvProvide1Desc:
+  "كاميرات IP عالية الدقة ومسجلات فيديو شبكية وأنظمة تخزين ومنصات إدارة فيديو.",
+
+secCctvProvide2Title: "تصميم النظام والتركيب",
+secCctvProvide2Desc:
+  "مسوحات الموقع وتخطيط وضع الكاميرات وتصميم البنية التحتية للشبكة وخدمات التركيب الاحترافية.",
+
+secCctvProvide3Title: "تحليلات الفيديو والتكامل",
+secCctvProvide3Desc:
+  "تحليلات فيديو ذكية والتعرف على الوجه واكتشاف الحركة والتكامل مع أنظمة التحكم في الوصول والإنذار.",
+  secAccessHeroBadge: "أنظمة التحكم في الوصول",
+secAccessHeroTitle: "تحكم ذكي في من يدخل منشآتك",
+secAccessHeroDesc:
+  "حلول تحكم في الوصول متقدمة باستخدام قارئات البطاقات والمصادقة البيومترية وبيانات الاعتماد المحمولة لتأمين وتتبع الوصول إلى المنشآت.",
+
+secAccessOverviewLabel: "نظرة عامة",
+secAccessOverviewTitle: "وصول آمن، رؤية كاملة",
+secAccessOverviewDesc1:
+  "أنظمة التحكم في الوصول هي أساس الأمن المادي، حيث تحدد من يمكنه دخول المنشآت ومتى يمكنه الدخول وتتبع جميع أحداث الوصول. توفر الحلول الحديثة طرق مصادقة مرنة وتكامل سلس مع أنظمة الأمان الأخرى.",
+secAccessOverviewDesc2:
+  "تصمم شبكات روابط وتنشر حلول تحكم في الوصول شاملة باستخدام الأنظمة القائمة على البطاقات وقارئات البيومترية وبيانات الاعتماد المحمولة ومنصات الإدارة المركزية لتوفير تحكم في الوصول آمن وقابل للمراجعة.",
+
+secAccessUseCasesTitle: "أين يكون التحكم في الوصول حرجًا",
+secAccessUseCasesSubtitle:
+  "حماية المنشآت والأصول والمناطق الحساسة بإدارة وصول ذكية.",
+
+secAccessUse1Title: "مباني ومكاتب الشركات",
+secAccessUse1Desc:
+  "دخول المبنى والوصول إلى الطوابق والأمن على مستوى الغرفة مع أنظمة شارات الموظفين وإدارة الزوار.",
+
+secAccessUse2Title: "مراكز البيانات وغرف الخوادم",
+secAccessUse2Desc:
+  "مصادقة بيومترية عالية الأمان وتحكم في الوصول متعدد العوامل للبنية التحتية الحرجة لتقنية المعلومات.",
+
+secAccessUse3Title: "مرافق الرعاية الصحية والتعليم",
+secAccessUse3Desc:
+  "تحكم في الوصول قائم على الأدوار للمستشفيات والعيادات والجامعات والمدارس مع تتبع الامتثال.",
+
+secAccessProvideTitle: "ما نقدمه",
+secAccessProvideSubtitle:
+  "حلول تحكم في الوصول كاملة من التصميم إلى الإدارة المستمرة.",
+
+secAccessProvide1Title: "أنظمة مصادقة متعددة الأوضاع",
+secAccessProvide1Desc:
+  "قارئات البطاقات والتعرف البيومتري على بصمات الأصابع والوجه وبيانات الاعتماد المحمولة والوصول القائم على PIN.",
+
+secAccessProvide2Title: "تصميم النظام والتكامل",
+secAccessProvide2Desc:
+  "معمارية التحكم في الوصول وتكامل أجهزة الأبواب واتصال الشبكة وتكامل المراقبة بالفيديو.",
+
+secAccessProvide3Title: "الإدارة والتشغيل",
+secAccessProvide3Desc:
+  "منصات إدارة مركزية وتوفير المستخدمين وإدارة حقوق الوصول وتسجيل شامل للمراجعة.",
+
+  secIntrusionHeroBadge: "كشف التسلل",
+secIntrusionHeroTitle: "الكشف المبكر عن الوصول غير المصرح به والتهديدات",
+secIntrusionHeroDesc:
+  "أنظمة كشف تسلل متقدمة تستخدم أجهزة الاستشعار والإنذارات وأمن المحيط لاكتشاف والتنبيه على محاولات الوصول غير المصرح بها.",
+
+secIntrusionOverviewLabel: "نظرة عامة",
+secIntrusionOverviewTitle: "اكتشف التهديدات قبل أن تصبح حوادث",
+secIntrusionOverviewDesc1:
+  "توفر أنظمة كشف التسلل خط الدفاع الأول ضد الوصول المادي غير المصرح به. تستخدم الأنظمة الحديثة مزيجًا من أجهزة استشعار الحركة وجهات اتصال الأبواب والنوافذ وكاشفات كسر الزجاج وأمن المحيط لتحديد التهديدات في الوقت الفعلي.",
+secIntrusionOverviewDesc2:
+  "تصمم شبكات روابط وتنشر حلول كشف تسلل شاملة مع أجهزة استشعار ذكية وأنظمة إنذار موثوقة وتكامل مع منصات المراقبة لضمان الاستجابة السريعة لأحداث الأمان.",
+
+secIntrusionUseCasesTitle: "أين يكون كشف التسلل ضروريًا",
+secIntrusionUseCasesSubtitle:
+  "حماية المنشآت من الوصول غير المصرح به والانتهاكات الأمنية.",
+
+secIntrusionUse1Title: "المرافق التجارية والمؤسسية",
+secIntrusionUse1Desc:
+  "الحماية خارج ساعات العمل واكتشاف الدخول غير المصرح به ومراقبة الإنذار لمباني المكاتب والعقارات التجارية.",
+
+secIntrusionUse2Title: "أمن المحيط والخارجي",
+secIntrusionUse2Desc:
+  "كشف خط السياج وأجهزة استشعار الحركة الخارجية وكاشفات الشعاع لحدود الممتلكات والأصول الخارجية.",
+
+secIntrusionUse3Title: "المناطق عالية الأمان والحرجة",
+secIntrusionUse3Desc:
+  "كشف متعدد الطبقات لغرف الخوادم ومراكز البيانات ومرافق البحث والمناطق الأخرى ذات القيمة العالية أو الحساسة.",
+
+secIntrusionProvideTitle: "ما نقدمه",
+secIntrusionProvideSubtitle:
+  "حلول كشف تسلل كاملة من التصميم إلى تكامل المراقبة.",
+
+secIntrusionProvide1Title: "أجهزة الاستشعار والكشف",
+secIntrusionProvide1Desc:
+  "كاشفات الحركة وجهات اتصال الأبواب والنوافذ وأجهزة استشعار كسر الزجاج وكاشفات الاهتزاز وأنظمة شعاع المحيط.",
+
+secIntrusionProvide2Title: "تصميم النظام والتركيب",
+secIntrusionProvide2Desc:
+  "تخطيط مناطق الأمان ووضع أجهزة الاستشعار والأسلاك والتكامل اللاسلكي وتكوين لوحة الإنذار.",
+
+secIntrusionProvide3Title: "تكامل المراقبة والاستجابة",
+secIntrusionProvide3Desc:
+  "مراقبة المحطة المركزية والتنبيهات المحمولة والتكامل مع المراقبة بالفيديو وبروتوكولات الاستجابة الآلية.",
+
+  secMonitorHeroBadge: "منصات المراقبة المركزية",
+secMonitorHeroTitle: "عمليات أمنية موحدة واستجابة",
+secMonitorHeroDesc:
+  "منصات مراقبة مركزية مع لوحات معلومات موحدة وحلول غرفة التحكم لإدارة جميع أنظمة الأمان من واجهة واحدة.",
+
+secMonitorOverviewLabel: "نظرة عامة",
+secMonitorOverviewTitle: "رؤية أمنية كاملة في مكان واحد",
+secMonitorOverviewDesc1:
+  "تدمج منصات المراقبة المركزية المراقبة بالفيديو والتحكم في الوصول وكشف التسلل وأنظمة الأمان الأخرى في واجهة موحدة. يتيح هذا النهج المركزي لفرق الأمن مراقبة جميع الأنظمة وربط الأحداث والاستجابة للحوادث بكفاءة.",
+secMonitorOverviewDesc2:
+  "تصمم شبكات روابط وتنشر مراكز عمليات أمنية شاملة مع لوحات معلومات موحدة وشاشات جدار فيديو ومنصات إدارة متكاملة توفر وعيًا ظرفيًا كاملاً واستجابة مبسطة للحوادث.",
+
+secMonitorUseCasesTitle: "أين تكون المراقبة المركزية حرجة",
+secMonitorUseCasesSubtitle:
+  "تمكين العمليات الأمنية الفعالة عبر البيئات المعقدة متعددة الأنظمة.",
+
+secMonitorUse1Title: "مراكز العمليات الأمنية للشركات",
+secMonitorUse1Desc:
+  "مراقبة مركزية للمجمعات متعددة المباني مع فيديو متكامل والتحكم في الوصول وإدارة الإنذار.",
+
+secMonitorUse2Title: "مرافق البنية التحتية الحرجة",
+secMonitorUse2Desc:
+  "مراقبة على مدار الساعة للمرافق ومحاور النقل والمنشآت الحرجة مع كشف التهديدات والاستجابة في الوقت الفعلي.",
+
+secMonitorUse3Title: "أمن المؤسسات متعددة المواقع",
+secMonitorUse3Desc:
+  "مراقبة موحدة عبر المواقع الموزعة جغرافيًا مع إشراف مركزي وتنسيق الحوادث.",
+
+secMonitorProvideTitle: "ما نقدمه",
+secMonitorProvideSubtitle:
+  "حلول مركز عمليات أمنية كاملة من التصميم إلى التنفيذ.",
+
+secMonitorProvide1Title: "منصات مراقبة موحدة",
+secMonitorProvide1Desc:
+  "تكامل إدارة الفيديو والتحكم في الوصول وكشف التسلل والتحليلات في لوحات معلومات ذات لوحة واحدة.",
+
+secMonitorProvide2Title: "تصميم غرفة التحكم وتكامل AV",
+secMonitorProvide2Desc:
+  "أنظمة جدار الفيديو ومحطات عمل المشغل وتصميم الإضاءة وتخطيطات غرفة التحكم المريحة.",
+
+secMonitorProvide3Title: "أتمتة سير العمل والاستجابة",
+secMonitorProvide3Desc:
+  "سير عمل استجابة الحوادث الآلي وارتباط الأحداث وأدوات إعداد التقارير والتكامل مع أنظمة المؤسسة.",
+
+secAiHeroBadge: "التحليلات والكشف بالذكاء الاصطناعي",
+secAiHeroTitle: "أمان ذكي من خلال التحليلات المتقدمة",
+secAiHeroDesc:
+  "تحليلات أمنية مدعومة بالذكاء الاصطناعي تشمل التعرف على الوجه وتحليل السلوك والكشف الآلي عن التهديدات لتعزيز المعلومات الأمنية.",
+
+secAiOverviewLabel: "نظرة عامة",
+secAiOverviewTitle: "من الأمان التفاعلي إلى الاستباقي",
+secAiOverviewDesc1:
+  "تحول التحليلات الأمنية والكشف بالذكاء الاصطناعي أنظمة الأمان التقليدية من أجهزة تسجيل سلبية إلى منصات كشف تهديدات ذكية. تحلل الخوارزميات المتقدمة تدفقات الفيديو وأنماط الوصول والسلوك لتحديد الشذوذات والتهديدات المحتملة في الوقت الفعلي.",
+secAiOverviewDesc2:
+  "تنفذ شبكات روابط حلول ذكاء اصطناعي وتحليلات متطورة تشمل التعرف على الوجه وكشف الأشياء وتحليل السلوك والتحليلات التنبؤية لتوفير معلومات أمنية استباقية واستجابة آلية للتهديدات.",
+
+secAiUseCasesTitle: "أين يحوّل الذكاء الاصطناعي والتحليلات الأمان",
+secAiUseCasesSubtitle:
+  "تعزيز العمليات الأمنية بالأتمتة الذكية والرؤى.",
+
+secAiUse1Title: "التحقق من الهوية والوصول",
+secAiUse1Desc:
+  "التعرف على الوجه للتحكم في الوصول بدون احتكاك ومطابقة قائمة المراقبة والتحقق الآلي من الهوية.",
+
+secAiUse2Title: "كشف التهديدات والشذوذات",
+secAiUse2Desc:
+  "تحليلات سلوكية لاكتشاف الأنشطة المشبوهة والتسكع وخروقات المحيط والأنماط غير العادية.",
+
+secAiUse3Title: "الذكاء التشغيلي",
+secAiUse3Desc:
+  "عد الأشخاص وإدارة الحشود ورسم خرائط الحرارة وذكاء الأعمال المستمد من أنظمة الأمان.",
+
+secAiProvideTitle: "ما نقدمه",
+secAiProvideSubtitle:
+  "تحليلات أمنية كاملة مدعومة بالذكاء الاصطناعي من النشر إلى التحسين.",
+
+secAiProvide1Title: "محركات تحليلات الذكاء الاصطناعي",
+secAiProvide1Desc:
+  "التعرف على الوجه وتصنيف الأشياء والتعرف على لوحات الترخيص وخوارزميات تحليل السلوك.",
+
+secAiProvide2Title: "التكامل والتكوين",
+secAiProvide2Desc:
+  "نشر خادم التحليلات وتكامل الكاميرات وتكوين القواعد وإعداد سير عمل التنبيه.",
+
+secAiProvide3Title: "التدريب والتحسين المستمر",
+secAiProvide3Desc:
+  "تدريب النظام ببيانات خاصة بالموقع وتحسين الدقة وتقليل النتائج الإيجابية الزائفة والضبط المستمر.",
+
+  secMaintHeroBadge: "الصيانة والامتثال",
+secMaintHeroTitle: "موثوقية طويلة المدى والامتثال التنظيمي",
+secMaintHeroDesc:
+  "برامج صيانة شاملة وإدارة الامتثال لضمان بقاء أنظمة الأمان موثوقة وفعالة ومتوافقة مع اللوائح.",
+
+secMaintOverviewLabel: "نظرة عامة",
+secMaintOverviewTitle: "حماية استثمارك، ضمان الامتثال",
+secMaintOverviewDesc1:
+  "تتطلب أنظمة الأمان صيانة وإدارة مستمرة لتبقى فعالة. تضمن مراقبة صحة النظام المنتظمة وتحديثات البرامج الثابتة والصيانة الوقائية الأداء الأمثل وطول العمر. بالإضافة إلى ذلك، تتطلب العديد من الصناعات أن تلبي أنظمة الأمان معايير تنظيمية محددة.",
+secMaintOverviewDesc2:
+  "توفر شبكات روابط خدمات صيانة وامتثال شاملة تشمل مراقبة صحة النظام والصيانة الوقائية وإدارة البرامج الثابتة وعمليات تدقيق الامتثال والتوثيق لضمان أن أنظمة الأمان تقدم قيمة طويلة المدى وتلبي المتطلبات التنظيمية.",
+
+secMaintUseCasesTitle: "أين تكون الصيانة والامتثال حرجين",
+secMaintUseCasesSubtitle:
+  "ضمان الموثوقية وتلبية المتطلبات التنظيمية عبر جميع عمليات نشر الأمان.",
+
+secMaintUse1Title: "أنظمة الأمان للمؤسسات",
+secMaintUse1Desc:
+  "الصيانة المستمرة لعمليات نشر أمنية واسعة النطاق مع مئات الكاميرات ونقاط الوصول والأنظمة المتكاملة.",
+
+secMaintUse2Title: "الصناعات المنظمة",
+secMaintUse2Desc:
+  "إدارة الامتثال للرعاية الصحية والخدمات المالية والصناعات الأخرى مع لوائح أمان وخصوصية صارمة.",
+
+secMaintUse3Title: "البنية التحتية الحرجة",
+secMaintUse3Desc:
+  "صيانة عالية التوافر لأنظمة الأمان التي تحمي المنشآت الحرجة مع عدم التسامح مع التوقف.",
+
+secMaintProvideTitle: "ما نقدمه",
+secMaintProvideSubtitle:
+  "برامج صيانة وامتثال كاملة لنجاح نظام الأمان على المدى الطويل.",
+
+secMaintProvide1Title: "برامج الصيانة الوقائية",
+secMaintProvide1Desc:
+  "الفحوصات المجدولة والتنظيف والاختبار واستبدال المكونات والحل الاستباقي للمشكلات.",
+
+secMaintProvide2Title: "مراقبة صحة النظام",
+secMaintProvide2Desc:
+  "مراقبة على مدار الساعة لأداء النظام والتنبيهات الآلية وتحديثات البرامج الثابتة وإدارة التصحيحات.",
+
+secMaintProvide3Title: "الامتثال والتوثيق",
+secMaintProvide3Desc:
+  "عمليات تدقيق الامتثال التنظيمي وإدارة التوثيق وتقييمات تأثير الخصوصية ودعم الشهادات.",
+
+ucIpHeroBadge: "الاتصال الهاتفي عبر IP",
+ucIpHeroTitle: "اتصالات صوتية مؤسسية حديثة",
+ucIpHeroDesc:
+  "حلول اتصال هاتفي قائمة على بروتوكول الإنترنت توفر مرونة وموثوقية عالية.",
+
+ucIpOverviewLabel: "نظرة عامة",
+ucIpOverviewTitle: "اتصال صوتي متطور لبيئات العمل الحديثة",
+ucIpOverviewDesc1:
+  "يستبدل الاتصال الهاتفي عبر IP أنظمة الهاتف التقليدية بحلول مرنة قائمة على البرمجيات.",
+ucIpOverviewDesc2:
+  "تصمم شبكات روابط أنظمة اتصال هاتفي مؤسسية تعزز التعاون وتخفض التكاليف التشغيلية.",
+
+ucIpUse1Title: "أنظمة الاتصال المؤسسية",
+ucIpUse1Desc:
+  "اتصال صوتي موثوق للمكاتب والمجمعات.",
+
+ucIpUse2Title: "التعاون الموحد",
+ucIpUse2Desc:
+  "خدمات صوتية متكاملة بين الفرق والأقسام.",
+
+ucIpUse3Title: "مراكز الاتصال",
+ucIpUse3Desc:
+  "حلول اتصال متقدمة لخدمة العملاء والدعم.",
+
+ucIpProvideTitle: "ما نقدمه",
+ucIpProvideSubtitle:
+  "حلول اتصال هاتفي عبر IP متكاملة لبيئات الأعمال.",
+
+ucIpProvide1Title: "أنظمة IP PBX والتحكم بالمكالمات",
+ucIpProvide1Desc:
+  "أنظمة IP PBX ومنصات SIP وإدارة المكالمات.",
+
+ucIpProvide2Title: "التركيب والتكامل",
+ucIpProvide2Desc:
+  "تركيب الأنظمة وإعدادها والتكامل مع منصات الاتصال الموحد.",
+
+ucIpProvide3Title: "الأمان والدعم",
+ucIpProvide3Desc:
+  "أمن الاتصالات الصوتية والمراقبة والدعم المستمر.",
+
+  ucContactHeroBadge: "حلول مراكز الاتصال",
+ucContactHeroTitle: "تعزيز تفاعل العملاء وكفاءة الخدمة",
+ucContactHeroDesc: "منصات مراكز اتصال متقدمة مع IVR وتوجيه مكالمات ذكي ودعم متعدد القنوات وتحليلات شاملة لتقديم تجارب عملاء استثنائية.",
+
+ucContactOverviewLabel: "نظرة عامة",
+ucContactOverviewTitle: "تحويل تفاعلات العملاء",
+ucContactOverviewDesc1: "تُعد مراكز الاتصال الحديثة الخط الأمامي لتفاعل العملاء، وتتطلب تقنية متطورة لإدارة أحجام المكالمات العالية وتوجيه الاستفسارات بكفاءة وتزويد الوكلاء بالأدوات التي يحتاجونها لتقديم خدمة متميزة. تتيح أنظمة IVR المتقدمة والتوجيه الذكي والتحليلات في الوقت الفعلي للمؤسسات تحسين العمليات وتحسين رضا العملاء.",
+ucContactOverviewDesc2: "توفر شبكات روابط حلول مراكز اتصال على مستوى المؤسسات تدمج الصوت والقنوات الرقمية وإدارة القوى العاملة والتحليلات في منصات موحدة مصممة لتعزيز إنتاجية الوكلاء وتقليل أوقات الانتظار وتوفير رؤى قابلة للتنفيذ حول تفاعلات العملاء.",
+
+ucContactUseCasesTitle: "أين تحقق مراكز الاتصال قيمة",
+ucContactUseCasesSubtitle: "دعم عمليات خدمة العملاء والمبيعات والدعم الفني.",
+
+ucContactUse1Title: "عمليات خدمة العملاء",
+ucContactUse1Desc: "مراكز اتصال واردة وصادرة عالية الحجم تتعامل مع استفسارات العملاء وطلبات الدعم ومشكلات الخدمة.",
+
+ucContactUse2Title: "المبيعات وإدارة العملاء المحتملين",
+ucContactUse2Desc: "مراكز اتصال صادرة لحملات المبيعات وتأهيل العملاء المحتملين وتحديد المواعيد والتواصل مع العملاء.",
+
+ucContactUse3Title: "مراكز الدعم الفني",
+ucContactUse3Desc: "بيئات دعم متخصصة مع توجيه قائم على المهارات وسير عمل التصعيد وتكامل قاعدة المعرفة.",
+
+ucContactProvideTitle: "ما نقدمه",
+ucContactProvideSubtitle: "بنية تحتية كاملة لمراكز الاتصال وأدوات تفاعل العملاء.",
+
+ucContactProvide1Title: "IVR والتوجيه الذكي",
+ucContactProvide1Desc: "أنظمة الرد الصوتي التفاعلي وتوزيع المكالمات الآلي والتوجيه القائم على المهارات وإدارة قوائم الانتظار مع معالجة الأولويات.",
+
+ucContactProvide2Title: "التحليلات والتقارير",
+ucContactProvide2Desc: "لوحات معلومات في الوقت الفعلي وتقارير تاريخية وتحليلات المكالمات ومقاييس أداء الوكلاء ورؤى رحلة العميل.",
+
+ucContactProvide3Title: "التكامل متعدد القنوات",
+ucContactProvide3Desc: "سطح مكتب موحد للوكيل مع قنوات الصوت والبريد الإلكتروني والدردشة والرسائل القصيرة ووسائل التواصل الاجتماعي متكاملة في منصة واحدة.",
+
+ucMobileHeroBadge: "التنقل والهواتف البرمجية",
+ucMobileHeroTitle: "اعمل من أي مكان، ابقَ متصلاً في كل مكان",
+ucMobileHeroDesc: "تطبيقات عملاء محمولة وهواتف برمجية توسع قدرات الاتصال المؤسسي إلى الهواتف الذكية والأجهزة اللوحية وأجهزة الكمبيوتر المحمولة، مما يتيح اتصالاً سلساً للقوى العاملة عن بُعد والموزعة.",
+
+ucMobileOverviewLabel: "نظرة عامة",
+ucMobileOverviewTitle: "الاتصال المؤسسي خارج المكتب",
+ucMobileOverviewDesc1: "تتطلب القوى العاملة الحديثة المرونة للتواصل من أي موقع وأي جهاز. تحول حلول التنقل وتطبيقات الهواتف البرمجية الهواتف الذكية وأجهزة الكمبيوتر إلى هواتف عمل كاملة الوظائف، مما يوفر للمستخدمين إمكانية الوصول إلى ميزات الهاتف المؤسسية بما في ذلك الحضور والدليل والبريد الصوتي وإدارة المكالمات بغض النظر عن موقعهم الفعلي.",
+ucMobileOverviewDesc2: "توفر شبكات روابط حلول تنقل وهواتف برمجية شاملة تتكامل بسلاسة مع البنية التحتية للاتصالات الموحدة المؤسسية، مما يمكّن المؤسسات من دعم العمل عن بُعد وعمليات الميدان وترتيبات العمل المرنة مع الحفاظ على جودة الاتصال والأمان المتسقين.",
+
+ucMobileUseCasesTitle: "أين تمكّن حلول التنقل الفرق",
+ucMobileUseCasesSubtitle: "دعم العاملين عن بُعد والفرق الميدانية وبيئات العمل المرنة.",
+
+ucMobileUse1Title: "القوى العاملة عن بُعد والهجينة",
+ucMobileUse1Desc: "تمكين الموظفين من العمل من المنزل أو من أي مكان مع وصول كامل إلى أنظمة الهاتف المؤسسية وأدوات التعاون.",
+
+ucMobileUse2Title: "فرق الخدمة الميدانية والمبيعات",
+ucMobileUse2Desc: "إبقاء الفرق المتنقلة متصلة بالعملاء والزملاء من خلال اتصالات على مستوى المؤسسات على الأجهزة الشخصية.",
+
+ucMobileUse3Title: "استمرارية الأعمال",
+ucMobileUse3Desc: "ضمان مرونة الاتصال أثناء إغلاق المكاتب أو السفر أو حالات الطوارئ مع إمكانية الوصول عبر الهاتف المحمول المتاحة دائماً.",
+
+ucMobileProvideTitle: "ما نقدمه",
+ucMobileProvideSubtitle: "حلول اتصال محمول وهواتف برمجية كاملة.",
+
+ucMobileProvide1Title: "تطبيقات UC المحمولة",
+ucMobileProvide1Desc: "تطبيقات أصلية لنظامي iOS و Android مع ميزات الصوت والفيديو والرسائل والحضور والدليل متكاملة مع PBX المؤسسي.",
+
+ucMobileProvide2Title: "الهواتف البرمجية لسطح المكتب",
+ucMobileProvide2Desc: "تطبيقات هواتف برمجية لأنظمة Windows و Mac تحول أجهزة الكمبيوتر المحمولة إلى هواتف عمل مع صوت عالي الدقة والتحكم في المكالمات والمؤتمرات.",
+
+ucMobileProvide3Title: "الأمان والإدارة",
+ucMobileProvide3Desc: "اتصال SIP آمن وتشفير وتكامل VPN وتوفير الأجهزة وإدارة السياسات المركزية لنقاط النهاية المحمولة.",
+ucIntegHeroBadge: "تكامل الاتصالات الموحدة",
+ucIntegHeroTitle: "نظام اتصال موحد متكامل",
+ucIntegHeroDesc: "تكامل سلس للاتصالات الموحدة مع أنظمة AV ومنصات CRM والبنية التحتية لتقنية المعلومات لإنشاء بيئة اتصال متماسكة وفعالة وذكية.",
+
+ucIntegOverviewLabel: "نظرة عامة",
+ucIntegOverviewTitle: "كسر صوامع الاتصال",
+ucIntegOverviewDesc1: "تمتد الاتصالات الموحدة الحقيقية إلى ما هو أبعد من الصوت والفيديو لتشمل التكامل العميق مع مجموعة تقنية الأعمال بأكملها. عندما تتصل منصات الاتصالات الموحدة بأنظمة السمعيات والمرئيات وأدوات إدارة علاقات العملاء ومنصات التعاون والبنية التحتية لتقنية المعلومات، تكتسب المؤسسات إنتاجية معززة وسير عمل مبسط وذكاء اتصال قيّم.",
+ucIntegOverviewDesc2: "تتخصص شبكات روابط في خدمات تكامل الاتصالات الموحدة الشاملة التي تربط منصات الاتصال بأنظمة AV وقواعد بيانات CRM وتطبيقات المؤسسات والبنية التحتية للشبكة. يضمن نهج التكامل لدينا تدفق البيانات بسلاسة بين الأنظمة، مما يتيح ميزات مثل النقر للاتصال من CRM والتطبيقات المدركة للحضور والأدلة الموحدة.",
+
+ucIntegUseCasesTitle: "أين يدفع تكامل الاتصالات الموحدة الكفاءة",
+ucIntegUseCasesSubtitle: "ربط أنظمة الاتصال بتطبيقات الأعمال والبنية التحتية.",
+
+ucIntegUse1Title: "تكامل AV وغرف المؤتمرات",
+ucIntegUse1Desc: "تجارب اجتماعات بلمسة واحدة مع منصات الاتصالات الموحدة التي تتحكم في شاشات الغرف والكاميرات والميكروفونات وأنظمة التسجيل.",
+
+ucIntegUse2Title: "تكامل CRM وتطبيقات الأعمال",
+ucIntegUse2Desc: "نوافذ منبثقة للشاشة والنقر للاتصال وتسجيل المكالمات وتكامل بيانات العملاء مع Salesforce و Microsoft Dynamics والتطبيقات المخصصة.",
+
+ucIntegUse3Title: "تكامل البنية التحتية لتقنية المعلومات",
+ucIntegUse3Desc: "تكامل منصة الاتصالات الموحدة مع Active Directory وإدارة الشبكة وأنظمة المراقبة والبنية التحتية الأمنية.",
+
+ucIntegProvideTitle: "ما نقدمه",
+ucIntegProvideSubtitle: "خدمات تكامل كاملة لأنظمة الاتصالات الموحدة.",
+
+ucIntegProvide1Title: "تكامل أنظمة AV",
+ucIntegProvide1Desc: "تكامل الاتصالات الموحدة مع معدات AV لغرف المؤتمرات وجدران الفيديو واللافتات الرقمية وأنظمة حجز الغرف والتحكم البيئي.",
+
+ucIntegProvide2Title: "تكامل CRM والتطبيقات",
+ucIntegProvide2Desc: "تطوير واجهة برمجة التطبيقات وتنفيذ البرامج الوسيطة وتكوين الموصلات لـ CRM و ERP ومكتب المساعدة وتطبيقات الأعمال المخصصة.",
+
+ucIntegProvide3Title: "تكامل الشبكة وتقنية المعلومات",
+ucIntegProvide3Desc: "مزامنة Active Directory وتسجيل الدخول الموحد وتكامل LDAP وتكوين QoS وتكامل أدوات المراقبة.",
+
+ucMonitorHeroBadge: "المراقبة وإدارة الجودة",
+ucMonitorHeroTitle: "الرؤية والأداء والموثوقية",
+ucMonitorHeroDesc: "مراقبة شاملة لجودة المكالمات وضمان وقت التشغيل وتحليلات الأداء التي تضمن أن البنية التحتية للاتصالات الموحدة الخاصة بك تقدم خدمة متسقة وموثوقة.",
+
+ucMonitorOverviewLabel: "نظرة عامة",
+ucMonitorOverviewTitle: "إدارة استباقية لتميز الاتصالات",
+ucMonitorOverviewDesc1: "تتطلب الاتصالات الموحدة الفعالة مراقبة مستمرة وإدارة الجودة للحفاظ على مستويات الخدمة وتحديد المشكلات قبل أن تؤثر على المستخدمين وتحسين أداء النظام. تتيح المراقبة في الوقت الفعلي لمقاييس جودة المكالمات وصحة النظام وتجربة المستخدم لفرق تقنية المعلومات ضمان خدمات اتصال موثوقة وحل أي مشكلات تظهر بسرعة.",
+ucMonitorOverviewDesc2: "توفر شبكات روابط حلول مراقبة وإدارة جودة شاملة تشمل لوحات معلومات في الوقت الفعلي وتنبيهات آلية وتحليلات جودة المكالمات وأدوات تخطيط السعة وتقارير الأداء. يمنح نهج المراقبة لدينا المؤسسات رؤية كاملة لبنية الاتصالات الموحدة الخاصة بهم والرؤى اللازمة للحفاظ على الأداء الأمثل.",
+
+ucMonitorUseCasesTitle: "أين تضمن المراقبة الموثوقية",
+ucMonitorUseCasesSubtitle: "الحفاظ على جودة الخدمة عبر منصات الاتصالات المؤسسية.",
+
+ucMonitorUse1Title: "منصات الاتصالات الموحدة المؤسسية",
+ucMonitorUse1Desc: "مراقبة مستمرة لعمليات نشر الاتصالات الموحدة واسعة النطاق التي تخدم مئات أو آلاف المستخدمين عبر مواقع متعددة.",
+
+ucMonitorUse2Title: "عمليات مراكز الاتصال",
+ucMonitorUse2Desc: "مراقبة الجودة والتحليلات في الوقت الفعلي لمراكز الاتصال التي تواجه العملاء حيث تؤثر جودة الخدمة بشكل مباشر على نتائج الأعمال.",
+
+ucMonitorUse3Title: "أنظمة الاتصالات الحرجة",
+ucMonitorUse3Desc: "مراقبة عالية التوافر للمؤسسات التي يكون فيها لتوقف الاتصالات عواقب تشغيلية أو مالية كبيرة.",
+
+ucMonitorProvideTitle: "ما نقدمه",
+ucMonitorProvideSubtitle: "بنية تحتية كاملة للمراقبة وإدارة الجودة.",
+
+ucMonitorProvide1Title: "مراقبة جودة المكالمات",
+ucMonitorProvide1Desc: "مراقبة في الوقت الفعلي للتذبذب والكمون وفقدان الحزم ونتائج MOS ومقاييس جودة الصوت مع تنبيهات آلية وإدارة الحدود.",
+
+ucMonitorProvide2Title: "مراقبة صحة النظام ووقت التشغيل",
+ucMonitorProvide2Desc: "مراقبة البنية التحتية بما في ذلك صحة الخادم واستخدام الموارد وتوافر الخدمة وحالة خطوط SIP واتصال الشبكة.",
+
+ucMonitorProvide3Title: "تحليلات الأداء والتقارير",
+ucMonitorProvide3Desc: "تقارير تاريخية وتحليل الاتجاهات وتخطيط السعة وأنماط الاستخدام ولوحات معلومات تنفيذية لاتخاذ قرارات مستنيرة بالبيانات.",
+
+ucCollabHeroBadge: "منصات التعاون",
+ucCollabHeroTitle: "عمل جماعي سلس عبر جميع القنوات",
+ucCollabHeroDesc: "منصات تعاون متكاملة تجمع الصوت والفيديو والرسائل والحضور في بيئات موحدة مصممة لتعزيز الإنتاجية وتمكين العمل الجماعي الفعال.",
+
+ucCollabOverviewLabel: "نظرة عامة",
+ucCollabOverviewTitle: "تمكين الفرق الحديثة من العمل معاً",
+ucCollabOverviewDesc1: "تتجاوز منصات التعاون الحديثة أدوات الاتصال التقليدية من خلال دمج المكالمات الصوتية ومؤتمرات الفيديو والرسائل الفورية ومشاركة الملفات والوعي بالحضور في تطبيقات واحدة متماسكة. تتيح هذه المنصات للفرق التواصل في الوقت الفعلي ومشاركة الأفكار بكفاءة والحفاظ على السياق عبر المحادثات بغض النظر عن الموقع أو الجهاز.",
+ucCollabOverviewDesc2: "توفر شبكات روابط حلول منصات التعاون المؤسسية بما في ذلك Microsoft Teams و Cisco Webex و Zoom وغيرها من المنصات الرائدة مع خدمات نشر وتكامل وتحسين شاملة. يضمن نهجنا أن المؤسسات يمكنها الاستفادة من الإمكانات الكاملة لأدوات التعاون الحديثة مع الحفاظ على الأمان والامتثال وتجربة المستخدم المثلى.",
+
+ucCollabUseCasesTitle: "أين تحوّل منصات التعاون العمل",
+ucCollabUseCasesSubtitle: "تمكين العمل الجماعي الفعال عبر المؤسسات وأنماط العمل.",
+
+ucCollabUse1Title: "التعاون الجماعي المؤسسي",
+ucCollabUse1Desc: "الفرق القائمة على الأقسام والمشاريع التي تستخدم الدردشة الدائمة واجتماعات الفيديو ومشاركة الملفات وسير العمل المتكامل للتعاون اليومي.",
+
+ucCollabUse2Title: "الفرق عن بُعد والموزعة",
+ucCollabUse2Desc: "الفرق المنتشرة جغرافياً التي تحافظ على التماسك والإنتاجية من خلال قنوات التعاون الدائمة والحضور عبر الفيديو.",
+
+ucCollabUse3Title: "التعاون الخارجي",
+ucCollabUse3Desc: "التعاون الآمن مع الشركاء والموردين والعملاء وأصحاب المصلحة الخارجيين من خلال الوصول للضيوف والاتصالات المتحدة.",
+
+ucCollabProvideTitle: "ما نقدمه",
+ucCollabProvideSubtitle: "نشر وتحسين كامل لمنصة التعاون.",
+
+ucCollabProvide1Title: "تكامل الصوت والفيديو",
+ucCollabProvide1Desc: "مكالمات صوتية على مستوى المؤسسات ومؤتمرات فيديو عالية الدقة ومشاركة الشاشة وتسجيل الاجتماعات متكاملة في منصات التعاون.",
+
+ucCollabProvide2Title: "الرسائل والحضور",
+ucCollabProvide2Desc: "دردشة جماعية دائمة ورسائل مباشرة ومحادثات متسلسلة ومؤشرات حضور وإدارة الحالة للوعي في الوقت الفعلي.",
+
+ucCollabProvide3Title: "تكامل ونشر المنصة",
+ucCollabProvide3Desc: "خدمات نشر كاملة بما في ذلك اختيار المنصة وإعداد البنية التحتية وتكامل Active Directory وتكوين الأمان وتدريب المستخدمين.",
   }
 } as const;
 
