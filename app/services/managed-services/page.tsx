@@ -329,7 +329,7 @@ export default function ManagedServicesPage() {
               image="/steps/s1.png"
               title={t("processMonitorTitle")}
               description={t("processMonitorDesc")}
-              href="/level/Monitor"
+              href="/services/managed-services/Monitor"
               readMore={t("readMore")}
             />
 
@@ -337,7 +337,7 @@ export default function ManagedServicesPage() {
               image="/steps/s2.png"
               title={t("processDetectTitle")}
               description={t("processDetectDesc")}
-              href="/level/Detect"
+              href="/services/managed-services/Detect"
               readMore={t("readMore")}
             />
 
@@ -345,7 +345,7 @@ export default function ManagedServicesPage() {
               image="/steps/s3.png"
               title={t("processOptimizeTitle")}
               description={t("processOptimizeDesc")}
-              href="/level/Optimize"
+              href="/services/managed-services/Optimize"
               readMore={t("readMore")}
             />
 
@@ -353,7 +353,7 @@ export default function ManagedServicesPage() {
               image="/steps/s4.png"
               title={t("processRespondTitle")}
               description={t("processRespondDesc")}
-              href="/level/Respond"
+              href="/services/managed-services/Respond"
               readMore={t("readMore")}
             />
           </div>

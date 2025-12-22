@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import StackCard from "@/components/StackCard";
 
 export default function SecuritySurveillancePage() {
   const { t, lang } = useLang();
@@ -115,6 +116,125 @@ export default function SecuritySurveillancePage() {
 
         </div>
       </section>
+      {/* ================= WHAT WE DELIVER ================= */}
+<section className="w-full bg-[#eef3f7] py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <p className="text-xs uppercase tracking-[0.25em] text-red-500 mb-4">
+      {t("ssDeliveryLabel")}
+    </p>
+
+    <h2 className="text-3xl md:text-4xl font-light text-[#0d355d] mb-6">
+      {t("ssDeliveryTitle")}
+    </h2>
+
+    <p
+      className="text-gray-600 text-[17px] leading-relaxed text-justify"
+      style={{ textJustify: "inter-word" }}
+    >
+      {t("ssDeliveryDesc")}
+    </p>
+
+  </div>
+</section>
+
+{/* ================= TECHNOLOGY PARTNERS ================= */}
+<section className="w-full bg-white py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <p className="text-xs uppercase tracking-[0.25em] text-red-500 mb-4">
+      {t("ssPartnersLabel")}
+    </p>
+
+    <h2 className="text-3xl md:text-4xl font-light text-[#0d355d] mb-6">
+      {t("ssPartnersTitle")}
+    </h2>
+
+    <p className="text-gray-600 text-[17px] leading-relaxed mb-16">
+      {t("ssPartnersDesc")}
+    </p>
+
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
+      {[
+        "/role/44r.png", // Hikvision
+        "/role/45r.png", // Dahua
+        "/role/46r.png", // Hanwha Vision
+        "/role/47r.png", // Pelco
+        "/role/48r.png", // Nitgen
+        "/role/50r.png", // Virdi
+        "/role/51r.png", // VOTI
+      ].map((logo, i) => (
+        <div
+          key={i}
+          className="flex items-center justify-center w-[160px] h-[64px]"
+        >
+          <img
+            src={logo}
+            alt="Technology Partner"
+            className="w-full h-full object-contain grayscale opacity-80"
+          />
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
+
+{/* ================= CORE SECURITY CAPABILITIES ================= */}
+<section className="w-full bg-gray-50 py-16 md:py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="mb-12 text-center">
+      <p className="uppercase text-xs tracking-[0.25em] text-gray-400 mb-3">
+        {t("ssCapabilitiesLabel")}
+      </p>
+      <h2 className="text-3xl md:text-4xl font-light text-[#0e355d]">
+        {t("ssCapabilitiesTitle")}
+      </h2>
+    </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <StackCard
+        image="/security/cctv.jpg"
+        title={t("ssCardCctv")}
+        href="/solutions/security-surveillance/CCTV"
+      />
+
+      <StackCard
+        image="/security/access-control.jpg"
+        title={t("ssCardAccess")}
+        href="/solutions/security-surveillance/Access-Control-Systems"
+      />
+
+      <StackCard
+        image="/security/intrusion.jpg"
+        title={t("ssCardIntrusion")}
+        href="/solutions/security-surveillance/Intrusion-Detection"
+      />
+
+      <StackCard
+        image="/security/fire.jpg"
+        title={t("ssCardFire")}
+        href="/solutions/security-surveillance/Intrusion-Detection"
+      />
+
+      <StackCard
+        image="/security/monitoring.jpg"
+        title={t("ssCardMonitoring")}
+        href="/solutions/security-surveillance/Central-Monitoring"
+      />
+
+      <StackCard
+        image="/security/integration.jpg"
+        title={t("ssCardIntegration")}
+        href="/solutions/security-surveillance/Maintenance-&-Compliance"
+      />
+
+    </div>
+  </div>
+</section>
+
 
       {/* ================= SERVICES ================= */}
       <section className="bg-white py-24 px-4">

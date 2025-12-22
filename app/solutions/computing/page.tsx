@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import StackCard from "@/components/StackCard";
 
 export default function ComputingSolutionsPage() {
   const { t, lang } = useLang();
@@ -114,6 +115,124 @@ export default function ComputingSolutionsPage() {
 
         </div>
       </section>
+      {/* ================= WHAT WE DELIVER ================= */}
+<section className="w-full bg-[#eef3f7] py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <p className="text-xs uppercase tracking-[0.25em] text-red-500 mb-4">
+      {t("csDeliveryLabel")}
+    </p>
+
+    <h2 className="text-3xl md:text-4xl font-light text-[#0d355d] mb-6">
+      {t("csDeliveryTitle")}
+    </h2>
+
+    <p
+      className="text-gray-600 text-[17px] leading-relaxed text-justify"
+      style={{ textJustify: "inter-word" }}
+    >
+      {t("csDeliveryDesc")}
+    </p>
+
+  </div>
+</section>
+
+{/* ================= TECHNOLOGY PARTNERS ================= */}
+<section className="w-full bg-white py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <p className="text-xs uppercase tracking-[0.25em] text-red-500 mb-4">
+      {t("csPartnersLabel")}
+    </p>
+
+    <h2 className="text-3xl md:text-4xl font-light text-[#0d355d] mb-6">
+      {t("csPartnersTitle")}
+    </h2>
+
+    <p className="text-gray-600 text-[17px] leading-relaxed mb-16">
+      {t("csPartnersDesc")}
+    </p>
+
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
+      {[
+        "/role/9r.png",  // HPE
+        "/role/10r.png", // Dell
+        "/role/11r.png", // Lenovo
+        "/role/12r.png", // HP
+        "/role/35r.png", // APC
+        "/role/36r.png", // Schneider Electric
+      ].map((logo, i) => (
+        <div
+          key={i}
+          className="flex items-center justify-center w-[160px] h-[64px]"
+        >
+          <img
+            src={logo}
+            alt="Technology Partner"
+            className="w-full h-full object-contain grayscale opacity-80"
+          />
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
+
+{/* ================= CORE COMPUTING CAPABILITIES ================= */}
+<section className="w-full bg-gray-50 py-16 md:py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="mb-12 text-center">
+      <p className="uppercase text-xs tracking-[0.25em] text-gray-400 mb-3">
+        {t("csCapabilitiesLabel")}
+      </p>
+      <h2 className="text-3xl md:text-4xl font-light text-[#0e355d]">
+        {t("csCapabilitiesTitle")}
+      </h2>
+    </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <StackCard
+        image="/computing/servers.jpg"
+        title={t("csCardServers")}
+        href="/solutions/computing/Server-&-Data"
+      />
+
+      <StackCard
+        image="/computing/storage.jpg"
+        title={t("csCardStorage")}
+        href="/solutions/computing/Storage-Solutions"
+      />
+
+      <StackCard
+        image="/computing/backup.jpg"
+        title={t("csCardBackup")}
+        href="/solutions/computing/End-User"
+      />
+
+      <StackCard
+        image="/computing/cloud.jpg"
+        title={t("csCardCloud")}
+        href="/solutions/computing/Virtualization-&-Cloud"
+      />
+
+      <StackCard
+        image="/computing/datacenter.jpg"
+        title={t("csCardDatacenter")}
+        href="/solutions/computing/Power-&-Data"
+      />
+
+      <StackCard
+        image="/computing/integration.jpg"
+        title={t("csCardIntegration")}
+        href="/solutions/computing/Lifecycle-&-Managed"
+      />
+
+    </div>
+  </div>
+</section>
+
 
       {/* ================= SERVICES ================= */}
       <section className="bg-white py-24 px-4">

@@ -443,6 +443,28 @@ serviceStepOptimizeDesc: "Continuous tuning & performance gains",
   timeline6Day: "Day 10",
   timeline6Title: "Go-Live & Support",
   timeline6Desc: "System activation, final verification, and ongoing support engagement",
+
+instprocessLabel: "Our Process",
+instprocessTitle: "Installation & Integration Approach",
+
+processStep1Title: "Assessment & Planning",
+processStep1Desc:
+  "Comprehensive site analysis, requirement gathering, and solution design.",
+
+processStep2Title: "Pre-Installation Preparation",
+processStep2Desc:
+  "Infrastructure readiness checks, equipment testing, and logistics planning.",
+
+processStep3Title: "Deployment & Configuration",
+processStep3Desc:
+  "Professional installation, system configuration, and platform integration.",
+
+processStep4Title: "Testing & Handover",
+processStep4Desc:
+  "Quality assurance, staff training, and complete project handover.",
+
+
+
   
   // Why Rawabit Installation
   whyRawabitInstallTitle: "Why Choose Rawabit Networks",
@@ -565,6 +587,26 @@ serviceStepOptimizeDesc: "Continuous tuning & performance gains",
   
   designStat3Number: "35%",
   designStat3Label: "Average Cost Optimization",
+
+  consultProcessLabel: "Our Approach",
+consultProcessTitle: "Consulting & Design Methodology",
+
+consultStep1Title: "Discovery",
+consultStep1Desc:
+  "Comprehensive assessment of business goals, operational challenges, and technology requirements.",
+
+consultStep2Title: "Strategy",
+consultStep2Desc:
+  "Development of a tailored roadmap aligning technology solutions with organizational objectives.",
+
+consultStep3Title: "Design",
+consultStep3Desc:
+  "Detailed architecture and system design ensuring scalability, security, and performance.",
+
+consultStep4Title: "Implementation",
+consultStep4Desc:
+  "Execution oversight and validation to ensure successful deployment and knowledge transfer.",
+
   
   // Why Rawabit
   designWhyRawabitTitle: "Why Choose Rawabit Networks",
@@ -895,6 +937,7 @@ ucEnterpriseLabel: "Enterprise Excellence",
 ucEnterpriseTitle: "Enterprise-Class Communication Infrastructure",
 ucEnterpriseDesc1: "Rawabit Networks designs secure, reliable UC infrastructures for complex environments.",
 ucEnterpriseDesc2: "Global partnerships ensure clarity, resilience, and business velocity.",
+
 
 ucServicesTitle: "Comprehensive UC Solutions",
 ucServicesSubtitle: "An integrated suite that minimizes friction and optimizes workflows.",
@@ -2939,6 +2982,604 @@ ucCollabProvide2Desc: "Persistent team chat, direct messaging, threaded conversa
 ucCollabProvide3Title: "Platform Integration & Deployment",
 ucCollabProvide3Desc: "Full deployment services including platform selection, infrastructure setup, Active Directory integration, security configuration, and user training.",
 
+assessmentHeroBadge: "Step 01 · Our Process",
+assessmentHeroTitle: "Assessment & Planning",
+assessmentHeroDesc:
+  "A structured discovery and planning phase to ensure the right solution is designed before deployment begins.",
+
+assessmentOverviewLabel: "Assessment Phase",
+assessmentOverviewTitle: "Understand the Environment Before You Build",
+assessmentOverviewDesc1:
+  "We start with a comprehensive assessment of your site, infrastructure, and operational requirements to gain complete visibility.",
+assessmentOverviewDesc2:
+  "This phase ensures that technical, security, and business objectives are fully aligned before moving forward.",
+
+assessmentActivitiesTitle: "Core Assessment Activities",
+assessmentActivitiesSubtitle:
+  "Every project begins with deep analysis, careful planning, and risk evaluation.",
+
+assessmentAct1Title: "Site & Infrastructure Analysis",
+assessmentAct1Desc:
+  "Physical site surveys, network assessment, and environmental evaluation.",
+
+assessmentAct2Title: "Requirement Gathering",
+assessmentAct2Desc:
+  "Detailed discussions to understand business goals, compliance needs, and operational workflows.",
+
+assessmentAct3Title: "Objective Definition",
+assessmentAct3Desc:
+  "Clear definition of performance, security, and scalability objectives.",
+
+assessmentAct4Title: "Architecture Planning",
+assessmentAct4Desc:
+  "Designing system architecture that aligns with existing and future infrastructure.",
+
+assessmentAct5Title: "Technology Selection",
+assessmentAct5Desc:
+  "Selecting the right hardware, software, and platforms for long-term success.",
+
+assessmentAct6Title: "Risk & Compliance Review",
+assessmentAct6Desc:
+  "Identifying potential risks and ensuring regulatory and security compliance.",
+
+assessmentBenefitsTitle: "Why Assessment & Planning Matters",
+assessmentBenefitsSubtitle:
+  "A strong foundation reduces risk, cost, and complexity later.",
+
+assessmentBenefit1Title: "Clear Project Direction",
+assessmentBenefit1Desc:
+  "Eliminates ambiguity and ensures all stakeholders are aligned.",
+
+assessmentBenefit2Title: "Reduced Implementation Risk",
+assessmentBenefit2Desc:
+  "Early identification of challenges prevents costly changes later.",
+
+assessmentBenefit3Title: "Optimized Solution Design",
+assessmentBenefit3Desc:
+  "Ensures the final solution is efficient, scalable, and future-ready.",
+  prepHeroBadge: "Step 02 · Our Process",
+prepHeroTitle: "Pre-Installation Preparation",
+prepHeroDesc:
+  "Ensuring infrastructure, equipment, and logistics are fully ready before on-site deployment.",
+
+prepOverviewLabel: "Preparation Phase",
+prepOverviewTitle: "Prepare Everything Before Deployment Begins",
+prepOverviewDesc1:
+  "This phase focuses on validating infrastructure readiness and preparing all equipment and resources.",
+prepOverviewDesc2:
+  "Proper preparation minimizes delays, reduces risk, and ensures smooth on-site execution.",
+
+prepActivitiesTitle: "Core Preparation Activities",
+prepActivitiesSubtitle:
+  "Detailed checks and coordination to ensure a flawless installation phase.",
+
+prepAct1Title: "Infrastructure Readiness Check",
+prepAct1Desc:
+  "Verification of power, network, cabling, and environmental readiness.",
+
+prepAct2Title: "Equipment Staging & Testing",
+prepAct2Desc:
+  "Pre-configuration, testing, and validation of all hardware and systems.",
+
+prepAct3Title: "Installation Planning",
+prepAct3Desc:
+  "Finalizing installation schedules, workflows, and resource allocation.",
+
+prepAct4Title: "Tool & Resource Preparation",
+prepAct4Desc:
+  "Ensuring all tools, accessories, and technical resources are ready.",
+
+prepAct5Title: "Logistics & Delivery Coordination",
+prepAct5Desc:
+  "Managing transportation, site delivery, and material handling.",
+
+prepAct6Title: "Pre-Deployment Validation",
+prepAct6Desc:
+  "Final readiness review before on-site installation begins.",
+
+prepBenefitsTitle: "Why Pre-Installation Preparation Matters",
+prepBenefitsSubtitle:
+  "Preparation ensures efficiency, accuracy, and minimal disruption.",
+
+prepBenefit1Title: "Reduced On-Site Delays",
+prepBenefit1Desc:
+  "Everything is ready before deployment begins.",
+
+prepBenefit2Title: "Smooth Logistics Execution",
+prepBenefit2Desc:
+  "Coordinated delivery and staging prevent bottlenecks.",
+
+prepBenefit3Title: "Reliable Installation Outcomes",
+prepBenefit3Desc:
+  "Pre-tested systems reduce failures during deployment.",
+deployHeroBadge: "Step 03 · Our Process",
+deployHeroTitle: "Deployment & Configuration",
+deployHeroDesc:
+  "Professional installation, precise configuration, and seamless integration of systems.",
+
+deployOverviewLabel: "Deployment Phase",
+deployOverviewTitle: "Turning Design Into a Live Environment",
+deployOverviewDesc1:
+  "During deployment, our engineers install and configure systems according to the approved design.",
+deployOverviewDesc2:
+  "We ensure all components are integrated, secured, and optimized for performance.",
+
+deployActivitiesTitle: "Core Deployment Activities",
+deployActivitiesSubtitle:
+  "Execution with precision, safety, and operational excellence.",
+
+deployAct1Title: "Physical Installation",
+deployAct1Desc:
+  "Mounting, cabling, and physical setup of all systems and devices.",
+
+deployAct2Title: "System Configuration",
+deployAct2Desc:
+  "Configuring software, firmware, and system parameters.",
+
+deployAct3Title: "Network Integration",
+deployAct3Desc:
+  "Connecting systems to the network and validating connectivity.",
+
+deployAct4Title: "Platform Integration",
+deployAct4Desc:
+  "Integrating with existing IT, security, and management platforms.",
+
+deployAct5Title: "Fine-Tuning & Optimization",
+deployAct5Desc:
+  "Performance tuning and configuration optimization.",
+
+deployAct6Title: "Security Hardening",
+deployAct6Desc:
+  "Applying security policies, access controls, and best practices.",
+
+deployBenefitsTitle: "Why Deployment & Configuration Matters",
+deployBenefitsSubtitle:
+  "Correct deployment ensures stability, security, and long-term reliability.",
+
+deployBenefit1Title: "Seamless Go-Live",
+deployBenefit1Desc:
+  "Systems are fully operational from day one.",
+
+deployBenefit2Title: "Secure & Stable Environment",
+deployBenefit2Desc:
+  "Hardened configurations reduce vulnerabilities.",
+
+deployBenefit3Title: "Optimized Performance",
+deployBenefit3Desc:
+  "Systems are tuned for efficiency and scalability.",
+
+  testHeroBadge: "Step 04 · Our Process",
+testHeroTitle: "Testing & Handover",
+testHeroDesc:
+  "Validating system performance, ensuring quality, and smoothly transitioning ownership to your team.",
+
+testOverviewLabel: "Testing Phase",
+testOverviewTitle: "Verify, Validate, and Handover with Confidence",
+testOverviewDesc1:
+  "After deployment, we rigorously test all systems to ensure they operate as designed.",
+testOverviewDesc2:
+  "We then hand over a fully documented, tested, and operational solution to your team.",
+
+testActivitiesTitle: "Core Testing & Handover Activities",
+testActivitiesSubtitle:
+  "Quality assurance, knowledge transfer, and operational readiness.",
+
+testAct1Title: "Functional Testing",
+testAct1Desc:
+  "Validating system functionality under real-world scenarios.",
+
+testAct2Title: "Performance & Load Testing",
+testAct2Desc:
+  "Ensuring systems perform reliably under expected workloads.",
+
+testAct3Title: "Security Validation",
+testAct3Desc:
+  "Final security checks and compliance validation.",
+
+testAct4Title: "User & Admin Training",
+testAct4Desc:
+  "Hands-on training sessions for administrators and end users.",
+
+testAct5Title: "Documentation Delivery",
+testAct5Desc:
+  "Providing complete technical and operational documentation.",
+
+testAct6Title: "Final Acceptance & Sign-Off",
+testAct6Desc:
+  "Formal handover with client approval and sign-off.",
+
+testBenefitsTitle: "Why Testing & Handover Matters",
+testBenefitsSubtitle:
+  "Ensures reliability, user readiness, and long-term success.",
+
+testBenefit1Title: "Proven System Reliability",
+testBenefit1Desc:
+  "All systems are validated and production-ready.",
+
+testBenefit2Title: "Confident, Trained Teams",
+testBenefit2Desc:
+  "Your team is fully prepared to operate and maintain the system.",
+
+testBenefit3Title: "Secure & Compliant Operations",
+testBenefit3Desc:
+  "Final checks ensure security and compliance standards are met.",
+discoveryHeroBadge: "Step 01 · Consulting & Design",
+discoveryHeroTitle: "Discovery",
+discoveryHeroDesc:
+  "Understanding your business goals, challenges, and technology landscape before defining the solution.",
+
+discoveryOverviewLabel: "Discovery Phase",
+discoveryOverviewTitle: "Build the Right Foundation",
+discoveryOverviewDesc1:
+  "The discovery phase focuses on gaining a deep understanding of your organization, operations, and objectives.",
+discoveryOverviewDesc2:
+  "This insight allows us to define clear requirements and set the direction for the entire engagement.",
+
+discoveryActivitiesTitle: "Core Discovery Activities",
+discoveryActivitiesSubtitle:
+  "Structured analysis and collaboration to uncover real needs.",
+
+discoveryAct1Title: "Business & Technology Assessment",
+discoveryAct1Desc:
+  "Evaluating current systems, processes, and technical maturity.",
+
+discoveryAct2Title: "Stakeholder Workshops",
+discoveryAct2Desc:
+  "Engaging key stakeholders to understand priorities and expectations.",
+
+discoveryAct3Title: "Requirement Documentation",
+discoveryAct3Desc:
+  "Capturing functional, technical, and operational requirements.",
+
+discoveryAct4Title: "Goal & KPI Definition",
+discoveryAct4Desc:
+  "Defining measurable objectives aligned with business outcomes.",
+
+discoveryAct5Title: "Gap & Risk Analysis",
+discoveryAct5Desc:
+  "Identifying gaps, constraints, and potential risks early.",
+
+discoveryAct6Title: "Opportunity Identification",
+discoveryAct6Desc:
+  "Highlighting opportunities for optimization and innovation.",
+
+discoveryBenefitsTitle: "Why Discovery Matters",
+discoveryBenefitsSubtitle:
+  "Clarity at the start ensures success throughout the project.",
+
+discoveryBenefit1Title: "Clear Direction",
+discoveryBenefit1Desc:
+  "Everyone aligns on goals and expectations from day one.",
+
+discoveryBenefit2Title: "Stronger Alignment",
+discoveryBenefit2Desc:
+  "Business and technology teams work toward shared outcomes.",
+
+discoveryBenefit3Title: "Better Decisions",
+discoveryBenefit3Desc:
+  "Insights gathered guide smarter design and strategy choices.",
+
+strategyHeroBadge: "Step 02 · Consulting & Design",
+strategyHeroTitle: "Strategy",
+strategyHeroDesc:
+  "Transforming insights into a clear, actionable roadmap aligned with your organizational goals.",
+
+strategyOverviewLabel: "Strategy Phase",
+strategyOverviewTitle: "From Insight to Actionable Roadmap",
+strategyOverviewDesc1:
+  "In the strategy phase, we translate discovery insights into a structured technology roadmap.",
+strategyOverviewDesc2:
+  "This roadmap aligns initiatives, priorities, timelines, and investments with business objectives.",
+
+strategyActivitiesTitle: "Core Strategy Activities",
+strategyActivitiesSubtitle:
+  "Planning with purpose and measurable outcomes.",
+
+strategyAct1Title: "Roadmap Development",
+strategyAct1Desc:
+  "Defining phased initiatives with clear milestones and timelines.",
+
+strategyAct2Title: "Objective Alignment",
+strategyAct2Desc:
+  "Aligning technology initiatives with business and operational goals.",
+
+strategyAct3Title: "Solution Mapping",
+strategyAct3Desc:
+  "Mapping requirements to appropriate technology solutions.",
+
+strategyAct4Title: "Prioritization & Phasing",
+strategyAct4Desc:
+  "Sequencing initiatives based on impact, risk, and value.",
+
+strategyAct5Title: "Risk & Governance Planning",
+strategyAct5Desc:
+  "Embedding risk management and governance frameworks.",
+
+strategyAct6Title: "Success Metrics Definition",
+strategyAct6Desc:
+  "Defining KPIs to measure progress and success.",
+
+strategyBenefitsTitle: "Why Strategy Matters",
+strategyBenefitsSubtitle:
+  "A clear strategy ensures focus, efficiency, and measurable results.",
+
+strategyBenefit1Title: "Clear Direction",
+strategyBenefit1Desc:
+  "A well-defined roadmap guides decision-making.",
+
+strategyBenefit2Title: "Optimized Investment",
+strategyBenefit2Desc:
+  "Resources are allocated where they deliver the most value.",
+
+strategyBenefit3Title: "Measurable Outcomes",
+strategyBenefit3Desc:
+  "Clear metrics track progress and success.",
+
+  designHeroBadge: "Step 03 · Consulting & Design",
+designS3HeroTitle: "Design",
+designHeroDesc:
+  "Translating strategy into detailed, secure, and scalable system architectures.",
+
+designOverviewLabel: "Design Phase",
+designOverviewTitle: "Architecting the Right Solution",
+designOverviewDesc1:
+  "The design phase transforms strategic direction into detailed technical architecture.",
+designOverviewDesc2:
+  "We ensure the solution meets performance, security, scalability, and operational requirements.",
+
+designActivitiesTitle: "Core Design Activities",
+designActivitiesSubtitle:
+  "Precision engineering aligned with long-term objectives.",
+
+designAct1Title: "Architecture Design",
+designAct1Desc:
+  "Defining system architecture, components, and integration points.",
+
+designAct2Title: "Network & Platform Design",
+designAct2Desc:
+  "Designing network topology and platform architecture.",
+
+designAct3Title: "Security-by-Design",
+designAct3Desc:
+  "Embedding security controls and compliance requirements.",
+
+designAct4Title: "Configuration Blueprint",
+designAct4Desc:
+  "Defining configuration standards and system parameters.",
+
+designAct5Title: "Scalability & Performance Planning",
+designAct5Desc:
+  "Designing for growth, resilience, and high availability.",
+
+designAct6Title: "Design Validation",
+designAct6Desc:
+  "Reviewing and validating designs with stakeholders.",
+
+designBenefitsTitle: "Why Design Matters",
+designBenefitsSubtitle:
+  "Strong design ensures reliability, security, and future readiness.",
+
+designBenefit1Title: "Scalable Architecture",
+designBenefit1Desc:
+  "Built to grow with your business needs.",
+
+designBenefit2Title: "Secure Foundations",
+designBenefit2Desc:
+  "Security and compliance embedded from the start.",
+
+designBenefit3Title: "Operational Efficiency",
+designBenefit3Desc:
+  "Optimized design simplifies operations and maintenance.",
+
+  implementationHeroBadge: "Step 04 · Consulting & Design",
+implementationHeroTitle: "Implementation",
+implementationHeroDesc:
+  "Ensuring successful execution through oversight, validation, and effective knowledge transfer.",
+
+implementationOverviewLabel: "Implementation Phase",
+implementationOverviewTitle: "Turning Design into Reality",
+implementationOverviewDesc1:
+  "During implementation, we provide execution oversight to ensure designs are applied correctly.",
+implementationOverviewDesc2:
+  "We validate outcomes, support teams, and ensure a smooth transition to operations.",
+
+implementationActivitiesTitle: "Core Implementation Activities",
+implementationActivitiesSubtitle:
+  "Execution support, validation, and operational readiness.",
+
+implementationAct1Title: "Execution Oversight",
+implementationAct1Desc:
+  "Guiding and monitoring implementation activities to ensure alignment with design.",
+
+implementationAct2Title: "Design Validation",
+implementationAct2Desc:
+  "Verifying that deployed solutions match approved designs.",
+
+implementationAct3Title: "Quality & Compliance Checks",
+implementationAct3Desc:
+  "Ensuring standards, security, and compliance requirements are met.",
+
+implementationAct4Title: "Knowledge Transfer & Training",
+implementationAct4Desc:
+  "Transferring knowledge to operational and technical teams.",
+
+implementationAct5Title: "Issue Resolution & Sign-Off",
+implementationAct5Desc:
+  "Resolving final issues and supporting formal acceptance.",
+
+implementationAct6Title: "Post-Implementation Review",
+implementationAct6Desc:
+  "Reviewing outcomes and identifying optimization opportunities.",
+
+implementationBenefitsTitle: "Why Implementation Matters",
+implementationBenefitsSubtitle:
+  "Strong oversight ensures design intent becomes operational reality.",
+
+implementationBenefit1Title: "Successful Delivery",
+implementationBenefit1Desc:
+  "Projects are delivered as designed and expected.",
+
+implementationBenefit2Title: "Empowered Teams",
+implementationBenefit2Desc:
+  "Teams are confident and ready to operate the solution.",
+
+implementationBenefit3Title: "Sustained Value",
+implementationBenefit3Desc:
+  "Solutions continue delivering value after handover.",
+
+  netDeliveryLabel: "What We Deliver",
+  netDeliveryTitle: "Enterprise-Grade Network Infrastructure Delivery",
+  netDeliveryDesc: "Rawabit Networks designs and delivers secure, high-performance network infrastructure that forms the backbone of modern enterprises, encompassing core LAN, WAN, Wi-Fi, routing, switching, and security-driven architectures engineered for reliability, scalability, and operational efficiency. Our solutions are built to support regulatory compliance, high availability, and long-term business growth while integrating seamlessly with existing IT environments. From initial assessment and detailed architecture design to deployment, system integration, performance optimization, and lifecycle support, our certified engineers ensure resilient, future-ready network environments fully aligned with organizational objectives.",
+
+  // Technology Partners Section
+  netPartnersLabel: "Our Technology Partners",
+  netPartnersTitle: "Trusted Global Technology Ecosystem",
+  netPartnersDesc: "We collaborate with globally recognized technology leaders to deliver secure, reliable, and future-ready enterprise solutions. Our strong partner ecosystem enables us to design vendor-aligned architectures while maintaining flexibility to recommend the best-fit technologies for each customer's operational and business requirements.",
+
+  // Core Network Capabilities Section
+  netCapabilitiesLabel: "Network Infrastructure",
+  netCapabilitiesTitle: "Core Network Capabilities",
+  
+  // Card Titles
+  netCardMonitoring: "Monitoring & Optimization",
+  netCardSecurity: "Network Security Integration",
+  netCardCabling: "Structured Cabling",
+  netCardSwitching: "Switching & Routing",
+  netCardWAN: "WAN & Connectivity",
+  netCardWiFi: "Wi-Fi",
+
+   ucDeliveryLabel: "What We Deliver",
+  ucDeliveryTitle: "Enterprise-Grade Unified Communications Delivery",
+  ucDeliveryDesc: "Rawabit Networks designs and delivers comprehensive unified communications solutions that integrate voice, video, messaging, and collaboration into cohesive enterprise platforms. Our UC solutions enhance productivity, improve customer engagement, and support modern hybrid work environments with enterprise-grade security and reliability. From consultation and platform selection to deployment, integration, user adoption training, and ongoing managed services, our certified engineers ensure seamless communication experiences aligned with your organizational objectives and operational requirements.",
+
+  // Technology Partners Section
+  ucPartnersLabel: "Our Technology Partners",
+  ucPartnersTitle: "Trusted Global UC Ecosystem",
+  ucPartnersDesc: "We partner with industry-leading unified communications vendors to deliver secure, scalable, and future-ready collaboration solutions. Our diverse technology ecosystem enables us to design the right UC architecture for your organization while maintaining vendor neutrality and recommending best-fit platforms based on your specific business requirements and user needs.",
+
+  
+  ucCapabilitiesLabel: "Unified Communications",
+  ucCapabilitiesTitle: "Core UC Capabilities",
+
+  // Card Titles
+  ucCardCollaboration: "Collaboration Platforms",
+  ucCardContactCenter: "Contact Center",
+  ucCardIP: "IP Telephony",
+  ucCardMobility: "Mobility Solutions",
+  ucCardMonitoring: "Monitoring & Quality",
+  ucCardUC: "UC Integration",
+
+    ssDeliveryLabel: "What We Deliver",
+    ssDeliveryTitle: "Enterprise-Grade Security & Surveillance Delivery",
+    ssDeliveryDesc:
+      "Rawabit Networks designs and delivers comprehensive security and surveillance solutions that protect people, assets, and infrastructure across enterprise environments. Our offerings integrate CCTV, access control, intrusion detection, fire alarms, and intelligent monitoring into unified security platforms. From risk assessment and system design to deployment, integration, and ongoing managed services, we ensure reliable, scalable, and compliant security operations.",
+
+    /* ================= TECHNOLOGY PARTNERS ================= */
+    ssPartnersLabel: "Our Technology Partners",
+    ssPartnersTitle: "Trusted Security Technology Ecosystem",
+    ssPartnersDesc:
+      "We partner with leading global security and surveillance vendors to deliver reliable, future-ready solutions. Our vendor-neutral approach enables us to recommend the most suitable technologies based on your security requirements, regulatory needs, and operational environment.",
+
+    /* ================= CORE CAPABILITIES ================= */
+    ssCapabilitiesLabel: "Security & Surveillance",
+    ssCapabilitiesTitle: "Core Security Capabilities",
+
+    /* ================= CARD TITLES ================= */
+    ssCardCctv: "CCTV & Video Surveillance",
+    ssCardAccess: "Access Control Systems",
+    ssCardIntrusion: "Intrusion & Alarm Systems",
+    ssCardFire: "Fire Detection & Safety",
+    ssCardMonitoring: "Centralized Monitoring",
+    ssCardIntegration: "Security System Integration",
+
+    ddDeliveryLabel: "What We Deliver",
+    ddDeliveryTitle: "Enterprise Digital Display & Signage Delivery",
+    ddDeliveryDesc:
+      "Rawabit Networks designs and delivers comprehensive digital display and signage solutions that transform how organizations communicate, engage, and present information. Our solutions span digital signage networks, interactive displays, video walls, LED walls, and centralized content management platforms. We support the full lifecycle—from needs assessment, solution design, and hardware selection to installation, calibration, content integration, and ongoing managed support—ensuring high-impact visual experiences that are reliable, scalable, and aligned with your business objectives across corporate, retail, education, healthcare, and public environments.",
+
+    /* ================= TECHNOLOGY PARTNERS ================= */
+    ddPartnersLabel: "Our Technology Partners",
+    ddPartnersTitle: "Leading Digital Display Technology Ecosystem",
+    ddPartnersDesc:
+      "We collaborate with globally recognized digital display and visual technology vendors to deliver high-quality, future-ready solutions. Our vendor-neutral approach allows us to select the most suitable display technologies, CMS platforms, and visual systems based on your performance requirements, environment, and long-term digital strategy.",
+
+    /* ================= CORE CAPABILITIES ================= */
+    ddCapabilitiesLabel: "Digital Display Solutions",
+    ddCapabilitiesTitle: "Core Digital Display Capabilities",
+
+    /* ================= CARD TITLES ================= */
+    ddCardVideoWalls: "Video Walls",
+    ddCardInteractive: "Interactive Displays",
+    ddCardSignage: "Digital Signage",
+    ddCardCms: "Content Management Systems",
+    ddCardLed: "LED Display Solutions",
+    ddCardIntegration: "System Integration & Control",
+
+    secDeliveryLabel: "What We Deliver",
+    secDeliveryTitle: "Enterprise Cyber Security Delivery",
+    secDeliveryDesc:
+      "Rawabit Networks delivers comprehensive cyber security solutions designed to protect enterprise networks, systems, applications, and data from evolving digital threats. Our approach integrates threat prevention, continuous monitoring, endpoint protection, incident response, and compliance management into a unified security framework. From security assessments and architecture design to deployment, optimization, and ongoing managed security services, we help organizations strengthen their cyber resilience, reduce risk exposure, and maintain secure, compliant digital operations.",
+
+    /* ================= TECHNOLOGY PARTNERS ================= */
+    secPartnersLabel: "Our Technology Partners",
+    secPartnersTitle: "Trusted Cyber Security Ecosystem",
+    secPartnersDesc:
+      "We partner with leading global cyber security vendors to deliver advanced, proven, and scalable security solutions. Our vendor-neutral strategy enables us to select the most effective technologies aligned with your threat landscape, regulatory requirements, and long-term security strategy.",
+
+    /* ================= CORE CAPABILITIES ================= */
+    secCapabilitiesLabel: "Cyber Security",
+    secCapabilitiesTitle: "Core Cyber Security Capabilities",
+
+    /* ================= CARD TITLES ================= */
+    secCardThreat: "Threat Prevention & Detection",
+    secCardMonitoring: "Security Monitoring & SOC",
+    secCardEndpoint: "Endpoint & Device Security",
+    secCardIncident: "Incident Response & Recovery",
+    secCardRisk: "Risk Assessment & Vulnerability Management",
+    secCardCompliance: "Compliance & Governance",
+
+csDeliveryLabel: "What We Deliver",
+    csDeliveryTitle: "Enterprise Computing Solutions Delivery",
+    csDeliveryDesc:
+      "Rawabit Networks delivers enterprise-grade computing solutions that form the foundation of reliable, secure, and high-performance IT environments. Our portfolio covers servers, storage, backup and recovery, virtualization, cloud infrastructure, and data center solutions. From assessment and solution design to deployment, optimization, and managed services, we ensure scalable computing platforms that support business continuity, performance growth, and future digital transformation initiatives.",
+
+    /* ================= TECHNOLOGY PARTNERS ================= */
+    csPartnersLabel: "Our Technology Partners",
+    csPartnersTitle: "Trusted Computing Technology Ecosystem",
+    csPartnersDesc:
+      "We work with globally recognized computing and infrastructure vendors to deliver reliable, scalable, and future-ready solutions. Our vendor-neutral approach enables us to design and deploy the most suitable computing platforms aligned with your workload requirements, performance goals, and long-term IT strategy.",
+
+    /* ================= CORE CAPABILITIES ================= */
+    csCapabilitiesLabel: "Computing Solutions",
+    csCapabilitiesTitle: "Core Computing Capabilities",
+
+    /* ================= CARD TITLES ================= */
+    csCardServers: "Enterprise Servers",
+    csCardStorage: "Storage Solutions",
+    csCardBackup: "Backup & Recovery",
+    csCardCloud: "Cloud Infrastructure",
+    csCardDatacenter: "Data Center Solutions",
+    csCardIntegration: "System Integration",
+avDeliveryLabel: "What We Deliver",
+    avDeliveryTitle: "Enterprise AV Meeting Room Solutions",
+    avDeliveryDesc:
+      "Rawabit Networks delivers fully integrated AV meeting room solutions designed to enable seamless collaboration, clear communication, and intuitive control. Our solutions cover video conferencing, professional audio systems, interactive displays, control and automation platforms, and acoustic optimization. From room assessment and system design to installation, calibration, integration, and ongoing support, we ensure high-performance meeting environments that enhance productivity across boardrooms, training rooms, and collaboration spaces.",
+
+    avPartnersLabel: "Our Technology Partners",
+    avPartnersTitle: "Trusted AV Technology Ecosystem",
+    avPartnersDesc:
+      "We partner with globally recognized AV technology leaders to deliver reliable, high-quality, and future-ready meeting room solutions. Our vendor-neutral approach ensures the right combination of audio, video, and control technologies aligned with your collaboration needs and workspace design.",
+
+    avCapabilitiesLabel: "AV Meeting & Collaboration",
+    avCapabilitiesTitle: "Core AV Capabilities",
+
+    avCardVideo: "Video Conferencing Systems",
+    avCardAudio: "Professional Audio Solutions",
+    avCardDisplay: "Displays & Presentation Systems",
+    avCardControl: "Room Control & Automation",
+    avCardIntegration: "AV System Integration",
+    avCardAcoustic: "Acoustic Design & Optimization",
+
   },
 
   
@@ -3382,6 +4023,26 @@ managedServicesLabel: "الخدمات المُدارة",
   timeline6Day: "اليوم ١٠",
   timeline6Title: "التشغيل والدعم",
   timeline6Desc: "تفعيل النظام، والتحقق النهائي، والمشاركة المستمرة في الدعم",
+
+  instprocessLabel: "منهجيتنا",
+instprocessTitle: "نهج التركيب والتكامل",
+
+
+processStep1Title: "التقييم والتخطيط",
+processStep1Desc:
+  "تحليل شامل للموقع، جمع المتطلبات، وتصميم الحل المناسب.",
+
+processStep2Title: "التحضير قبل التركيب",
+processStep2Desc:
+  "التحقق من جاهزية البنية التحتية واختبار المعدات والتخطيط اللوجستي.",
+
+processStep3Title: "التنفيذ والتهيئة",
+processStep3Desc:
+  "تركيب احترافي، تهيئة الأنظمة، والتكامل مع المنصات الحالية.",
+
+processStep4Title: "الاختبار والتسليم",
+processStep4Desc:
+  "ضمان الجودة، تدريب الفرق، وتسليم المشروع بالكامل.",
   
   // Why Rawabit Installation
   whyRawabitInstallTitle: "لماذا تختار شبكات روابط",
@@ -3506,6 +4167,26 @@ managedServicesLabel: "الخدمات المُدارة",
   
   designStat3Number: "٣٥٪",
   designStat3Label: "متوسط تحسين التكلفة",
+
+  consultProcessLabel: "منهجيتنا",
+consultProcessTitle: "منهجية الاستشارات والتصميم",
+
+consultStep1Title: "الاكتشاف",
+consultStep1Desc:
+  "تقييم شامل لأهداف العمل والتحديات التشغيلية ومتطلبات التقنية.",
+
+consultStep2Title: "الاستراتيجية",
+consultStep2Desc:
+  "تطوير خارطة طريق مخصصة تربط الحلول التقنية بالأهداف المؤسسية.",
+
+consultStep3Title: "التصميم",
+consultStep3Desc:
+  "تصميم معماري تفصيلي للأنظمة يضمن القابلية للتوسع والأمان والأداء.",
+
+consultStep4Title: "التنفيذ",
+consultStep4Desc:
+  "الإشراف على التنفيذ والتحقق لضمان نجاح النشر ونقل المعرفة.",
+
   
   // Why Rawabit
   designWhyRawabitTitle: "لماذا تختار شبكات روابط",
@@ -5858,6 +6539,609 @@ ucCollabProvide2Desc: "دردشة جماعية دائمة ورسائل مباش�
 
 ucCollabProvide3Title: "تكامل ونشر المنصة",
 ucCollabProvide3Desc: "خدمات نشر كاملة بما في ذلك اختيار المنصة وإعداد البنية التحتية وتكامل Active Directory وتكوين الأمان وتدريب المستخدمين.",
+
+assessmentHeroBadge: "المرحلة 01 · منهجيتنا",
+assessmentHeroTitle: "التقييم والتخطيط",
+assessmentHeroDesc:
+  "مرحلة اكتشاف وتخطيط منظمة لضمان تصميم الحل الصحيح قبل بدء التنفيذ.",
+
+assessmentOverviewLabel: "مرحلة التقييم",
+assessmentOverviewTitle: "فهم البيئة قبل البدء في التنفيذ",
+assessmentOverviewDesc1:
+  "نبدأ بتقييم شامل للموقع والبنية التحتية والمتطلبات التشغيلية للحصول على رؤية كاملة.",
+assessmentOverviewDesc2:
+  "تضمن هذه المرحلة توافق الأهداف التقنية والأمنية والتجارية قبل الانتقال إلى المراحل التالية.",
+
+assessmentActivitiesTitle: "أنشطة التقييم الأساسية",
+assessmentActivitiesSubtitle:
+  "كل مشروع يبدأ بالتحليل العميق والتخطيط الدقيق وتقييم المخاطر.",
+
+assessmentAct1Title: "تحليل الموقع والبنية التحتية",
+assessmentAct1Desc:
+  "دراسة الموقع الفعلي، تقييم الشبكة، وتحليل البيئة التشغيلية.",
+
+assessmentAct2Title: "جمع المتطلبات",
+assessmentAct2Desc:
+  "مناقشات تفصيلية لفهم أهداف العمل ومتطلبات الامتثال وسير العمليات.",
+
+assessmentAct3Title: "تحديد الأهداف",
+assessmentAct3Desc:
+  "تحديد واضح لأهداف الأداء والأمن وقابلية التوسع.",
+
+assessmentAct4Title: "تخطيط البنية المعمارية",
+assessmentAct4Desc:
+  "تصميم بنية النظام بما يتوافق مع البنية الحالية والمستقبلية.",
+
+assessmentAct5Title: "اختيار التقنيات",
+assessmentAct5Desc:
+  "اختيار الأجهزة والبرمجيات والمنصات المناسبة للنجاح طويل المدى.",
+
+assessmentAct6Title: "مراجعة المخاطر والامتثال",
+assessmentAct6Desc:
+  "تحديد المخاطر المحتملة وضمان الامتثال للمعايير واللوائح.",
+
+assessmentBenefitsTitle: "أهمية التقييم والتخطيط",
+assessmentBenefitsSubtitle:
+  "الأساس القوي يقلل المخاطر والتكاليف والتعقيد لاحقًا.",
+
+assessmentBenefit1Title: "وضوح اتجاه المشروع",
+assessmentBenefit1Desc:
+  "يضمن توافق جميع الأطراف المعنية منذ البداية.",
+
+assessmentBenefit2Title: "تقليل مخاطر التنفيذ",
+assessmentBenefit2Desc:
+  "تحديد التحديات مبكرًا يمنع التعديلات المكلفة لاحقًا.",
+
+assessmentBenefit3Title: "تصميم حل مُحسّن",
+assessmentBenefit3Desc:
+  "يضمن أن يكون الحل النهائي فعالًا وقابلًا للتوسع وجاهزًا للمستقبل.",
+
+  prepHeroBadge: "المرحلة 02 · منهجيتنا",
+prepHeroTitle: "التحضير قبل التركيب",
+prepHeroDesc:
+  "ضمان جاهزية البنية التحتية والمعدات واللوجستيات قبل بدء التنفيذ في الموقع.",
+
+prepOverviewLabel: "مرحلة التحضير",
+prepOverviewTitle: "تجهيز كل شيء قبل بدء التنفيذ",
+prepOverviewDesc1:
+  "تركز هذه المرحلة على التحقق من جاهزية البنية التحتية وتجهيز جميع المعدات والموارد.",
+prepOverviewDesc2:
+  "التحضير الجيد يقلل التأخير ويحد من المخاطر ويضمن تنفيذًا سلسًا.",
+
+prepActivitiesTitle: "أنشطة التحضير الأساسية",
+prepActivitiesSubtitle:
+  "فحوصات وتنسيق دقيق لضمان مرحلة تركيب خالية من المشاكل.",
+
+prepAct1Title: "التحقق من جاهزية البنية التحتية",
+prepAct1Desc:
+  "التأكد من جاهزية الطاقة والشبكة والكابلات والبيئة التشغيلية.",
+
+prepAct2Title: "تجهيز واختبار المعدات",
+prepAct2Desc:
+  "الإعداد المسبق واختبار جميع الأجهزة والأنظمة.",
+
+prepAct3Title: "تخطيط التركيب",
+prepAct3Desc:
+  "وضع جداول التركيب وسير العمل وتوزيع الموارد.",
+
+prepAct4Title: "تجهيز الأدوات والموارد",
+prepAct4Desc:
+  "ضمان توفر جميع الأدوات والملحقات والموارد الفنية.",
+
+prepAct5Title: "تنسيق النقل واللوجستيات",
+prepAct5Desc:
+  "إدارة النقل وتسليم المعدات إلى الموقع.",
+
+prepAct6Title: "التحقق قبل التنفيذ",
+prepAct6Desc:
+  "مراجعة الجاهزية النهائية قبل بدء التركيب.",
+
+prepBenefitsTitle: "أهمية التحضير قبل التركيب",
+prepBenefitsSubtitle:
+  "التحضير الجيد يضمن الكفاءة والدقة وتقليل التعطيل.",
+
+prepBenefit1Title: "تقليل التأخير في الموقع",
+prepBenefit1Desc:
+  "جاهزية كاملة قبل بدء التنفيذ.",
+
+prepBenefit2Title: "تنفيذ لوجستي سلس",
+prepBenefit2Desc:
+  "تنسيق فعال يمنع الاختناقات.",
+
+prepBenefit3Title: "نتائج تركيب موثوقة",
+prepBenefit3Desc:
+  "اختبار الأنظمة مسبقًا يقلل الأعطال أثناء التنفيذ.",
+deployHeroBadge: "المرحلة 03 · منهجيتنا",
+deployHeroTitle: "التنفيذ والتهيئة",
+deployHeroDesc:
+  "تركيب احترافي وتهيئة دقيقة وتكامل سلس للأنظمة.",
+
+deployOverviewLabel: "مرحلة التنفيذ",
+deployOverviewTitle: "تحويل التصميم إلى بيئة تشغيل فعلية",
+deployOverviewDesc1:
+  "خلال هذه المرحلة يقوم مهندسونا بتركيب وتهيئة الأنظمة وفق التصميم المعتمد.",
+deployOverviewDesc2:
+  "نضمن تكامل جميع المكونات وتأمينها وتحسين أدائها.",
+
+deployActivitiesTitle: "أنشطة التنفيذ الأساسية",
+deployActivitiesSubtitle:
+  "تنفيذ دقيق مع الالتزام بالسلامة والكفاءة التشغيلية.",
+
+deployAct1Title: "التركيب الفعلي",
+deployAct1Desc:
+  "تركيب الأجهزة وتمديد الكابلات وتجهيز الأنظمة.",
+
+deployAct2Title: "تهيئة الأنظمة",
+deployAct2Desc:
+  "إعداد البرمجيات والبرامج الثابتة ومعلمات النظام.",
+
+deployAct3Title: "تكامل الشبكة",
+deployAct3Desc:
+  "ربط الأنظمة بالشبكة والتحقق من الاتصال.",
+
+deployAct4Title: "تكامل المنصات",
+deployAct4Desc:
+  "تكامل الأنظمة مع منصات تقنية المعلومات والأمن الحالية.",
+
+deployAct5Title: "الضبط والتحسين",
+deployAct5Desc:
+  "تحسين الأداء وضبط الإعدادات.",
+
+deployAct6Title: "تعزيز الأمان",
+deployAct6Desc:
+  "تطبيق سياسات الأمان وضوابط الوصول وأفضل الممارسات.",
+
+deployBenefitsTitle: "أهمية التنفيذ والتهيئة",
+deployBenefitsSubtitle:
+  "التنفيذ الصحيح يضمن الاستقرار والأمان والاعتمادية طويلة المدى.",
+
+deployBenefit1Title: "تشغيل سلس",
+deployBenefit1Desc:
+  "جاهزية الأنظمة للعمل من اليوم الأول.",
+
+deployBenefit2Title: "بيئة آمنة ومستقرة",
+deployBenefit2Desc:
+  "إعدادات محصنة تقلل الثغرات.",
+
+deployBenefit3Title: "أداء محسّن",
+deployBenefit3Desc:
+  "أنظمة محسّنة للكفاءة وقابلية التوسع.",
+
+  testHeroBadge: "المرحلة 04 · منهجيتنا",
+testHeroTitle: "الاختبار والتسليم",
+testHeroDesc:
+  "التحقق من أداء الأنظمة وضمان الجودة وتسليم الحل بشكل سلس إلى فريقك.",
+
+testOverviewLabel: "مرحلة الاختبار",
+testOverviewTitle: "التحقق والتأكد والتسليم بثقة",
+testOverviewDesc1:
+  "بعد التنفيذ نقوم باختبار الأنظمة بشكل شامل لضمان عملها وفق التصميم.",
+testOverviewDesc2:
+  "ثم نقوم بتسليم حل مُختبر وموثق وجاهز للتشغيل لفريقك.",
+
+testActivitiesTitle: "أنشطة الاختبار والتسليم الأساسية",
+testActivitiesSubtitle:
+  "ضمان الجودة ونقل المعرفة والاستعداد التشغيلي.",
+
+testAct1Title: "اختبار الوظائف",
+testAct1Desc:
+  "التحقق من وظائف الأنظمة في سيناريوهات تشغيل فعلية.",
+
+testAct2Title: "اختبار الأداء والتحميل",
+testAct2Desc:
+  "ضمان موثوقية الأداء تحت الأحمال المتوقعة.",
+
+testAct3Title: "التحقق الأمني",
+testAct3Desc:
+  "فحوصات أمنية نهائية والتحقق من الامتثال.",
+
+testAct4Title: "تدريب المستخدمين والمسؤولين",
+testAct4Desc:
+  "جلسات تدريب عملية للمستخدمين والمسؤولين.",
+
+testAct5Title: "تسليم الوثائق",
+testAct5Desc:
+  "توفير وثائق تقنية وتشغيلية كاملة.",
+
+testAct6Title: "القبول النهائي والتوقيع",
+testAct6Desc:
+  "التسليم الرسمي مع اعتماد العميل.",
+
+testBenefitsTitle: "أهمية الاختبار والتسليم",
+testBenefitsSubtitle:
+  "يضمن الاعتمادية وجاهزية المستخدم والنجاح طويل المدى.",
+
+testBenefit1Title: "موثوقية مثبتة للأنظمة",
+testBenefit1Desc:
+  "جميع الأنظمة مختبرة وجاهزة للإنتاج.",
+
+testBenefit2Title: "فرق مدربة وواثقة",
+testBenefit2Desc:
+  "فريقك جاهز للتشغيل والصيانة.",
+
+testBenefit3Title: "تشغيل آمن ومتوافق",
+testBenefit3Desc:
+  "فحوصات نهائية تضمن الأمان والامتثال.",
+
+  discoveryHeroBadge: "المرحلة 01 · الاستشارات والتصميم",
+discoveryHeroTitle: "الاكتشاف",
+discoveryHeroDesc:
+  "فهم أهداف العمل والتحديات والبيئة التقنية قبل تحديد الحل.",
+
+discoveryOverviewLabel: "مرحلة الاكتشاف",
+discoveryOverviewTitle: "بناء الأساس الصحيح",
+discoveryOverviewDesc1:
+  "تركز مرحلة الاكتشاف على فهم عميق للمنظمة والعمليات والأهداف.",
+discoveryOverviewDesc2:
+  "تساعد هذه الرؤية على تحديد المتطلبات وتوجيه مسار المشروع بالكامل.",
+
+discoveryActivitiesTitle: "أنشطة الاكتشاف الأساسية",
+discoveryActivitiesSubtitle:
+  "تحليل منظم وتعاون للكشف عن الاحتياجات الحقيقية.",
+
+discoveryAct1Title: "تقييم الأعمال والتقنية",
+discoveryAct1Desc:
+  "تقييم الأنظمة الحالية والعمليات ومستوى النضج التقني.",
+
+discoveryAct2Title: "ورش عمل أصحاب المصلحة",
+discoveryAct2Desc:
+  "التفاعل مع أصحاب القرار لفهم الأولويات والتوقعات.",
+
+discoveryAct3Title: "توثيق المتطلبات",
+discoveryAct3Desc:
+  "تجميع المتطلبات الوظيفية والتقنية والتشغيلية.",
+
+discoveryAct4Title: "تحديد الأهداف ومؤشرات الأداء",
+discoveryAct4Desc:
+  "تحديد أهداف قابلة للقياس ومتوافقة مع نتائج العمل.",
+
+discoveryAct5Title: "تحليل الفجوات والمخاطر",
+discoveryAct5Desc:
+  "تحديد الفجوات والقيود والمخاطر المحتملة مبكرًا.",
+
+discoveryAct6Title: "تحديد الفرص",
+discoveryAct6Desc:
+  "تسليط الضوء على فرص التحسين والابتكار.",
+
+discoveryBenefitsTitle: "أهمية مرحلة الاكتشاف",
+discoveryBenefitsSubtitle:
+  "الوضوح في البداية يضمن النجاح في جميع المراحل.",
+
+discoveryBenefit1Title: "اتجاه واضح",
+discoveryBenefit1Desc:
+  "توافق الجميع على الأهداف والتوقعات من البداية.",
+
+discoveryBenefit2Title: "مواءمة أقوى",
+discoveryBenefit2Desc:
+  "تعاون فعال بين فرق الأعمال والتقنية.",
+
+discoveryBenefit3Title: "قرارات أفضل",
+discoveryBenefit3Desc:
+  "الرؤى المكتسبة تدعم قرارات استراتيجية وتصميمية أفضل.",
+
+  strategyHeroBadge: "المرحلة 02 · الاستشارات والتصميم",
+strategyHeroTitle: "الاستراتيجية",
+strategyHeroDesc:
+  "تحويل الرؤى إلى خارطة طريق واضحة وقابلة للتنفيذ تتماشى مع أهداف المؤسسة.",
+
+strategyOverviewLabel: "مرحلة الاستراتيجية",
+strategyOverviewTitle: "من الرؤية إلى خارطة طريق قابلة للتنفيذ",
+strategyOverviewDesc1:
+  "في هذه المرحلة نقوم بتحويل نتائج الاكتشاف إلى خارطة طريق تقنية منظمة.",
+strategyOverviewDesc2:
+  "تضمن هذه الخارطة توافق المبادرات والأولويات والجداول الزمنية مع أهداف العمل.",
+
+strategyActivitiesTitle: "أنشطة الاستراتيجية الأساسية",
+strategyActivitiesSubtitle:
+  "تخطيط هادف بنتائج قابلة للقياس.",
+
+strategyAct1Title: "تطوير خارطة الطريق",
+strategyAct1Desc:
+  "تحديد المبادرات المرحلية مع معالم زمنية واضحة.",
+
+strategyAct2Title: "مواءمة الأهداف",
+strategyAct2Desc:
+  "مواءمة المبادرات التقنية مع أهداف العمل والتشغيل.",
+
+strategyAct3Title: "ربط الحلول",
+strategyAct3Desc:
+  "ربط المتطلبات بالحلول التقنية المناسبة.",
+
+strategyAct4Title: "تحديد الأولويات والمراحل",
+strategyAct4Desc:
+  "ترتيب المبادرات حسب التأثير والقيمة والمخاطر.",
+
+strategyAct5Title: "إدارة المخاطر والحوكمة",
+strategyAct5Desc:
+  "دمج أطر الحوكمة وإدارة المخاطر.",
+
+strategyAct6Title: "تحديد مؤشرات النجاح",
+strategyAct6Desc:
+  "تحديد مؤشرات أداء لقياس التقدم والنجاح.",
+
+strategyBenefitsTitle: "أهمية الاستراتيجية",
+strategyBenefitsSubtitle:
+  "الاستراتيجية الواضحة تضمن التركيز والكفاءة وتحقيق النتائج.",
+
+strategyBenefit1Title: "اتجاه واضح",
+strategyBenefit1Desc:
+  "خارطة طريق محددة توجه اتخاذ القرار.",
+
+strategyBenefit2Title: "استثمار أمثل",
+strategyBenefit2Desc:
+  "توجيه الموارد لتحقيق أعلى قيمة.",
+
+strategyBenefit3Title: "نتائج قابلة للقياس",
+strategyBenefit3Desc:
+  "مؤشرات واضحة لمتابعة التقدم والنجاح.",
+
+designHeroBadge: "المرحلة 03 · الاستشارات والتصميم",
+designS3HeroTitle: "التصميم",
+designHeroDesc:
+  "تحويل الاستراتيجية إلى بنية أنظمة تفصيلية وآمنة وقابلة للتوسع.",
+
+designOverviewLabel: "مرحلة التصميم",
+designOverviewTitle: "بناء الحل بالشكل الصحيح",
+designOverviewDesc1:
+  "تحول مرحلة التصميم التوجه الاستراتيجي إلى بنية تقنية تفصيلية.",
+designOverviewDesc2:
+  "نضمن تلبية الحل لمتطلبات الأداء والأمان وقابلية التوسع والتشغيل.",
+
+designActivitiesTitle: "أنشطة التصميم الأساسية",
+designActivitiesSubtitle:
+  "هندسة دقيقة متوافقة مع الأهداف طويلة المدى.",
+
+designAct1Title: "تصميم البنية المعمارية",
+designAct1Desc:
+  "تحديد بنية الأنظمة ومكوناتها ونقاط التكامل.",
+
+designAct2Title: "تصميم الشبكات والمنصات",
+designAct2Desc:
+  "تصميم هيكل الشبكة والمنصات التقنية.",
+
+designAct3Title: "الأمان حسب التصميم",
+designAct3Desc:
+  "دمج ضوابط الأمان ومتطلبات الامتثال.",
+
+designAct4Title: "مخطط الإعدادات",
+designAct4Desc:
+  "تحديد معايير الإعدادات ومعلمات النظام.",
+
+designAct5Title: "التخطيط للأداء وقابلية التوسع",
+designAct5Desc:
+  "تصميم الحل للنمو والمرونة والتوافر العالي.",
+
+designAct6Title: "التحقق من التصميم",
+designAct6Desc:
+  "مراجعة التصاميم والتحقق منها مع أصحاب المصلحة.",
+
+designBenefitsTitle: "أهمية التصميم",
+designBenefitsSubtitle:
+  "التصميم القوي يضمن الاعتمادية والأمان والجاهزية المستقبلية.",
+
+designBenefit1Title: "بنية قابلة للتوسع",
+designBenefit1Desc:
+  "مصممة للنمو مع احتياجات العمل.",
+
+designBenefit2Title: "أساس آمن",
+designBenefit2Desc:
+  "دمج الأمان والامتثال منذ البداية.",
+
+designBenefit3Title: "كفاءة تشغيلية",
+designBenefit3Desc:
+  "تصميم محسّن يسهل التشغيل والصيانة.",
+implementationHeroBadge: "المرحلة 04 · الاستشارات والتصميم",
+implementationHeroTitle: "التنفيذ",
+implementationHeroDesc:
+  "ضمان التنفيذ الناجح من خلال الإشراف والتحقق ونقل المعرفة بفعالية.",
+
+implementationOverviewLabel: "مرحلة التنفيذ",
+implementationOverviewTitle: "تحويل التصميم إلى واقع عملي",
+implementationOverviewDesc1:
+  "في مرحلة التنفيذ نقوم بالإشراف على التطبيق لضمان الالتزام بالتصميم.",
+implementationOverviewDesc2:
+  "نقوم بالتحقق من النتائج ودعم الفرق وضمان انتقال سلس للتشغيل.",
+
+implementationActivitiesTitle: "أنشطة التنفيذ الأساسية",
+implementationActivitiesSubtitle:
+  "دعم التنفيذ والتحقق والاستعداد التشغيلي.",
+
+implementationAct1Title: "الإشراف على التنفيذ",
+implementationAct1Desc:
+  "متابعة أنشطة التنفيذ لضمان التوافق مع التصميم.",
+
+implementationAct2Title: "التحقق من التصميم",
+implementationAct2Desc:
+  "التأكد من مطابقة الحل المنفذ للتصميم المعتمد.",
+
+implementationAct3Title: "فحوصات الجودة والامتثال",
+implementationAct3Desc:
+  "ضمان الالتزام بالمعايير ومتطلبات الأمان.",
+
+implementationAct4Title: "نقل المعرفة والتدريب",
+implementationAct4Desc:
+  "نقل المعرفة إلى الفرق التشغيلية والتقنية.",
+
+implementationAct5Title: "حل الملاحظات والاعتماد النهائي",
+implementationAct5Desc:
+  "معالجة الملاحظات ودعم القبول النهائي.",
+
+implementationAct6Title: "مراجعة ما بعد التنفيذ",
+implementationAct6Desc:
+  "مراجعة النتائج وتحديد فرص التحسين.",
+
+implementationBenefitsTitle: "أهمية التنفيذ",
+implementationBenefitsSubtitle:
+  "الإشراف القوي يضمن تحويل التصميم إلى واقع ناجح.",
+
+implementationBenefit1Title: "تنفيذ ناجح",
+implementationBenefit1Desc:
+  "تسليم المشاريع وفق التصميم والتوقعات.",
+
+implementationBenefit2Title: "فرق جاهزة",
+implementationBenefit2Desc:
+  "فرق واثقة وقادرة على تشغيل الحل.",
+
+implementationBenefit3Title: "قيمة مستدامة",
+implementationBenefit3Desc:
+  "حلول تستمر في تقديم القيمة بعد التسليم.",
+
+ netDeliveryLabel: "ما نقدمه",
+  netDeliveryTitle: "تقديم البنية التحتية للشبكات على مستوى المؤسسات",
+  netDeliveryDesc: "تصمم شبكات روابط وتقدم بنية تحتية آمنة وعالية الأداء للشبكات تشكل العمود الفقري للمؤسسات الحديثة، وتشمل شبكات LAN الأساسية، وWAN، وWi-Fi، والتوجيه، والتبديل، والهندسة المعمارية الموجهة للأمان المصممة للموثوقية وقابلية التوسع والكفاءة التشغيلية. تم تصميم حلولنا لدعم الامتثال التنظيمي والتوافر العالي ونمو الأعمال على المدى الطويل مع التكامل السلس مع بيئات تكنولوجيا المعلومات الحالية. من التقييم الأولي وتصميم الهندسة المعمارية التفصيلي إلى النشر وتكامل النظام وتحسين الأداء ودعم دورة الحياة، يضمن مهندسونا المعتمدون بيئات شبكات مرنة وجاهزة للمستقبل تتماشى تمامًا مع الأهداف التنظيمية.",
+
+  // Technology Partners Section
+  netPartnersLabel: "شركاؤنا التقنيون",
+  netPartnersTitle: "نظام تقني عالمي موثوق",
+  netPartnersDesc: "نتعاون مع قادة التكنولوجيا المعترف بهم عالميًا لتقديم حلول مؤسسية آمنة وموثوقة وجاهزة للمستقبل. يمكننا نظام الشراكة القوي لدينا من تصميم هندسة معمارية متوافقة مع البائعين مع الحفاظ على المرونة للتوصية بأفضل التقنيات المناسبة للمتطلبات التشغيلية والتجارية لكل عميل.",
+
+  // Core Network Capabilities Section
+  netCapabilitiesLabel: "البنية التحتية للشبكات",
+  netCapabilitiesTitle: "قدرات الشبكة الأساسية",
+  
+  // Card Titles
+  netCardMonitoring: "المراقبة والتحسين",
+  netCardSecurity: "تكامل أمن الشبكات",
+  netCardCabling: "الكابلات المنظمة",
+  netCardSwitching: "التبديل والتوجيه",
+  netCardWAN: "WAN والاتصال",
+  netCardWiFi: "الواي فاي",
+
+  ucDeliveryLabel: "ما نقدمه",
+  ucDeliveryTitle: "تقديم الاتصالات الموحدة على مستوى المؤسسات",
+  ucDeliveryDesc: "تصمم شبكات روابط وتقدم حلول اتصالات موحدة شاملة تدمج الصوت والفيديو والرسائل والتعاون في منصات مؤسسية متماسكة. تعزز حلول الاتصالات الموحدة لدينا الإنتاجية، وتحسن مشاركة العملاء، وتدعم بيئات العمل الهجينة الحديثة مع أمان وموثوقية على مستوى المؤسسات. من الاستشارة واختيار المنصة إلى النشر والتكامل وتدريب المستخدمين والخدمات المدارة المستمرة، يضمن مهندسونا المعتمدون تجارب اتصال سلسة تتماشى مع أهدافك التنظيمية ومتطلباتك التشغيلية.",
+
+  // Technology Partners Section
+  ucPartnersLabel: "شركاؤنا التقنيون",
+  ucPartnersTitle: "نظام الاتصالات الموحدة العالمي الموثوق",
+  ucPartnersDesc: "نتشارك مع موردي الاتصالات الموحدة الرائدين في الصناعة لتقديم حلول تعاون آمنة وقابلة للتوسع وجاهزة للمستقبل. يمكننا نظامنا التقني المتنوع من تصميم الهندسة المعمارية الصحيحة للاتصالات الموحدة لمؤسستك مع الحفاظ على الحياد تجاه البائعين والتوصية بأفضل المنصات المناسبة بناءً على متطلبات عملك المحددة واحتياجات المستخدمين.",
+
+  
+  ucCapabilitiesLabel: "الاتصالات الموحدة",
+  ucCapabilitiesTitle: "قدرات الاتصالات الموحدة الأساسية",
+
+  // Card Titles
+  ucCardCollaboration: "منصات التعاون",
+  ucCardContactCenter: "مركز الاتصال",
+  ucCardIP: "الهاتف عبر بروتوكول الإنترنت",
+  ucCardMobility: "حلول التنقل",
+  ucCardMonitoring: "المراقبة والجودة",
+  ucCardUC: "تكامل الاتصالات الموحدة",
+
+  ssDeliveryLabel: "ما نقدمه",
+    ssDeliveryTitle: "تقديم حلول الأمن والمراقبة على مستوى المؤسسات",
+    ssDeliveryDesc:
+      "تقدم راوابـط نتوركس حلولًا متكاملة للأمن والمراقبة لحماية الأفراد والأصول والبنية التحتية في بيئات المؤسسات. تشمل حلولنا أنظمة المراقبة بالفيديو، والتحكم في الدخول، وكشف التسلل، وإنذارات الحريق، والمراقبة الذكية ضمن منصات أمنية موحدة. بدءًا من تقييم المخاطر وتصميم الأنظمة وصولًا إلى التنفيذ والتكامل والخدمات المدارة المستمرة، نضمن عمليات أمنية موثوقة وقابلة للتوسع ومتوافقة مع المعايير.",
+
+    /* ================= TECHNOLOGY PARTNERS ================= */
+    ssPartnersLabel: "شركاؤنا التقنيون",
+    ssPartnersTitle: "منظومة موثوقة لتقنيات الأمن",
+    ssPartnersDesc:
+      "نتعاون مع أبرز مزودي تقنيات الأمن والمراقبة عالميًا لتقديم حلول موثوقة وجاهزة للمستقبل. يتيح لنا نهجنا المحايد تجاه الموردين اختيار التقنيات الأنسب وفقًا لمتطلباتكم الأمنية والأنظمة التنظيمية وبيئة التشغيل.",
+
+    /* ================= CORE CAPABILITIES ================= */
+    ssCapabilitiesLabel: "الأمن والمراقبة",
+    ssCapabilitiesTitle: "القدرات الأساسية للأمن",
+
+    /* ================= CARD TITLES ================= */
+    ssCardCctv: "أنظمة CCTV والمراقبة بالفيديو",
+    ssCardAccess: "أنظمة التحكم في الدخول",
+    ssCardIntrusion: "أنظمة كشف التسلل والإنذار",
+    ssCardFire: "كشف الحريق والسلامة",
+    ssCardMonitoring: "المراقبة المركزية",
+    ssCardIntegration: "تكامل أنظمة الأمن",
+
+        ddDeliveryLabel: "ما نقدمه",
+    ddDeliveryTitle: "تقديم حلول الشاشات الرقمية على مستوى المؤسسات",
+    ddDeliveryDesc:
+      "تقدم راوابـط نتوركس حلول شاشات رقمية ولافتات عرض متكاملة تُحدث نقلة نوعية في أساليب التواصل والعرض والتفاعل داخل المؤسسات. تشمل حلولنا شبكات اللافتات الرقمية، والشاشات التفاعلية، وجدران الفيديو، وشاشات LED، ومنصات إدارة المحتوى المركزية. ندعم دورة المشروع كاملة بدءًا من دراسة المتطلبات وتصميم الحلول واختيار الأجهزة، مرورًا بالتركيب والمعايرة وتكامل المحتوى، وصولًا إلى الدعم والخدمات المدارة المستمرة، لضمان تجارب بصرية عالية التأثير وموثوقة وقابلة للتوسع في البيئات المؤسسية والتجارية والتعليمية والصحية والعامة.",
+
+    /* ================= TECHNOLOGY PARTNERS ================= */
+    ddPartnersLabel: "شركاؤنا التقنيون",
+    ddPartnersTitle: "منظومة رائدة لتقنيات الشاشات الرقمية",
+    ddPartnersDesc:
+      "نتعاون مع أبرز مزودي تقنيات الشاشات الرقمية والأنظمة المرئية عالميًا لتقديم حلول عالية الجودة وجاهزة للمستقبل. يتيح لنا نهجنا المحايد تجاه الموردين اختيار التقنيات الأنسب للشاشات ومنصات إدارة المحتوى والأنظمة المرئية بما يتوافق مع متطلبات الأداء وبيئة التشغيل واستراتيجيتكم الرقمية طويلة المدى.",
+
+    /* ================= CORE CAPABILITIES ================= */
+    ddCapabilitiesLabel: "حلول الشاشات الرقمية",
+    ddCapabilitiesTitle: "القدرات الأساسية للشاشات الرقمية",
+
+    /* ================= CARD TITLES ================= */
+    ddCardVideoWalls: "جدران الفيديو",
+    ddCardInteractive: "الشاشات التفاعلية",
+    ddCardSignage: "اللافتات الرقمية",
+    ddCardCms: "أنظمة إدارة المحتوى",
+    ddCardLed: "حلول شاشات LED",
+    ddCardIntegration: "تكامل الأنظمة والتحكم",
+
+    secDeliveryLabel: "ما نقدمه",
+    secDeliveryTitle: "تقديم حلول الأمن السيبراني على مستوى المؤسسات",
+    secDeliveryDesc:
+      "تقدم راوابـط نتوركس حلول أمن سيبراني متكاملة لحماية شبكات وأنظمة وتطبيقات وبيانات المؤسسات من التهديدات الرقمية المتطورة. يعتمد نهجنا على دمج منع التهديدات والمراقبة المستمرة وحماية الأجهزة الطرفية والاستجابة للحوادث وإدارة الامتثال ضمن إطار أمني موحد. بدءًا من تقييم الوضع الأمني وتصميم البنية الأمنية وصولًا إلى التنفيذ والتحسين والخدمات المدارة المستمرة، نساعد المؤسسات على تعزيز مرونتها السيبرانية وتقليل المخاطر وضمان عمليات رقمية آمنة ومتوافقة.",
+
+    /* ================= TECHNOLOGY PARTNERS ================= */
+    secPartnersLabel: "شركاؤنا التقنيون",
+    secPartnersTitle: "منظومة موثوقة للأمن السيبراني",
+    secPartnersDesc:
+      "نتعاون مع أبرز مزودي حلول الأمن السيبراني عالميًا لتقديم تقنيات متقدمة ومجربة وقابلة للتوسع. يتيح لنا نهجنا المحايد تجاه الموردين اختيار الحلول الأكثر فاعلية بما يتوافق مع مشهد التهديدات والمتطلبات التنظيمية واستراتيجية الأمن طويلة المدى.",
+
+    /* ================= CORE CAPABILITIES ================= */
+    secCapabilitiesLabel: "الأمن السيبراني",
+    secCapabilitiesTitle: "القدرات الأساسية للأمن السيبراني",
+
+    /* ================= CARD TITLES ================= */
+    secCardThreat: "منع التهديدات والكشف عنها",
+    secCardMonitoring: "مراقبة الأمن ومراكز العمليات (SOC)",
+    secCardEndpoint: "حماية الأجهزة الطرفية",
+    secCardIncident: "الاستجابة للحوادث والتعافي",
+    secCardRisk: "إدارة المخاطر والثغرات",
+    secCardCompliance: "الامتثال والحوكمة",
+
+        csDeliveryLabel: "ما نقدمه",
+    csDeliveryTitle: "تقديم حلول الحوسبة على مستوى المؤسسات",
+    csDeliveryDesc:
+      "تقدم راوابـط نتوركس حلول حوسبة متقدمة تشكل الأساس لبيئات تقنية معلومات موثوقة وآمنة وعالية الأداء. تشمل حلولنا الخوادم وأنظمة التخزين والنسخ الاحتياطي والتعافي والافتراضية والبنية التحتية السحابية وحلول مراكز البيانات. بدءًا من تقييم الاحتياجات وتصميم الحلول وصولًا إلى التنفيذ والتحسين والخدمات المدارة، نضمن منصات حوسبة قابلة للتوسع تدعم استمرارية الأعمال والنمو والتحول الرقمي المستقبلي.",
+
+    /* ================= TECHNOLOGY PARTNERS ================= */
+    csPartnersLabel: "شركاؤنا التقنيون",
+    csPartnersTitle: "منظومة موثوقة لتقنيات الحوسبة",
+    csPartnersDesc:
+      "نتعاون مع أبرز مزودي تقنيات الحوسبة والبنية التحتية عالميًا لتقديم حلول موثوقة وقابلة للتوسع وجاهزة للمستقبل. يتيح لنا نهجنا المحايد تجاه الموردين تصميم وتنفيذ منصات حوسبة تتوافق مع متطلبات الأداء وأحمال العمل واستراتيجية تقنية المعلومات طويلة المدى.",
+
+    /* ================= CORE CAPABILITIES ================= */
+    csCapabilitiesLabel: "حلول الحوسبة",
+    csCapabilitiesTitle: "القدرات الأساسية للحوسبة",
+
+    /* ================= CARD TITLES ================= */
+    csCardServers: "الخوادم المؤسسية",
+    csCardStorage: "حلول التخزين",
+    csCardBackup: "النسخ الاحتياطي والتعافي",
+    csCardCloud: "البنية التحتية السحابية",
+    csCardDatacenter: "حلول مراكز البيانات",
+    csCardIntegration: "تكامل الأنظمة",
+
+     avDeliveryLabel: "ما نقدمه",
+    avDeliveryTitle: "تقديم حلول غرف الاجتماعات السمعية والبصرية",
+    avDeliveryDesc:
+      "تقدم راوابـط نتوركس حلول غرف اجتماعات سمعية وبصرية متكاملة تدعم التعاون السلس والتواصل الواضح والتحكم الذكي. تشمل حلولنا أنظمة مؤتمرات الفيديو، وأنظمة الصوت الاحترافية، وشاشات العرض التفاعلية، وأنظمة التحكم والأتمتة، ومعالجة الصوتيات. بدءًا من تقييم الغرف وتصميم الأنظمة وصولًا إلى التركيب والمعايرة والتكامل والدعم المستمر، نضمن بيئات اجتماعات عالية الأداء تعزز الإنتاجية في قاعات الاجتماعات وغرف التدريب ومساحات التعاون.",
+
+    avPartnersLabel: "شركاؤنا التقنيون",
+    avPartnersTitle: "منظومة موثوقة لتقنيات AV",
+    avPartnersDesc:
+      "نتعاون مع أبرز مزودي تقنيات الصوت والصورة عالميًا لتقديم حلول غرف اجتماعات موثوقة وجاهزة للمستقبل. يتيح لنا نهجنا المحايد تجاه الموردين اختيار أفضل تقنيات الصوت والفيديو والتحكم بما يتناسب مع احتياجات التعاون وتصميم المساحات.",
+
+    avCapabilitiesLabel: "حلول الاجتماعات السمعية والبصرية",
+    avCapabilitiesTitle: "القدرات الأساسية لأنظمة AV",
+
+    avCardVideo: "أنظمة مؤتمرات الفيديو",
+    avCardAudio: "حلول الصوت الاحترافية",
+    avCardDisplay: "أنظمة العرض والتقديم",
+    avCardControl: "التحكم وأتمتة الغرف",
+    avCardIntegration: "تكامل أنظمة AV",
+    avCardAcoustic: "تصميم ومعالجة الصوتيات",
+
+
+
   }
 } as const;
 

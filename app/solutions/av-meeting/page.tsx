@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import StackCard from "@/components/StackCard";
 
 export default function AVMeetingRoomPage() {
   const { t, lang } = useLang();
@@ -110,6 +111,130 @@ export default function AVMeetingRoomPage() {
           </div>
         </div>
       </section>
+      {/* ================= WHAT WE DELIVER ================= */}
+<section className="w-full bg-[#eef3f7] py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <p className="text-xs uppercase tracking-[0.25em] text-red-500 mb-4">
+      {t("avDeliveryLabel")}
+    </p>
+
+    <h2 className="text-3xl md:text-4xl font-light text-[#0d355d] mb-6">
+      {t("avDeliveryTitle")}
+    </h2>
+
+    <p
+      className="text-gray-600 text-[17px] leading-relaxed text-justify"
+      style={{ textJustify: "inter-word" }}
+    >
+      {t("avDeliveryDesc")}
+    </p>
+
+  </div>
+</section>
+
+{/* ================= TECHNOLOGY PARTNERS ================= */}
+<section className="w-full bg-white py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <p className="text-xs uppercase tracking-[0.25em] text-red-500 mb-4">
+      {t("avPartnersLabel")}
+    </p>
+
+    <h2 className="text-3xl md:text-4xl font-light text-[#0d355d] mb-6">
+      {t("avPartnersTitle")}
+    </h2>
+
+    <p className="text-gray-600 text-[17px] leading-relaxed mb-16">
+      {t("avPartnersDesc")}
+    </p>
+
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
+      {[
+        "/role/20r.png", // Poly
+        "/role/21r.png", // Logitech
+        "/role/22r.png", // Yealink
+        "/role/23r.png", // Jabra
+        "/role/27r.png", // Biamp
+        "/role/28r.png", // Shure
+        "/role/29r.png", // Bose
+        "/role/30r.png", // Nureva
+        "/role/31r.png", // Crestron
+        "/role/33r.png", // ATEN
+        "/role/34r.png", // Q-SYS
+        "/role/52r.png", // Ateis
+      ].map((logo, i) => (
+        <div
+          key={i}
+          className="flex items-center justify-center w-[160px] h-[64px]"
+        >
+          <img
+            src={logo}
+            alt="Technology Partner"
+            className="w-full h-full object-contain grayscale opacity-80"
+          />
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
+
+{/* ================= CORE AV CAPABILITIES ================= */}
+<section className="w-full bg-gray-50 py-16 md:py-20">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="mb-12 text-center">
+      <p className="uppercase text-xs tracking-[0.25em] text-gray-400 mb-3">
+        {t("avCapabilitiesLabel")}
+      </p>
+      <h2 className="text-3xl md:text-4xl font-light text-[#0e355d]">
+        {t("avCapabilitiesTitle")}
+      </h2>
+    </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <StackCard
+        image="/av/video.jpg"
+        title={t("avCardVideo")}
+        href="/solutions/av-meeting/video-systems"
+      />
+
+      <StackCard
+        image="/av/audio.jpg"
+        title={t("avCardAudio")}
+        href="/solutions/av-meeting/audio-solutions"
+      />
+
+      <StackCard
+        image="/av/display.jpg"
+        title={t("avCardDisplay")}
+        href="/solutions/av-meeting/display-technology"
+      />
+
+      <StackCard
+        image="/av/control.jpg"
+        title={t("avCardControl")}
+        href="/solutions/av-meeting/control-systems"
+      />
+
+      <StackCard
+        image="/av/integration.jpg"
+        title={t("avCardIntegration")}
+        href="/solutions/av-meeting/smart-integration"
+      />
+
+      <StackCard
+        image="/av/acoustic.jpg"
+        title={t("avCardAcoustic")}
+        href="/solutions/av-meeting/acoustic-design"
+      />
+
+    </div>
+  </div>
+</section>
+
 
       {/* ================= SERVICES ================= */}
       <section className="bg-white py-24 px-4">

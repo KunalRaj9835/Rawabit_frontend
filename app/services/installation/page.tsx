@@ -17,6 +17,8 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useLang } from "@/context/LanguageContext";
+import Image from "next/image";
+
 
 export default function InstallationIntegrationPage() {
   const { t, lang } = useLang();
@@ -304,7 +306,56 @@ export default function InstallationIntegrationPage() {
           </div>
         </div>
       </section>
+  <section className="w-full bg-[#edf3f7] py-16 md:py-20">
+      <div className="max-w-[1400px] mx-auto px-4">
 
+        {/* HEADER */}
+        <div className="mb-14 text-center">
+          <p className="uppercase text-xs tracking-[0.25em] text-red-400 mb-3">
+            {t("instprocessLabel")}
+          </p>
+          <h2 className="text-3xl md:text-4xl font-extralight text-black">
+            {t("instprocessTitle")}
+          </h2>
+        </div>
+
+        {/* PROCESS GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+          <ProcessCard
+            image="/steps/s1.png"
+            title={t("processStep1Title")}
+            description={t("processStep1Desc")}
+            href="/services/installation/assessment"
+            readMore={t("readMore")}
+          />
+
+          <ProcessCard
+            image="/steps/s2.png"
+            title={t("processStep2Title")}
+            description={t("processStep2Desc")}
+            href="/services/installation/preparation"
+            readMore={t("readMore")}
+          />
+
+          <ProcessCard
+            image="/steps/s3.png"
+            title={t("processStep3Title")}
+            description={t("processStep3Desc")}
+            href="/services/installation/deployment"
+            readMore={t("readMore")}
+          />
+
+          <ProcessCard
+            image="/steps/s4.png"
+            title={t("processStep4Title")}
+            description={t("processStep4Desc")}
+            href="/services/installation/testing"
+            readMore={t("readMore")}
+          />
+        </div>
+
+      </div>
+    </section>
       {/* ================= WHY RAWABIT ================= */}
       <section className="bg-white py-20 px-4 text-gray-900">
         <div className="max-w-7xl mx-auto">
@@ -441,6 +492,43 @@ function TimelineStep({ day, title, description, isRTL }: { day: string; title: 
       <div className="flex-1 pt-2">
         <h4 className="text-lg font-semibold mb-1">{title}</h4>
         <p className="text-sm text-gray-600 font-light">{description}</p>
+      </div>
+    </div>
+  );
+}
+function ProcessCard({
+  image,
+  title,
+  description,
+  href,
+  readMore,
+}: {
+  image: string;
+  title: string;
+  description: string;
+  href: string;
+  readMore: string;
+}) {
+  return (
+    <div className="bg-[#111827] border border-white/20 rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-red-600 group h-full">
+      <div className="relative w-full h-56">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover"
+        />
+      </div>
+
+      <div className="p-8">
+        <h3 className="text-2xl font-light text-white mb-4">{title}</h3>
+        <p className="text-sm text-white/90 font-light mb-6 leading-relaxed">{description}</p>
+        <Link
+          href={href}
+          className="inline-flex items-center gap-2 text-red-400 text-sm font-light transition-all group-hover:gap-3"
+        >
+          {readMore} →
+        </Link>
       </div>
     </div>
   );

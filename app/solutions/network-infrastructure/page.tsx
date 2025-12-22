@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import StackCard from "@/components/StackCard";
 
 export default function NetworkInfrastructureSecurityPage() {
   const { t, lang } = useLang();
@@ -112,6 +113,126 @@ export default function NetworkInfrastructureSecurityPage() {
             </p>
           </div>
 
+        </div>
+      </section>
+
+      {/* ================= WHAT WE DELIVER ================= */}
+      <section className="w-full bg-[#eef3f7] py-20">
+        <div className="max-w-7xl mx-auto px-6">
+
+          <p className="text-xs uppercase tracking-[0.25em] text-red-500 mb-4">
+            {t("netDeliveryLabel")}
+          </p>
+
+          <h2 className="text-3xl md:text-4xl font-light text-[#0d355d] mb-6">
+            {t("netDeliveryTitle")}
+          </h2>
+
+          <p
+            className="text-gray-600 text-[17px] leading-relaxed text-justify"
+            style={{ textJustify: "inter-word" }}
+          >
+            {t("netDeliveryDesc")}
+          </p>
+
+        </div>
+      </section>
+
+      {/* ================= TECHNOLOGY PARTNERS ================= */}
+      <section className="w-full bg-white py-20">
+        <div className="max-w-7xl mx-auto px-6">
+
+          {/* Heading */}
+          <p className="text-xs uppercase tracking-[0.25em] text-red-500 mb-4">
+            {t("netPartnersLabel")}
+          </p>
+
+          <h2 className="text-3xl md:text-4xl font-light text-[#0d355d] mb-6">
+            {t("netPartnersTitle")}
+          </h2>
+
+          <p className="text-gray-600 text-[17px] leading-relaxed mb-12">
+            {t("netPartnersDesc")}
+          </p>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
+            {[
+              "/role/1r.png",
+              "/role/2r.png",
+              "/role/3r.png",
+              "/role/4r.png",
+              "/role/5r.png",
+            ].map((logo, i) => (
+              <div
+                key={i}
+                className="flex items-center justify-center w-[160px] h-[64px]"
+              >
+                <img
+                  src={logo}
+                  alt="Technology Partner"
+                  className="w-full h-full object-contain grayscale opacity-80"
+                />
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* ================= CORE NETWORK CAPABILITIES ================= */}
+      <section className="w-full bg-gray-50 py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-6">
+
+          {/* Section Header */}
+          <div className="mb-12 text-center">
+            <p className="uppercase text-xs tracking-[0.25em] text-gray-400 mb-3">
+              {t("netCapabilitiesLabel")}
+            </p>
+            <h2 className="text-3xl md:text-4xl font-light text-[#0e355d]">
+              {t("netCapabilitiesTitle")}
+            </h2>
+          </div>
+
+          {/* Cards Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <StackCard
+              image="/network/monitoring.jpg"
+              title={t("netCardMonitoring")}
+              href="/solutions/network-infrastructure/Monitoring-&-Optimization"
+            />
+
+            <StackCard
+              image="/network/security.jpg"
+              title={t("netCardSecurity")}
+              href="/solutions/network-infrastructure/Network-Security-Integration"
+            />
+
+            <StackCard
+              image="/network/cabling.jpg"
+              title={t("netCardCabling")}
+              href="/solutions/network-infrastructure/Structured-Cabling"
+            />
+
+            <StackCard
+              image="/network/switching.jpg"
+              title={t("netCardSwitching")}
+              href="/solutions/network-infrastructure/Switching-&-Routing"
+            />
+
+            <StackCard
+              image="/network/wan.jpg"
+              title={t("netCardWAN")}
+              href="/solutions/network-infrastructure/WAN-&-Connectivity"
+            />
+
+            <StackCard
+              image="/network/wifi.jpg"
+              title={t("netCardWiFi")}
+              href="/solutions/network-infrastructure/Wi-Fi"
+            />
+
+          </div>
         </div>
       </section>
 
