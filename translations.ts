@@ -3442,11 +3442,12 @@ implementationBenefit3Desc:
   
   // Card Titles
   netCardMonitoring: "Monitoring & Optimization",
-  netCardSecurity: "Network Security Integration",
-  netCardCabling: "Structured Cabling",
-  netCardSwitching: "Switching & Routing",
-  netCardWAN: "WAN & Connectivity",
-  netCardWiFi: "Wi-Fi",
+netCardSecurity: "Network Security Integration",
+netCardCabling: "Structured Cabling",
+netCardSwitching: "Switching & Routing",
+netCardWAN: "WAN & Connectivity",
+netCardWiFi: "Wireless Networking",
+
 
    ucDeliveryLabel: "What We Deliver",
   ucDeliveryTitle: "Enterprise-Grade Unified Communications Delivery",
@@ -3461,13 +3462,13 @@ implementationBenefit3Desc:
   ucCapabilitiesLabel: "Unified Communications",
   ucCapabilitiesTitle: "Core UC Capabilities",
 
-  // Card Titles
   ucCardCollaboration: "Collaboration Platforms",
-  ucCardContactCenter: "Contact Center",
-  ucCardIP: "IP Telephony",
-  ucCardMobility: "Mobility Solutions",
-  ucCardMonitoring: "Monitoring & Quality",
-  ucCardUC: "UC Integration",
+ucCardContactCenter: "Contact Center Solutions",
+ucCardIP: "IP Telephony",
+ucCardMobility: "Mobility & Softphones",
+ucCardMonitoring: "Monitoring & Quality Management",
+ucCardUC: "UC Integration",
+
 
     ssDeliveryLabel: "What We Deliver",
     ssDeliveryTitle: "Enterprise-Grade Security & Surveillance Delivery",
@@ -3485,12 +3486,13 @@ implementationBenefit3Desc:
     ssCapabilitiesTitle: "Core Security Capabilities",
 
     /* ================= CARD TITLES ================= */
-    ssCardCctv: "CCTV & Video Surveillance",
-    ssCardAccess: "Access Control Systems",
-    ssCardIntrusion: "Intrusion & Alarm Systems",
-    ssCardFire: "Fire Detection & Safety",
-    ssCardMonitoring: "Centralized Monitoring",
-    ssCardIntegration: "Security System Integration",
+   ssCardCctv: "Video Surveillance",
+ssCardAccess: "Access Control Systems",
+ssCardIntrusion: "Intrusion Detection",
+ssCardFire: "Analytics & AI Detection",
+ssCardMonitoring: "Central Monitoring Platforms",
+ssCardIntegration: "Maintenance & Compliance",
+
 
     ddDeliveryLabel: "What We Deliver",
     ddDeliveryTitle: "Enterprise Digital Display & Signage Delivery",
@@ -3509,11 +3511,12 @@ implementationBenefit3Desc:
 
     /* ================= CARD TITLES ================= */
     ddCardVideoWalls: "Video Walls",
-    ddCardInteractive: "Interactive Displays",
-    ddCardSignage: "Digital Signage",
-    ddCardCms: "Content Management Systems",
-    ddCardLed: "LED Display Solutions",
-    ddCardIntegration: "System Integration & Control",
+ddCardInteractive: "Interactive Touch Displays",
+ddCardSignage: "Digital Signage",
+ddCardCms: "Content Management Systems",
+ddCardLed: "Control & Integration",
+ddCardIntegration: "Installation & Calibration",
+
 
     secDeliveryLabel: "What We Deliver",
     secDeliveryTitle: "Enterprise Cyber Security Delivery",
@@ -3531,12 +3534,13 @@ implementationBenefit3Desc:
     secCapabilitiesTitle: "Core Cyber Security Capabilities",
 
     /* ================= CARD TITLES ================= */
-    secCardThreat: "Threat Prevention & Detection",
-    secCardMonitoring: "Security Monitoring & SOC",
-    secCardEndpoint: "Endpoint & Device Security",
-    secCardIncident: "Incident Response & Recovery",
-    secCardRisk: "Risk Assessment & Vulnerability Management",
-    secCardCompliance: "Compliance & Governance",
+    secCardThreat: "Identity & Access Management",
+secCardMonitoring: "Monitoring & SOC",
+secCardEndpoint: "Endpoint Security",
+secCardIncident: "Email & Web Security",
+secCardRisk: "Network Security",
+secCardCompliance: "Compliance & Risk Management",
+
 
 csDeliveryLabel: "What We Deliver",
     csDeliveryTitle: "Enterprise Computing Solutions Delivery",
@@ -3554,12 +3558,13 @@ csDeliveryLabel: "What We Deliver",
     csCapabilitiesTitle: "Core Computing Capabilities",
 
     /* ================= CARD TITLES ================= */
-    csCardServers: "Enterprise Servers",
-    csCardStorage: "Storage Solutions",
-    csCardBackup: "Backup & Recovery",
-    csCardCloud: "Cloud Infrastructure",
-    csCardDatacenter: "Data Center Solutions",
-    csCardIntegration: "System Integration",
+    csCardServers: "Server & Data Center Infrastructure",
+csCardStorage: "Storage Solutions",
+csCardBackup: "End-User Computing",
+csCardCloud: "Virtualization & Cloud Enablement",
+csCardDatacenter: "Power & Data Center Continuity",
+csCardIntegration: "Lifecycle & Managed Services",
+
 avDeliveryLabel: "What We Deliver",
     avDeliveryTitle: "Enterprise AV Meeting Room Solutions",
     avDeliveryDesc:
@@ -3573,12 +3578,13 @@ avDeliveryLabel: "What We Deliver",
     avCapabilitiesLabel: "AV Meeting & Collaboration",
     avCapabilitiesTitle: "Core AV Capabilities",
 
-    avCardVideo: "Video Conferencing Systems",
-    avCardAudio: "Professional Audio Solutions",
-    avCardDisplay: "Displays & Presentation Systems",
-    avCardControl: "Room Control & Automation",
-    avCardIntegration: "AV System Integration",
-    avCardAcoustic: "Acoustic Design & Optimization",
+    avCardVideo: "Video Systems",
+avCardAudio: "Audio Solutions",
+avCardDisplay: "Display Technology",
+avCardControl: "Control Systems",
+avCardIntegration: "Smart Integration",
+avCardAcoustic: "Acoustic Design",
+
 
   },
 
@@ -7001,11 +7007,12 @@ implementationBenefit3Desc:
   
   // Card Titles
   netCardMonitoring: "المراقبة والتحسين",
-  netCardSecurity: "تكامل أمن الشبكات",
-  netCardCabling: "الكابلات المنظمة",
-  netCardSwitching: "التبديل والتوجيه",
-  netCardWAN: "WAN والاتصال",
-  netCardWiFi: "الواي فاي",
+netCardSecurity: "تكامل أمن الشبكات",
+netCardCabling: "الكابلات المنظمة",
+netCardSwitching: "التبديل والتوجيه",
+netCardWAN: "WAN والاتصال",
+netCardWiFi: "الشبكات اللاسلكية",
+
 
   ucDeliveryLabel: "ما نقدمه",
   ucDeliveryTitle: "تقديم الاتصالات الموحدة على مستوى المؤسسات",
@@ -7020,13 +7027,13 @@ implementationBenefit3Desc:
   ucCapabilitiesLabel: "الاتصالات الموحدة",
   ucCapabilitiesTitle: "قدرات الاتصالات الموحدة الأساسية",
 
-  // Card Titles
   ucCardCollaboration: "منصات التعاون",
-  ucCardContactCenter: "مركز الاتصال",
-  ucCardIP: "الهاتف عبر بروتوكول الإنترنت",
-  ucCardMobility: "حلول التنقل",
-  ucCardMonitoring: "المراقبة والجودة",
-  ucCardUC: "تكامل الاتصالات الموحدة",
+ucCardContactCenter: "حلول مراكز الاتصال",
+ucCardIP: "الهاتف عبر بروتوكول الإنترنت",
+ucCardMobility: "التنقل والهواتف البرمجية",
+ucCardMonitoring: "إدارة المراقبة والجودة",
+ucCardUC: "تكامل الاتصالات الموحدة",
+
 
   ssDeliveryLabel: "ما نقدمه",
     ssDeliveryTitle: "تقديم حلول الأمن والمراقبة على مستوى المؤسسات",
@@ -7044,12 +7051,13 @@ implementationBenefit3Desc:
     ssCapabilitiesTitle: "القدرات الأساسية للأمن",
 
     /* ================= CARD TITLES ================= */
-    ssCardCctv: "أنظمة CCTV والمراقبة بالفيديو",
-    ssCardAccess: "أنظمة التحكم في الدخول",
-    ssCardIntrusion: "أنظمة كشف التسلل والإنذار",
-    ssCardFire: "كشف الحريق والسلامة",
-    ssCardMonitoring: "المراقبة المركزية",
-    ssCardIntegration: "تكامل أنظمة الأمن",
+   ssCardCctv: "المراقبة بالفيديو",
+ssCardAccess: "أنظمة التحكم في الدخول",
+ssCardIntrusion: "كشف التسلل",
+ssCardFire: "التحليلات والكشف بالذكاء الاصطناعي",
+ssCardMonitoring: "منصات المراقبة المركزية",
+ssCardIntegration: "الصيانة والامتثال",
+
 
         ddDeliveryLabel: "ما نقدمه",
     ddDeliveryTitle: "تقديم حلول الشاشات الرقمية على مستوى المؤسسات",
@@ -7068,11 +7076,12 @@ implementationBenefit3Desc:
 
     /* ================= CARD TITLES ================= */
     ddCardVideoWalls: "جدران الفيديو",
-    ddCardInteractive: "الشاشات التفاعلية",
-    ddCardSignage: "اللافتات الرقمية",
-    ddCardCms: "أنظمة إدارة المحتوى",
-    ddCardLed: "حلول شاشات LED",
-    ddCardIntegration: "تكامل الأنظمة والتحكم",
+ddCardInteractive: "شاشات اللمس التفاعلية",
+ddCardSignage: "اللافتات الرقمية",
+ddCardCms: "أنظمة إدارة المحتوى",
+ddCardLed: "التحكم والتكامل",
+ddCardIntegration: "التركيب والمعايرة",
+
 
     secDeliveryLabel: "ما نقدمه",
     secDeliveryTitle: "تقديم حلول الأمن السيبراني على مستوى المؤسسات",
@@ -7090,12 +7099,13 @@ implementationBenefit3Desc:
     secCapabilitiesTitle: "القدرات الأساسية للأمن السيبراني",
 
     /* ================= CARD TITLES ================= */
-    secCardThreat: "منع التهديدات والكشف عنها",
-    secCardMonitoring: "مراقبة الأمن ومراكز العمليات (SOC)",
-    secCardEndpoint: "حماية الأجهزة الطرفية",
-    secCardIncident: "الاستجابة للحوادث والتعافي",
-    secCardRisk: "إدارة المخاطر والثغرات",
-    secCardCompliance: "الامتثال والحوكمة",
+   secCardThreat: "إدارة الهوية والوصول",
+secCardMonitoring: "المراقبة ومراكز العمليات الأمنية (SOC)",
+secCardEndpoint: "أمن الأجهزة الطرفية",
+secCardIncident: "أمن البريد الإلكتروني والويب",
+secCardRisk: "أمن الشبكات",
+secCardCompliance: "إدارة الامتثال والمخاطر",
+
 
         csDeliveryLabel: "ما نقدمه",
     csDeliveryTitle: "تقديم حلول الحوسبة على مستوى المؤسسات",
@@ -7113,12 +7123,13 @@ implementationBenefit3Desc:
     csCapabilitiesTitle: "القدرات الأساسية للحوسبة",
 
     /* ================= CARD TITLES ================= */
-    csCardServers: "الخوادم المؤسسية",
-    csCardStorage: "حلول التخزين",
-    csCardBackup: "النسخ الاحتياطي والتعافي",
-    csCardCloud: "البنية التحتية السحابية",
-    csCardDatacenter: "حلول مراكز البيانات",
-    csCardIntegration: "تكامل الأنظمة",
+    csCardServers: "البنية التحتية للخوادم ومراكز البيانات",
+csCardStorage: "حلول التخزين",
+csCardBackup: "الحوسبة للمستخدم النهائي",
+csCardCloud: "الافتراضية وتمكين السحابة",
+csCardDatacenter: "استمرارية الطاقة ومراكز البيانات",
+csCardIntegration: "خدمات دورة الحياة والخدمات المُدارة",
+
 
      avDeliveryLabel: "ما نقدمه",
     avDeliveryTitle: "تقديم حلول غرف الاجتماعات السمعية والبصرية",
@@ -7132,13 +7143,13 @@ implementationBenefit3Desc:
 
     avCapabilitiesLabel: "حلول الاجتماعات السمعية والبصرية",
     avCapabilitiesTitle: "القدرات الأساسية لأنظمة AV",
+avCardVideo: "أنظمة الفيديو",
+avCardAudio: "حلول الصوت",
+avCardDisplay: "تقنيات العرض",
+avCardControl: "أنظمة التحكم",
+avCardIntegration: "التكامل الذكي",
+avCardAcoustic: "التصميم الصوتي",
 
-    avCardVideo: "أنظمة مؤتمرات الفيديو",
-    avCardAudio: "حلول الصوت الاحترافية",
-    avCardDisplay: "أنظمة العرض والتقديم",
-    avCardControl: "التحكم وأتمتة الغرف",
-    avCardIntegration: "تكامل أنظمة AV",
-    avCardAcoustic: "تصميم ومعالجة الصوتيات",
 
 
 

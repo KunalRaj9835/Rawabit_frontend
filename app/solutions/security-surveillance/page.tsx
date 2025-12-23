@@ -216,7 +216,7 @@ export default function SecuritySurveillancePage() {
       <StackCard
         image="/security/fire.jpg"
         title={t("ssCardFire")}
-        href="/solutions/security-surveillance/Intrusion-Detection"
+        href="/solutions/security-surveillance/Analytics-&-AI"
       />
 
       <StackCard
