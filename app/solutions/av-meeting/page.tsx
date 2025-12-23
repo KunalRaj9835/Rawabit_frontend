@@ -14,6 +14,8 @@ import {
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
 
 export default function AVMeetingRoomPage() {
   const { t, lang } = useLang();
@@ -248,32 +250,32 @@ export default function AVMeetingRoomPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard
+          <OffWhiteCard 
             icon={<Camera />}
             title={t("avServiceVideoTitle")}
             desc={t("avServiceVideoDesc")}
           />
-          <ServiceCard
+          <OffWhiteCard 
             icon={<Mic />}
             title={t("avServiceAudioTitle")}
             desc={t("avServiceAudioDesc")}
           />
-          <ServiceCard
+          <OffWhiteCard 
             icon={<Monitor />}
             title={t("avServiceDisplayTitle")}
             desc={t("avServiceDisplayDesc")}
           />
-          <ServiceCard
+          <OffWhiteCard 
             icon={<Cog />}
             title={t("avServiceControlTitle")}
             desc={t("avServiceControlDesc")}
           />
-          <ServiceCard
+          <OffWhiteCard 
             icon={<Lightbulb />}
             title={t("avServiceIntegrationTitle")}
             desc={t("avServiceIntegrationDesc")}
           />
-          <ServiceCard
+          <OffWhiteCard 
             icon={<Volume2 />}
             title={t("avServiceAcousticTitle")}
             desc={t("avServiceAcousticDesc")}
@@ -293,17 +295,17 @@ export default function AVMeetingRoomPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard
+          <BenefitCard
             icon={<Presentation />}
             title={t("avWhyDesignTitle")}
             desc={t("avWhyDesignDesc")}
           />
-          <WhyCard
+          <BenefitCard
             icon={<Zap />}
             title={t("avWhyIntegrationTitle")}
             desc={t("avWhyIntegrationDesc")}
           />
-          <WhyCard
+          <BenefitCard
             icon={<Cog />}
             title={t("avWhySupportTitle")}
             desc={t("avWhySupportDesc")}
@@ -314,44 +316,3 @@ export default function AVMeetingRoomPage() {
   );
 }
 
-/* ================= SMALL COMPONENTS ================= */
-
-function ServiceCard({
-  icon,
-  title,
-  desc,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  desc: string;
-}) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:bg-white hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({
-  icon,
-  title,
-  desc,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  desc: string;
-}) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

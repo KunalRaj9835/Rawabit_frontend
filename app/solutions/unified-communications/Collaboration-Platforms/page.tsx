@@ -14,6 +14,9 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import UseCaseCard from "@/components/UseCaseCard";
+import ProvideCard from "@/components/ProvideCard";
+
 
 export default function CollaborationPlatformsPage() {
   const { t, lang } = useLang();
@@ -135,34 +138,3 @@ export default function CollaborationPlatformsPage() {
   );
 }
 
-/* ================= COMPONENTS ================= */
-
-interface CardProps {
-  icon: React.ReactNode;
-  title: string;
-  desc: string;
-}
-
-function UseCaseCard({ icon, title, desc }: CardProps) {
-  return (
-    <div className="p-8 bg-white border rounded-xl hover:shadow-xl">
-      <div className="flex gap-3 text-red-600 mb-3">
-        {icon}
-        <h3 className="font-semibold">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function ProvideCard({ icon, title, desc }: CardProps) {
-  return (
-    <div className="p-8 bg-gray-50 border rounded-xl hover:shadow-xl">
-      <div className="flex gap-3 text-red-600 mb-3">
-        {icon}
-        <h3 className="font-semibold">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

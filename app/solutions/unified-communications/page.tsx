@@ -14,6 +14,8 @@ import {
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
 
 export default function UnifiedCommunicationsPage() {
   const { t, lang } = useLang();
@@ -247,12 +249,12 @@ export default function UnifiedCommunicationsPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Video />} title={t("ucServiceVideoTitle")} desc={t("ucServiceVideoDesc")} />
-          <ServiceCard icon={<MessageSquare />} title={t("ucServiceMessageTitle")} desc={t("ucServiceMessageDesc")} />
-          <ServiceCard icon={<Smartphone />} title={t("ucServiceMobileTitle")} desc={t("ucServiceMobileDesc")} />
-          <ServiceCard icon={<Headphones />} title={t("ucServiceVoiceTitle")} desc={t("ucServiceVoiceDesc")} />
-          <ServiceCard icon={<Globe />} title={t("ucServiceGlobalTitle")} desc={t("ucServiceGlobalDesc")} />
-          <ServiceCard icon={<Shield />} title={t("ucServiceSecurityTitle")} desc={t("ucServiceSecurityDesc")} />
+          <OffWhiteCard  icon={<Video />} title={t("ucServiceVideoTitle")} desc={t("ucServiceVideoDesc")} />
+          <OffWhiteCard  icon={<MessageSquare />} title={t("ucServiceMessageTitle")} desc={t("ucServiceMessageDesc")} />
+          <OffWhiteCard  icon={<Smartphone />} title={t("ucServiceMobileTitle")} desc={t("ucServiceMobileDesc")} />
+          <OffWhiteCard  icon={<Headphones />} title={t("ucServiceVoiceTitle")} desc={t("ucServiceVoiceDesc")} />
+          <OffWhiteCard  icon={<Globe />} title={t("ucServiceGlobalTitle")} desc={t("ucServiceGlobalDesc")} />
+          <OffWhiteCard  icon={<Shield />} title={t("ucServiceSecurityTitle")} desc={t("ucServiceSecurityDesc")} />
         </div>
       </section>
 
@@ -268,9 +270,9 @@ export default function UnifiedCommunicationsPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Zap />} title={t("ucWhyAgilityTitle")} desc={t("ucWhyAgilityDesc")} />
-          <WhyCard icon={<Users />} title={t("ucWhyEngagementTitle")} desc={t("ucWhyEngagementDesc")} />
-          <WhyCard icon={<Shield />} title={t("ucWhyExpertiseTitle")} desc={t("ucWhyExpertiseDesc")} />
+          <BenefitCard icon={<Zap />} title={t("ucWhyAgilityTitle")} desc={t("ucWhyAgilityDesc")} />
+          <BenefitCard icon={<Users />} title={t("ucWhyEngagementTitle")} desc={t("ucWhyEngagementDesc")} />
+          <BenefitCard icon={<Shield />} title={t("ucWhyExpertiseTitle")} desc={t("ucWhyExpertiseDesc")} />
         </div>
       </section>
 
@@ -279,27 +281,3 @@ export default function UnifiedCommunicationsPage() {
 }
 
 
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

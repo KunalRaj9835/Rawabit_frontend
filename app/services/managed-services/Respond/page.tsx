@@ -13,6 +13,10 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import ProcessCard from "@/components/ProcessCard";
+import BenefitCard from "@/components/BenefitCard";
+import ResponseCard from "@/components/ResponseCard";
+
 
 export default function RespondPage() {
   const { t, lang } = useLang();
@@ -128,12 +132,12 @@ export default function RespondPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Siren />} title={t("resCapTriageTitle")} desc={t("resCapTriageDesc")} />
-          <ServiceCard icon={<Clock />} title={t("resCap247Title")} desc={t("resCap247Desc")} />
-          <ServiceCard icon={<Shield />} title={t("resCapSecurityTitle")} desc={t("resCapSecurityDesc")} />
-          <ServiceCard icon={<HeartPulse />} title={t("resCapRecoveryTitle")} desc={t("resCapRecoveryDesc")} />
-          <ServiceCard icon={<Wrench />} title={t("resCapRootTitle")} desc={t("resCapRootDesc")} />
-          <ServiceCard icon={<CheckCircle />} title={t("resCapReviewTitle")} desc={t("resCapReviewDesc")} />
+          <ProcessCard icon={<Siren />} title={t("resCapTriageTitle")} desc={t("resCapTriageDesc")} />
+          <ProcessCard icon={<Clock />} title={t("resCap247Title")} desc={t("resCap247Desc")} />
+          <ProcessCard icon={<Shield />} title={t("resCapSecurityTitle")} desc={t("resCapSecurityDesc")} />
+          <ProcessCard icon={<HeartPulse />} title={t("resCapRecoveryTitle")} desc={t("resCapRecoveryDesc")} />
+          <ProcessCard icon={<Wrench />} title={t("resCapRootTitle")} desc={t("resCapRootDesc")} />
+          <ProcessCard icon={<CheckCircle />} title={t("resCapReviewTitle")} desc={t("resCapReviewDesc")} />
         </div>
       </section>
 
@@ -149,10 +153,11 @@ export default function RespondPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          <ProcessCard step="01" title={t("resStep1Title")} desc={t("resStep1Desc")} />
-          <ProcessCard step="02" title={t("resStep2Title")} desc={t("resStep2Desc")} />
-          <ProcessCard step="03" title={t("resStep3Title")} desc={t("resStep3Desc")} />
-          <ProcessCard step="04" title={t("resStep4Title")} desc={t("resStep4Desc")} />
+          <ResponseCard step="01" title={t("resStep1Title")} desc={t("resStep1Desc")} />
+<ResponseCard step="02" title={t("resStep2Title")} desc={t("resStep2Desc")} />
+<ResponseCard step="03" title={t("resStep3Title")} desc={t("resStep3Desc")} />
+<ResponseCard step="04" title={t("resStep4Title")} desc={t("resStep4Desc")} />
+
         </div>
       </section>
 
@@ -168,9 +173,9 @@ export default function RespondPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Clock />} title={t("resAdvDownTitle")} desc={t("resAdvDownDesc")} />
-          <WhyCard icon={<Users />} title={t("resAdvExpertTitle")} desc={t("resAdvExpertDesc")} />
-          <WhyCard icon={<Phone />} title={t("resAdvAvailTitle")} desc={t("resAdvAvailDesc")} />
+          <BenefitCard icon={<Clock />} title={t("resAdvDownTitle")} desc={t("resAdvDownDesc")} />
+          <BenefitCard icon={<Users />} title={t("resAdvExpertTitle")} desc={t("resAdvExpertDesc")} />
+          <BenefitCard icon={<Phone />} title={t("resAdvAvailTitle")} desc={t("resAdvAvailDesc")} />
         </div>
       </section>
 
@@ -178,38 +183,3 @@ export default function RespondPage() {
   );
 }
 
-/* ================= COMPONENTS ================= */
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function ProcessCard({ step, title, desc }: any) {
-  return (
-    <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-red-600">
-      <div className="text-3xl font-bold text-red-600 mb-3">{step}</div>
-      <h3 className="text-xl font-semibold mb-3">{title}</h3>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

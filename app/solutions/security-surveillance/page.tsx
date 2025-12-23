@@ -14,6 +14,8 @@ import {
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
 
 export default function SecuritySurveillancePage() {
   const { t, lang } = useLang();
@@ -248,12 +250,12 @@ export default function SecuritySurveillancePage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Camera />} title={t("ssServiceCctvTitle")} desc={t("ssServiceCctvDesc")} />
-          <ServiceCard icon={<Lock />} title={t("ssServiceAccessTitle")} desc={t("ssServiceAccessDesc")} />
-          <ServiceCard icon={<Bell />} title={t("ssServiceFireTitle")} desc={t("ssServiceFireDesc")} />
-          <ServiceCard icon={<Radio />} title={t("ssServicePaTitle")} desc={t("ssServicePaDesc")} />
-          <ServiceCard icon={<Eye />} title={t("ssServiceIntercomTitle")} desc={t("ssServiceIntercomDesc")} />
-          <ServiceCard icon={<Activity />} title={t("ssServiceAutomationTitle")} desc={t("ssServiceAutomationDesc")} />
+          <OffWhiteCard  icon={<Camera />} title={t("ssServiceCctvTitle")} desc={t("ssServiceCctvDesc")} />
+          <OffWhiteCard  icon={<Lock />} title={t("ssServiceAccessTitle")} desc={t("ssServiceAccessDesc")} />
+          <OffWhiteCard  icon={<Bell />} title={t("ssServiceFireTitle")} desc={t("ssServiceFireDesc")} />
+          <OffWhiteCard  icon={<Radio />} title={t("ssServicePaTitle")} desc={t("ssServicePaDesc")} />
+          <OffWhiteCard  icon={<Eye />} title={t("ssServiceIntercomTitle")} desc={t("ssServiceIntercomDesc")} />
+          <OffWhiteCard  icon={<Activity />} title={t("ssServiceAutomationTitle")} desc={t("ssServiceAutomationDesc")} />
         </div>
       </section>
 
@@ -269,9 +271,9 @@ export default function SecuritySurveillancePage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Shield />} title={t("ssWhySecurityTitle")} desc={t("ssWhySecurityDesc")} />
-          <WhyCard icon={<AlertTriangle />} title={t("ssWhyResponseTitle")} desc={t("ssWhyResponseDesc")} />
-          <WhyCard icon={<Activity />} title={t("ssWhyControlTitle")} desc={t("ssWhyControlDesc")} />
+          <BenefitCard icon={<Shield />} title={t("ssWhySecurityTitle")} desc={t("ssWhySecurityDesc")} />
+          <BenefitCard icon={<AlertTriangle />} title={t("ssWhyResponseTitle")} desc={t("ssWhyResponseDesc")} />
+          <BenefitCard icon={<Activity />} title={t("ssWhyControlTitle")} desc={t("ssWhyControlDesc")} />
         </div>
       </section>
 
@@ -279,28 +281,3 @@ export default function SecuritySurveillancePage() {
   );
 }
 
-/* ================= CARDS ================= */
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

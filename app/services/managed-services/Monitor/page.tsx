@@ -13,6 +13,8 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import ProcessCard from "@/components/ProcessCard";
+import BenefitCard from "@/components/BenefitCard";
 
 export default function MonitorPage() {
   const { t, lang } = useLang();
@@ -128,12 +130,12 @@ export default function MonitorPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Server />} title={t("monitorCapServerTitle")} desc={t("monitorCapServerDesc")} />
-          <ServiceCard icon={<Network />} title={t("monitorCapNetworkTitle")} desc={t("monitorCapNetworkDesc")} />
-          <ServiceCard icon={<Activity />} title={t("monitorCapAppTitle")} desc={t("monitorCapAppDesc")} />
-          <ServiceCard icon={<BarChart2 />} title={t("monitorCapMetricsTitle")} desc={t("monitorCapMetricsDesc")} />
-          <ServiceCard icon={<Radio />} title={t("monitorCapAvailabilityTitle")} desc={t("monitorCapAvailabilityDesc")} />
-          <ServiceCard icon={<LineChart />} title={t("monitorCapTrendsTitle")} desc={t("monitorCapTrendsDesc")} />
+          <ProcessCard icon={<Server />} title={t("monitorCapServerTitle")} desc={t("monitorCapServerDesc")} />
+          <ProcessCard icon={<Network />} title={t("monitorCapNetworkTitle")} desc={t("monitorCapNetworkDesc")} />
+          <ProcessCard icon={<Activity />} title={t("monitorCapAppTitle")} desc={t("monitorCapAppDesc")} />
+          <ProcessCard icon={<BarChart2 />} title={t("monitorCapMetricsTitle")} desc={t("monitorCapMetricsDesc")} />
+          <ProcessCard icon={<Radio />} title={t("monitorCapAvailabilityTitle")} desc={t("monitorCapAvailabilityDesc")} />
+          <ProcessCard icon={<LineChart />} title={t("monitorCapTrendsTitle")} desc={t("monitorCapTrendsDesc")} />
         </div>
       </section>
 
@@ -149,9 +151,9 @@ export default function MonitorPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Eye />} title={t("monitorBenefitVisibilityTitle")} desc={t("monitorBenefitVisibilityDesc")} />
-          <WhyCard icon={<Clock />} title={t("monitorBenefitProactiveTitle")} desc={t("monitorBenefitProactiveDesc")} />
-          <WhyCard icon={<Activity />} title={t("monitorBenefitPerformanceTitle")} desc={t("monitorBenefitPerformanceDesc")} />
+          <BenefitCard icon={<Eye />} title={t("monitorBenefitVisibilityTitle")} desc={t("monitorBenefitVisibilityDesc")} />
+          <BenefitCard icon={<Clock />} title={t("monitorBenefitProactiveTitle")} desc={t("monitorBenefitProactiveDesc")} />
+          <BenefitCard icon={<Activity />} title={t("monitorBenefitPerformanceTitle")} desc={t("monitorBenefitPerformanceDesc")} />
         </div>
       </section>
 
@@ -159,28 +161,3 @@ export default function MonitorPage() {
   );
 }
 
-/* ================= CARDS ================= */
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

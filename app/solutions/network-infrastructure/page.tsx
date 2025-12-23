@@ -13,6 +13,8 @@ import {
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
 
 export default function NetworkInfrastructureSecurityPage() {
   const { t, lang } = useLang();
@@ -248,12 +250,12 @@ export default function NetworkInfrastructureSecurityPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Network />} title={t("netServiceDesignTitle")} desc={t("netServiceDesignDesc")} />
-          <ServiceCard icon={<Server />} title={t("netServiceRoutingTitle")} desc={t("netServiceRoutingDesc")} />
-          <ServiceCard icon={<ShieldCheck />} title={t("netServiceFirewallTitle")} desc={t("netServiceFirewallDesc")} />
-          <ServiceCard icon={<Lock />} title={t("netServiceZeroTrustTitle")} desc={t("netServiceZeroTrustDesc")} />
-          <ServiceCard icon={<Cpu />} title={t("netServiceMonitoringTitle")} desc={t("netServiceMonitoringDesc")} />
-          <ServiceCard icon={<Headphones />} title={t("netServiceManagedTitle")} desc={t("netServiceManagedDesc")} />
+          <OffWhiteCard  icon={<Network />} title={t("netServiceDesignTitle")} desc={t("netServiceDesignDesc")} />
+          <OffWhiteCard  icon={<Server />} title={t("netServiceRoutingTitle")} desc={t("netServiceRoutingDesc")} />
+          <OffWhiteCard  icon={<ShieldCheck />} title={t("netServiceFirewallTitle")} desc={t("netServiceFirewallDesc")} />
+          <OffWhiteCard  icon={<Lock />} title={t("netServiceZeroTrustTitle")} desc={t("netServiceZeroTrustDesc")} />
+          <OffWhiteCard  icon={<Cpu />} title={t("netServiceMonitoringTitle")} desc={t("netServiceMonitoringDesc")} />
+          <OffWhiteCard  icon={<Headphones />} title={t("netServiceManagedTitle")} desc={t("netServiceManagedDesc")} />
         </div>
       </section>
 
@@ -269,9 +271,9 @@ export default function NetworkInfrastructureSecurityPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Users />} title={t("netWhyTeamTitle")} desc={t("netWhyTeamDesc")} />
-          <WhyCard icon={<ShieldCheck />} title={t("netWhySecurityTitle")} desc={t("netWhySecurityDesc")} />
-          <WhyCard icon={<Cpu />} title={t("netWhyFutureTitle")} desc={t("netWhyFutureDesc")} />
+          <BenefitCard icon={<Users />} title={t("netWhyTeamTitle")} desc={t("netWhyTeamDesc")} />
+          <BenefitCard icon={<ShieldCheck />} title={t("netWhySecurityTitle")} desc={t("netWhySecurityDesc")} />
+          <BenefitCard icon={<Cpu />} title={t("netWhyFutureTitle")} desc={t("netWhyFutureDesc")} />
         </div>
       </section>
 
@@ -279,28 +281,3 @@ export default function NetworkInfrastructureSecurityPage() {
   );
 }
 
-/* ================= CARDS ================= */
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

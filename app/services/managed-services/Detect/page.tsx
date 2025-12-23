@@ -13,6 +13,9 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import ProcessCard from "@/components/ProcessCard";
+import BenefitCard from "@/components/BenefitCard";
+
 
 export default function DetectPage() {
   const { t, lang } = useLang();
@@ -128,12 +131,12 @@ export default function DetectPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<AlertTriangle />} title={t("detectCapAnomalyTitle")} desc={t("detectCapAnomalyDesc")} />
-          <ServiceCard icon={<Shield />} title={t("detectCapSecurityTitle")} desc={t("detectCapSecurityDesc")} />
-          <ServiceCard icon={<Activity />} title={t("detectCapPerformanceTitle")} desc={t("detectCapPerformanceDesc")} />
-          <ServiceCard icon={<Brain />} title={t("detectCapAiTitle")} desc={t("detectCapAiDesc")} />
-          <ServiceCard icon={<Bell />} title={t("detectCapAlertTitle")} desc={t("detectCapAlertDesc")} />
-          <ServiceCard icon={<Search />} title={t("detectCapInspectTitle")} desc={t("detectCapInspectDesc")} />
+          <ProcessCard icon={<AlertTriangle />} title={t("detectCapAnomalyTitle")} desc={t("detectCapAnomalyDesc")} />
+          <ProcessCard icon={<Shield />} title={t("detectCapSecurityTitle")} desc={t("detectCapSecurityDesc")} />
+          <ProcessCard icon={<Activity />} title={t("detectCapPerformanceTitle")} desc={t("detectCapPerformanceDesc")} />
+          <ProcessCard icon={<Brain />} title={t("detectCapAiTitle")} desc={t("detectCapAiDesc")} />
+          <ProcessCard icon={<Bell />} title={t("detectCapAlertTitle")} desc={t("detectCapAlertDesc")} />
+          <ProcessCard icon={<Search />} title={t("detectCapInspectTitle")} desc={t("detectCapInspectDesc")} />
         </div>
       </section>
 
@@ -149,9 +152,9 @@ export default function DetectPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Eye />} title={t("detectBenefitVisibilityTitle")} desc={t("detectBenefitVisibilityDesc")} />
-          <WhyCard icon={<Lock />} title={t("detectBenefitRiskTitle")} desc={t("detectBenefitRiskDesc")} />
-          <WhyCard icon={<Brain />} title={t("detectBenefitAutomationTitle")} desc={t("detectBenefitAutomationDesc")} />
+          <BenefitCard icon={<Eye />} title={t("detectBenefitVisibilityTitle")} desc={t("detectBenefitVisibilityDesc")} />
+          <BenefitCard icon={<Lock />} title={t("detectBenefitRiskTitle")} desc={t("detectBenefitRiskDesc")} />
+          <BenefitCard icon={<Brain />} title={t("detectBenefitAutomationTitle")} desc={t("detectBenefitAutomationDesc")} />
         </div>
       </section>
 
@@ -159,28 +162,4 @@ export default function DetectPage() {
   );
 }
 
-/* ================= CARDS ================= */
 
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

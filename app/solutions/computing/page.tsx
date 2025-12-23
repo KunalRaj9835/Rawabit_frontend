@@ -13,6 +13,8 @@ import {
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
 
 export default function ComputingSolutionsPage() {
   const { t, lang } = useLang();
@@ -246,12 +248,12 @@ export default function ComputingSolutionsPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Database />} title={t("csServiceStorageTitle")} desc={t("csServiceStorageDesc")} />
-          <ServiceCard icon={<Shield />} title={t("csServiceBackupTitle")} desc={t("csServiceBackupDesc")} />
-          <ServiceCard icon={<Activity />} title={t("csServiceAvailabilityTitle")} desc={t("csServiceAvailabilityDesc")} />
-          <ServiceCard icon={<Zap />} title={t("csServiceRecoveryTitle")} desc={t("csServiceRecoveryDesc")} />
-          <ServiceCard icon={<Cloud />} title={t("csServiceCloudTitle")} desc={t("csServiceCloudDesc")} />
-          <ServiceCard icon={<HardDrive />} title={t("csServiceOptimizeTitle")} desc={t("csServiceOptimizeDesc")} />
+          <OffWhiteCard  icon={<Database />} title={t("csServiceStorageTitle")} desc={t("csServiceStorageDesc")} />
+          <OffWhiteCard  icon={<Shield />} title={t("csServiceBackupTitle")} desc={t("csServiceBackupDesc")} />
+          <OffWhiteCard  icon={<Activity />} title={t("csServiceAvailabilityTitle")} desc={t("csServiceAvailabilityDesc")} />
+          <OffWhiteCard  icon={<Zap />} title={t("csServiceRecoveryTitle")} desc={t("csServiceRecoveryDesc")} />
+          <OffWhiteCard  icon={<Cloud />} title={t("csServiceCloudTitle")} desc={t("csServiceCloudDesc")} />
+          <OffWhiteCard  icon={<HardDrive />} title={t("csServiceOptimizeTitle")} desc={t("csServiceOptimizeDesc")} />
         </div>
       </section>
 
@@ -267,9 +269,9 @@ export default function ComputingSolutionsPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Server />} title={t("csWhyInfraTitle")} desc={t("csWhyInfraDesc")} />
-          <WhyCard icon={<Shield />} title={t("csWhyExpertiseTitle")} desc={t("csWhyExpertiseDesc")} />
-          <WhyCard icon={<Zap />} title={t("csWhyInnovationTitle")} desc={t("csWhyInnovationDesc")} />
+          <BenefitCard icon={<Server />} title={t("csWhyInfraTitle")} desc={t("csWhyInfraDesc")} />
+          <BenefitCard icon={<Shield />} title={t("csWhyExpertiseTitle")} desc={t("csWhyExpertiseDesc")} />
+          <BenefitCard icon={<Zap />} title={t("csWhyInnovationTitle")} desc={t("csWhyInnovationDesc")} />
         </div>
       </section>
 
@@ -277,28 +279,3 @@ export default function ComputingSolutionsPage() {
   );
 }
 
-/* ================= CARDS ================= */
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

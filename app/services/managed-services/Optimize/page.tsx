@@ -13,6 +13,8 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import ProcessCard from "@/components/ProcessCard";
+import BenefitCard from "@/components/BenefitCard";
 
 export default function OptimizePage() {
   const { t, lang } = useLang();
@@ -128,12 +130,12 @@ export default function OptimizePage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Gauge />} title={t("optAreaPerfTitle")} desc={t("optAreaPerfDesc")} />
-          <ServiceCard icon={<Database />} title={t("optAreaCapacityTitle")} desc={t("optAreaCapacityDesc")} />
-          <ServiceCard icon={<TrendingUp />} title={t("optAreaCostTitle")} desc={t("optAreaCostDesc")} />
-          <ServiceCard icon={<Cpu />} title={t("optAreaResourceTitle")} desc={t("optAreaResourceDesc")} />
-          <ServiceCard icon={<Settings />} title={t("optAreaConfigTitle")} desc={t("optAreaConfigDesc")} />
-          <ServiceCard icon={<BarChart3 />} title={t("optAreaTrendTitle")} desc={t("optAreaTrendDesc")} />
+          <ProcessCard icon={<Gauge />} title={t("optAreaPerfTitle")} desc={t("optAreaPerfDesc")} />
+          <ProcessCard icon={<Database />} title={t("optAreaCapacityTitle")} desc={t("optAreaCapacityDesc")} />
+          <ProcessCard icon={<TrendingUp />} title={t("optAreaCostTitle")} desc={t("optAreaCostDesc")} />
+          <ProcessCard icon={<Cpu />} title={t("optAreaResourceTitle")} desc={t("optAreaResourceDesc")} />
+          <ProcessCard icon={<Settings />} title={t("optAreaConfigTitle")} desc={t("optAreaConfigDesc")} />
+          <ProcessCard icon={<BarChart3 />} title={t("optAreaTrendTitle")} desc={t("optAreaTrendDesc")} />
         </div>
       </section>
 
@@ -149,9 +151,9 @@ export default function OptimizePage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Zap />} title={t("optOutcomePerfTitle")} desc={t("optOutcomePerfDesc")} />
-          <WhyCard icon={<Target />} title={t("optOutcomePlanTitle")} desc={t("optOutcomePlanDesc")} />
-          <WhyCard icon={<TrendingUp />} title={t("optOutcomeImproveTitle")} desc={t("optOutcomeImproveDesc")} />
+          <BenefitCard icon={<Zap />} title={t("optOutcomePerfTitle")} desc={t("optOutcomePerfDesc")} />
+          <BenefitCard icon={<Target />} title={t("optOutcomePlanTitle")} desc={t("optOutcomePlanDesc")} />
+          <BenefitCard icon={<TrendingUp />} title={t("optOutcomeImproveTitle")} desc={t("optOutcomeImproveDesc")} />
         </div>
       </section>
 
@@ -159,28 +161,3 @@ export default function OptimizePage() {
   );
 }
 
-/* ================= CARDS ================= */
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

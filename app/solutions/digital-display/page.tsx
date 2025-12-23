@@ -15,6 +15,8 @@ import {
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
 
 export default function DigitalDisplayPage() {
   const { t, lang } = useLang();
@@ -252,12 +254,12 @@ export default function DigitalDisplayPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Tv />} title={t("ddServiceVideoTitle")} desc={t("ddServiceVideoDesc")} />
-          <ServiceCard icon={<Monitor />} title={t("ddServiceInteractiveTitle")} desc={t("ddServiceInteractiveDesc")} />
-          <ServiceCard icon={<Radio />} title={t("ddServiceSignageTitle")} desc={t("ddServiceSignageDesc")} />
-          <ServiceCard icon={<Cloud />} title={t("ddServiceCmsTitle")} desc={t("ddServiceCmsDesc")} />
-          <ServiceCard icon={<Eye />} title={t("ddServiceVisualTitle")} desc={t("ddServiceVisualDesc")} />
-          <ServiceCard icon={<Smartphone />} title={t("ddServiceMobileTitle")} desc={t("ddServiceMobileDesc")} />
+          <OffWhiteCard  icon={<Tv />} title={t("ddServiceVideoTitle")} desc={t("ddServiceVideoDesc")} />
+          <OffWhiteCard  icon={<Monitor />} title={t("ddServiceInteractiveTitle")} desc={t("ddServiceInteractiveDesc")} />
+          <OffWhiteCard  icon={<Radio />} title={t("ddServiceSignageTitle")} desc={t("ddServiceSignageDesc")} />
+          <OffWhiteCard  icon={<Cloud />} title={t("ddServiceCmsTitle")} desc={t("ddServiceCmsDesc")} />
+          <OffWhiteCard  icon={<Eye />} title={t("ddServiceVisualTitle")} desc={t("ddServiceVisualDesc")} />
+          <OffWhiteCard  icon={<Smartphone />} title={t("ddServiceMobileTitle")} desc={t("ddServiceMobileDesc")} />
         </div>
       </section>
 
@@ -273,9 +275,9 @@ export default function DigitalDisplayPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<TrendingUp />} title={t("ddWhyEngageTitle")} desc={t("ddWhyEngageDesc")} />
-          <WhyCard icon={<Zap />} title={t("ddWhyIntegrateTitle")} desc={t("ddWhyIntegrateDesc")} />
-          <WhyCard icon={<Cog />} title={t("ddWhySupportTitle")} desc={t("ddWhySupportDesc")} />
+          <BenefitCard icon={<TrendingUp />} title={t("ddWhyEngageTitle")} desc={t("ddWhyEngageDesc")} />
+          <BenefitCard icon={<Zap />} title={t("ddWhyIntegrateTitle")} desc={t("ddWhyIntegrateDesc")} />
+          <BenefitCard icon={<Cog />} title={t("ddWhySupportTitle")} desc={t("ddWhySupportDesc")} />
         </div>
       </section>
 
@@ -283,28 +285,3 @@ export default function DigitalDisplayPage() {
   );
 }
 
-/* ================= CARDS ================= */
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

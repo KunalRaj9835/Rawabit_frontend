@@ -13,6 +13,8 @@ import {
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
 
 export default function CyberSecurityPage() {
   const { t, lang } = useLang();
@@ -242,12 +244,12 @@ export default function CyberSecurityPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <ServiceCard icon={<Shield />} title={t("secServiceThreatTitle")} desc={t("secServiceThreatDesc")} />
-          <ServiceCard icon={<Eye />} title={t("secServiceMonitorTitle")} desc={t("secServiceMonitorDesc")} />
-          <ServiceCard icon={<Lock />} title={t("secServiceEndpointTitle")} desc={t("secServiceEndpointDesc")} />
-          <ServiceCard icon={<AlertTriangle />} title={t("secServiceIncidentTitle")} desc={t("secServiceIncidentDesc")} />
-          <ServiceCard icon={<FileSearch />} title={t("secServiceRiskTitle")} desc={t("secServiceRiskDesc")} />
-          <ServiceCard icon={<ShieldCheck />} title={t("secServiceComplianceTitle")} desc={t("secServiceComplianceDesc")} />
+          <OffWhiteCard  icon={<Shield />} title={t("secServiceThreatTitle")} desc={t("secServiceThreatDesc")} />
+          <OffWhiteCard  icon={<Eye />} title={t("secServiceMonitorTitle")} desc={t("secServiceMonitorDesc")} />
+          <OffWhiteCard  icon={<Lock />} title={t("secServiceEndpointTitle")} desc={t("secServiceEndpointDesc")} />
+          <OffWhiteCard  icon={<AlertTriangle />} title={t("secServiceIncidentTitle")} desc={t("secServiceIncidentDesc")} />
+          <OffWhiteCard  icon={<FileSearch />} title={t("secServiceRiskTitle")} desc={t("secServiceRiskDesc")} />
+          <OffWhiteCard  icon={<ShieldCheck />} title={t("secServiceComplianceTitle")} desc={t("secServiceComplianceDesc")} />
         </div>
       </section>
 
@@ -263,9 +265,9 @@ export default function CyberSecurityPage() {
         </div>
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <WhyCard icon={<Shield />} title={t("secWhyTeamTitle")} desc={t("secWhyTeamDesc")} />
-          <WhyCard icon={<Activity />} title={t("secWhyProactiveTitle")} desc={t("secWhyProactiveDesc")} />
-          <WhyCard icon={<ShieldCheck />} title={t("secWhyPartnersTitle")} desc={t("secWhyPartnersDesc")} />
+          <BenefitCard icon={<Shield />} title={t("secWhyTeamTitle")} desc={t("secWhyTeamDesc")} />
+          <BenefitCard icon={<Activity />} title={t("secWhyProactiveTitle")} desc={t("secWhyProactiveDesc")} />
+          <BenefitCard icon={<ShieldCheck />} title={t("secWhyPartnersTitle")} desc={t("secWhyPartnersDesc")} />
         </div>
       </section>
 
@@ -273,28 +275,3 @@ export default function CyberSecurityPage() {
   );
 }
 
-/* ================= CARDS ================= */
-
-function ServiceCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function WhyCard({ icon, title, desc }: any) {
-  return (
-    <div className="p-8 bg-white border border-gray-900/20 rounded-xl transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}

@@ -11,6 +11,9 @@ import {
 } from "lucide-react";
 import SlideIn from "@/components/SlideIn";
 import { useLang } from "@/context/LanguageContext";
+import UseCaseCard from "@/components/UseCaseCard";
+import ProvideCard from "@/components/ProvideCard";
+
 
 export default function SmartIntegrationPage() {
   const { t, lang } = useLang();
@@ -150,32 +153,3 @@ export default function SmartIntegrationPage() {
 
 /* ================= COMPONENTS ================= */
 
-interface CardProps {
-  icon: React.ReactNode;
-  title: string;
-  desc: string;
-}
-
-function UseCaseCard({ icon, title, desc }: CardProps) {
-  return (
-    <div className="p-8 bg-white rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:border-red-600">
-      <div className="flex items-center gap-3 mb-3 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function ProvideCard({ icon, title, desc }: CardProps) {
-  return (
-    <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4 text-red-600">
-        {icon}
-        <h3 className="text-xl font-semibold">{title}</h3>
-      </div>
-      <p className="text-gray-600">{desc}</p>
-    </div>
-  );
-}
