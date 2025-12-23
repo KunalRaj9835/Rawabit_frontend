@@ -145,9 +145,3 @@ export default function AcousticDesignPage() {
   );
 }
 
-interface CardProps {
-  icon: React.ReactNode;
-  title: string;
-  desc: string;
-}
-
