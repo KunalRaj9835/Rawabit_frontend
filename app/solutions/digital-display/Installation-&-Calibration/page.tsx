@@ -43,27 +43,39 @@ export default function InstallationCalibrationPage() {
 
       {/* OVERVIEW */}
       <section className="bg-white py-24 px-4">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <span className="text-sm font-semibold text-red-600">
-              {t("ddInstOverviewLabel")}
-            </span>
-            <h2 className="text-3xl lg:text-4xl font-bold mt-3">
-              {t("ddInstOverviewTitle")}
-            </h2>
-            <p className="mt-6 text-gray-600">{t("ddInstOverviewDesc1")}</p>
-            <p className="mt-4 text-gray-600">{t("ddInstOverviewDesc2")}</p>
-          </div>
+  {/* HEADER */}
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <span className="text-sm font-semibold text-red-600">
+      {t("ddInstOverviewLabel")}
+    </span>
+    <h2 className="text-3xl lg:text-4xl font-bold mt-3">
+      {t("ddInstOverviewTitle")}
+    </h2>
+  </div>
 
-          <SlideIn direction={isRTL ? "left" : "right"}>
-            <img
-              src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=900"
-              className="rounded-xl shadow-xl h-[420px] w-full object-cover"
-              alt="Installation & calibration"
-            />
-          </SlideIn>
-        </div>
-      </section>
+  {/* CONTENT */}
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+    {/* LEFT TEXT */}
+    <div>
+      <p className="text-gray-600">
+        {t("ddInstOverviewDesc1")}
+      </p>
+      <p className="mt-4 text-gray-600">
+        {t("ddInstOverviewDesc2")}
+      </p>
+    </div>
+
+    {/* RIGHT IMAGE */}
+    <SlideIn direction={isRTL ? "left" : "right"}>
+      <img
+        src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=900"
+        alt="Installation & calibration"
+        className="rounded-xl shadow-xl h-[420px] w-full object-cover"
+      />
+    </SlideIn>
+  </div>
+</section>
+
 
       {/* USE CASES */}
       <section className="bg-gray-50 py-24 px-4">

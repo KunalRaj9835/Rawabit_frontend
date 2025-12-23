@@ -1246,9 +1246,10 @@ avVideoHeroDesc:
 avVideoOverviewLabel: "Overview",
 avVideoOverviewTitle: "Clarity That Brings Teams Together",
 avVideoOverviewDesc1:
-  "Rawabit Networks delivers enterprise-grade video conferencing systems that enable seamless communication for hybrid and in-room meetings.",
+"Rawabit Networks delivers enterprise-grade video conferencing systems that enable seamless, high-quality communication for both in-room and hybrid meetings, helping organizations connect teams, partners, and stakeholders with clarity and confidence across distributed work environments.",
+
 avVideoOverviewDesc2:
-  "Our solutions are designed to provide high-definition video, intelligent framing, and reliable performance across all room sizes.",
+"Our video solutions are designed to provide high-definition visuals, intelligent camera framing, clear audio integration, and reliable performance, ensuring consistent and immersive collaboration experiences across small meeting rooms, large conference spaces, and enterprise boardrooms.",
 
 avVideoUseCasesTitle: "Where Video Systems Are Used",
 avVideoUseCasesSubtitle:
@@ -1292,9 +1293,10 @@ avAudioHeroDesc:
 avAudioOverviewLabel: "Overview",
 avAudioOverviewTitle: "Every Word Matters",
 avAudioOverviewDesc1:
-  "Rawabit Networks delivers professional audio solutions that ensure clear, natural communication in meeting rooms of all sizes.",
+"Rawabit Networks delivers professional, enterprise-grade audio solutions that ensure clear, natural, and intelligible communication in meeting rooms of all sizes, supporting effective collaboration across boardrooms, conference rooms, and shared workspaces.",
+
 avAudioOverviewDesc2:
-  "Our audio systems are engineered to eliminate echo, reduce noise, and provide consistent sound coverage.",
+"Our audio systems are carefully engineered to eliminate echo, reduce background noise, and provide consistent, balanced sound coverage, ensuring every participant can be heard clearly in both in-room and hybrid meeting environments.",
 
 avAudioUseCasesTitle: "Where Audio Solutions Are Used",
 avAudioUseCasesSubtitle:
@@ -1337,9 +1339,10 @@ avSmartHeroDesc:
 avSmartOverviewLabel: "Overview",
 avSmartOverviewTitle: "One Experience. One Touch.",
 avSmartOverviewDesc1:
-  "Rawabit Networks delivers smart integration solutions that unify AV systems, collaboration platforms, and IT infrastructure into a single seamless experience.",
+"Rawabit Networks delivers advanced smart integration solutions that seamlessly unify audio systems, video conferencing technologies, room control platforms, collaboration tools, and core IT infrastructure into a single, cohesive ecosystem, enabling intuitive operation, streamlined management, and highly efficient collaboration environments across modern enterprise workplaces.",
+
 avSmartOverviewDesc2:
-  "Our integrated environments simplify operations, reduce complexity, and enhance productivity across all meeting spaces.",
+"Our fully integrated environments are designed to simplify day-to-day operations, significantly reduce technical complexity, and enhance overall productivity by providing a consistent, reliable, and easy-to-use collaboration experience across all meeting rooms, hybrid workspaces, and enterprise collaboration spaces.",
 
 avSmartUseCasesTitle: "Where Smart Integration Is Used",
 avSmartUseCasesSubtitle:
@@ -1377,10 +1380,19 @@ avSmartProvide3Desc:
 avAcousticHeroTitle: "Acoustic Design for Clear & Natural Sound",
 avAcousticHeroDesc: "Professional acoustic design ensuring speech clarity and optimal sound quality.",
 
+avAcousticUseCasesTitle: "Where Acoustic Design Matters",
+  avAcousticUseCasesSubtitle: "Acoustic solutions tailored to different environments to ensure clear speech, balanced sound, and an improved listening experience.",
+
+  avAcousticProvideTitle: "Our Acoustic Capabilities",
+  avAcousticProvideSubtitle: "Comprehensive acoustic design and implementation services focused on performance, comfort, and long-term sound quality.",
+
 avAcousticOverviewLabel: "Overview",
 avAcousticOverviewTitle: "Sound Quality Starts with Acoustics",
-avAcousticOverviewDesc1: "Poor acoustics reduce communication effectiveness.",
-avAcousticOverviewDesc2: "We design environments optimized for speech intelligibility.",
+avAcousticOverviewDesc1:
+"Poor acoustic design can significantly reduce communication effectiveness by causing echo, reverberation, background noise, and uneven sound distribution, which negatively impacts speech clarity, meeting productivity, and overall user experience in collaboration spaces.",
+
+avAcousticOverviewDesc2:
+"Rawabit Networks designs acoustic environments optimized for clear speech intelligibility and natural sound quality, ensuring balanced acoustics that support effective communication, collaboration, and consistent audio performance across different room types.",
 
 avAcousticUse1Title: "Boardrooms",
 avAcousticUse1Desc: "Reduce echo and enhance speech clarity.",
@@ -1402,8 +1414,17 @@ avControlHeroDesc: "Centralized control for effortless meeting room operation.",
 
 avControlOverviewLabel: "Overview",
 avControlOverviewTitle: "One Touch Control",
-avControlOverviewDesc1: "Control systems simplify AV room operations.",
-avControlOverviewDesc2: "Start meetings instantly with minimal user effort.",
+avControlOverviewDesc1:
+"Control systems simplify AV room operations by centralizing the management of audio, video, display, lighting, and environmental controls into a single, intuitive interface, reducing complexity and ensuring consistent operation across enterprise meeting spaces.",
+
+avControlOverviewDesc2:
+"Rawabit Networks designs intelligent control solutions that allow users to start meetings instantly with minimal effort, improving user experience, reducing technical issues, and ensuring reliable, standardized room operation across the organization.",
+
+ avControlUseCasesTitle: "Where Control Systems Make the Difference",
+  avControlUseCasesSubtitle: "Practical control solutions designed to simplify operations, improve user experience, and ensure consistent performance across environments.",
+
+  avControlProvideTitle: "What We Deliver",
+  avControlProvideSubtitle: "End-to-end control system solutions combining intelligent design, reliable technology, and seamless user interaction.",
 
 avControlUse1Title: "Meeting Rooms",
 avControlUse1Desc: "Unified control of displays, audio, and video.",
@@ -1428,9 +1449,10 @@ avDisplayHeroDesc:
 avDisplayOverviewLabel: "Overview",
 avDisplayOverviewTitle: "Visuals That Drive Engagement",
 avDisplayOverviewDesc1:
-  "Rawabit Networks delivers professional display solutions that enhance how information is presented and shared.",
+"Rawabit Networks delivers professional, enterprise-grade display solutions that significantly enhance how information is presented, visualized, and shared, enabling clearer communication, stronger audience engagement, and more effective collaboration across diverse enterprise and business environments.",
+
 avDisplayOverviewDesc2:
-  "From interactive collaboration screens to large-format video walls, our display technologies are designed for clarity and reliability.",
+"From interactive collaboration screens to large-format professional displays and advanced video wall solutions, our display technologies are engineered to deliver exceptional visual clarity, consistent color accuracy, and long-term reliability, supporting meeting rooms, training spaces, control rooms, and public-facing areas with high-impact visual experiences.",
 
 avDisplayUseCasesTitle: "Where Display Technology Is Used",
 avDisplayUseCasesSubtitle:
@@ -1473,9 +1495,9 @@ eucHeroDesc:
 eucOverviewLabel: "Overview",
 eucOverviewTitle: "Productivity Starts with the Right Devices",
 eucOverviewDesc1:
-  "Rawabit Networks delivers end-user computing solutions that provide employees with reliable, secure, and standardized devices.",
-eucOverviewDesc2:
-  "From procurement to deployment, we ensure every user has the right tools to work efficiently.",
+"Rawabit Networks delivers comprehensive end-user computing solutions that equip employees with reliable, secure, and standardized devices, enabling consistent performance, improved user experience, and operational efficiency across the entire organization.",
+
+eucOverviewDesc2:"From device selection and procurement to configuration, deployment, and ongoing support, we ensure every user is provided with the right tools to work efficiently, securely, and productively in today’s dynamic and modern work environments.",
 eucUseCasesTitle: "Where End-User Computing Is Used",
 eucUseCasesSubtitle:
   "Supporting productivity across office, remote, and high-performance environments.",
@@ -1564,9 +1586,9 @@ storageHeroDesc:
 storageOverviewLabel: "Overview",
 storageOverviewTitle: "Data Availability & Protection",
 storageOverviewDesc1:
-  "Rawabit Networks delivers enterprise storage solutions that ensure data availability, performance, and protection.",
+  "Rawabit Networks provides enterprise-grade storage solutions designed to deliver high availability, consistent performance, and robust data protection across diverse IT environments, ensuring business-critical data remains accessible and secure.",
 storageOverviewDesc2:
-  "Our solutions support critical workloads with scalable and resilient storage platforms.",
+  "Our storage platforms support mission-critical workloads through scalable and resilient architectures, enabling reliable performance, efficient data management, and seamless growth to meet evolving business demands.",
 
 storageUseCasesTitle: "Where Storage Solutions Are Used",
 storageUseCasesSubtitle:
@@ -1607,10 +1629,12 @@ virtHeroDesc:
 
 virtOverviewLabel: "Overview",
 virtOverviewTitle: "Optimized & Agile IT Environments",
-virtOverviewDesc1:
-  "Rawabit Networks enables organizations to modernize infrastructure using virtualization technologies.",
+
+  virtOverviewDesc1:
+"Rawabit Networks enables organizations to modernize their IT infrastructure through advanced virtualization technologies that consolidate resources, enhance system utilization, and create a flexible foundation for future growth.",
+
 virtOverviewDesc2:
-  "Our solutions improve efficiency, scalability, and operational flexibility.",
+"Our virtualization solutions improve operational efficiency, scalability, and agility, allowing businesses to adapt quickly to changing demands while supporting private, hybrid, and cloud-ready environments.",
 virtUseCasesTitle: "Where Virtualization Is Applied",
 virtUseCasesSubtitle:
   "Optimizing infrastructure for private and hybrid cloud environments.",
@@ -1650,9 +1674,10 @@ powerHeroDesc:
 powerOverviewLabel: "Overview",
 powerOverviewTitle: "Ensuring Business Uptime",
 powerOverviewDesc1:
-  "Rawabit Networks delivers power continuity solutions that protect critical IT infrastructure from power disruptions.",
+"Rawabit Networks delivers robust power continuity solutions that safeguard critical IT and data center infrastructure against power outages, fluctuations, and electrical disturbances, ensuring systems remain protected and operational.",
+
 powerOverviewDesc2:
-  "Our designs ensure operational stability and business continuity.",
+"Through resilient power designs and redundancy-focused architectures, our solutions maintain operational stability, minimize downtime, and support continuous business operations even during unexpected power events.",
 
   powerUseCasesTitle: "Where Power Continuity Is Critical",
 powerUseCasesSubtitle:
@@ -1694,9 +1719,10 @@ lmsHeroDesc:
 lmsOverviewLabel: "Overview",
 lmsOverviewTitle: "Simplifying IT Operations",
 lmsOverviewDesc1:
-  "Rawabit Networks provides lifecycle and managed services to reduce operational complexity.",
+"Rawabit Networks provides comprehensive lifecycle and managed services designed to reduce operational complexity, streamline IT operations, and enable organizations to manage their technology environments more efficiently.",
+
 lmsOverviewDesc2:
-  "We ensure systems remain secure, up to date, and optimized.",
+"Through proactive management and continuous oversight, we ensure systems remain secure, up to date, fully optimized, and aligned with changing business needs and industry best practices.",
 
   lmsUseCasesTitle: "Where Managed Services Add Value",
 lmsUseCasesSubtitle:
@@ -1738,9 +1764,10 @@ netsecHeroDesc:
 netsecOverviewLabel: "Overview",
 netsecOverviewTitle: "Securing the Network Perimeter",
 netsecOverviewDesc1:
-  "Rawabit Networks provides robust network security solutions to safeguard enterprise connectivity.",
+"Rawabit Networks provides robust and comprehensive network security solutions designed to safeguard enterprise connectivity, protect critical infrastructure, and ensure secure communication across internal and external network environments.",
+
 netsecOverviewDesc2:
-  "Our solutions protect against unauthorized access, malware, and advanced threats.",
+"Our solutions defend enterprise networks against unauthorized access, malware, and advanced cyber threats through layered security controls, continuous monitoring, and proactive threat mitigation strategies.",
 
 netsecUse1Title: "Perimeter Protection",
 netsecUse1Desc:
@@ -1782,9 +1809,10 @@ epsecHeroDesc:
 epsecOverviewLabel: "Overview",
 epsecOverviewTitle: "Protecting Endpoints Against Threats",
 epsecOverviewDesc1:
-  "Rawabit Networks delivers endpoint security solutions that protect devices from malware and cyber attacks.",
+"Rawabit Networks delivers advanced endpoint security solutions designed to protect desktops, laptops, and mobile devices from malware, ransomware, and evolving cyber attacks, reducing exposure to threats and safeguarding end-user systems across the organization.",
+
 epsecOverviewDesc2:
-  "Our solutions ensure continuous protection and visibility across all endpoints.",
+"Our solutions provide continuous protection, real-time visibility, and centralized control across all endpoints, ensuring consistent security enforcement, rapid threat detection, and improved risk management in office, remote, and hybrid work environments.",
 
   epsecUseCasesTitle: "Where Endpoint Security Is Used",
 epsecUseCasesSubtitle:
@@ -1829,9 +1857,10 @@ emailsecHeroDesc:
 emailsecOverviewLabel: "Overview",
 emailsecOverviewTitle: "The First Line of Cyber Defense",
 emailsecOverviewDesc1:
-  "Email and web channels remain the most common attack vectors for cyber threats.",
+"Email and web channels remain the most common and vulnerable attack vectors for cyber threats, as they are frequently exploited through sophisticated phishing campaigns, social engineering techniques, malicious links, infected attachments, and compromised websites that directly target users and enterprise data.",
+
 emailsecOverviewDesc2:
-  "Rawabit Networks secures these channels with layered protection and intelligent threat detection.",
+"Rawabit Networks secures these critical communication and internet access channels through layered security controls and intelligent threat detection technologies, enabling organizations to proactively block attacks, protect sensitive information, reduce user risk, and maintain secure, reliable email and web usage across the enterprise.",
 
 emailsecUseCasesTitle: "Where Email & Web Security Is Used",
 emailsecUseCasesSubtitle:
@@ -1875,10 +1904,12 @@ complianceHeroDesc:
 
 complianceOverviewLabel: "Overview",
 complianceOverviewTitle: "Managing Risk in a Complex Digital World",
-complianceOverviewDesc1:
-  "Organizations face increasing regulatory pressure and cyber risk exposure.",
+
+  complianceOverviewDesc1:
+"Organizations today face increasing regulatory pressure and significantly heightened cyber risk exposure as digital ecosystems expand and become more complex, requiring well-defined governance structures, comprehensive security policies, detailed risk assessments, and continuous oversight to effectively manage compliance obligations and protect critical business operations.",
+
 complianceOverviewDesc2:
-  "Rawabit Networks helps organizations identify, manage, and reduce risk while ensuring compliance.",
+"Rawabit Networks helps organizations systematically identify, assess, manage, and reduce business and security risks while ensuring sustained compliance with industry standards and regulatory requirements, through structured compliance frameworks, ongoing assessments, expert advisory services, and continuous monitoring programs.",
 
 complianceUseCasesTitle: "Where Compliance & Risk Management Is Applied",
 complianceUseCasesSubtitle:
@@ -1919,9 +1950,9 @@ iamHeroDesc:
 iamOverviewLabel: "Overview",
 iamOverviewTitle: "Controlling Access Across the Organization",
 iamOverviewDesc1:
-  "Identity and Access Management is a critical foundation of enterprise security.",
+"Identity and Access Management is a critical foundation of enterprise security, enabling organizations to centrally manage user identities, define permissions, and govern access to systems, applications, and sensitive data, while significantly reducing the risk of unauthorized access, data breaches, and internal security threats.",
 iamOverviewDesc2:
-  "Rawabit Networks helps organizations enforce secure authentication and access policies.",
+"Rawabit Networks helps organizations design, implement, and operate robust authentication frameworks and access control models, enforcing consistent security policies that ensure secure, compliant, and well-governed access across users, devices, applications, and complex enterprise environments.",
 
 iamUseCasesTitle: "Where Identity & Access Is Used",
 iamUseCasesSubtitle:
@@ -1963,9 +1994,10 @@ socHeroDesc:
 socOverviewLabel: "Overview",
 socOverviewTitle: "Proactive Security Monitoring",
 socOverviewDesc1:
-  "Modern cyber threats require constant visibility and rapid response.",
+"Modern cyber threats require constant visibility, continuous monitoring, and the ability to respond rapidly to security events, as attacks are increasingly sophisticated, persistent, and capable of impacting critical business operations.",
+
 socOverviewDesc2:
-  "Rawabit Networks delivers SOC services that detect, analyze, and respond to threats in real time.",
+"Rawabit Networks delivers comprehensive SOC services that continuously detect, analyze, and respond to security threats in real time, enabling organizations to reduce risk, minimize impact, and maintain a strong security posture across their environments.",
 
 socUseCasesTitle: "Where Monitoring & SOC Is Used",
 socUseCasesSubtitle:
@@ -2007,9 +2039,10 @@ ddCmsHeroDesc:
 ddCmsOverviewLabel: "Overview",
 ddCmsOverviewTitle: "Smarter Content, Better Engagement",
 ddCmsOverviewDesc1:
-  "Content management systems enable centralized control of digital displays.",
+"Content management systems enable centralized control of digital displays by allowing organizations to create, manage, update, and distribute content from a single platform, ensuring consistent messaging, improved visibility, and greater engagement across all display environments.",
+
 ddCmsOverviewDesc2:
-  "Rawabit Networks delivers CMS solutions designed for reliability, scalability, and ease of use.",
+"Rawabit Networks delivers robust CMS solutions designed for reliability, scalability, and ease of use, empowering organizations to efficiently manage dynamic content, automate scheduling, and maintain full control over messaging across single or multi-site deployments.",
 
 ddCmsUseCasesTitle: "Where Content Management Is Used",
 ddCmsUseCasesSubtitle:
@@ -2050,9 +2083,10 @@ ddCtrlHeroDesc:
 ddCtrlOverviewLabel: "Overview",
 ddCtrlOverviewTitle: "Simplified Display Control",
 ddCtrlOverviewDesc1:
-  "Modern display environments require centralized control and system integration.",
+"Modern display environments require centralized control and seamless system integration to manage multiple screens, content sources, and operating conditions efficiently, while maintaining consistency, reliability, and ease of operation across enterprise and public-facing spaces.",
+
 ddCtrlOverviewDesc2:
-  "Rawabit Networks delivers intelligent control systems that unify displays with AV and IT platforms.",
+"Rawabit Networks delivers intelligent control solutions that unify digital displays with AV and IT platforms, enabling centralized management, secure operations, and simplified control that reduces complexity and ensures smooth, reliable performance across all display environments.",
 
 ddCtrlUseCasesTitle: "Where Control & Integration Is Used",
 ddCtrlUseCasesSubtitle:
@@ -2094,9 +2128,10 @@ ddSignHeroDesc:
 ddSignOverviewLabel: "Overview",
 ddSignOverviewTitle: "Powerful Messaging Through Displays",
 ddSignOverviewDesc1:
-  "Digital signage transforms how organizations communicate information.",
+"Digital signage transforms how organizations communicate information by delivering dynamic, visually engaging content in real time, enabling clear messaging, improved awareness, and stronger engagement across employees, visitors, and customers in diverse environments.",
+
 ddSignOverviewDesc2:
-  "Rawabit Networks delivers reliable and scalable digital signage platforms.",
+"Rawabit Networks delivers reliable and scalable digital signage platforms that support centralized content management, flexible scheduling, and consistent visual performance, helping organizations communicate effectively, reinforce branding, and adapt messaging across multiple locations.",
 
   ddSignProvideTitle: "What We Provide",
 ddSignProvideSubtitle:
@@ -2133,9 +2168,10 @@ ddInstHeroDesc:
 ddInstOverviewLabel: "Overview",
 ddInstOverviewTitle: "Accuracy Matters",
 ddInstOverviewDesc1:
-  "Proper installation and calibration are critical for display quality and longevity.",
+"Proper installation and calibration are critical for achieving optimal display quality, long-term reliability, and consistent performance, as even minor inaccuracies in mounting, alignment, or configuration can negatively impact visual clarity, usability, and system lifespan.",
+
 ddInstOverviewDesc2:
-  "Rawabit Networks ensures every display is installed and tuned to perfection.",
+"Rawabit Networks ensures every display solution is professionally installed and precisely calibrated to meet manufacturer standards and project requirements, delivering accurate visuals, stable operation, and a polished end-user experience across all environments.",
 
 ddInstUse1Title: "Display Installation",
 ddInstUse1Desc:
@@ -2172,9 +2208,10 @@ ddTouchHeroDesc:
 ddTouchOverviewLabel: "Overview",
 ddTouchOverviewTitle: "Interaction That Transforms Engagement",
 ddTouchOverviewDesc1:
-  "Interactive touch displays redefine how teams collaborate and share ideas.",
+"Interactive touch displays redefine how teams collaborate, communicate, and share ideas by enabling real-time interaction, visual engagement, and hands-on participation, transforming traditional meetings and learning sessions into dynamic, productive, and highly engaging experiences.",
+
 ddTouchOverviewDesc2:
-  "Rawabit Networks delivers enterprise-grade touch displays designed for reliability and ease of use.",
+"Rawabit Networks delivers enterprise-grade interactive touch display solutions designed for reliability, responsiveness, and ease of use, ensuring seamless integration into collaboration spaces while supporting effective decision-making, creativity, and knowledge sharing.",
 
 ddTouchUseCasesTitle: "Where Interactive Displays Are Used",
 ddTouchUseCasesSubtitle:
@@ -2216,9 +2253,10 @@ ddWallHeroDesc:
 ddWallOverviewLabel: "Overview",
 ddWallOverviewTitle: "Visual Intelligence at Scale",
 ddWallOverviewDesc1:
-  "Video walls provide a powerful platform for displaying large-scale, high-impact visual content.",
+"Video walls provide a powerful and scalable platform for presenting large-scale, high-impact visual content, enabling organizations to display real-time information, critical data, and immersive visuals with exceptional clarity and visibility across expansive environments.",
+
 ddWallOverviewDesc2:
-  "Rawabit Networks designs and deploys video wall solutions that deliver clarity, reliability, and scalability.",
+"Rawabit Networks designs and deploys professional video wall solutions that deliver high resolution, operational reliability, and long-term scalability, supporting demanding use cases such as monitoring, collaboration, analytics, and enterprise-wide visual communication.",
 
 ddWallUseCasesTitle: "Where Video Walls Are Used",
 ddWallUseCasesSubtitle:
@@ -2785,9 +2823,10 @@ ucIpHeroDesc:
 ucIpOverviewLabel: "Overview",
 ucIpOverviewTitle: "Voice Communication for the Digital Workplace",
 ucIpOverviewDesc1:
-  "IP Telephony replaces traditional phone systems with flexible, software-driven voice solutions.",
+"IP Telephony replaces traditional legacy phone systems with flexible, software-driven voice communication solutions that operate over IP networks, enabling greater scalability, advanced features, and seamless integration with modern digital workplace technologies.",
+
 ucIpOverviewDesc2:
-  "Rawabit Networks designs and deploys enterprise IP telephony systems that improve collaboration and reduce costs.",
+"Rawabit Networks designs and deploys enterprise-grade IP telephony systems that enhance collaboration, improve communication efficiency, support business growth, and reduce operational and infrastructure costs through centralized management and modern voice platforms.",
 
 ucIpUse1Title: "Enterprise Voice Systems",
 ucIpUse1Desc:
@@ -4813,9 +4852,10 @@ avVideoHeroDesc:
 avVideoOverviewLabel: "نظرة عامة",
 avVideoOverviewTitle: "وضوح يجمع الفرق معاً",
 avVideoOverviewDesc1:
-  "تقدم شبكات روابط أنظمة مؤتمرات فيديو مخصصة للمؤسسات تتيح تواصلاً سلساً للاجتماعات الحضورية والهجينة.",
+"تقدم شبكات روابط أنظمة مؤتمرات فيديو بمستوى مؤسسي تُمكّن من تواصل سلس وعالي الجودة للاجتماعات داخل القاعات أو في البيئات الهجينة، مما يساعد المؤسسات على ربط الفرق والشركاء وأصحاب المصلحة بوضوح وثقة عبر بيئات العمل الموزعة.",
+
 avVideoOverviewDesc2:
-  "تم تصميم حلولنا لتوفير فيديو عالي الدقة وتقنيات تصوير ذكية وأداء موثوق في جميع أحجام القاعات.",
+"تم تصميم حلول الفيديو لدينا لتوفير صور عالية الدقة، وتقنيات تأطير ذكية للكاميرات، وتكامل صوتي واضح، وأداء موثوق، بما يضمن تجارب تعاون متناسقة وغامرة عبر غرف الاجتماعات الصغيرة، وقاعات المؤتمرات الكبيرة، وغرف مجالس الإدارة المؤسسية.",
 
 avVideoUseCasesTitle: "أماكن استخدام أنظمة الفيديو",
 avVideoUseCasesSubtitle:
@@ -4858,9 +4898,10 @@ avAudioHeroDesc:
 avAudioOverviewLabel: "نظرة عامة",
 avAudioOverviewTitle: "كل كلمة لها أهمية",
 avAudioOverviewDesc1:
-  "تقدم شبكات روابط حلولاً صوتية احترافية تضمن تواصلاً واضحاً وطبيعياً في جميع أحجام القاعات.",
+"تقدم شبكات روابط حلول صوتية احترافية بمستوى مؤسسي تضمن تواصلًا واضحًا وطبيعيًا وسهل الفهم في غرف الاجتماعات بمختلف أحجامها، مما يدعم التعاون الفعّال في قاعات الاجتماعات وغرف المؤتمرات ومساحات العمل المشتركة.",
+
 avAudioOverviewDesc2:
-  "تم تصميم أنظمتنا الصوتية لإلغاء الصدى وتقليل الضوضاء وتوفير تغطية صوتية متوازنة.",
+"تم تصميم أنظمتنا الصوتية بعناية لإزالة الصدى وتقليل الضوضاء المحيطة وتوفير تغطية صوتية متوازنة ومتسقة، بما يضمن سماع جميع المشاركين بوضوح في بيئات الاجتماعات الحضورية والهجينة.",
 
 avAudioUseCasesTitle: "أماكن استخدام حلول الصوت",
 avAudioUseCasesSubtitle:
@@ -4903,9 +4944,10 @@ avSmartHeroDesc:
 avSmartOverviewLabel: "نظرة عامة",
 avSmartOverviewTitle: "تجربة واحدة. بلمسة واحدة.",
 avSmartOverviewDesc1:
-  "تقدم شبكات روابط حلول تكامل ذكي توحد أنظمة الصوت والمرئيات ومنصات التعاون والبنية التحتية التقنية في تجربة واحدة متكاملة.",
+"تقدم شبكات روابط حلول تكامل ذكية ومتقدمة تقوم بدمج أنظمة الصوت والفيديو وتقنيات مؤتمرات الفيديو وأنظمة التحكم في الغرف وأدوات التعاون والبنية التحتية الأساسية لتقنية المعلومات ضمن منظومة واحدة متكاملة، مما يتيح تشغيلًا سلسًا وإدارة مبسطة وبيئات تعاون عالية الكفاءة في أماكن العمل المؤسسية الحديثة.",
+
 avSmartOverviewDesc2:
-  "تساعد البيئات المتكاملة على تبسيط العمليات وتقليل التعقيد وتعزيز الإنتاجية في جميع قاعات الاجتماعات.",
+"تم تصميم البيئات المتكاملة لدينا لتبسيط العمليات اليومية بشكل كبير وتقليل التعقيد التقني وتعزيز الإنتاجية العامة، من خلال توفير تجربة تعاون موحدة وموثوقة وسهلة الاستخدام عبر جميع غرف الاجتماعات ومساحات العمل الهجينة ومناطق التعاون المؤسسية.",
 
 avSmartUseCasesTitle: "أماكن استخدام التكامل الذكي",
 avSmartUseCasesSubtitle:
@@ -4942,10 +4984,19 @@ avAcousticHeroBadge: "التصميم الصوتي",
 avAcousticHeroTitle: "تصميم صوتي لوضوح صوتي طبيعي",
 avAcousticHeroDesc: "تصميم صوتي احترافي يضمن وضوح الكلام وجودة الصوت.",
 
+  avAcousticUseCasesTitle: "أين يُحدث التصميم الصوتي فرقًا",
+  avAcousticUseCasesSubtitle: "حلول صوتية مصممة خصيصًا لمختلف البيئات لضمان وضوح الكلام، وتوازن الصوت، وتجربة استماع محسّنة.",
+
+  avAcousticProvideTitle: "قدراتنا في التصميم الصوتي",
+  avAcousticProvideSubtitle: "خدمات متكاملة للتصميم والتنفيذ الصوتي تركز على الأداء، والراحة السمعية، وجودة الصوت طويلة المدى.",
+
 avAcousticOverviewLabel: "نظرة عامة",
 avAcousticOverviewTitle: "جودة الصوت تبدأ بالتصميم الصوتي",
-avAcousticOverviewDesc1: "التصميم الصوتي السيئ يقلل من فعالية التواصل.",
-avAcousticOverviewDesc2: "نصمم بيئات محسنة لوضوح الكلام.",
+avAcousticOverviewDesc1:
+"يؤدي ضعف التصميم الصوتي إلى تقليل فعالية التواصل بشكل كبير نتيجة الصدى وارتداد الصوت والضوضاء الخلفية وعدم توازن توزيع الصوت، مما يؤثر سلبًا على وضوح الكلام وإنتاجية الاجتماعات وتجربة المستخدم في مساحات التعاون.",
+
+avAcousticOverviewDesc2:
+"تقوم شبكات روابط بتصميم بيئات صوتية مُحسّنة لرفع مستوى وضوح الكلام وجودة الصوت الطبيعية، مع ضمان توازن صوتي يدعم التواصل الفعّال والتعاون وأداءً صوتيًا متسقًا عبر مختلف أنواع الغرف والمساحات.",
 
 avAcousticUse1Title: "قاعات الاجتماعات",
 avAcousticUse1Desc: "تقليل الصدى وتحسين وضوح الصوت.",
@@ -4967,9 +5018,17 @@ avControlHeroDesc: "تحكم مركزي لتشغيل قاعات الاجتماع
 
 avControlOverviewLabel: "نظرة عامة",
 avControlOverviewTitle: "تحكم بلمسة واحدة",
-avControlOverviewDesc1: "أنظمة التحكم تبسط تشغيل القاعات.",
-avControlOverviewDesc2: "بدء الاجتماعات فوراً بأقل جهد.",
+avControlOverviewDesc1:
+"تعمل أنظمة التحكم على تبسيط تشغيل غرف الحلول السمعية والبصرية من خلال توحيد إدارة الصوت والفيديو والشاشات والإضاءة وعناصر البيئة في واجهة واحدة سهلة الاستخدام، مما يقلل التعقيد ويضمن تجربة تشغيل متسقة عبر غرف الاجتماعات المؤسسية.",
 
+avControlOverviewDesc2:
+"تقوم شبكات روابط بتصميم حلول تحكم ذكية تُمكّن المستخدمين من بدء الاجتماعات فورًا وبأقل جهد ممكن، مما يحسّن تجربة الاستخدام، ويحد من المشكلات التقنية، ويضمن تشغيلًا موحدًا وموثوقًا لغرف الاجتماعات على مستوى المؤسسة.",
+
+avControlUseCasesTitle: "أين تُحدث أنظمة التحكم الفرق",
+  avControlUseCasesSubtitle: "حلول تحكم عملية مصممة لتبسيط التشغيل، وتحسين تجربة المستخدم، وضمان أداء موثوق عبر مختلف البيئات.",
+
+  avControlProvideTitle: "ما نقدمه",
+  avControlProvideSubtitle: "حلول متكاملة لأنظمة التحكم تجمع بين التصميم الذكي، والتقنيات الموثوقة، وتجربة استخدام سلسة.",
 avControlUse1Title: "قاعات الاجتماعات",
 avControlUse1Desc: "تحكم موحد بالصوت والصورة.",
 avControlUse2Title: "غرف التدريب",
@@ -4993,9 +5052,10 @@ avDisplayHeroDesc:
 avDisplayOverviewLabel: "نظرة عامة",
 avDisplayOverviewTitle: "مرئيات تعزز التفاعل",
 avDisplayOverviewDesc1:
-  "تقدم شبكات روابط حلول عرض احترافية تحسن طريقة عرض المعلومات ومشاركتها.",
+"تقدم شبكات روابط حلول عرض احترافية بمستوى مؤسسي تعزز بشكل كبير طريقة عرض المعلومات وتصورها ومشاركتها، مما يتيح تواصلًا أوضح، وزيادة تفاعل الجمهور، ودعم تعاون أكثر فعالية عبر بيئات الأعمال والمؤسسات المختلفة.",
+
 avDisplayOverviewDesc2:
-  "من الشاشات التفاعلية إلى جدران الفيديو الكبيرة، تم تصميم حلولنا للوضوح والاعتمادية.",
+"بدءًا من شاشات التعاون التفاعلية وصولًا إلى الشاشات الاحترافية كبيرة الحجم وحلول جدران الفيديو المتقدمة، تم تصميم تقنيات العرض لدينا لتقديم وضوح بصري استثنائي، ودقة ألوان متسقة، وموثوقية طويلة الأمد، مع دعم غرف الاجتماعات ومساحات التدريب وغرف التحكم والمناطق العامة بتجارب بصرية عالية التأثير.",
 
 avDisplayUseCasesTitle: "أماكن استخدام تقنيات العرض",
 avDisplayUseCasesSubtitle:
@@ -5037,10 +5097,13 @@ eucHeroDesc:
 
 eucOverviewLabel: "نظرة عامة",
 eucOverviewTitle: "الإنتاجية تبدأ بالأجهزة المناسبة",
-eucOverviewDesc1:
-  "تقدم شبكات روابط حلول حوسبة للمستخدم النهائي توفر أجهزة موثوقة وآمنة وموحدة للموظفين.",
+
+
+  eucOverviewDesc1:
+"تقدم شبكات روابط حلول حوسبة المستخدم النهائي الشاملة التي تزوّد الموظفين بأجهزة موثوقة وآمنة وموحدة، مما يحقق أداءً ثابتًا، وتجربة استخدام محسّنة، وكفاءة تشغيلية عالية على مستوى المؤسسة.",
+
 eucOverviewDesc2:
-  "من التوريد إلى النشر، نضمن تزويد كل مستخدم بالأدوات المناسبة للعمل بكفاءة.",
+"بدءًا من اختيار الأجهزة وشرائها وصولًا إلى تهيئتها ونشرها والدعم المستمر، نضمن تزويد كل مستخدم بالأدوات المناسبة للعمل بكفاءة وأمان وتعزيز الإنتاجية في بيئات العمل الحديثة والمتغيرة.",
 eucUseCasesTitle: "أين تُستخدم حلول الحوسبة للمستخدم النهائي",
 eucUseCasesSubtitle:
   "دعم الإنتاجية في بيئات العمل المكتبية وعن بُعد وذات الأداء العالي.",
@@ -5129,9 +5192,9 @@ storageHeroDesc:
 storageOverviewLabel: "نظرة عامة",
 storageOverviewTitle: "توفر البيانات وحمايتها",
 storageOverviewDesc1:
-  "تقدم شبكات روابط حلول تخزين مؤسسية تضمن توفر البيانات وأداءها وحمايتها.",
+"تقدم شبكات روابط حلول تخزين مؤسسية متقدمة تضمن توفر البيانات بشكل مستمر، وأداءً عاليًا، وحماية قوية للبيانات عبر مختلف بيئات تقنية المعلومات.",
 storageOverviewDesc2:
-  "تدعم حلولنا الأحمال التشغيلية الحرجة بأنظمة تخزين مرنة وموثوقة.",
+"تدعم حلولنا الأحمال التشغيلية الحرجة من خلال بنى تخزين مرنة وموثوقة، تُمكّن من إدارة البيانات بكفاءة وتواكب متطلبات النمو وتطور الأعمال.",
 
   storageUseCasesTitle: "أين تُستخدم حلول التخزين",
 storageUseCasesSubtitle:
@@ -5172,10 +5235,12 @@ virtHeroDesc:
 
 virtOverviewLabel: "نظرة عامة",
 virtOverviewTitle: "بيئات تقنية مرنة ومحسّنة",
-virtOverviewDesc1:
-  "تمكّن شبكات روابط المؤسسات من تحديث البنية التحتية باستخدام تقنيات الافتراضية.",
+
+  virtOverviewDesc1:
+"تمكّن شبكات روابط المؤسسات من تحديث بنيتها التحتية لتقنية المعلومات من خلال تقنيات افتراضية متقدمة تعمل على توحيد الموارد، وتحسين الاستفادة من الأنظمة، وبناء أساس مرن يدعم النمو المستقبلي.",
+
 virtOverviewDesc2:
-  "تحسن حلولنا الكفاءة وقابلية التوسع والمرونة التشغيلية.",
+"تسهم حلول الافتراضية التي نقدمها في رفع الكفاءة التشغيلية وقابلية التوسع والمرونة، مما يتيح للأعمال التكيّف بسرعة مع المتطلبات المتغيرة ودعم البيئات الخاصة والهجينة والجاهزة للسحابة.",
 virtUseCasesTitle: "أين تُستخدم تقنيات الافتراضية",
 virtUseCasesSubtitle:
   "تحسين البنية التحتية لبيئات السحابة الخاصة والهجينة.",
@@ -5214,10 +5279,12 @@ powerHeroDesc:
 
 powerOverviewLabel: "نظرة عامة",
 powerOverviewTitle: "ضمان استمرارية الأعمال",
-powerOverviewDesc1:
-  "تقدم شبكات روابط حلول استمرارية الطاقة لحماية البنية التحتية لتقنية المعلومات.",
+
+  powerOverviewDesc1:
+"تقدم شبكات روابط حلول استمرارية طاقة قوية تحمي البنية التحتية الحيوية لتقنية المعلومات ومراكز البيانات من انقطاعات الطاقة والتذبذبات الكهربائية، مما يضمن بقاء الأنظمة محمية وقيد التشغيل.",
+
 powerOverviewDesc2:
-  "تضمن تصاميمنا الاستقرار التشغيلي واستمرارية الأعمال.",
+"من خلال تصاميم طاقة مرنة وهياكل تعتمد على التكرار والاعتمادية، تضمن حلولنا الاستقرار التشغيلي وتقليل فترات التوقف ودعم استمرارية الأعمال حتى في حالات الطوارئ غير المتوقعة.",
 
   powerUseCasesTitle: "أين تكون استمرارية الطاقة ضرورية",
 powerUseCasesSubtitle:
@@ -5259,9 +5326,10 @@ lmsHeroDesc:
 lmsOverviewLabel: "نظرة عامة",
 lmsOverviewTitle: "تبسيط عمليات تقنية المعلومات",
 lmsOverviewDesc1:
-  "توفر شبكات روابط خدمات إدارة دورة الحياة لتقليل التعقيد التشغيلي.",
+"تقدم شبكات روابط خدمات إدارة دورة الحياة والخدمات المُدارة الشاملة التي تهدف إلى تقليل التعقيد التشغيلي وتبسيط عمليات تقنية المعلومات وتمكين المؤسسات من إدارة بيئاتها التقنية بكفاءة أعلى.",
+
 lmsOverviewDesc2:
-  "نضمن بقاء الأنظمة آمنة ومحدثة ومحسّنة.",
+"من خلال الإدارة الاستباقية والمتابعة المستمرة، نضمن بقاء الأنظمة آمنة ومحدّثة ومحسّنة بالكامل ومتوافقة مع متطلبات الأعمال المتغيرة وأفضل الممارسات المعتمدة.",
 
   lmsUseCasesTitle: "أين تضيف الخدمات المُدارة قيمة",
 lmsUseCasesSubtitle:
@@ -5303,9 +5371,10 @@ epsecHeroDesc:
 epsecOverviewLabel: "نظرة عامة",
 epsecOverviewTitle: "حماية الأجهزة من التهديدات",
 epsecOverviewDesc1:
-  "تقدم شبكات روابط حلول أمن الأجهزة الطرفية لحماية الأجهزة من البرمجيات الخبيثة والهجمات السيبرانية.",
+"تقدم شبكات روابط حلول أمن نقاط طرفية متقدمة تهدف إلى حماية أجهزة الحاسب المكتبية والمحمولة والأجهزة المتنقلة من البرمجيات الخبيثة وهجمات الفدية والتهديدات السيبرانية المتطورة، مع تقليل مستوى المخاطر وحماية أنظمة المستخدمين على مستوى المؤسسة.",
+
 epsecOverviewDesc2:
-  "توفر حلولنا حماية مستمرة ورؤية شاملة لجميع الأجهزة.",
+"توفر حلولنا حماية مستمرة ورؤية لحظية وتحكمًا مركزيًا عبر جميع نقاط النهاية، بما يضمن تطبيق سياسات أمنية موحّدة، والكشف السريع عن التهديدات، وتحسين إدارة المخاطر في بيئات العمل المكتبية وعن بُعد والهجينة.",
   epsecUseCasesTitle: "أين يُستخدم أمن الأجهزة الطرفية",
 epsecUseCasesSubtitle:
   "حماية الأجهزة في بيئات العمل المكتبية وعن بُعد والهجينة.",
@@ -5346,9 +5415,10 @@ netsecHeroDesc:
 netsecOverviewLabel: "نظرة عامة",
 netsecOverviewTitle: "تأمين محيط الشبكة",
 netsecOverviewDesc1:
-  "توفر شبكات روابط حلول أمن شبكات قوية لحماية الاتصال المؤسسي.",
+"تقدم شبكات روابط حلول أمن شبكات قوية وشاملة تهدف إلى حماية اتصال المؤسسات، وتأمين البنية التحتية الحيوية، وضمان اتصالات آمنة عبر البيئات الشبكية الداخلية والخارجية.",
+
 netsecOverviewDesc2:
-  "تحمي حلولنا من الوصول غير المصرح به والبرمجيات الخبيثة والتهديدات المتقدمة.",
+"تعمل حلولنا على حماية شبكات المؤسسات من الوصول غير المصرّح به والبرمجيات الخبيثة والتهديدات السيبرانية المتقدمة، من خلال طبقات أمنية متعددة، ومراقبة مستمرة، واستراتيجيات استباقية للتصدي للمخاطر.",
 
   netsecUseCasesTitle: "أين يُطبق أمن الشبكات",
 netsecUseCasesSubtitle:
@@ -5393,9 +5463,10 @@ emailsecHeroDesc:
 emailsecOverviewLabel: "نظرة عامة",
 emailsecOverviewTitle: "خط الدفاع الأول للأمن السيبراني",
 emailsecOverviewDesc1:
-  "تعد قنوات البريد الإلكتروني والويب أكثر مصادر الهجمات السيبرانية شيوعاً.",
+"تُعد قنوات البريد الإلكتروني وتصفح الويب من أكثر نواقل الهجمات السيبرانية شيوعًا وحساسية، حيث يتم استغلالها عبر حملات تصيّد متقدمة وتقنيات الهندسة الاجتماعية والروابط الخبيثة والمرفقات المصابة والمواقع المخترقة التي تستهدف المستخدمين وبيانات المؤسسات بشكل مباشر.",
+
 emailsecOverviewDesc2:
-  "توفر شبكات روابط حماية متعددة الطبقات مع اكتشاف ذكي للتهديدات.",
+"تعمل شبكات روابط على تأمين هذه القنوات الحيوية الخاصة بالاتصال والوصول إلى الإنترنت من خلال طبقات حماية متعددة وتقنيات ذكية لكشف التهديدات، مما يمكّن المؤسسات من منع الهجمات بشكل استباقي، وحماية المعلومات الحساسة، وتقليل مخاطر المستخدمين، وضمان استخدام آمن وموثوق للبريد الإلكتروني وتصفح الويب على مستوى المؤسسة.",
 
 emailsecUseCasesTitle: "أين يُستخدم أمن البريد والويب",
 emailsecUseCasesSubtitle:
@@ -5440,9 +5511,10 @@ complianceHeroDesc:
 complianceOverviewLabel: "نظرة عامة",
 complianceOverviewTitle: "إدارة المخاطر في عالم رقمي معقد",
 complianceOverviewDesc1:
-  "تواجه المؤسسات ضغوطاً تنظيمية متزايدة ومخاطر سيبرانية متنامية.",
+"تواجه المؤسسات اليوم ضغوطًا تنظيمية متزايدة ومستويات عالية من المخاطر السيبرانية مع توسع وتعقّد البيئات الرقمية، مما يتطلب هياكل حوكمة واضحة، وسياسات أمنية شاملة، وتقييمات مفصلة للمخاطر، ومتابعة مستمرة لإدارة متطلبات الامتثال وحماية العمليات الحيوية بفعالية.",
+
 complianceOverviewDesc2:
-  "تساعد شبكات روابط المؤسسات على تحديد المخاطر وإدارتها وتقليلها مع ضمان الامتثال.",
+"تساعد شبكات روابط المؤسسات على تحديد المخاطر التشغيلية والأمنية وتقييمها وإدارتها وتقليلها بشكل منهجي، مع ضمان الامتثال المستدام للمعايير الصناعية والمتطلبات التنظيمية، من خلال أطر امتثال منظمة، وتقييمات دورية، وخدمات استشارية متخصصة، وبرامج مراقبة وتحسين مستمرة.",
 
 complianceUseCasesTitle: "أين يُطبق الامتثال وإدارة المخاطر",
 complianceUseCasesSubtitle:
@@ -5483,9 +5555,10 @@ iamHeroDesc:
 iamOverviewLabel: "نظرة عامة",
 iamOverviewTitle: "التحكم في الوصول عبر المؤسسة",
 iamOverviewDesc1:
-  "تعد إدارة الهوية والتحكم في الوصول أساساً مهماً للأمن المؤسسي.",
+"تُعد إدارة الهوية والتحكم في الوصول ركيزة أساسية في أمن المؤسسات، حيث تمكّن من إدارة هويات المستخدمين مركزيًا، وتحديد الصلاحيات، والتحكم في الوصول إلى الأنظمة والتطبيقات والبيانات الحساسة، مع تقليل مخاطر الوصول غير المصرّح به، وتسرب البيانات، والتهديدات الأمنية الداخلية.",
+
 iamOverviewDesc2:
-  "تساعد شبكات روابط المؤسسات على تطبيق سياسات مصادقة وتحكم آمنة.",
+"تساعد شبكات روابط المؤسسات على تصميم وتنفيذ وتشغيل أطر مصادقة قوية ونماذج تحكم في الوصول، مع فرض سياسات أمنية موحّدة تضمن وصولًا آمنًا ومتوافقًا وخاضعًا للحوكمة عبر المستخدمين والأجهزة والتطبيقات وبيئات العمل المؤسسية المعقدة.",
 
 iamUseCasesTitle: "أين تُستخدم إدارة الهوية",
 iamUseCasesSubtitle:
@@ -5526,9 +5599,10 @@ socHeroDesc:
 socOverviewLabel: "نظرة عامة",
 socOverviewTitle: "مراقبة أمنية استباقية",
 socOverviewDesc1:
-  "تتطلب التهديدات السيبرانية الحديثة رؤية مستمرة واستجابة سريعة.",
+"تتطلب التهديدات السيبرانية الحديثة مستوىً عاليًا من الرؤية المستمرة والمراقبة الدائمة والقدرة على الاستجابة السريعة للأحداث الأمنية، نظرًا لازدياد تعقيد الهجمات واستمراريتها وتأثيرها المباشر على عمليات الأعمال الحيوية.",
+
 socOverviewDesc2:
-  "توفر شبكات روابط خدمات SOC لاكتشاف التهديدات وتحليلها والاستجابة لها في الوقت الحقيقي.",
+"تقدم شبكات روابط خدمات مركز عمليات أمنية متكاملة تُمكّن من اكتشاف التهديدات الأمنية وتحليلها والاستجابة لها بشكل فوري، مما يساعد المؤسسات على تقليل المخاطر، والحد من الأضرار، والحفاظ على وضع أمني قوي عبر مختلف البيئات التقنية.",
 
 socUseCasesTitle: "أين تُستخدم المراقبة وSOC",
 socUseCasesSubtitle:
@@ -5570,9 +5644,10 @@ ddCmsHeroDesc:
 ddCmsOverviewLabel: "نظرة عامة",
 ddCmsOverviewTitle: "محتوى أذكى وتفاعل أفضل",
 ddCmsOverviewDesc1:
-  "تتيح أنظمة إدارة المحتوى التحكم المركزي في الشاشات الرقمية.",
+"تمكّن أنظمة إدارة المحتوى المؤسسات من التحكم المركزي في شاشات العرض الرقمية من خلال إنشاء المحتوى وإدارته وتحديثه وتوزيعه من منصة واحدة، مما يضمن اتساق الرسائل، وتحسين مستوى الظهور، وزيادة التفاعل عبر مختلف بيئات العرض.",
+
 ddCmsOverviewDesc2:
-  "توفر شبكات روابط حلول CMS موثوقة وقابلة للتوسع وسهلة الاستخدام.",
+"تقدم شبكات روابط حلول أنظمة إدارة محتوى قوية ومصممة لتوفير الموثوقية وقابلية التوسع وسهولة الاستخدام، مما يتيح للمؤسسات إدارة المحتوى الديناميكي بكفاءة، وأتمتة الجداول الزمنية، والحفاظ على تحكم كامل بالرسائل عبر موقع واحد أو عدة مواقع.",
 
 ddCmsUseCasesTitle: "أين تُستخدم إدارة المحتوى",
 ddCmsUseCasesSubtitle:
@@ -5613,9 +5688,10 @@ ddCtrlHeroDesc:
 ddCtrlOverviewLabel: "نظرة عامة",
 ddCtrlOverviewTitle: "تحكم مبسط في الشاشات",
 ddCtrlOverviewDesc1:
-  "تتطلب بيئات العرض الحديثة تحكماً مركزياً وتكاملاً بين الأنظمة.",
+"تتطلب بيئات العرض الحديثة تحكمًا مركزيًا وتكاملًا سلسًا بين الأنظمة لإدارة الشاشات المتعددة ومصادر المحتوى وظروف التشغيل بكفاءة، مع الحفاظ على الاتساق والموثوقية وسهولة التشغيل في البيئات المؤسسية والعامة.",
+
 ddCtrlOverviewDesc2:
-  "توفر شبكات روابط أنظمة تحكم ذكية تربط الشاشات بأنظمة AV وتقنية المعلومات.",
+"تقدم شبكات روابط حلول تحكم ذكية توحّد أنظمة العرض الرقمية مع منصات الصوتيات والمرئيات وتقنية المعلومات، مما يتيح إدارة مركزية وعمليات آمنة وتحكمًا مبسطًا يقلل التعقيد ويضمن أداءً موثوقًا وسلسًا عبر جميع بيئات العرض.",
 
 ddCtrlUseCasesTitle: "أين يُستخدم التحكم والتكامل",
 ddCtrlUseCasesSubtitle:
@@ -5657,9 +5733,10 @@ ddSignHeroDesc:
 ddSignOverviewLabel: "نظرة عامة",
 ddSignOverviewTitle: "رسائل قوية عبر الشاشات",
 ddSignOverviewDesc1:
-  "تغيّر اللوحات الرقمية طريقة عرض المعلومات والتواصل.",
+"تُحدث أنظمة العرض الرقمي تحولًا في طريقة تواصل المؤسسات مع الجمهور من خلال تقديم محتوى مرئي ديناميكي وجذاب في الوقت الفعلي، مما يعزز وضوح الرسائل، ويرفع مستوى الوعي، ويزيد من تفاعل الموظفين والزوار والعملاء في مختلف البيئات.",
+
 ddSignOverviewDesc2:
-  "توفر شبكات روابط منصات لوحات رقمية موثوقة وقابلة للتوسع.",
+"تقدم شبكات روابط منصات عرض رقمي موثوقة وقابلة للتوسع تدعم إدارة المحتوى المركزية وجدولة العرض بمرونة وأداءً بصريًا متسقًا، مما يساعد المؤسسات على إيصال الرسائل بفعالية، وتعزيز الهوية المؤسسية، وتكييف المحتوى عبر مواقع متعددة.",
 
 
 ddSignProvideTitle: "ما نقدمه",
@@ -5697,9 +5774,10 @@ ddInstHeroDesc:
 ddInstOverviewLabel: "نظرة عامة",
 ddInstOverviewTitle: "الدقة تصنع الفرق",
 ddInstOverviewDesc1:
-  "التركيب والمعايرة الصحيحة ضروريان لجودة العرض وطول العمر.",
+"يُعد التركيب والمعايرة الصحيحة عاملين أساسيين لتحقيق أعلى مستويات جودة العرض والموثوقية طويلة الأمد والأداء المتسق، حيث إن أي أخطاء بسيطة في التثبيت أو المحاذاة أو الإعداد قد تؤثر سلبًا على وضوح الصورة وسهولة الاستخدام وعمر النظام.",
+
 ddInstOverviewDesc2:
-  "تضمن شبكات روابط تركيب الشاشات وضبطها بدقة عالية.",
+"تضمن شبكات روابط تركيب كل نظام عرض ومعايرته باحترافية عالية وفقًا لمعايير الشركات المصنعة ومتطلبات المشروع، مما يوفّر صورًا دقيقة وأداءً مستقرًا وتجربة استخدام متكاملة واحترافية في مختلف البيئات.",
   
 
 ddInstUse1Title: "تركيب الشاشات",
@@ -5736,9 +5814,10 @@ ddTouchHeroDesc:
 ddTouchOverviewLabel: "نظرة عامة",
 ddTouchOverviewTitle: "تفاعل يغيّر أسلوب العمل",
 ddTouchOverviewDesc1:
-  "تعيد الشاشات التفاعلية تعريف طريقة التعاون ومشاركة الأفكار.",
+"تعيد شاشات العرض التفاعلية باللمس تعريف أسلوب تعاون الفرق وتواصلها ومشاركة الأفكار، من خلال تمكين التفاعل الفوري والمشاركة العملية والتجربة البصرية الغنية، مما يحوّل الاجتماعات وجلسات التعلم التقليدية إلى تجارب أكثر ديناميكية وإنتاجية.",
+
 ddTouchOverviewDesc2:
-  "توفر شبكات روابط شاشات تفاعلية احترافية سهلة الاستخدام وموثوقة.",
+"تقدم شبكات روابط حلول شاشات تفاعلية بمستوى مؤسسي مصممة لتوفير الموثوقية وسرعة الاستجابة وسهولة الاستخدام، مع ضمان تكامل سلس داخل مساحات التعاون ودعم فعّال لاتخاذ القرار والإبداع وتبادل المعرفة.",
 
 ddTouchUseCasesTitle: "أين تُستخدم الشاشات التفاعلية",
 ddTouchUseCasesSubtitle:
@@ -5780,9 +5859,10 @@ ddWallHeroDesc:
 ddWallOverviewLabel: "نظرة عامة",
 ddWallOverviewTitle: "ذكاء بصري على نطاق واسع",
 ddWallOverviewDesc1:
-  "توفر جدران الفيديو منصة قوية لعرض محتوى بصري واسع وعالي التأثير.",
+"توفر جدران الفيديو منصة قوية وقابلة للتوسع لعرض المحتوى المرئي واسع النطاق وعالي التأثير، مما يمكّن المؤسسات من إظهار المعلومات الفورية والبيانات الحيوية والمرئيات الغامرة بوضوح عالٍ ورؤية مثالية عبر المساحات الكبيرة.",
+
 ddWallOverviewDesc2:
-  "تصمم شبكات روابط حلول جدران فيديو توفر الوضوح والموثوقية وقابلية التوسع.",
+"تقوم شبكات روابط بتصميم ونشر حلول جدران فيديو احترافية تتميز بدقة عرض عالية وموثوقية تشغيلية وقابلية توسع طويلة الأمد، لدعم حالات الاستخدام المتقدمة مثل المراقبة والتعاون والتحليلات والتواصل البصري على مستوى المؤسسة.",
 
 ddWallUseCasesTitle: "أين تُستخدم جدران الفيديو",
 ddWallUseCasesSubtitle:
@@ -6350,9 +6430,10 @@ ucIpHeroDesc:
 ucIpOverviewLabel: "نظرة عامة",
 ucIpOverviewTitle: "اتصال صوتي متطور لبيئات العمل الحديثة",
 ucIpOverviewDesc1:
-  "يستبدل الاتصال الهاتفي عبر IP أنظمة الهاتف التقليدية بحلول مرنة قائمة على البرمجيات.",
+"تحل أنظمة الاتصال الهاتفي عبر بروتوكول الإنترنت (IP Telephony) محل أنظمة الهاتف التقليدية من خلال حلول صوتية مرنة تعتمد على البرمجيات وتعمل عبر شبكات IP، مما يوفّر قابلية توسّع أكبر وميزات متقدمة وتكاملاً سلسًا مع تقنيات بيئة العمل الرقمية الحديثة.",
+
 ucIpOverviewDesc2:
-  "تصمم شبكات روابط أنظمة اتصال هاتفي مؤسسية تعزز التعاون وتخفض التكاليف التشغيلية.",
+"تقوم شبكات روابط بتصميم ونشر أنظمة اتصال هاتفي مؤسسية متقدمة تعتمد على IP، تسهم في تحسين التعاون ورفع كفاءة التواصل ودعم نمو الأعمال، مع تقليل التكاليف التشغيلية والبنية التحتية من خلال إدارة مركزية ومنصات صوتية حديثة.",
 
 ucIpUse1Title: "أنظمة الاتصال المؤسسية",
 ucIpUse1Desc:

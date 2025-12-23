@@ -43,45 +43,78 @@ export default function ControlSystemsPage() {
 
       {/* OVERVIEW */}
       <section className="bg-white py-24 px-4">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <span className="text-sm font-semibold text-red-600">
-              {t("avControlOverviewLabel")}
-            </span>
-            <h2 className="text-3xl font-bold mt-3">
-              {t("avControlOverviewTitle")}
-            </h2>
-            <p className="mt-6 text-gray-600">{t("avControlOverviewDesc1")}</p>
-            <p className="mt-4 text-gray-600">{t("avControlOverviewDesc2")}</p>
-          </div>
+  {/* HEADER */}
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <span className="text-sm font-semibold text-red-600">
+      {t("avControlOverviewLabel")}
+    </span>
+    <h2 className="text-3xl lg:text-4xl font-bold mt-3">
+      {t("avControlOverviewTitle")}
+    </h2>
+  </div>
 
-          <SlideIn direction={isRTL ? "left" : "right"}>
-            <img
-              src="https://images.unsplash.com/photo-1603570419984-39f6cc5c5b4d?w=900"
-              className="rounded-xl shadow-xl h-[420px] w-full object-cover"
-              alt="Control system"
-            />
-          </SlideIn>
-        </div>
-      </section>
+  {/* CONTENT */}
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+    {/* LEFT TEXT */}
+    <div>
+      <p className="text-gray-600">
+        {t("avControlOverviewDesc1")}
+      </p>
+      <p className="mt-4 text-gray-600">
+        {t("avControlOverviewDesc2")}
+      </p>
+    </div>
 
-      {/* USE CASES */}
-      <section className="bg-gray-50 py-24 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
-          <UseCaseCard icon={<Monitor />} title={t("avControlUse1Title")} desc={t("avControlUse1Desc")} />
-          <UseCaseCard icon={<Users />} title={t("avControlUse2Title")} desc={t("avControlUse2Desc")} />
-          <UseCaseCard icon={<Sliders />} title={t("avControlUse3Title")} desc={t("avControlUse3Desc")} />
-        </div>
-      </section>
+    {/* RIGHT IMAGE */}
+    <SlideIn direction={isRTL ? "left" : "right"}>
+      <img
+        src="https://images.unsplash.com/photo-1603570419984-39f6cc5c5b4d?w=900"
+        alt="Control system"
+        className="rounded-xl shadow-xl h-[420px] w-full object-cover"
+      />
+    </SlideIn>
+  </div>
+</section>
+
+
+    
+<section className="bg-gray-50 py-24 px-4">
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <h2 className="text-3xl lg:text-4xl font-bold">
+      {t("avControlUseCasesTitle")}
+    </h2>
+    <p className="mt-4 max-w-3xl mx-auto text-gray-600">
+      {t("avControlUseCasesSubtitle")}
+    </p>
+  </div>
+
+  <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
+    <UseCaseCard icon={<Monitor />} title={t("avControlUse1Title")} desc={t("avControlUse1Desc")} />
+    <UseCaseCard icon={<Users />} title={t("avControlUse2Title")} desc={t("avControlUse2Desc")} />
+    <UseCaseCard icon={<Sliders />} title={t("avControlUse3Title")} desc={t("avControlUse3Desc")} />
+  </div>
+</section>
+
 
       {/* WHAT WE PROVIDE */}
-      <section className="bg-white py-24 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
-          <ProvideCard icon={<Settings />} title={t("avControlProvide1Title")} desc={t("avControlProvide1Desc")} />
-          <ProvideCard icon={<Zap />} title={t("avControlProvide2Title")} desc={t("avControlProvide2Desc")} />
-          <ProvideCard icon={<Cog />} title={t("avControlProvide3Title")} desc={t("avControlProvide3Desc")} />
-        </div>
-      </section>
+      {/* WHAT WE PROVIDE */}
+<section className="bg-white py-24 px-4">
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <h2 className="text-3xl lg:text-4xl font-bold">
+      {t("avControlProvideTitle")}
+    </h2>
+    <p className="mt-4 max-w-3xl mx-auto text-gray-600">
+      {t("avControlProvideSubtitle")}
+    </p>
+  </div>
+
+  <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
+    <ProvideCard icon={<Settings />} title={t("avControlProvide1Title")} desc={t("avControlProvide1Desc")} />
+    <ProvideCard icon={<Zap />} title={t("avControlProvide2Title")} desc={t("avControlProvide2Desc")} />
+    <ProvideCard icon={<Cog />} title={t("avControlProvide3Title")} desc={t("avControlProvide3Desc")} />
+  </div>
+</section>
+
     </main>
   );
 }

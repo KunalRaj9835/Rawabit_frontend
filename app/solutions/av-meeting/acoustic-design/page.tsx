@@ -43,45 +43,101 @@ export default function AcousticDesignPage() {
 
       {/* OVERVIEW */}
       <section className="bg-white py-24 px-4">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <span className="text-sm font-semibold text-red-600">
-              {t("avAcousticOverviewLabel")}
-            </span>
-            <h2 className="text-3xl lg:text-4xl font-bold mt-3">
-              {t("avAcousticOverviewTitle")}
-            </h2>
-            <p className="mt-6 text-gray-600">{t("avAcousticOverviewDesc1")}</p>
-            <p className="mt-4 text-gray-600">{t("avAcousticOverviewDesc2")}</p>
-          </div>
+  {/* HEADER */}
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <span className="text-sm font-semibold text-red-600">
+      {t("avAcousticOverviewLabel")}
+    </span>
+    <h2 className="text-3xl lg:text-4xl font-bold mt-3">
+      {t("avAcousticOverviewTitle")}
+    </h2>
+  </div>
 
-          <SlideIn direction={isRTL ? "left" : "right"}>
-            <img
-              src="https://images.unsplash.com/photo-1558002038-1055907df827?w=900"
-              className="rounded-xl shadow-xl h-[420px] w-full object-cover"
-              alt="Acoustic treatment"
-            />
-          </SlideIn>
-        </div>
-      </section>
+  {/* CONTENT */}
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+    {/* LEFT TEXT */}
+    <div>
+      <p className="text-gray-600">
+        {t("avAcousticOverviewDesc1")}
+      </p>
+      <p className="mt-4 text-gray-600">
+        {t("avAcousticOverviewDesc2")}
+      </p>
+    </div>
 
-      {/* USE CASES */}
-      <section className="bg-gray-50 py-24 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
-          <UseCaseCard icon={<Users />} title={t("avAcousticUse1Title")} desc={t("avAcousticUse1Desc")} />
-          <UseCaseCard icon={<Volume2 />} title={t("avAcousticUse2Title")} desc={t("avAcousticUse2Desc")} />
-          <UseCaseCard icon={<Layers />} title={t("avAcousticUse3Title")} desc={t("avAcousticUse3Desc")} />
-        </div>
-      </section>
+    {/* RIGHT IMAGE */}
+    <SlideIn direction={isRTL ? "left" : "right"}>
+      <img
+        src="https://images.unsplash.com/photo-1558002038-1055907df827?w=900"
+        alt="Acoustic treatment"
+        className="rounded-xl shadow-xl h-[420px] w-full object-cover"
+      />
+    </SlideIn>
+  </div>
+</section>
+
+
+     {/* USE CASES */}
+<section className="bg-gray-50 py-24 px-4">
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <h2 className="text-3xl lg:text-4xl font-bold">
+      {t("avAcousticUseCasesTitle")}
+    </h2>
+    <p className="mt-4 max-w-3xl mx-auto text-gray-600">
+      {t("avAcousticUseCasesSubtitle")}
+    </p>
+  </div>
+
+  <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
+    <UseCaseCard
+      icon={<Users />}
+      title={t("avAcousticUse1Title")}
+      desc={t("avAcousticUse1Desc")}
+    />
+    <UseCaseCard
+      icon={<Volume2 />}
+      title={t("avAcousticUse2Title")}
+      desc={t("avAcousticUse2Desc")}
+    />
+    <UseCaseCard
+      icon={<Layers />}
+      title={t("avAcousticUse3Title")}
+      desc={t("avAcousticUse3Desc")}
+    />
+  </div>
+</section>
+
 
       {/* WHAT WE PROVIDE */}
-      <section className="bg-white py-24 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
-          <ProvideCard icon={<Waves />} title={t("avAcousticProvide1Title")} desc={t("avAcousticProvide1Desc")} />
-          <ProvideCard icon={<Settings />} title={t("avAcousticProvide2Title")} desc={t("avAcousticProvide2Desc")} />
-          <ProvideCard icon={<Zap />} title={t("avAcousticProvide3Title")} desc={t("avAcousticProvide3Desc")} />
-        </div>
-      </section>
+<section className="bg-white py-24 px-4">
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <h2 className="text-3xl lg:text-4xl font-bold">
+      {t("avAcousticProvideTitle")}
+    </h2>
+    <p className="mt-4 max-w-3xl mx-auto text-gray-600">
+      {t("avAcousticProvideSubtitle")}
+    </p>
+  </div>
+
+  <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
+    <ProvideCard
+      icon={<Waves />}
+      title={t("avAcousticProvide1Title")}
+      desc={t("avAcousticProvide1Desc")}
+    />
+    <ProvideCard
+      icon={<Settings />}
+      title={t("avAcousticProvide2Title")}
+      desc={t("avAcousticProvide2Desc")}
+    />
+    <ProvideCard
+      icon={<Zap />}
+      title={t("avAcousticProvide3Title")}
+      desc={t("avAcousticProvide3Desc")}
+    />
+  </div>
+</section>
+
     </main>
   );
 }

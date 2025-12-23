@@ -42,28 +42,40 @@ export default function ServerDataCenterPage() {
       </section>
 
       {/* ================= OVERVIEW ================= */}
-      <section className="bg-white py-24 px-4">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <span className="text-sm font-semibold text-red-600">
-              {t("dcOverviewLabel")}
-            </span>
-            <h2 className="text-3xl lg:text-4xl font-bold mt-3">
-              {t("dcOverviewTitle")}
-            </h2>
-            <p className="mt-6 text-gray-600">{t("dcOverviewDesc1")}</p>
-            <p className="mt-4 text-gray-600">{t("dcOverviewDesc2")}</p>
-          </div>
+     <section className="bg-white pt-24 px-4">
+  {/* HEADER */}
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <span className="text-sm font-semibold text-red-600">
+      {t("netMonOverviewLabel")}
+    </span>
+    <h2 className="text-3xl lg:text-4xl font-bold mt-3">
+      {t("netMonOverviewTitle")}
+    </h2>
+  </div>
 
-          <SlideIn direction={isRTL ? "left" : "right"}>
-            <img
-              src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=900"
-              className="rounded-xl shadow-xl h-[420px] w-full object-cover"
-              alt="Data center infrastructure"
-            />
-          </SlideIn>
-        </div>
-      </section>
+  {/* CONTENT */}
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center pb-24">
+    {/* LEFT TEXT */}
+    <div>
+      <p className="text-gray-600">
+        {t("netMonOverviewDesc1")}
+      </p>
+      <p className="mt-4 text-gray-600">
+        {t("netMonOverviewDesc2")}
+      </p>
+    </div>
+
+    {/* RIGHT IMAGE */}
+    <SlideIn direction={isRTL ? "left" : "right"}>
+      <img
+        src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900"
+        alt="Network monitoring dashboard"
+        className="rounded-xl shadow-xl h-[420px] w-full object-cover"
+      />
+    </SlideIn>
+  </div>
+</section>
+
 
       {/* ================= USE CASES ================= */}
       <section className="bg-gray-50 py-24 px-4">

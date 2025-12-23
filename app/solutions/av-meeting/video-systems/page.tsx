@@ -46,36 +46,42 @@ export default function VideoSystemsPage() {
 
       {/* ================= OVERVIEW ================= */}
       <section className="bg-white py-24 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <span className="inline-block mb-4 text-sm font-semibold text-red-600">
-              {t("avVideoOverviewLabel")}
-            </span>
+  {/* HEADER */}
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <span className="inline-block mb-4 text-sm font-semibold text-red-600">
+      {t("avVideoOverviewLabel")}
+    </span>
 
-            <h2 className="text-3xl lg:text-4xl font-bold">
-              {t("avVideoOverviewTitle")}
-            </h2>
+    <h2 className="text-3xl lg:text-4xl font-bold">
+      {t("avVideoOverviewTitle")}
+    </h2>
+  </div>
 
-            <p className="mt-6 text-gray-600 leading-relaxed">
-              {t("avVideoOverviewDesc1")}
-            </p>
+  {/* CONTENT */}
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    {/* LEFT TEXT */}
+    <div>
+      <p className="text-gray-600 leading-relaxed">
+        {t("avVideoOverviewDesc1")}
+      </p>
 
-            <p className="mt-4 text-gray-600 leading-relaxed">
-              {t("avVideoOverviewDesc2")}
-            </p>
-          </div>
+      <p className="mt-4 text-gray-600 leading-relaxed">
+        {t("avVideoOverviewDesc2")}
+      </p>
+    </div>
 
-          <SlideIn direction={isRTL ? "left" : "right"}>
-            <div className="rounded-xl overflow-hidden shadow-xl">
-              <img
-                src="https://images.unsplash.com/photo-1603202662747-00e33d4b4e5b?w=900"
-                alt="Video conferencing system"
-                className="w-full h-[420px] object-cover"
-              />
-            </div>
-          </SlideIn>
-        </div>
-      </section>
+    {/* RIGHT IMAGE */}
+    <SlideIn direction={isRTL ? "left" : "right"}>
+      <div className="rounded-xl overflow-hidden shadow-xl">
+        <img
+          src="https://images.unsplash.com/photo-1603202662747-00e33d4b4e5b?w=900"
+          alt="Video conferencing system"
+          className="w-full h-[420px] object-cover"
+        />
+      </div>
+    </SlideIn>
+  </div>
+</section>
 
       {/* ================= USE CASES ================= */}
       <section className="bg-gray-50 py-24 px-4">

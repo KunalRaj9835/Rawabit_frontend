@@ -46,36 +46,43 @@ export default function AudioSolutionsPage() {
 
       {/* ================= OVERVIEW ================= */}
       <section className="bg-white py-24 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <span className="inline-block mb-4 text-sm font-semibold text-red-600">
-              {t("avAudioOverviewLabel")}
-            </span>
+  {/* HEADER */}
+  <div className="max-w-7xl mx-auto text-center mb-16">
+    <span className="inline-block mb-4 text-sm font-semibold text-red-600">
+      {t("avAudioOverviewLabel")}
+    </span>
 
-            <h2 className="text-3xl lg:text-4xl font-bold">
-              {t("avAudioOverviewTitle")}
-            </h2>
+    <h2 className="text-3xl lg:text-4xl font-bold">
+      {t("avAudioOverviewTitle")}
+    </h2>
+  </div>
 
-            <p className="mt-6 text-gray-600 leading-relaxed">
-              {t("avAudioOverviewDesc1")}
-            </p>
+  {/* CONTENT */}
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    {/* LEFT TEXT */}
+    <div>
+      <p className="text-gray-600 leading-relaxed">
+        {t("avAudioOverviewDesc1")}
+      </p>
 
-            <p className="mt-4 text-gray-600 leading-relaxed">
-              {t("avAudioOverviewDesc2")}
-            </p>
-          </div>
+      <p className="mt-4 text-gray-600 leading-relaxed">
+        {t("avAudioOverviewDesc2")}
+      </p>
+    </div>
 
-          <SlideIn direction={isRTL ? "left" : "right"}>
-            <div className="rounded-xl overflow-hidden shadow-xl">
-              <img
-                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=900"
-                alt="Conference room audio system"
-                className="w-full h-[420px] object-cover"
-              />
-            </div>
-          </SlideIn>
-        </div>
-      </section>
+    {/* RIGHT IMAGE */}
+    <SlideIn direction={isRTL ? "left" : "right"}>
+      <div className="rounded-xl overflow-hidden shadow-xl">
+        <img
+          src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=900"
+          alt="Conference room audio system"
+          className="w-full h-[420px] object-cover"
+        />
+      </div>
+    </SlideIn>
+  </div>
+</section>
+
 
       {/* ================= USE CASES ================= */}
       <section className="bg-gray-50 py-24 px-4">
