@@ -16,6 +16,7 @@ import { ServiceFlowDiagram } from "@/components/ServiceFlowDiagram";
 import Image from "next/image";
 import Link from "next/link";
 import { useLang } from "@/context/LanguageContext";
+import BenefitCard from "@/components/BenefitCard";
 
 export default function ManagedServicesPage() {
   const { t, lang } = useLang();
@@ -71,21 +72,24 @@ export default function ManagedServicesPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <PillarBox
-              icon={<Activity className="w-8 h-8 text-red-600" />}
-              title={t("pillarMonitoringTitle")}
-              description={t("pillarMonitoringDesc")}
-            />
-            <PillarBox
-              icon={<Server className="w-8 h-8 text-red-600" />}
-              title={t("pillarMaintenanceTitle")}
-              description={t("pillarMaintenanceDesc")}
-            />
-            <PillarBox
-              icon={<Shield className="w-8 h-8 text-red-600" />}
-              title={t("pillarSupportTitle")}
-              description={t("pillarSupportDesc")}
-            />
+            <BenefitCard
+  icon={<Activity className="w-8 h-8 text-red-600" />}
+  title={t("pillarMonitoringTitle")}
+  desc={t("pillarMonitoringDesc")}
+/>
+
+<BenefitCard
+  icon={<Server className="w-8 h-8 text-red-600" />}
+  title={t("pillarMaintenanceTitle")}
+  desc={t("pillarMaintenanceDesc")}
+/>
+
+<BenefitCard
+  icon={<Shield className="w-8 h-8 text-red-600" />}
+  title={t("pillarSupportTitle")}
+  desc={t("pillarSupportDesc")}
+/>
+
           </div>
         </div>
       </section>
@@ -374,30 +378,25 @@ export default function ManagedServicesPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <Clock className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("why24x7Title")}</h3>
-              </div>
-              <p className="text-gray-600">{t("why24x7Desc")}</p>
-            </div>
+  <BenefitCard
+    icon={<Clock className="w-8 h-8 text-red-600" />}
+    title={t("why24x7Title")}
+    desc={t("why24x7Desc")}
+  />
 
-            <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <TrendingUp className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("whyProactiveTitle")}</h3>
-              </div>
-              <p className="text-gray-600">{t("whyProactiveDesc")}</p>
-            </div>
+  <BenefitCard
+    icon={<TrendingUp className="w-8 h-8 text-red-600" />}
+    title={t("whyProactiveTitle")}
+    desc={t("whyProactiveDesc")}
+  />
 
-            <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <Zap className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("whyRapidTitle")}</h3>
-              </div>
-              <p className="text-gray-600">{t("whyRapidDesc")}</p>
-            </div>
-          </div>
+  <BenefitCard
+    icon={<Zap className="w-8 h-8 text-red-600" />}
+    title={t("whyRapidTitle")}
+    desc={t("whyRapidDesc")}
+  />
+</div>
+
         </div>
       </section>
 
@@ -407,25 +406,6 @@ export default function ManagedServicesPage() {
 
 /* ================== HELPER COMPONENTS ================== */
 
-function PillarBox({
-  icon,
-  title,
-  description,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}) {
-  return (
-    <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4">
-        {icon}
-        <h3 className="text-xl font-semibold">{title}</h3>
-      </div>
-      <p className="text-[13px] text-gray-600 leading-relaxed">{description}</p>
-    </div>
-  );
-}
 
 function MetricDisplay({ 
   label, 

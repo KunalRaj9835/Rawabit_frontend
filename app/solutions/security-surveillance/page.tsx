@@ -16,6 +16,7 @@ import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
 import BenefitCard from "@/components/BenefitCard";
 import OffWhiteCard from "@/components/OffWhiteCard";
+import LogoGrid from "@/components/LogoGrid";
 
 export default function SecuritySurveillancePage() {
   const { t, lang } = useLang();
@@ -156,28 +157,18 @@ export default function SecuritySurveillancePage() {
       {t("ssPartnersDesc")}
     </p>
 
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
-      {[
-        "/role/44r.png", // Hikvision
-        "/role/45r.png", // Dahua
-        "/role/46r.png", // Hanwha Vision
-        "/role/47r.png", // Pelco
-        "/role/48r.png", // Nitgen
-        "/role/50r.png", // Virdi
-        "/role/51r.png", // VOTI
-      ].map((logo, i) => (
-        <div
-          key={i}
-          className="flex items-center justify-center w-[160px] h-[64px]"
-        >
-          <img
-            src={logo}
-            alt="Technology Partner"
-            className="w-full h-full object-contain grayscale opacity-80"
-          />
-        </div>
-      ))}
-    </div>
+    <LogoGrid
+  logos={[
+    "/role/44r.png", // Hikvision
+    "/role/45r.png", // Dahua
+    "/role/46r.png", // Hanwha Vision
+    "/role/47r.png", // Pelco
+    "/role/48r.png", // Nitgen
+    "/role/50r.png", // Virdi
+    "/role/51r.png", // VOTI
+  ]}
+/>
+
 
   </div>
 </section>

@@ -15,6 +15,7 @@ import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
 import BenefitCard from "@/components/BenefitCard";
 import OffWhiteCard from "@/components/OffWhiteCard";
+import LogoGrid from "@/components/LogoGrid";
 
 export default function CyberSecurityPage() {
   const { t, lang } = useLang();
@@ -155,24 +156,14 @@ export default function CyberSecurityPage() {
       {t("secPartnersDesc")}
     </p>
 
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
-      {[
-        "/role/6r.png",  // Fortinet
-        "/role/7r.png",  // Sophos
-        "/role/8r.png",  // Palo Alto Networks
-      ].map((logo, i) => (
-        <div
-          key={i}
-          className="flex items-center justify-center w-[160px] h-[64px]"
-        >
-          <img
-            src={logo}
-            alt="Technology Partner"
-            className="w-full h-full object-contain grayscale opacity-80"
-          />
-        </div>
-      ))}
-    </div>
+    <LogoGrid
+  logos={[
+    "/role/6r.png",  // Fortinet
+    "/role/7r.png",  // Sophos
+    "/role/8r.png",  // Palo Alto Networks
+  ]}
+/>
+
 
   </div>
 </section>

@@ -18,6 +18,8 @@ import {
 import Link from "next/link";
 import { useLang } from "@/context/LanguageContext";
 import Image from "next/image";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
 
 
 export default function InstallationIntegrationPage() {
@@ -96,22 +98,25 @@ export default function InstallationIntegrationPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <SolutionBox
-              icon={<Monitor className="w-8 h-8 text-red-600" />}
-              title={t("solutionInteractiveTitle")}
-              description={t("solutionInteractiveDesc")}
-            />
-            <SolutionBox
-              icon={<Layers className="w-8 h-8 text-red-600" />}
-              title={t("solutionVideoWallTitle")}
-              description={t("solutionVideoWallDesc")}
-            />
-            <SolutionBox
-              icon={<Network className="w-8 h-8 text-red-600" />}
-              title={t("solutionContentTitle")}
-              description={t("solutionContentDesc")}
-            />
-          </div>
+  <BenefitCard
+    icon={<Monitor className="w-8 h-8 text-red-600" />}
+    title={t("solutionInteractiveTitle")}
+    desc={t("solutionInteractiveDesc")}
+  />
+
+  <BenefitCard
+    icon={<Layers className="w-8 h-8 text-red-600" />}
+    title={t("solutionVideoWallTitle")}
+    desc={t("solutionVideoWallDesc")}
+  />
+
+  <BenefitCard
+    icon={<Network className="w-8 h-8 text-red-600" />}
+    title={t("solutionContentTitle")}
+    desc={t("solutionContentDesc")}
+  />
+</div>
+
         </div>
       </section>
 
@@ -369,36 +374,25 @@ export default function InstallationIntegrationPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div className="bg-[#F5F7FB] border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <Award className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("whyInstall1Title")}</h3>
-              </div>
-              <p className="text-gray-600">
-                {t("whyInstall1Desc")}
-              </p>
-            </div>
+  <OffWhiteCard
+    icon={<Award className="w-8 h-8 text-red-600" />}
+    title={t("whyInstall1Title")}
+    desc={t("whyInstall1Desc")}
+  />
 
-            <div className="bg-[#F5F7FB] border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <Clock className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("whyInstall2Title")}</h3>
-              </div>
-              <p className="text-gray-600">
-                {t("whyInstall2Desc")}
-              </p>
-            </div>
+  <OffWhiteCard
+    icon={<Clock className="w-8 h-8 text-red-600" />}
+    title={t("whyInstall2Title")}
+    desc={t("whyInstall2Desc")}
+  />
 
-            <div className="bg-[#F5F7FB] border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <Shield className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("whyInstall3Title")}</h3>
-              </div>
-              <p className="text-gray-600">
-                {t("whyInstall3Desc")}
-              </p>
-            </div>
-          </div>
+  <OffWhiteCard
+    icon={<Shield className="w-8 h-8 text-red-600" />}
+    title={t("whyInstall3Title")}
+    desc={t("whyInstall3Desc")}
+  />
+</div>
+
         </div>
       </section>
 

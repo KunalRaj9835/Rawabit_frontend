@@ -15,6 +15,7 @@ import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
 import BenefitCard from "@/components/BenefitCard";
 import OffWhiteCard from "@/components/OffWhiteCard";
+import LogoGrid from "@/components/LogoGrid";
 
 export default function ComputingSolutionsPage() {
   const { t, lang } = useLang();
@@ -155,27 +156,17 @@ export default function ComputingSolutionsPage() {
       {t("csPartnersDesc")}
     </p>
 
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
-      {[
-        "/role/9r.png",  // HPE
-        "/role/10r.png", // Dell
-        "/role/11r.png", // Lenovo
-        "/role/12r.png", // HP
-        "/role/35r.png", // APC
-        "/role/36r.png", // Schneider Electric
-      ].map((logo, i) => (
-        <div
-          key={i}
-          className="flex items-center justify-center w-[160px] h-[64px]"
-        >
-          <img
-            src={logo}
-            alt="Technology Partner"
-            className="w-full h-full object-contain grayscale opacity-80"
-          />
-        </div>
-      ))}
-    </div>
+    <LogoGrid
+  logos={[
+    "/role/9r.png",   // HPE
+    "/role/10r.png",  // Dell
+    "/role/11r.png",  // Lenovo
+    "/role/12r.png",  // HP
+    "/role/35r.png",  // APC
+    "/role/36r.png",  // Schneider Electric
+  ]}
+/>
+
 
   </div>
 </section>

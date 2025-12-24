@@ -16,6 +16,7 @@ import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
 import BenefitCard from "@/components/BenefitCard";
 import OffWhiteCard from "@/components/OffWhiteCard";
+import LogoGrid from "@/components/LogoGrid";
 
 export default function AVMeetingRoomPage() {
   const { t, lang } = useLang();
@@ -151,33 +152,23 @@ export default function AVMeetingRoomPage() {
       {t("avPartnersDesc")}
     </p>
 
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
-      {[
-        "/role/20r.png", // Poly
-        "/role/21r.png", // Logitech
-        "/role/22r.png", // Yealink
-        "/role/23r.png", // Jabra
-        "/role/27r.png", // Biamp
-        "/role/28r.png", // Shure
-        "/role/29r.png", // Bose
-        "/role/30r.png", // Nureva
-        "/role/31r.png", // Crestron
-        "/role/33r.png", // ATEN
-        "/role/34r.png", // Q-SYS
-        "/role/52r.png", // Ateis
-      ].map((logo, i) => (
-        <div
-          key={i}
-          className="flex items-center justify-center w-[160px] h-[64px]"
-        >
-          <img
-            src={logo}
-            alt="Technology Partner"
-            className="w-full h-full object-contain grayscale opacity-80"
-          />
-        </div>
-      ))}
-    </div>
+    <LogoGrid
+  logos={[
+    "/role/20r.png",
+    "/role/21r.png",
+    "/role/22r.png",
+    "/role/23r.png",
+    "/role/27r.png",
+    "/role/28r.png",
+    "/role/29r.png",
+    "/role/30r.png",
+    "/role/31r.png",
+    "/role/33r.png",
+    "/role/34r.png",
+    "/role/52r.png",
+  ]}
+/>
+
 
   </div>
 </section>

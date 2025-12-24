@@ -17,6 +17,7 @@ import { useLang } from "@/context/LanguageContext";
 import StackCard from "@/components/StackCard";
 import BenefitCard from "@/components/BenefitCard";
 import OffWhiteCard from "@/components/OffWhiteCard";
+import LogoGrid from "@/components/LogoGrid";
 
 export default function DigitalDisplayPage() {
   const { t, lang } = useLang();
@@ -157,31 +158,21 @@ export default function DigitalDisplayPage() {
       {t("ddPartnersDesc")}
     </p>
 
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-16 gap-y-12 items-center">
-      {[
-        "/role/24r.png", // Nest
-        "/role/25r.png", // Clevertouch
-        "/role/26r.png", // Commbox
-        "/role/37r.png", // Maxhub
-        "/role/38r.png", // Sony
-        "/role/39r.png", // Philips
-        "/role/40r.png", // Samsung
-        "/role/41r.png", // LG
-        "/role/42r.png", // Absen
-        "/role/43r.png", // QSTECH
-      ].map((logo, i) => (
-        <div
-          key={i}
-          className="flex items-center justify-center w-[160px] h-[64px]"
-        >
-          <img
-            src={logo}
-            alt="Technology Partner"
-            className="w-full h-full object-contain grayscale opacity-80"
-          />
-        </div>
-      ))}
-    </div>
+   <LogoGrid
+  logos={[
+    "/role/24r.png", // Nest
+    "/role/25r.png", // Clevertouch
+    "/role/26r.png", // Commbox
+    "/role/37r.png", // Maxhub
+    "/role/38r.png", // Sony
+    "/role/39r.png", // Philips
+    "/role/40r.png", // Samsung
+    "/role/41r.png", // LG
+    "/role/42r.png", // Absen
+    "/role/43r.png", // QSTECH
+  ]}
+/>
+
 
   </div>
 </section>

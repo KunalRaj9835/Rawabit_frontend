@@ -24,6 +24,9 @@ import {
 import Link from "next/link";
 import { useLang } from "@/context/LanguageContext";
 import Image from "next/image";
+import BenefitCard from "@/components/BenefitCard";
+import OffWhiteCard from "@/components/OffWhiteCard";
+import ProcessStepCard from "@/components/ProcessStepCard";
 
 export default function DesignPage() {
   const { t, lang } = useLang();
@@ -79,31 +82,35 @@ export default function DesignPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <ConsultingPhase
-              icon={<Compass className="w-8 h-8 text-red-600" />}
-              number="01"
-              title={t("designPhase1Title")}
-              description={t("designPhase1Desc")}
-            />
-            <ConsultingPhase
-              icon={<Lightbulb className="w-8 h-8 text-red-600" />}
-              number="02"
-              title={t("designPhase2Title")}
-              description={t("designPhase2Desc")}
-            />
-            <ConsultingPhase
-              icon={<FileText className="w-8 h-8 text-red-600" />}
-              number="03"
-              title={t("designPhase3Title")}
-              description={t("designPhase3Desc")}
-            />
-            <ConsultingPhase
-              icon={<CheckCircle className="w-8 h-8 text-red-600" />}
-              number="04"
-              title={t("designPhase4Title")}
-              description={t("designPhase4Desc")}
-            />
-          </div>
+  <ProcessStepCard
+    icon={<Compass className="w-8 h-8 text-red-600" />}
+    step="01"
+    title={t("designPhase1Title")}
+    desc={t("designPhase1Desc")}
+  />
+
+  <ProcessStepCard
+    icon={<Lightbulb className="w-8 h-8 text-red-600" />}
+    step="02"
+    title={t("designPhase2Title")}
+    desc={t("designPhase2Desc")}
+  />
+
+  <ProcessStepCard
+    icon={<FileText className="w-8 h-8 text-red-600" />}
+    step="03"
+    title={t("designPhase3Title")}
+    desc={t("designPhase3Desc")}
+  />
+
+  <ProcessStepCard
+    icon={<CheckCircle className="w-8 h-8 text-red-600" />}
+    step="04"
+    title={t("designPhase4Title")}
+    desc={t("designPhase4Desc")}
+  />
+</div>
+
         </div>
       </section>
 
@@ -120,37 +127,43 @@ export default function DesignPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <ServiceBox
-              icon={<Network className="w-8 h-8 text-red-600" />}
-              title={t("designService1Title")}
-              description={t("designService1Desc")}
-            />
-            <ServiceBox
-              icon={<Layers className="w-8 h-8 text-red-600" />}
-              title={t("designService2Title")}
-              description={t("designService2Desc")}
-            />
-            <ServiceBox
-              icon={<Shield className="w-8 h-8 text-red-600" />}
-              title={t("designService3Title")}
-              description={t("designService3Desc")}
-            />
-            <ServiceBox
-              icon={<Database className="w-8 h-8 text-red-600" />}
-              title={t("designService4Title")}
-              description={t("designService4Desc")}
-            />
-            <ServiceBox
-              icon={<TrendingUp className="w-8 h-8 text-red-600" />}
-              title={t("designService5Title")}
-              description={t("designService5Desc")}
-            />
-            <ServiceBox
-              icon={<Monitor className="w-8 h-8 text-red-600" />}
-              title={t("designService6Title")}
-              description={t("designService6Desc")}
-            />
-          </div>
+  <OffWhiteCard
+    icon={<Network className="w-8 h-8 text-red-600" />}
+    title={t("designService1Title")}
+    desc={t("designService1Desc")}
+  />
+
+  <OffWhiteCard
+    icon={<Layers className="w-8 h-8 text-red-600" />}
+    title={t("designService2Title")}
+    desc={t("designService2Desc")}
+  />
+
+  <OffWhiteCard
+    icon={<Shield className="w-8 h-8 text-red-600" />}
+    title={t("designService3Title")}
+    desc={t("designService3Desc")}
+  />
+
+  <OffWhiteCard
+    icon={<Database className="w-8 h-8 text-red-600" />}
+    title={t("designService4Title")}
+    desc={t("designService4Desc")}
+  />
+
+  <OffWhiteCard
+    icon={<TrendingUp className="w-8 h-8 text-red-600" />}
+    title={t("designService5Title")}
+    desc={t("designService5Desc")}
+  />
+
+  <OffWhiteCard
+    icon={<Monitor className="w-8 h-8 text-red-600" />}
+    title={t("designService6Title")}
+    desc={t("designService6Desc")}
+  />
+</div>
+
         </div>
       </section>
 
@@ -371,36 +384,25 @@ export default function DesignPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <Lightbulb className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("designWhy1Title")}</h3>
-              </div>
-              <p className="text-gray-600">
-                {t("designWhy1Desc")}
-              </p>
-            </div>
+  <BenefitCard
+    icon={<Lightbulb className="w-8 h-8 text-red-600" />}
+    title={t("designWhy1Title")}
+    desc={t("designWhy1Desc")}
+  />
 
-            <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <Users className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("designWhy2Title")}</h3>
-              </div>
-              <p className="text-gray-600">
-                {t("designWhy2Desc")}
-              </p>
-            </div>
+  <BenefitCard
+    icon={<Users className="w-8 h-8 text-red-600" />}
+    title={t("designWhy2Title")}
+    desc={t("designWhy2Desc")}
+  />
 
-            <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-              <div className="flex items-center gap-3 mb-4">
-                <Target className="w-8 h-8 text-red-600" />
-                <h3 className="text-xl font-semibold">{t("designWhy3Title")}</h3>
-              </div>
-              <p className="text-gray-600">
-                {t("designWhy3Desc")}
-              </p>
-            </div>
-          </div>
+  <BenefitCard
+    icon={<Target className="w-8 h-8 text-red-600" />}
+    title={t("designWhy3Title")}
+    desc={t("designWhy3Desc")}
+  />
+</div>
+
         </div>
       </section>
 
@@ -408,54 +410,9 @@ export default function DesignPage() {
   );
 }
 
-/* ================== HELPER COMPONENTS ================== */
 
-function ConsultingPhase({
-  icon,
-  number,
-  title,
-  description,
-}: {
-  icon: React.ReactNode;
-  number: string;
-  title: string;
-  description: string;
-}) {
-  return (
-    <div className="bg-white border border-gray-900/20 rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4">
-        {icon}
-        <span className="text-2xl font-extralight text-red-600">{number}</span>
-      </div>
-      <h3 className="text-lg font-semibold mb-3">{title}</h3>
-      <p className="text-[13px] text-gray-600 leading-relaxed font-light">
-        {description}
-      </p>
-    </div>
-  );
-}
 
-function ServiceBox({
-  icon,
-  title,
-  description,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}) {
-  return (
-    <div className="bg-[#F5F7FB] border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4">
-        {icon}
-        <h3 className="text-xl font-semibold">{title}</h3>
-      </div>
-      <p className="text-[13px] text-gray-600 leading-relaxed">
-        {description}
-      </p>
-    </div>
-  );
-}
+
 
 function PrincipleItem({ title, description }: { title: string; description: string }) {
   return (
