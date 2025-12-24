@@ -9,10 +9,11 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-   <div>
+    <div id="home-top"> 
     <main>
-
+        <div id = "top-home">
        <Carousel/>
+       </div>
        <AboutUsSection />
        <WhyUs/>
        <CallToAction/>

@@ -46,7 +46,16 @@ export default function Header() {
   };
 
   const handleLogoClick = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    // Check if we're on the home page
+    const isHomePage = window.location.pathname === '/';
+    
+    if (isHomePage) {
+      // If already on home, scroll to top smoothly
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      // If on another page, navigate to home
+      window.location.href = '/';
+    }
   };
 
   const handleMobileNavigate = () => {
@@ -115,7 +124,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <button onClick={handleLogoClick} className="flex items-center flex-shrink-0">
+          <button onClick={handleLogoClick} className="flex items-center flex-shrink-0 cursor-pointer">
             <img src="/Rawabit-logo.webp" alt="Rawabit Networks" className="h-20 w-auto" />
           </button>
 
@@ -236,13 +245,13 @@ export default function Header() {
             <div className="flex items-center gap-4 ml-4 pl-4 border-l border-gray-200">
               <a
                 href="tel:+966504142951"
-  className={`flex items-center gap-2 text-[#0e355d] hover:text-[#e63946] transition-colors text-sm font-medium ${
-    isRTL ? "flex-row-reverse" : ""
-  }`}
->
-  <Phone className="w-4 h-4" />
-  <span dir="ltr">+966 50 414 2951</span>
-</a>
+                className={`flex items-center gap-2 text-[#0e355d] hover:text-[#e63946] transition-colors text-sm font-medium ${
+                  isRTL ? "flex-row-reverse" : ""
+                }`}
+              >
+                <Phone className="w-4 h-4" />
+                <span dir="ltr">+966 50 414 2951</span>
+              </a>
 
               <a
                 href="/contact-us"
@@ -369,13 +378,13 @@ export default function Header() {
             <div className="mt-4 pt-4 border-t border-gray-200 flex flex-col gap-4">
               <a
                 href="tel:+966504142951"
-  className={`flex items-center gap-3 py-2 text-[#0e355d] transition-colors hover:text-[#e63946] active:text-[#e63946] focus-visible:text-[#e63946] ${
-    isRTL ? "flex-row-reverse" : ""
-  }`}
->
-  <Phone className="w-5 h-5" />
-  <span dir="ltr" className="font-medium">+966 50 414 2951</span>
-</a>
+                className={`flex items-center gap-3 py-2 text-[#0e355d] transition-colors hover:text-[#e63946] active:text-[#e63946] focus-visible:text-[#e63946] ${
+                  isRTL ? "flex-row-reverse" : ""
+                }`}
+              >
+                <Phone className="w-5 h-5" />
+                <span dir="ltr" className="font-medium">+966 50 414 2951</span>
+              </a>
 
               <a
                 href="/contact-us"

@@ -61,3 +61,24 @@ body {
     transform: translateX(-50%);
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: #f1f5f9; /* light background */
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #0d355d; /* your primary color */
+ 
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #123f73;
+}
