@@ -35,6 +35,16 @@ body {
   overflow-x: hidden;
 }
 
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-slide-in {
+    animation: none;
+  }
+}
 
 
 body {

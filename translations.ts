@@ -3624,6 +3624,13 @@ avCardControl: "Control Systems",
 avCardIntegration: "Smart Integration",
 avCardAcoustic: "Acoustic Design",
 
+ pleaseFillAllFields: "Please fill all required fields",
+  submissionError: "Failed to submit quote. Please check your connection and try again.",
+  submitting: "Submitting...",
+  invalidEmail: "Please enter a valid email address",
+  serverUnavailable: "Unable to connect to server. Please check your connection or try again later.",
+  requestTimeout: "Request timeout. Please try again.",
+
 
   },
 
@@ -7231,9 +7238,13 @@ avCardControl: "أنظمة التحكم",
 avCardIntegration: "التكامل الذكي",
 avCardAcoustic: "التصميم الصوتي",
 
+pleaseFillAllFields: "يرجى ملء جميع الحقول المطلوبة",
+  submissionError: "فشل إرسال الطلب. يرجى التحقق من الاتصال والمحاولة مرة أخرى.",
+  submitting: "جارٍ الإرسال...",
 
-
-
+  invalidEmail: "يرجى إدخال عنوان بريد إلكتروني صالح",
+  serverUnavailable: "غير قادر على الاتصال بالخادم. يرجى التحقق من اتصالك أو المحاولة لاحقًا.",
+  requestTimeout: "انتهت مهلة الطلب. يرجى المحاولة مرة أخرى.",
   }
 } as const;
 
