@@ -268,47 +268,30 @@ export default function InstallationIntegrationPage() {
           </div>
 
           <div className="relative">
-            <div className={`absolute ${isRTL ? 'right-8' : 'left-8'} top-0 bottom-0 w-0.5 bg-red-200`}></div>
-            
-            <div className="space-y-8">
-              <TimelineStep 
-                day={t("timeline1Day")}
-                title={t("timeline1Title")}
-                description={t("timeline1Desc")}
-                isRTL={isRTL}
-              />
-              <TimelineStep 
-                day={t("timeline2Day")}
-                title={t("timeline2Title")}
-                description={t("timeline2Desc")}
-                isRTL={isRTL}
-              />
-              <TimelineStep 
-                day={t("timeline3Day")}
-                title={t("timeline3Title")}
-                description={t("timeline3Desc")}
-                isRTL={isRTL}
-              />
-              <TimelineStep 
-                day={t("timeline4Day")}
-                title={t("timeline4Title")}
-                description={t("timeline4Desc")}
-                isRTL={isRTL}
-              />
-              <TimelineStep 
-                day={t("timeline5Day")}
-                title={t("timeline5Title")}
-                description={t("timeline5Desc")}
-                isRTL={isRTL}
-              />
-              <TimelineStep 
-                day={t("timeline6Day")}
-                title={t("timeline6Title")}
-                description={t("timeline6Desc")}
-                isRTL={isRTL}
-              />
-            </div>
-          </div>
+  <div className={`absolute ${isRTL ? 'right-8' : 'left-8'} top-0 bottom-0 w-0.5 bg-red-200`}></div>
+  
+  <div className="space-y-8">
+    {isRTL ? (
+      <>
+        <TimelineStepRTL day={t("timeline1Day")} title={t("timeline1Title")} description={t("timeline1Desc")} />
+        <TimelineStepRTL day={t("timeline2Day")} title={t("timeline2Title")} description={t("timeline2Desc")} />
+        <TimelineStepRTL day={t("timeline3Day")} title={t("timeline3Title")} description={t("timeline3Desc")} />
+        <TimelineStepRTL day={t("timeline4Day")} title={t("timeline4Title")} description={t("timeline4Desc")} />
+        <TimelineStepRTL day={t("timeline5Day")} title={t("timeline5Title")} description={t("timeline5Desc")} />
+        <TimelineStepRTL day={t("timeline6Day")} title={t("timeline6Title")} description={t("timeline6Desc")} />
+      </>
+    ) : (
+      <>
+        <TimelineStepLTR day={t("timeline1Day")} title={t("timeline1Title")} description={t("timeline1Desc")} />
+        <TimelineStepLTR day={t("timeline2Day")} title={t("timeline2Title")} description={t("timeline2Desc")} />
+        <TimelineStepLTR day={t("timeline3Day")} title={t("timeline3Title")} description={t("timeline3Desc")} />
+        <TimelineStepLTR day={t("timeline4Day")} title={t("timeline4Title")} description={t("timeline4Desc")} />
+        <TimelineStepLTR day={t("timeline5Day")} title={t("timeline5Title")} description={t("timeline5Desc")} />
+        <TimelineStepLTR day={t("timeline6Day")} title={t("timeline6Title")} description={t("timeline6Desc")} />
+      </>
+    )}
+  </div>
+</div>
         </div>
       </section>
   <section className="w-full bg-[#edf3f7] py-16 md:py-20">
@@ -477,19 +460,80 @@ function CapabilityCard({ title, items }: { title: string; items: string[] }) {
   );
 }
 
-function TimelineStep({ day, title, description, isRTL }: { day: string; title: string; description: string; isRTL: boolean }) {
+function TimelineIndicator({ day }: { day: string }) {
   return (
-    <div className={`relative flex gap-6 items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
-      <div className="flex-shrink-0 w-16 h-16 bg-red-600 rounded-full border-4 border-[#F5F7FB] flex items-center justify-center z-10">
-        <span className="text-xs font-light text-white">{day}</span>
-      </div>
-      <div className="flex-1 pt-2">
-        <h4 className="text-lg font-semibold mb-1">{title}</h4>
-        <p className="text-sm text-gray-600 font-light">{description}</p>
-      </div>
+    <div className="flex-shrink-0 w-16 h-16 bg-red-600 rounded-full border-4 border-[#F5F7FB] flex items-center justify-center z-10">
+      <span className="text-xs font-light text-white">{day}</span>
     </div>
   );
 }
+
+function TimelineContentLTR({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) {
+  return (
+    <div className="flex-1 pt-2">
+      <h4 className="text-lg font-semibold mb-1">{title}</h4>
+      <p className="text-sm text-gray-600 font-light">{description}</p>
+    </div>
+  );
+}
+
+function TimelineContentRTL({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) {
+  return (
+    <div className="flex-1 pt-2 text-right">
+      <h4 className="text-lg font-semibold mb-1">{title}</h4>
+      <p className="text-sm text-gray-600 font-light">{description}</p>
+    </div>
+  );
+}
+
+function TimelineStepLTR({
+  day,
+  title,
+  description,
+}: {
+  day: string;
+  title: string;
+  description: string;
+}) {
+  return (
+    <div className="relative flex gap-6 items-start">
+      <TimelineIndicator day={day} />
+      <TimelineContentLTR title={title} description={description} />
+    </div>
+  );
+}
+
+function TimelineStepRTL({
+  day,
+  title,
+  description,
+}: {
+  day: string;
+  title: string;
+  description: string;
+}) {
+  return (
+    <div className="relative pr-24">
+      <div className="absolute right-0">
+        <TimelineIndicator day={day} />
+      </div>
+      <TimelineContentRTL title={title} description={description} />
+    </div>
+  );
+}
+
 function ProcessCard({
   image,
   title,

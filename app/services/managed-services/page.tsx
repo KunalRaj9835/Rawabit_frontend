@@ -453,7 +453,7 @@ function CoverageBar({ label, percentage }: { label: string; percentage: number 
 
 function ResponseTimeline({ t }: { t: any }) {
   return (
-    <div className="relative">
+    <div className="relative" dir="ltr">
       <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-red-600/30 -translate-x-1/2"></div>
       
       <div className="space-y-8">
