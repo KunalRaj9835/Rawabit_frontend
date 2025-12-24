@@ -32,9 +32,12 @@ export default function ManagedServicesPage() {
             
             {/* TEXT */}
             <div className="order-1">
-              <p className="uppercase tracking-[0.25em] text-[11px] text-red-400 mb-3">
-                {t("managedServicesLabel")}
-              </p>
+              {/* 
+<p className="uppercase tracking-[0.25em] text-[11px] text-red-400 mb-3">
+  {t("managedServicesLabel")}
+</p> 
+*/}
+
 
               <h1 className="text-3xl md:text-5xl font-extralight leading-tight mb-5">
                 {t("managedServicesHeroTitle")}

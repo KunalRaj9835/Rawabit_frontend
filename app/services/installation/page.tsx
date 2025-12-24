@@ -43,9 +43,12 @@ export default function InstallationIntegrationPage() {
 
             {/* LEFT – TEXT */}
             <div className="order-2 md:order-1">
-              <p className="uppercase tracking-[0.25em] text-[11px] text-red-400 mb-3">
-                {t("installationLabel")}
-              </p>
+              {/* 
+<p className="uppercase tracking-[0.25em] text-[11px] text-red-400 mb-3">
+  {t("installationLabel")}
+</p> 
+*/}
+
 
               <h1 className="text-3xl md:text-5xl font-extralight leading-tight mb-5">
                 {t("installationHeroTitle")}

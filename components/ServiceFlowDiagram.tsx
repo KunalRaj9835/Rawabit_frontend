@@ -95,14 +95,21 @@ export function ServiceFlowDiagram() {
   );
 
   /* ---------- UI ---------- */
+  // Mobile order: always show in step number order (1,2,3,4)
+  const mobileSteps = [...steps].sort((a, b) => {
+    const numA = parseInt(t(a.numberKey));
+    const numB = parseInt(t(b.numberKey));
+    return numA - numB;
+  });
+
   return (
     <>
       {/* MOBILE */}
       <div className="flex md:hidden flex-col items-center">
-        {steps.map((step, i) => (
+        {mobileSteps.map((step, i) => (
           <div key={i} className="flex flex-col items-center">
             <Box step={step} />
-            {i < steps.length - 1 && <ArrowDown />}
+            {i < mobileSteps.length - 1 && <ArrowDown />}
           </div>
         ))}
       </div>
