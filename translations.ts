@@ -164,8 +164,8 @@ footerAddress2: "Opp. ANB Regional Office",
 footerAddress3: "Post Box 2320, Al Khobar 31952",
 footerAddress4: "Saudi Arabia",
 
-footerPhone: "Tel: +966 9200 33 189",
-footerEmail: "Email: info@rawabitnetworks.com",
+footerPhone: "Tel : ",
+footerEmail: "Email : ",
 
 footerCopyright:
   "© 2025 Rawabit Networks. All rights reserved.",
@@ -3791,8 +3791,8 @@ footerAddress2: "مقابل مكتب البنك العربي الوطني الإ
 footerAddress3: "صندوق بريد 2320، الخبر 31952",
 footerAddress4: "المملكة العربية السعودية",
 
-footerPhone: "الهاتف: +966 9200 33 189",
-footerEmail: "البريد الإلكتروني: info@rawabitnetworks.com",
+footerPhone: "الهاتف",
+footerEmail: "البريد الإلكتروني",
 
 footerCopyright:
   "© 2025 روابط نتوركس. جميع الحقوق محفوظة.",

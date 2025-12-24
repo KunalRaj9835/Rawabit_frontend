@@ -86,10 +86,13 @@ export default function Footer() {
               isRTL ? "items-end" : "items-start"
             }`}
           >
-            <span dir="ltr">{t("footerPhone")}</span>
-            <span dir="ltr">{t("footerEmail")}</span>
+            <p>
+              {t("footerPhone")} <span dir="ltr"> +966 9200 33 189 </span>
+            </p>
+            <p>
+              {t("footerEmail")} <span dir="ltr"> info@rawabitnetworks.com </span>
+            </p>
           </div>
-
           {/* Social Icons */}
           <div
             className={`flex gap-4 mt-6 ${

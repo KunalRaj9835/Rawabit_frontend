@@ -85,15 +85,21 @@ export default function ContactUs() {
                   <p className="text-red-500 font-light text-sm uppercase tracking-wide mb-3">
                     {t("contactCall")}
                   </p>
-                  <p>+966 50 414 2951</p>
-                  <p>+966 11 516 0125</p>
+                  <p dir="ltr" className={isRTL ? "text-right" : "text-left"}>
+                    +966 50 414 2951
+                  </p>
+                  <p dir="ltr" className={isRTL ? "text-right" : "text-left"}>
+                    +966 11 516 0125
+                  </p>
                 </div>
 
                 <div className="pt-6 border-t border-gray-300">
                   <p className="text-red-500 font-light text-sm uppercase tracking-wide mb-3">
                     {t("contactEmail")}
                   </p>
-                  <p>info@rawabitnetworks.com</p>
+                  <p dir="ltr" className={isRTL ? "text-right" : "text-left"}>
+                    info@rawabitnetworks.com
+                  </p>
                 </div>
               </div>
             </div>
@@ -109,7 +115,11 @@ export default function ContactUs() {
               {t("contactFormTitle")}
             </h2>
 
-            <div className="h-1 w-16 bg-red-500 rounded-full mb-8" />
+            <div
+              className={`h-1 w-16 bg-red-500 rounded-full mb-8 ${
+                isRTL ? "ml-auto" : ""
+              }`}
+            />
 
             <div className="space-y-5">
               {[
@@ -125,7 +135,9 @@ export default function ContactUs() {
                   value={(formData as any)[field.name]}
                   onChange={handleChange}
                   placeholder={field.placeholder}
-                  className="w-full px-5 py-3.5 border border-black rounded-lg outline-none font-light"
+                  className={`w-full px-5 py-3.5 border border-black rounded-lg outline-none font-light ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
                 />
               ))}
 
@@ -134,7 +146,9 @@ export default function ContactUs() {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder={t("contactMessage")}
-                className="w-full px-5 py-3.5 border border-black rounded-lg resize-none font-light"
+                className={`w-full px-5 py-3.5 border border-black rounded-lg resize-none font-light ${
+                  isRTL ? "text-right" : "text-left"
+                }`}
               />
 
               <button

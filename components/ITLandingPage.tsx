@@ -100,7 +100,9 @@ export default function ITSolutionsHero() {
                   value={(formData as any)[field.name]}
                   onChange={handleChange}
                   placeholder={field.placeholder}
-                  className="w-full px-5 py-3.5 border border-black rounded-lg outline-none font-light text-gray-900 placeholder:text-gray-400"
+                  className={`w-full px-5 py-3.5 border border-black rounded-lg outline-none font-light text-gray-900 placeholder:text-gray-400 ${
+                    isRTL ? "text-right" : "text-left"
+                  }`}
                 />
               ))}
 
@@ -109,7 +111,9 @@ export default function ITSolutionsHero() {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder={t("formMessage")}
-                className="w-full px-5 py-3.5 border border-black rounded-lg outline-none resize-none font-light text-gray-900 placeholder:text-gray-400"
+                className={`w-full px-5 py-3.5 border border-black rounded-lg outline-none resize-none font-light text-gray-900 placeholder:text-gray-400 ${
+                  isRTL ? "text-right" : "text-left"
+                }`}
               />
 
               <button

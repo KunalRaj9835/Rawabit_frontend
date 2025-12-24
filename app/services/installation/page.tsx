@@ -20,6 +20,7 @@ import { useLang } from "@/context/LanguageContext";
 import Image from "next/image";
 import BenefitCard from "@/components/BenefitCard";
 import OffWhiteCard from "@/components/OffWhiteCard";
+import IntegrationBadge from "@/components/IntegrationBadge";
 
 
 export default function InstallationIntegrationPage() {
@@ -383,38 +384,10 @@ export default function InstallationIntegrationPage() {
   );
 }
 
-/* ================== HELPER COMPONENTS ================== */
 
-function IntegrationBadge({ icon, text }: { icon: React.ReactNode; text: string }) {
-  return (
-    <div className="flex items-center gap-2 bg-white/5 border border-white/20 rounded-full px-4 py-2 backdrop-blur-sm">
-      <div className="text-red-400">{icon}</div>
-      <span className="text-xs font-light text-gray-200">{text}</span>
-    </div>
-  );
-}
 
-function SolutionBox({
-  icon,
-  title,
-  description,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}) {
-  return (
-    <div className="bg-white border border-gray-900/20 rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-red-600">
-      <div className="flex items-center gap-3 mb-4">
-        {icon}
-        <h3 className="text-xl font-semibold">{title}</h3>
-      </div>
-      <p className="text-[13px] text-gray-600 leading-relaxed">
-        {description}
-      </p>
-    </div>
-  );
-}
+
+
 
 function PhaseItem({ number, title, description }: { number: string; title: string; description: string }) {
   return (
