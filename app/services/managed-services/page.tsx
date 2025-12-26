@@ -17,6 +17,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useLang } from "@/context/LanguageContext";
 import BenefitCard from "@/components/BenefitCard";
+import ProcessFeatureCard from "@/components/ProcessFeatureCard";
+import MetricRow from "@/components/MetricRow";
+import ProgressBar from "@/components/ProgressBar";
 
 export default function ManagedServicesPage() {
   const { t, lang } = useLang();
@@ -111,28 +114,28 @@ export default function ManagedServicesPage() {
               </h2>
 
               <div className="space-y-6">
-                <MetricDisplay
+                <MetricRow
                   label={t("metricUptimeLabel")}
                   value="99.9%"
                   target="99.5%"
                   targetLabel={t("metricTargetLabel")}
                   status="excellent"
                 />
-                <MetricDisplay
+                <MetricRow
                   label={t("metricResponseLabel")}
                   value="<15min"
                   target="<30min"
                   targetLabel={t("metricTargetLabel")}
                   status="excellent"
                 />
-                <MetricDisplay
+                <MetricRow
                   label={t("metricResolutionLabel")}
                   value="94%"
                   target="90%"
                   targetLabel={t("metricTargetLabel")}
                   status="excellent"
                 />
-                <MetricDisplay
+                <MetricRow
                   label={t("metricPreventiveLabel")}
                   value="120+"
                   target="80+"
@@ -152,12 +155,12 @@ export default function ManagedServicesPage() {
 
               <div className="bg-[#F5F7FB] rounded-xl p-6">
                 <div className="space-y-4">
-                  <CoverageBar label={t("coverageNetworkLabel")} percentage={100} />
-                  <CoverageBar label={t("coverageServerLabel")} percentage={100} />
-                  <CoverageBar label={t("coverageStorageLabel")} percentage={95} />
-                  <CoverageBar label={t("coverageSecurityLabel")} percentage={100} />
-                  <CoverageBar label={t("coverageApplicationLabel")} percentage={90} />
-                  <CoverageBar label={t("coverageCloudLabel")} percentage={85} />
+                  <ProgressBar label={t("coverageNetworkLabel")} percentage={100} />
+                  <ProgressBar label={t("coverageServerLabel")} percentage={100} />
+                  <ProgressBar label={t("coverageStorageLabel")} percentage={95} />
+                  <ProgressBar label={t("coverageSecurityLabel")} percentage={100} />
+                  <ProgressBar label={t("coverageApplicationLabel")} percentage={90} />
+                  <ProgressBar label={t("coverageCloudLabel")} percentage={85} />
                 </div>
               </div>
             </div>
@@ -332,7 +335,7 @@ export default function ManagedServicesPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-            <ProcessCard
+            <ProcessFeatureCard
               image="/steps/s1.png"
               title={t("processMonitorTitle")}
               description={t("processMonitorDesc")}
@@ -340,7 +343,7 @@ export default function ManagedServicesPage() {
               readMore={t("readMore")}
             />
 
-            <ProcessCard
+            <ProcessFeatureCard
               image="/steps/s2.png"
               title={t("processDetectTitle")}
               description={t("processDetectDesc")}
@@ -348,7 +351,7 @@ export default function ManagedServicesPage() {
               readMore={t("readMore")}
             />
 
-            <ProcessCard
+            <ProcessFeatureCard
               image="/steps/s3.png"
               title={t("processOptimizeTitle")}
               description={t("processOptimizeDesc")}
@@ -356,7 +359,7 @@ export default function ManagedServicesPage() {
               readMore={t("readMore")}
             />
 
-            <ProcessCard
+            <ProcessFeatureCard
               image="/steps/s4.png"
               title={t("processRespondTitle")}
               description={t("processRespondDesc")}
@@ -407,52 +410,10 @@ export default function ManagedServicesPage() {
   );
 }
 
-/* ================== HELPER COMPONENTS ================== */
 
 
-function MetricDisplay({ 
-  label, 
-  value, 
-  target, 
-  targetLabel,
-  status 
-}: { 
-  label: string; 
-  value: string; 
-  target: string; 
-  targetLabel: string;
-  status: string;
-}) {
-  return (
-    <div className="flex items-center justify-between border-b border-gray-200 pb-4">
-      <div className="flex-1">
-        <p className="text-sm font-light text-gray-700">{label}</p>
-        <p className="text-xs text-gray-500 mt-1">{targetLabel}: {target}</p>
-      </div>
-      <div className="text-right">
-        <p className="text-2xl font-light text-green-600">{value}</p>
-        <CheckCircle className="w-4 h-4 text-green-500 ml-auto mt-1" />
-      </div>
-    </div>
-  );
-}
 
-function CoverageBar({ label, percentage }: { label: string; percentage: number }) {
-  return (
-    <div>
-      <div className="flex justify-between text-xs mb-1 font-light">
-        <span>{label}</span>
-        <span className="text-red-600">{percentage}%</span>
-      </div>
-      <div className="h-2 rounded-full bg-gray-200 overflow-hidden">
-        <div 
-          className="h-full bg-red-600 transition-all duration-500"
-          style={{ width: `${percentage}%` }}
-        ></div>
-      </div>
-    </div>
-  );
-}
+
 
 function ResponseTimeline({ t }: { t: any }) {
   return (
@@ -593,40 +554,3 @@ function StatBar({
   );
 }
 
-function ProcessCard({
-  image,
-  title,
-  description,
-  href,
-  readMore,
-}: {
-  image: string;
-  title: string;
-  description: string;
-  href: string;
-  readMore: string;
-}) {
-  return (
-    <div className="bg-[#111827] border border-white/20 rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-red-600 group h-full">
-      <div className="relative w-full h-56">
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-cover"
-        />
-      </div>
-
-      <div className="p-8">
-        <h3 className="text-2xl font-light text-white mb-4">{title}</h3>
-        <p className="text-sm text-white/90 font-light mb-6 leading-relaxed">{description}</p>
-        <Link
-          href={href}
-          className="inline-flex items-center gap-2 text-red-400 text-sm font-light transition-all group-hover:gap-3"
-        >
-          {readMore} →
-        </Link>
-      </div>
-    </div>
-  );
-}

@@ -27,6 +27,8 @@ import Image from "next/image";
 import BenefitCard from "@/components/BenefitCard";
 import OffWhiteCard from "@/components/OffWhiteCard";
 import ProcessStepCard from "@/components/ProcessStepCard";
+import ProcessFeatureCard from "@/components/ProcessFeatureCard";
+import ProcessInfoCard from "@/components/ProcessInfoCard";
 
 export default function DesignPage() {
   const { t, lang } = useLang();
@@ -240,28 +242,28 @@ export default function DesignPage() {
 
           <div className="grid md:grid-cols-2 gap-8">
             
-            <ProcessCard2
+            <ProcessInfoCard
               icon={<Users className="w-6 h-6 text-blue-600" />}
               title={t("designProcess1Title")}
               description={t("designProcess1Desc")}
               color="bg-blue-50"
             />
 
-            <ProcessCard2
+            <ProcessInfoCard
               icon={<Target className="w-6 h-6 text-green-600" />}
               title={t("designProcess2Title")}
               description={t("designProcess2Desc")}
               color="bg-green-50"
             />
 
-            <ProcessCard2
+            <ProcessInfoCard
               icon={<Settings className="w-6 h-6 text-purple-600" />}
               title={t("designProcess3Title")}
               description={t("designProcess3Desc")}
               color="bg-purple-50"
             />
 
-            <ProcessCard2
+            <ProcessInfoCard
               icon={<Award className="w-6 h-6 text-orange-600" />}
               title={t("designProcess4Title")}
               description={t("designProcess4Desc")}
@@ -335,7 +337,7 @@ export default function DesignPage() {
 
         {/* PROCESS GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-          <ProcessCard
+          <ProcessFeatureCard
             image="/steps/s1.png"
             title={t("consultStep1Title")}
             description={t("consultStep1Desc")}
@@ -343,7 +345,7 @@ export default function DesignPage() {
             readMore={t("readMore")}
           />
 
-          <ProcessCard
+          <ProcessFeatureCard
             image="/steps/s2.png"
             title={t("consultStep2Title")}
             description={t("consultStep2Desc")}
@@ -351,7 +353,7 @@ export default function DesignPage() {
             readMore={t("readMore")}
           />
 
-          <ProcessCard
+          <ProcessFeatureCard
             image="/steps/s3.png"
             title={t("consultStep3Title")}
             description={t("consultStep3Desc")}
@@ -359,7 +361,7 @@ export default function DesignPage() {
             readMore={t("readMore")}
           />
 
-          <ProcessCard
+          <ProcessFeatureCard
             image="/steps/s4.png"
             title={t("consultStep4Title")}
             description={t("consultStep4Desc")}
@@ -435,29 +437,6 @@ function DeliverableItem({ text }: { text: string }) {
   );
 }
 
-function ProcessCard2({
-  icon,
-  title,
-  description,
-  color,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-  color: string;
-}) {
-  return (
-    <div className={`${color} border border-gray-200 rounded-xl p-6 transition-all duration-300 hover:shadow-lg`}>
-      <div className="flex items-center gap-3 mb-3">
-        {icon}
-        <h3 className="text-lg font-semibold">{title}</h3>
-      </div>
-      <p className="text-sm text-gray-600 font-light leading-relaxed">
-        {description}
-      </p>
-    </div>
-  );
-}
 
 function ValuePoint({ text }: { text: string }) {
   return (
@@ -484,44 +463,6 @@ function StatCard({
         {icon}
       </div>
       <p className="text-sm text-gray-600 font-light">{label}</p>
-    </div>
-  );
-}
-
-function ProcessCard({
-  image,
-  title,
-  description,
-  href,
-  readMore,
-}: {
-  image: string;
-  title: string;
-  description: string;
-  href: string;
-  readMore: string;
-}) {
-  return (
-    <div className="bg-[#111827] border border-white/20 rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-red-600 group h-full">
-      <div className="relative w-full h-56">
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-cover"
-        />
-      </div>
-
-      <div className="p-8">
-        <h3 className="text-2xl font-light text-white mb-4">{title}</h3>
-        <p className="text-sm text-white/90 font-light mb-6 leading-relaxed">{description}</p>
-        <Link
-          href={href}
-          className="inline-flex items-center gap-2 text-red-400 text-sm font-light transition-all group-hover:gap-3"
-        >
-          {readMore} →
-        </Link>
-      </div>
     </div>
   );
 }

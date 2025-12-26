@@ -21,6 +21,10 @@ import Image from "next/image";
 import BenefitCard from "@/components/BenefitCard";
 import OffWhiteCard from "@/components/OffWhiteCard";
 import IntegrationBadge from "@/components/IntegrationBadge";
+import  PhaseStepItem  from "@/components/PhaseStepItem";
+import  IconTextItem  from "@/components/IconTextItem";
+import ChecklistCard  from "@/components/ChecklistCard";
+import ProcessFeatureCard from "@/components/ProcessFeatureCard";
 
 
 export default function InstallationIntegrationPage() {
@@ -142,23 +146,23 @@ export default function InstallationIntegrationPage() {
               </p>
 
               <div className="space-y-4">
-                <PhaseItem 
-                  number="01"
+                <PhaseStepItem 
+                  step="01"
                   title={t("phase1Title")}
                   description={t("phase1Desc")}
                 />
-                <PhaseItem 
-                  number="02"
+                <PhaseStepItem 
+                  step="02"
                   title={t("phase2Title")}
                   description={t("phase2Desc")}
                 />
-                <PhaseItem 
-                  number="03"
+                <PhaseStepItem 
+                  step="03"
                   title={t("phase3Title")}
                   description={t("phase3Desc")}
                 />
-                <PhaseItem 
-                  number="04"
+                <PhaseStepItem 
+                  step="04"
                   title={t("phase4Title")}
                   description={t("phase4Desc")}
                 />
@@ -175,22 +179,22 @@ export default function InstallationIntegrationPage() {
 
               <div className="bg-[#F5F7FB] rounded-xl p-6">
                 <div className="space-y-5">
-                  <BenefitItem 
+                  <IconTextItem 
                     icon={<Shield className="w-5 h-5 text-green-600" />}
                     title={t("benefit1Title")}
                     description={t("benefit1Desc")}
                   />
-                  <BenefitItem 
+                  <IconTextItem 
                     icon={<Target className="w-5 h-5 text-blue-600" />}
                     title={t("benefit2Title")}
                     description={t("benefit2Desc")}
                   />
-                  <BenefitItem 
+                  <IconTextItem 
                     icon={<Zap className="w-5 h-5 text-purple-600" />}
                     title={t("benefit3Title")}
                     description={t("benefit3Desc")}
                   />
-                  <BenefitItem 
+                  <IconTextItem 
                     icon={<Award className="w-5 h-5 text-orange-600" />}
                     title={t("benefit4Title")}
                     description={t("benefit4Desc")}
@@ -219,7 +223,7 @@ export default function InstallationIntegrationPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <CapabilityCard 
+            <ChecklistCard 
               title={t("capabilityNetworkTitle")}
               items={[
                 t("capabilityNetwork1"),
@@ -228,7 +232,7 @@ export default function InstallationIntegrationPage() {
                 t("capabilityNetwork4")
               ]}
             />
-            <CapabilityCard 
+            <ChecklistCard 
               title={t("capabilityCloudTitle")}
               items={[
                 t("capabilityCloud1"),
@@ -237,7 +241,7 @@ export default function InstallationIntegrationPage() {
                 t("capabilityCloud4")
               ]}
             />
-            <CapabilityCard 
+            <ChecklistCard 
               title={t("capabilityBusinessTitle")}
               items={[
                 t("capabilityBusiness1"),
@@ -246,7 +250,7 @@ export default function InstallationIntegrationPage() {
                 t("capabilityBusiness4")
               ]}
             />
-            <CapabilityCard 
+            <ChecklistCard 
               title={t("capabilitySecurityTitle")}
               items={[
                 t("capabilitySecurity1"),
@@ -313,7 +317,7 @@ export default function InstallationIntegrationPage() {
 
         {/* PROCESS GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-          <ProcessCard
+          <ProcessFeatureCard
             image="/steps/s1.png"
             title={t("processStep1Title")}
             description={t("processStep1Desc")}
@@ -321,7 +325,7 @@ export default function InstallationIntegrationPage() {
             readMore={t("readMore")}
           />
 
-          <ProcessCard
+          <ProcessFeatureCard
             image="/steps/s2.png"
             title={t("processStep2Title")}
             description={t("processStep2Desc")}
@@ -329,7 +333,7 @@ export default function InstallationIntegrationPage() {
             readMore={t("readMore")}
           />
 
-          <ProcessCard
+          <ProcessFeatureCard
             image="/steps/s3.png"
             title={t("processStep3Title")}
             description={t("processStep3Desc")}
@@ -337,7 +341,7 @@ export default function InstallationIntegrationPage() {
             readMore={t("readMore")}
           />
 
-          <ProcessCard
+          <ProcessFeatureCard
             image="/steps/s4.png"
             title={t("processStep4Title")}
             description={t("processStep4Desc")}
@@ -392,49 +396,7 @@ export default function InstallationIntegrationPage() {
 
 
 
-function PhaseItem({ number, title, description }: { number: string; title: string; description: string }) {
-  return (
-    <div className="flex gap-4 items-start">
-      <div className="flex-shrink-0 w-12 h-12 bg-red-600 text-white rounded-lg flex items-center justify-center font-light text-sm">
-        {number}
-      </div>
-      <div className="flex-1">
-        <h4 className="text-base font-semibold mb-1">{title}</h4>
-        <p className="text-sm text-gray-600 font-light">{description}</p>
-      </div>
-    </div>
-  );
-}
 
-function BenefitItem({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
-  return (
-    <div className="flex items-start gap-3">
-      <div className="flex-shrink-0 mt-0.5">
-        {icon}
-      </div>
-      <div>
-        <h4 className="text-sm font-semibold mb-1">{title}</h4>
-        <p className="text-xs text-gray-600 font-light">{description}</p>
-      </div>
-    </div>
-  );
-}
-
-function CapabilityCard({ title, items }: { title: string; items: string[] }) {
-  return (
-    <div className="bg-white/5 border border-white/20 rounded-xl p-6 backdrop-blur-sm">
-      <h3 className="text-lg font-light mb-4 text-red-400">{title}</h3>
-      <ul className="space-y-2">
-        {items.map((item, idx) => (
-          <li key={idx} className="flex items-center gap-2 text-sm text-gray-300 font-light">
-            <CheckCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
-            {item}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
 
 function TimelineIndicator({ day }: { day: string }) {
   return (
@@ -506,44 +468,6 @@ function TimelineStepRTL({
         <TimelineIndicator day={day} />
       </div>
       <TimelineContentRTL title={title} description={description} />
-    </div>
-  );
-}
-
-function ProcessCard({
-  image,
-  title,
-  description,
-  href,
-  readMore,
-}: {
-  image: string;
-  title: string;
-  description: string;
-  href: string;
-  readMore: string;
-}) {
-  return (
-    <div className="bg-[#111827] border border-white/20 rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-red-600 group h-full">
-      <div className="relative w-full h-56">
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-cover"
-        />
-      </div>
-
-      <div className="p-8">
-        <h3 className="text-2xl font-light text-white mb-4">{title}</h3>
-        <p className="text-sm text-white/90 font-light mb-6 leading-relaxed">{description}</p>
-        <Link
-          href={href}
-          className="inline-flex items-center gap-2 text-red-400 text-sm font-light transition-all group-hover:gap-3"
-        >
-          {readMore} →
-        </Link>
-      </div>
     </div>
   );
 }
